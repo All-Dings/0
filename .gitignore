@@ -2,3 +2,5 @@
 .vimrc
 # Optional local zshrc file
 .zshrc
+# Optional local gitconfig file
+.gitconfig
