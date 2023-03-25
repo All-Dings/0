@@ -11,3 +11,12 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+
+[alias]
+	ci = "!f() { \
+		echo "$1"; \
+		echo "$2"; \
+		git add "$1" && git commit -s -m \"$2\"; \
+	}; f"
+
+#	ci = !git add "$1*" && git commit $2 $3
