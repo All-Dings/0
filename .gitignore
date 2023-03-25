@@ -4,3 +4,5 @@
 .zshrc
 # Optional local gitconfig file
 .gitconfig
+# Vim Swap files
+.swp
