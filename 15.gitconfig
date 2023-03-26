@@ -19,4 +19,6 @@
 		git add "$1" && git commit -s -m \"$2\"; \
 	}; f"
 
+[core]
+	editor = vim
 #	ci = !git add "$1*" && git commit $2 $3
