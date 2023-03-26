@@ -5,35 +5,46 @@
 
 Null=""
 
-function mwExitOnNull()
+function mwReturnOnNull()
 {
-	local returnValue=$1
+	local returnString=$1
 
-	if [[ "$returnValue" == "$Null" ]]; then
-		exit 1
+	if [[ "$returnString" == "$Null" ]]; then
+		return 1
 	fi
 }
 
-function mwExitOnNullTest()
+function mwReturnString()
+{
+	local returnString=$1
+
+	if [[ "$returnString" == "$Null" ]]; then
+		return 1
+	else
+		echo $returnString
+	fi
+}
+
+function mwReturnOnNullTest()
 {
 	local undefined
 
-	$(mwExitOnNull $Null)
+	$(mwReturnOnNull $Null)
 	echo $?
-	$(mwExitOnNull $undefined)
+	$(mwReturnOnNull $undefined)
 	echo $?
 }
 
 
-function mwExit()
+function mwReturn()
 {
 	local returnValue=$1
 
 	echo $returnValue
-	exit 1
+	return 1
 }
 
-function mwExitPanic()
+function mwReturnPanic()
 {
 	local message="$1" frame=0 frameWithHash line function file
 
@@ -44,7 +55,7 @@ function mwExitPanic()
 	while read line function file < <(caller "$frame");
 	do
 		file=$(basename "$file")
-		mwExitOnNull $file
+		mwReturnOnNull $file
 		function="$function()"
 		frameWithHash="#$frame"
 
@@ -56,7 +67,7 @@ function mwExitPanic()
 		((frame++))
 	done
 	>&2 printf "\n"
-	mwExit $Null
+	mwReturn $Null
 }
 
 function mwName2File()
@@ -66,45 +77,44 @@ function mwName2File()
 	for file in $(ls *.md);
 	do
 		local header=$(mwFile2Header "$file")
-		mwExitOnNull $header
+		mwReturnOnNull $header
 		local nameFile=$(mwHeader2Name "$header")
-		mwExitOnNull $nameFile
+		mwReturnOnNull $nameFile
 		if [[ "$name" == $nameFile ]]; then
 			echo $file
 			return
 		fi
 	done
 
-	mwExitPanic "No corresponding File for Name \"$name\" found"
+	mwReturnPanic "No corresponding File for Name \"$name\" found"
 }
 
 function mwName2FileTest()
 {
 	local file=$(mwName2File "Michael Holzheu")
-	mwExitOnNull $file
-
-	echo $file
+	mwReturnString $file
 }
 
 function mwName2Number()
 {
 	local name=$1
 	local file=$(mwName2File "$name")
-	local number
-	mwExitOnNull $file
+	mwReturnOnNull $file
 
 	if [[ $file =~ ([[:digit:]]+).md ]]; then
 		local number=${BASH_REMATCH[1]}
+		2&> echo "$number"
 		echo $number
 		return
 	fi
-	mwExitPanic "No corresponding File for Name \"$name\" found"
+	mwReturnPanic "No corresponding File for Name \"$name\" found"
 }
 
 function mwName2NumberTest()
 {
-	local number=$(mwName2Number "Michael Holzheu")
-	mwExitOnNull $number
+	# local number=$(mwName2Number "Michael Holzheu")
+	local number=$(mwName2Number "All Things")
+	mwReturnOnNull $number
 
 	echo "$number"
 }
@@ -119,9 +129,7 @@ function mwFile2Header()
 function mwFile2HeaderTest()
 {
 	local header=$(mwFile2Header "0.md")
-	mwExitOnNull $header
-
-	echo $header
+	mwReturnString $header
 }
 
 function mwHeader2Name()
@@ -134,9 +142,7 @@ function mwHeader2Name()
 function mwHeader2NameTest()
 {
 	local name=$(mwHeader2Name "# Michael Holzheu")
-	mwExitOnNull $name
-
-	echo $name
+	mwReturnString $name
 }
 
 function mwNumber2Name()
@@ -146,19 +152,15 @@ function mwNumber2Name()
 	local name
 
 	header=$(mwNumber2Header "$number")
-	mwExitOnNull $header
+	mwReturnOnNull $header
 	name=$(mwHeader2Name "$header")
-	mwExitOnNull $name
-
-	echo $name
+	mwReturnString $name
 }
 
 function mwNumber2NameTest()
 {
 	local name=$(mwNumber2Name "0")
-	mwExitOnNull $name
-
-	echo $name
+	mwReturnString $name
 }
 
 function mwNumber2Header()
@@ -172,9 +174,7 @@ function mwNumber2Header()
 function mwNumber2HeaderTest()
 {
 	local header=$(mwNumber2Header "0");
-	mwExitOnNull $header
-
-	echo $header
+	mwReturnString $header
 }
 
 function mwLsNumbersUnsorted()
