@@ -24,8 +24,15 @@ nnoremap f :call FindName()<CR>
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
-" ## Show leading Tabs
+" ## ToDos
+"
+" ### Highlight trailing Blans
+"
+" highlight LeadingBlanks ctermbg=red guibg=red
+" match LeadingBlanks /^[ ]\+/
+"
+" ### Show leading Tabs
 "
 " - https://medium.com/usevim/understanding-listchars-acb9e5a90854
 "
-set list lcs=trail:·,tab:»·
+" set list lcs=trail:·,tab:»·
