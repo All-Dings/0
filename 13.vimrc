@@ -1,8 +1,9 @@
 "
-" Clash of Clans vimrc File
+"# Clash of Clans vimrc File
 "
 
-" Find Name in Number Files
+"## Find Name in Number Files
+
 func! FindName()
 	" Get Word under Cursor:
 	let Name = expand("<cword>")
@@ -12,5 +13,15 @@ func! FindName()
 	echo system(Cmd)
 endfunc
 
-" Map FindName to Key 'f' in Normal Mode
+"## Map FindName to Key 'f' in Normal Mode
+
 nnoremap f :call FindName()<CR>
+
+"## Whitespace Highlighting
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+"## Attribution
+"
+"- https://stackoverflow.com/questions/4617059/showing-trailing-spaces-in-vim
