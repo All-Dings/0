@@ -1,8 +1,8 @@
 "
-"# Clash of Clans vimrc File
+" # Clash of Clans vimrc File
 "
 
-"## Find Name in Number Files
+" ## Find Name in Number Files
 
 func! FindName()
 	" Get Word under Cursor:
@@ -13,15 +13,19 @@ func! FindName()
 	echo system(Cmd)
 endfunc
 
-"## Map FindName to Key 'f' in Normal Mode
+" ## Map FindName to Key 'f' in Normal Mode
 
 nnoremap f :call FindName()<CR>
 
-"## Whitespace Highlighting
-
+" ## Whitespace Highlighting
+"
+" - https://stackoverflow.com/questions/4617059/showing-trailing-spaces-in-vim
+"
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
-"## Attribution
+" ## Show leading Tabs
 "
-"- https://stackoverflow.com/questions/4617059/showing-trailing-spaces-in-vim
+" - https://medium.com/usevim/understanding-listchars-acb9e5a90854
+"
+set list lcs=trail:·,tab:»·
