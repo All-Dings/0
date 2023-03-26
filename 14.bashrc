@@ -1,6 +1,11 @@
 #
-# Clash of Clans bashrc
+# # Clash of Clans bashrc
 #
+
+#
+# ## Include Commands
+#
+source 33.bash
 
 # Enable colors
 alias ls='ls -G'
