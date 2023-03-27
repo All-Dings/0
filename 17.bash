@@ -14,7 +14,7 @@ function lsNamesMd()
 	do
 		file=$(mwName2File "$name")
 		
-		printf "- [%s](%s)\n" "$name" "$file"
+		printf -- "- [%s](%s)\n" "$name" "$file"
 	done
 }
 
