@@ -106,6 +106,7 @@ function undefinedVariablesTest()
 
 # ## Minus and printf
 #
+# - b69a4a1 Fix printf with leading Minus
 # - Minus sign at start of string: http://www.das-werkstatt.com/forum/werkstatt/viewtopic.php?t=1959
 #
 function minusPrintfTest()
