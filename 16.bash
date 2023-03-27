@@ -103,7 +103,6 @@ function mwName2Number()
 
 	if [[ $file =~ ([[:digit:]]+).md ]]; then
 		local number=${BASH_REMATCH[1]}
-		2&> echo "$number"
 		echo $number
 		return
 	fi
