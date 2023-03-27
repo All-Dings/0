@@ -6,3 +6,11 @@
 .gitconfig
 # Vim Swap files
 .swp
+# Vim Info File
+.viminfo
+# Bash Config File
+.bashrc
+# Less History
+.lesshst
+# Bash Profile (?)
+.profile
