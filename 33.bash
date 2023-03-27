@@ -3,10 +3,13 @@
 # # Bash Commands for his Project
 #
 
+# ## Include Bash Library
+#
 source 16.bash
 
+# ## mmls
 #
-# ## List all Things
+# List all Things
 #
 function mmls()
 {
