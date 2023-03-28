@@ -23,3 +23,10 @@ PS1='\[\e[0;32m\]\u:\w$(__git_ps1 " \[\e[0;31m\](%s)")\[\e[0;32m\]\$ \[\e[m\]'
 # ## Enable Colors for Files and Directories
 eval "$(dircolors -b)"
 alias ls="ls --color=auto"
+
+# # Ask before overwriting
+#
+# ## References
+#
+# - [Better safe than sorry](
+alias mv="mv -i"
