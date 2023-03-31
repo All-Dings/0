@@ -1,6 +1,6 @@
 # Clash of Clans
 
-FYI: This project is under heavy construction!
+FYI: This Project is under heavy Construction!
 
 - [Rules](5.md)
 - [TODOs](9.md)
