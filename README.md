@@ -11,5 +11,5 @@ FYI: This project is under heavy construction!
 # Events
 
 ```
-2023.03.25-??:?? [Holyheu] published initial content
+2023.03.25-OO:OO [Holyheu] published initial content
 ```
