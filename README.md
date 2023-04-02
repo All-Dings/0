@@ -158,6 +158,7 @@ FYI: This Project is under heavy Construction!
 650001.md      Term
 650000.md      Linguistics
 
+600036.md      Territory
 600035.md      Competence
 600034.md      Context
 600033.md      Realization
@@ -183,6 +184,7 @@ FYI: This Project is under heavy Construction!
 600012.md      Idea
 600011.md      Concept
 
+60021.md       Quantity
 60020.md       Quality
 60019.md       Format
 60018.md       Input
