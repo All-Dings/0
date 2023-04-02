@@ -53,6 +53,8 @@ FYI: This Project is under heavy Construction!
 20000001.md    Samsung-Galaxy-S22-Ultra
 20000000.md    Device
 
+13010000.md    Famous-Number
+
 13000005.md    Arithmetic
 13000004.md    Floating-Point
 13000003.md    Calcualtion
@@ -204,6 +206,7 @@ FYI: This Project is under heavy Construction!
 600012.md      Idea
 600011.md      Concept
 
+60033.md       Result
 60032.md       Example
 60022.md       Original
 60021.md       Quantity
