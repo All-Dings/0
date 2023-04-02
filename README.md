@@ -139,7 +139,7 @@ FYI: This Project is under heavy Construction!
 
 8000999.md     German Medicine System
 
-7000003.md     Disciplines
+7000003.md     Discipline
 7000002.md     Information Containers
 7000001.md     Theory
 
