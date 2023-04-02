@@ -172,6 +172,6 @@ FYI: This Project is under heavy Construction!
 - 50000.md       Line                 [Link](50000.md)
 - 50000.md       Document             [Link](50000.md)
 
-- 21.md          About Michael Holzheui [Link] (21.md)
+- 21.md          About Michael Holzheu [Link] (21.md)
 - 19.md          Michi                [Link](19.md)
 - 0.md           Michael              [Link](0.md)
