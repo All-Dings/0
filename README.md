@@ -53,6 +53,7 @@ FYI: This Project is under heavy Construction!
 10000001.md    Electricity
 10000000.md    Physics
 
+9000049.md     Big-Data
 9000048.md     Keyboard-Shortcut
 9000047.md     WhatsApp
 9000046.md     Mv-Command
@@ -179,6 +180,7 @@ FYI: This Project is under heavy Construction!
 50000.md       Line
 50000.md       Document
 
+55.md          Picture for Nicole
 21.md          About Michael Holzheu
 19.md          Michi
 0.md           Michael Holzheu
