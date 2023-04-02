@@ -151,8 +151,10 @@ FYI: This Project is under heavy Construction!
 700002.md      Page
 700001.md      Document
 
+650001.md      Term
 650000.md      Linguistics
 
+600034.md      Context
 600033.md      Realization
 600032.md      Memory
 600031.md      Likelihood
