@@ -174,4 +174,4 @@ FYI: This Project is under heavy Construction!
 
 - 21.md          About Michael Holzheu [Link] (21.md)
 - 19.md          Michi                [Link](19.md)
-- 0.md           Michael              [Link](0.md)
+- 0.md           Michael Holzheu      [Link](0.md)
