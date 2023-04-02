@@ -158,6 +158,7 @@ FYI: This Project is under heavy Construction!
 650001.md      Term
 650000.md      Linguistics
 
+600035.md      Competence
 600034.md      Context
 600033.md      Realization
 600032.md      Memory
