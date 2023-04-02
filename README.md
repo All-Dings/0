@@ -20,6 +20,7 @@ FYI: This Project is under heavy Construction!
 ```
 1000000099.md  NinetyNine
 
+70000001.md    Adam-Ries
 70000000.md    Personality
 
 60000001.md    Picture
