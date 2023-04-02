@@ -23,7 +23,7 @@ FYI: This Project is under heavy Construction!
 50000055.jpg   Picture-for-Nicole-with-JPG-Compression-Level-0
 
 
-50000000.md    Arts
+50000000.md    Fine-Arts
 
 40000001.md    Human
 40000000.md    Biology
