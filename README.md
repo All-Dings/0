@@ -49,6 +49,7 @@ FYI: This Project is under heavy Construction!
 20000001.md    Samsung-Galaxy-S22-Ultra
 20000000.md    Device
 
+13000002.md    Definition
 13000001.md    Sum
 13000000.md    Mathematics
 
@@ -67,6 +68,8 @@ FYI: This Project is under heavy Construction!
 10000001.md    Electricity
 10000000.md    Physics
 
+
+9000059.md     Exif-Tool
 9000058.md     File-Name
 9000057.md     Compression-Level
 9000056.md     File-Size
@@ -221,5 +224,6 @@ FYI: This Project is under heavy Construction!
 55.md          Picture for Nicole
 21.md          About Michael Holzheu
 19.md          Michi
+4.md           Rules
 0.md           Michael Holzheu
 ```
