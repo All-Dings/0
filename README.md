@@ -20,6 +20,7 @@ FYI: This Project is under heavy Construction!
 ```
 1000000099.md  NinetyNine
 
+30010003.md    JPG-Format
 30010003.md    Pixel
 30010002.md    Full-HD
 30010001.md    Resolution
