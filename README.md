@@ -172,6 +172,7 @@ FYI: This Project is under heavy Construction!
 600012.md      Idea
 600011.md      Concept
 
+60020.md       Quality
 60019.md       Format
 60018.md       Input
 60017.md       Output
