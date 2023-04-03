@@ -113,7 +113,7 @@ FYI: This Project is under heavy Construction!
 9000053.md     Gimp
 9000052.md     Rendering
 9000051.md     Compression
-9000050.md     Git-Repository
+9000050.md     GIT-Repository
 9000049.md     Big-Data
 9000048.md     Keyboard-Shortcut
 9000047.md     WhatsApp
