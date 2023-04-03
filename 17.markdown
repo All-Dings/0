@@ -70,7 +70,7 @@
 - [Docker](2015.md)
 - [Document](50000.md)
 - [Document](50000.md)
-- [Du-Command](9000028.md)
+- [DU-Command](9000028.md)
 - [Echo Bug](27.md)
 - [Electricity](10000001.md)
 - [Element](700006.md)
