@@ -20,6 +20,8 @@ FYI: This Project is under heavy Construction!
 ```
 1000000099.md  NinetyNine
 
+100000000.md   Chemicals
+
 90000000.md    Music
 
 80000002.md    Mathematician
