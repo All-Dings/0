@@ -207,7 +207,7 @@
 - [Sorry Page](404.md)
 - [Stack Overflow](20000.md)
 - [Start a Git commit message with a hashmark (#)](20001.md)
-- [Stat-Command](9000037.md)
+- [STAT-Command](9000037.md)
 - [Storage](9000020.md)
 - [Structure](60011.md)
 - [Sum](13000001.md)
