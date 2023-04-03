@@ -211,7 +211,7 @@
 - [Storage](9000020.md)
 - [Structure](60011.md)
 - [Sum](13000001.md)
-- [Tail-Command](9000041.md)
+- [TAIL-Command](9000041.md)
 - [Teacher](80000001.md)
 - [Template](7.md)
 - [Territory](600036.md)
