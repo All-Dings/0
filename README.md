@@ -56,6 +56,7 @@ FYI: This Project is under heavy Construction!
 30000001.md    Screenshot
 30000000.md    Media-Files
 
+20000006.md    Auto-Bus
 20000005.md    Smart-Phone
 20000004.md    Car
 20000003.md    Computer
@@ -94,6 +95,7 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000060.md     Wireless-LAN
 9000059.md     Exif-Tool
 9000058.md     File-Name
 9000057.md     Compression-Level
