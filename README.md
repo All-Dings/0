@@ -126,7 +126,7 @@ FYI: This Project is under heavy Construction!
 9000031.md     Unix
 9000030.md     Operating-System
 9000029.md     Command-Option
-9000028.md     Du-Command
+9000028.md     DU-Command
 9000027.md     Disk-Usage
 9000026.md     Hidden-File
 9000025.md     File-System
