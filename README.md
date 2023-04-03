@@ -118,11 +118,11 @@ FYI: This Project is under heavy Construction!
 9000039.md     Code
 9000038.bash   Du-Script
 9000037.md     STAT-Command
-9000036.md     Grep-Command
+9000036.md     GREP-Command
 9000035.md     Regular-Expression
 9000034.md     Work-Directory
 9000033.md     Pointer
-9000032.md     Find-Command
+9000032.md     FIND-Command
 9000031.md     Unix
 9000030.md     Operating-System
 9000029.md     Command-Option
