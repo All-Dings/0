@@ -22,6 +22,9 @@ FYI: This Project is under heavy Construction!
 
 1000000099.md  NinetyNine
 
+150000001.md   Kevin
+150000000.md   Real-Humans
+
 140000001.md   Brașov
 140000000.md   Geography
 
