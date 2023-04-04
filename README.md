@@ -38,6 +38,7 @@ FYI: This Project is under heavy Construction!
 150000001.md   Kevin
 150000000.md   Real-Humans
 
+140000002.md   Pacistan
 140000001.md   Brașov
 140000000.md   Geography
 
@@ -223,6 +224,7 @@ FYI: This Project is under heavy Construction!
 700002.md      Page
 700001.md      Document
 
+600005.md      Pakistani
 600004.md      German
 600003.md      Indonesian
 600002.md      Article
