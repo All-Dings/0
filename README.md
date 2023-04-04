@@ -22,6 +22,10 @@ FYI: This Project is under heavy Construction!
 
 1000000099.md  NinetyNine
 
+170000000.md   Identity
+
+160000000.md   Strategy
+
 150000001.md   Kevin
 150000000.md   Real-Humans
 
