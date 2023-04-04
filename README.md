@@ -70,7 +70,7 @@ FYI: This Project is under heavy Construction!
 30010000.md    Media-Formats
 
 30000002.md    Image
-30000001.md    Screenshot
+30000001.md    Screen-Shot
 30000000.md    Media-Files
 
 20000006.md    Auto-Bus
