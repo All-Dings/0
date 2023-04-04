@@ -223,9 +223,11 @@ FYI: This Project is under heavy Construction!
 700002.md      Page
 700001.md      Document
 
+600002.md      Article
 650001.md      Term
 650000.md      Linguistics
 
+600040.md      Content
 600039.md      Function
 600038.md      Logic
 600037.md      Conversion
