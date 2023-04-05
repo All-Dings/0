@@ -316,5 +316,6 @@ FYI: This Project is under heavy Construction!
 21.md          About Michael Holzheu
 19.md          Michi
 4.md           Rules
+3.md           Clash-of-Clans
 0.md           Michael Holzheu
 ```
