@@ -152,7 +152,7 @@ FYI: This Project is under heavy Construction!
 9000048.md     Keyboard-Shortcut
 9000047.md     WhatsApp
 9000046.md     MV-Command
-9000045.md     Link
+9000045.md     File-Type
 9000044.md     Debugging
 9000043.md     File-Type
 9000043.md     Comment
