@@ -144,6 +144,7 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000086.md     Git-Clone
 9000085.md     Command-Option
 9000084.md     Git-Diff-Command
 9000083.md     Sub-Directory
