@@ -143,6 +143,7 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000084.md     Git-Diff-Command
 9000083.md     Sub-Directory
 9000082.md     Git-Status-Command
 9000081.md     Unix-Ls-Command
