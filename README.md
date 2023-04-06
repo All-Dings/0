@@ -42,6 +42,7 @@ FYI: This Project is under heavy Construction!
 190000000.md   Content-Seller
 
 180001000.md   Nordfriesländer
+180000002.md   Friend
 180000001.md   Clan
 180000000.md   Grouping
 
