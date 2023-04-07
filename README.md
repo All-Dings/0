@@ -6,7 +6,7 @@ FYI: This Project is under heavy Construction!
 - [TODOs](9.md)
 - [All Things](17.markdown)
 - [Die Nordfriesländer](6.markdown)
-- [About All](23.md)
+- [About All-Dings](23.md)
 - [About Me](21.md)
 - [My-Calendar](11091971.md)
 
