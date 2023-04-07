@@ -159,6 +159,9 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000094.md     Git-Pull-Command
+9000093.md     Archive-File
+9000092.md     Unix-Tar-Command
 9000091.md     Http-Protocol
 9000090.md     Http-Error-404
 9000089.md     Web-Site
