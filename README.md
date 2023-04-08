@@ -193,6 +193,7 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000111.md     Git-Add-Command
 9000110.md     Command-Option
 9000109.md     Readme-File
 9000108.md     Unix-Mv-Command
