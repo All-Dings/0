@@ -193,6 +193,8 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000114.md     Git-Rm-Command
+9000113.md     Git-Push-Command
 9000112.md     Git-Commit-Command
 9000111.md     Git-Add-Command
 9000110.md     Command-Option
