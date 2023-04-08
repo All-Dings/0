@@ -83,6 +83,7 @@ FYI: This Project is under heavy Construction!
 120000001.md   Work-Item
 120000000.md   Project-Managment
 
+100100002.md   Cigarette
 100100001.md   Drugs
 
 100000001.md   Deoxy-Ribo-Nucleic-Acid
@@ -325,6 +326,7 @@ FYI: This Project is under heavy Construction!
 700002.md      Page
 700001.md      Document
 
+600008.md      Hyphen
 600007.md      Comma
 600006.md      English
 600005.md      Pakistani
