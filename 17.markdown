@@ -395,9 +395,11 @@
 - [Unix-Ls-Command](9000081.md)
 - [Unix-Mkdir-Command](9000075.md)
 - [Unix-Mv-Command](9000108.md)
+- [Unix-Nl-Command](9000125.md)
 - [Unix-Pipe](9000024.md)
 - [Unix-Sed-Tool](9000104.md)
 - [Unix-Soft-Link](9000078.md)
+- [Unix-Sort-Command](9000126.md)
 - [Unix-Tar-Command](9000092.md)
 - [Urinary-Bladder](40100001.md)
 - [User Git Config File](15.md)
@@ -424,4 +426,4 @@
 - [Zacky-GG](170100000.md)
 - [Zyro](170100001.md)
 
-Generated: So  9 Apr 2023 00:32:58 CEST
+Generated: So  9 Apr 2023 00:59:37 CEST
