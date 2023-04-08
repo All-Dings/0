@@ -192,6 +192,7 @@ FYI: This Project is under heavy Construction!
 9010001.md     Perl
 9010000.md     Computer-Language
 
+9000107.md     Git-Mv-Command
 9000106.md     Git-Hub-Config-Directory
 9000105.md     String
 9000104.md     Unix-Sed-Tool
