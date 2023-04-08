@@ -272,7 +272,7 @@ FYI: This Project is under heavy Construction!
 9000027.md     Disk-Usage
 9000026.md     Hidden-File
 9000025.md     File-System
-9000024.md     Pipe
+9000024.md     Unix-Pipe
 9000023.md     Script
 9000022.md     Shell
 9000021.md     Byte-Size
