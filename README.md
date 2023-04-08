@@ -352,6 +352,7 @@ FYI: This Project is under heavy Construction!
 650001.md      Term
 650000.md      Linguistics
 
+600045.md      Plan
 600044.md      Build-Process
 600043.md      Tool
 600042.md      Automation
