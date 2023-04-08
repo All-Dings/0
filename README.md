@@ -225,7 +225,7 @@ FYI: This Project is under heavy Construction!
 9000088.md     Unix-Find-Command
 9000087.md     Git-Sub-Module-Command
 9000086.md     Git-Clone
-9000085.md     Command-Option
+9000085.md     Short-Command-Option
 9000084.md     Git-Diff-Command
 9000083.md     Sub-Directory
 9000082.md     Git-Status-Command
