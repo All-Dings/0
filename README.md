@@ -327,6 +327,8 @@ FYI: This Project is under heavy Construction!
 700002.md      Page
 700001.md      Document
 
+600010.md      Pronoun
+600009.md      Adverb
 600008.md      Hyphen
 600007.md      Comma
 600006.md      English
