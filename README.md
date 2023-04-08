@@ -383,6 +383,7 @@ FYI: This Project is under heavy Construction!
 600012.md      Idea
 600011.md      Concept
 
+60043.md       Output
 60042.md       Input
 60041.md       Feeling
 60040.md       Intuition
