@@ -23,6 +23,6 @@ index.html: .github/Readme.md
 	$(call Markdown_to_Html, $<, $@)
 
 clean:
-	rm -f $(Html-File-List) index.html
+	rm -f $(Html-File-List)
 
 .PHONY: all clean
