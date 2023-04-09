@@ -1,4 +1,4 @@
-# # All-Things-Makefile-File
+# All-Things-Makefile-File
 #
 
 Md-File-List = $(wildcard *.md)
