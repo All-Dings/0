@@ -2,7 +2,7 @@
 #
 
 Md-File-List = $(wildcard *.md)
-Html-File-List = $(subst .md,.html,$(Md-File-List)) Index.html
+Html-File-List = $(subst .md,.html,$(Md-File-List)) index.html
 
 define Markdown_to_Html
 	pandoc --standalone --template 300000002.htm $(1) -o $(2)
@@ -16,13 +16,13 @@ Html-Files: $(Html-File-List)
 
 ## Web-Server-Directory-Index-Rule
 
-Index.html: .github/Readme.md
+index.html: .github/Readme.md
 	$(call Markdown_to_Html, $<, $@)
 
 %.html: %.md
 	$(call Markdown_to_Html, $<, $@)
 
 clean:
-	rm -f $(Html-File-List) Index.html
+	rm -f $(Html-File-List) index.html
 
 .PHONY: all clean
