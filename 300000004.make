@@ -10,7 +10,7 @@ define Markdown_to_Html
 endef
 
 all: Html-Files
-	echo "All-Things-Makefile-File"
+	echo "All-Things-Make-File"
 
 Html-Files: $(Html-File-List)
 
