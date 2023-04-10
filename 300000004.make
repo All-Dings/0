@@ -16,7 +16,7 @@ Html-Files: $(Html-File-List)
 
 ## Web-Server-Directory-Index-Rule
 
-index.html: .github/Readme.md
+index.html: README.md
 	$(call Markdown_to_Html, $<, $@)
 
 %.html: %.md
