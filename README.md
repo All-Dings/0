@@ -14,6 +14,10 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 
 ## Number-Ranges
 
+###  Roxana Stanciu
+
+1997080300.jpg Roxana Stanciu
+
 ### 260010000 Bird
 
 260010004.md   Corvus-Corone (Raben-Krähe)
