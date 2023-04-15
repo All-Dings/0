@@ -24,7 +24,7 @@ nnoremap f :call FindName()<CR>
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
-" ## ToDos
+" ## To-Dos
 "
 " ### Highlight trailing Blans
 "
