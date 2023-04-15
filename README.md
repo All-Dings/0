@@ -627,7 +627,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 600005.md      Pakistani
 600004.md      German
 600003.md      Indonesian
-600002.md      Article
+600002.md      Articulus
 650001.md      Term
 650000.md      Linguistics
 
