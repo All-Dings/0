@@ -84,6 +84,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 
 300000008.md   All-Dings-Abbreviation-Character
 
+300000007.md   All-Dings-System
 300000006.md   All-Dings-Landing-Page
 300000004.make All-Dings-HTML-Make-File
 300000003.md   All-Dings-HTML-Make-File
