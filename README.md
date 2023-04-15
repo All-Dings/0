@@ -607,7 +607,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 650019.md      Numerus
 650018.md      Word
 650017.md      Adjectivum
-650016.md      Verb
+650016.md      Verbum
 650015.md      Simple-Past
 650014.md      Present-Perfect
 650013.md      Lower-Case
