@@ -614,7 +614,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 650012.md      Mixed-Case
 650011.md      Naming-Convention
 600010.md      Pro-Nomen
-600009.md      Adverb
+600009.md      Ad-Verbum
 600008.md      Hyphen
 600007.md      Comma
 600006.md      English
