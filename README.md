@@ -613,7 +613,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 650013.md      Lower-Case
 650012.md      Mixed-Case
 650011.md      Naming-Convention
-600010.md      Pro-Noun
+600010.md      Pro-Nomen
 600009.md      Adverb
 600008.md      Hyphen
 600007.md      Comma
