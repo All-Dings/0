@@ -625,6 +625,8 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 650001.md      Term
 650000.md      Linguistics
 
+610000.md      Exhibition
+
 600066.md      Tree-Structure
 600065.md      Nesting-Hierarchy
 600064.md      Nesting-Level
