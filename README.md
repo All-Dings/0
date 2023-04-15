@@ -225,6 +225,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 140000001.md   Brașov
 140000000.md   Geography
 
+130000009.md   Dollar
 130000008.md   Federal-Reserve-Bank
 130000007.md   Federal-Reserve-System
 130000006.md   European-Central-Bank
