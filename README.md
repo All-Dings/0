@@ -225,6 +225,7 @@ Currently I speend all my Resources for the [All-Dings](300000006.md) Project.
 140000001.md   Brașov
 140000000.md   Geography
 
+130000006.md   European-Central-Bank
 130000005.md   Economic-and-Monetary-Union-of-the-European-Union
 130000004.md   Euro
 130000003.md   Money-System
