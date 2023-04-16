@@ -197,9 +197,11 @@
 200000001.md   Snack-Bar
 200000000.md   Food-Provider
 
-# Content-Seller
+# Exhibition
 
 610000.md      Exhibition
+
+# Content-Seller
 
 190000005.md   First-German-Television  
 190000004.md   German-Public-Broadcast
