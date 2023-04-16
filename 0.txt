@@ -766,6 +766,7 @@
 
 40000.md       Reality
 
+7777.md        All
 6666.md        Money
 5555.md        Exchange-Medium
 1111.md        Movie-from-Michael
