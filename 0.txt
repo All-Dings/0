@@ -342,6 +342,8 @@
 60000001.md    Picture
 60000000.md    Fine-Arts
 
+# Screen-Shots
+
 # Photography
 
 50000061.jpg   Last-Cigarette-for-Today
