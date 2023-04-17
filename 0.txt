@@ -85,6 +85,8 @@
 ## 2000001  Tübingen
 
 140100002.md   Landrats-Amt-Tübingen
+
+2010007.md     Ibis-Styles-Hotel-Tübingen
 2000001.md     Tübingen
 
 ## 140100000 Kunst-Halle-Tübingen
