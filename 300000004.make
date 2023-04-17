@@ -16,7 +16,7 @@ Html-Files: $(Html-File-List)
 
 ## Web-Server-Directory-Index-Rule
 
-index.html: README.md
+index.html: 300000006.md
 	$(call Markdown_to_Html, $<, $@)
 
 %.html: %.md
