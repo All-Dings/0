@@ -5,6 +5,23 @@
 1997080300.md  Roxana-Stanciu
 1997080300.jpg Roxana-Stanciu
 
+
+## All-Dings
+
+1000001.md     Blog-Chain-Time
+
+300010000.md   All-Dings-Libraries
+
+300000008.md   All-Dings-Abbreviation-Character
+300000007.md   All-Dings-System
+300000006.md   All-Dings-Landing-Page
+300000004.make All-Dings-HTML-Make-File
+300000003.md   All-Dings-HTML-Make-File
+300000002.html All-Dings-HTML-Template-File
+300000002.md   All-Dings-HTML-Template
+300000001.md   All-Dings
+300000000.md   Blog-Chain
+
 ## Human-Culture
 
 270000001.md   Gender-Separation
@@ -56,25 +73,10 @@
 
 ## 111 About-Rendering-Repository
 
-1000001.md     Blog-Chain-Time
-
-300010000.md   All-Dings-Libraries
-
-300000008.md   All-Dings-Abbreviation-Character
-300000007.md   All-Dings-System
-300000006.md   All-Dings-Landing-Page
-300000004.make All-Dings-HTML-Make-File
-300000003.md   All-Dings-HTML-Make-File
-300000002.html All-Dings-HTML-Template-File
-300000002.md   All-Dings-HTML-Template
-300000001.md   All-Dings
-300000000.md   Blog-Chain
-
 5.md           All-Dings-Rules
 23.md          About-All-Dings
 
-300001000.make Rendering-Makefile  
-300000007.md   All-Dings-Rendering-Repository
+300001000.make Rendering-Makefile
 
 17.md          All-Things
 111.md         About-Rendering-Repository
