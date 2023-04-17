@@ -682,6 +682,8 @@
 7000002.md     Document-Container
 7000001.md     Theory
 
+# Healing
+
 1000000.md     Healing
 
 # Medicine
