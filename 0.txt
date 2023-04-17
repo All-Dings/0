@@ -313,6 +313,8 @@
 
 # Music
 
+90001003.md    Blue-Note
+90001002.md    Choir-Rehearsal
 90001001.md    Tenor
 90001000.md    Choir
 
