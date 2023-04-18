@@ -832,6 +832,7 @@
 
 # Concept
 
+600069.md      Compensation
 600068.md      Symmetry
 600067.md      Service
 600066.md      Tree-Structure
