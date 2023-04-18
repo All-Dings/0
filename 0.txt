@@ -587,6 +587,7 @@
 # Informatics
 
 9999999.md     Informatics-System
+9999998.md     Informatics-Student
 
 9300002.md     Self-Closing-Tag
 9300001.md     Hypertext-Markup-Language
