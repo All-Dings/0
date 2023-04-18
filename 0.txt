@@ -393,6 +393,7 @@
 
 # Illness
 
+40800004.md    Allergy
 40800003.md    Health
 40800002.md    Spinal-Curvature
 40800001.md    Neuro-Dermatitis
