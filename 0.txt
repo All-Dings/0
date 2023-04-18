@@ -393,6 +393,7 @@
 
 # Illness
 
+48000005.md    Head-Ache
 40800004.md    Allergy
 40800003.md    Health
 40800002.md    Spinal-Curvature
@@ -714,6 +715,7 @@
 
 # Medicine
 
+800008.md      Triptan
 800007.md      Medicine-Drug
 800006.md      Hypnotic
 800005.md      Anti-Histamin
