@@ -926,6 +926,8 @@
 600012.md      Idea
 600011.md      Concept
 
+600000.md      Academic-System
+
 # All
 
 60072.md       Awareness
