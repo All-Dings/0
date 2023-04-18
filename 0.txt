@@ -399,7 +399,7 @@
 # Illness
 
 48000006.md    Coughing
-48000005.md    Head-Ache (Wrong Number)
+48000005.md    Head-Pain (Wrong Number)
 40800004.md    Allergy
 40800003.md    Health
 40800002.md    Spinal-Curvature
