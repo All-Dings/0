@@ -714,7 +714,7 @@
 9000050.md     GIT-Repository
 9000049.md     Big-Data
 9000048.md     Keyboard-Shortcut
-9000047.md     WhatsApp
+9000047.md     Whats-App
 9000046.md     MV-Command
 9000045.md     File-Type
 9000044.md     Debugging
