@@ -522,6 +522,7 @@
 
 10010000.md    Experiment
 
+10000036.md    Observation
 10000035.md    Liquid
 10000034.md    Matter
 10000033.md    Dimension-Interval
@@ -838,6 +839,7 @@
 
 # Concept
 
+600070.md      Indicator
 600069.md      Compensation
 600068.md      Symmetry
 600067.md      Service
