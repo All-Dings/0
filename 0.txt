@@ -713,6 +713,7 @@
 
 # Medicine
 
+800006.md      Hypnotic
 800005.md      Anti-Histamin
 800004.md      Doctor-Office    
 800003.md      Family-Doctor
