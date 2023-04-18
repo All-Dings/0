@@ -425,6 +425,9 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
+40080017.md    Respiration-System
+40080016.md    Throat
+40080015.md    Clearing-Throat
 40000014.md    Body-Half
 40000013.md    Dettenhausen (Wrong Number)
 40000012.md    Body-Part
