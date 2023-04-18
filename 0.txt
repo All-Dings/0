@@ -749,6 +749,8 @@
 
 # Medicine
 
+800012.md      Therapy
+800011.md      Medicine-Drug-Therapy
 800010.md      Patient
 800009.md      Medical-Findings
 800008.md      Triptan
