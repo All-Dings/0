@@ -427,7 +427,7 @@
 
 40080017.md    Respiration-System
 40080016.md    Throat
-40080015.md    Clearing-Throat
+40080015.md    Throat-Clearing
 40000014.md    Body-Half
 40000013.md    Dettenhausen (Wrong Number)
 40000012.md    Body-Part
