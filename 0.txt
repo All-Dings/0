@@ -416,7 +416,7 @@
 48000008.md    Rage-Attack
 48000007.md    Epilepsy
 48000006.md    Coughing
-48000005.md    Head-Pain (Wrong Number)
+48000005.md    Head-Pain (Wrong-Number)
 40800004.md    Allergy
 40800003.md    Health
 40800002.md    Spinal-Curvature
@@ -463,7 +463,7 @@
 40000016.md    Living-Thing
 40000015.md    Biological-Body-Contact
 40000014.md    Body-Half
-40000013.md    Dettenhausen (Wrong Number)
+40000013.md    Dettenhausen (Wrong-Number)
 40000012.md    Body-Part
 40000011.md    Human-Baby
 40000010.md    Woman 
@@ -811,8 +811,8 @@
 # Document 
 
 700031.md      Set-Diagram (Venn-Diagram, Euler-Diagram)
-700030.md      Value (Wrong Number)
-700029.md      Clarity (Wrong Number)
+700030.md      Value (Wrong-Number)
+700029.md      Clarity (Wrong-Number)
 700028.md      Illustration
 700027.md      Tree-Diagram
 700026.md      White-Space
