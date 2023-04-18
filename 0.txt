@@ -524,10 +524,10 @@
 
 10010000.md    Experiment
 
-10000046.md    Physical-Periodic-Motion
+10000046.md    Physical-Periodic-Movement
 10000045.md    Physical-Thing
 10000044.md    Physical-Position
-10000043.md    Physical-Motion
+10000043.md    Physical-Movement
 10000042.md    Physical-Process
 10000041.md    Trembling
 10000040.md    Energy
@@ -851,9 +851,9 @@
 
 # Concept
 
-600073.md      Motion-Path
+600073.md      Movement-Path
 600072.md      Path    
-600071.md      Motion
+600071.md      Movement
 600070.md      Indicator
 600069.md      Compensation
 600068.md      Symmetry
