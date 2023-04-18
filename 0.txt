@@ -40,6 +40,7 @@
 170111001.md   Liverpool-Football-Club
 170111000.md   English-Premier-League    
 
+270100001.md   Soccer-System
 270110000.md   Soccer
 
 270100000.md   Sport
@@ -183,6 +184,7 @@
 
 # Profession
 
+202000008.md   Tennis-Trainer
 202000007.md   Informaticer
 202000006.md   Program-Writer
 202000005.md   Professor
