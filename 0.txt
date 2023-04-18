@@ -757,9 +757,9 @@
 8010000.md     DB-Navigator
 8009999.md     German-Federal-Railroad
 
-# German-Medicine-System
+# German-Medical-System
 
-8000999.md     German-Medicine-System
+8000999.md     German-Medical-System
 
 # Theory
 
@@ -772,28 +772,28 @@
 1000001.md     Healy-Device
 1000000.md     Healing
 
-# Medicine-Drug
+# Medical-Drug
 
 810002.md      Lamotrigin
 810001.md      Levetiracetam  
 810000.md      Anti-Epilepticum
 
-# Medicine
+# Medical
 
-800013.md      Medicine-Drug-Dosis
+800013.md      Medical-Drug-Dosis
 800012.md      Therapy
-800011.md      Medicine-Drug-Therapy
+800011.md      Medical-Drug-Therapy
 800010.md      Patient
 800009.md      Medical-Findings
 800008.md      Triptan
-800007.md      Medicine-Drug
+800007.md      Medical-Drug
 800006.md      Hypnotic
 800005.md      Anti-Histamin
 800004.md      Doctor-Office    
 800003.md      Family-Doctor
 800002.md      Doctor     
 800001.md      Dentist
-800000.md      Medicine
+800000.md      Medicin
 
 # Document 
 
