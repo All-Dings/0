@@ -413,7 +413,7 @@
 40090000.md    Biologic-Cell
 
 40080002.md    Back-Of-Head
-40080001.md    Head
+40080001.md    Human-Head
 40080000.md    Human-Body
 
 40000012.md    Body-Part
@@ -718,6 +718,7 @@
 
 # Medicine
 
+800009.md      Medical-Findings
 800008.md      Triptan
 800007.md      Medicine-Drug
 800006.md      Hypnotic
