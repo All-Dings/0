@@ -391,9 +391,13 @@
 41000001.md    Punctuality
 41000000.md    Good-Habits
 
+# Injury
+
+40900000.md    Injury
+
 # Illness
 
-48000005.md    Head-Ache
+48000005.md    Head-Ache (Wrong Number)
 40800004.md    Allergy
 40800003.md    Health
 40800002.md    Spinal-Curvature
