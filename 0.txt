@@ -398,6 +398,7 @@
 
 # Illness
 
+48000008.md    Rage-Attack
 48000007.md    Epilepsy
 48000006.md    Coughing
 48000005.md    Head-Pain (Wrong Number)
