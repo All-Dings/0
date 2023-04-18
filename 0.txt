@@ -21,6 +21,7 @@
 
 300010000.md   All-Dings-Libraries
 
+300000010.md   All-Dings-Number-File
 300000009.md   All-Dings-Work-Flow
 300000008.md   All-Dings-Abbreviation-Character
 300000007.md   All-Dings-System
@@ -930,6 +931,7 @@
 
 # All
 
+60073.md       Scope
 60072.md       Awareness
 60071.md       Pain
 60070.md       Activity
