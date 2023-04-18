@@ -21,6 +21,7 @@
 
 300010000.md   All-Dings-Libraries
 
+300000011.md   All-Dings-Day
 300000010.md   All-Dings-Number-File
 300000009.md   All-Dings-Work-Flow
 300000008.md   All-Dings-Abbreviation-Character
