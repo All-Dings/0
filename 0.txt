@@ -523,6 +523,8 @@
 # Physics
 
 10010000.md    Experiment
+10000041.md    Trembling
+10000042.md    Physical-Process
 
 10000040.md    Energy
 10000039.md    Physical-Contact
