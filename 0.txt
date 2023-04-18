@@ -398,6 +398,7 @@
 
 # Illness
 
+48000007.md    Epilepsy
 48000006.md    Coughing
 48000005.md    Head-Pain (Wrong Number)
 40800004.md    Allergy
@@ -739,6 +740,11 @@
 
 1000001.md     Healy-Device
 1000000.md     Healing
+
+# Medicine-Drug
+
+810001.md      Levetiracetam  
+810000.md      Anti-Epilepticum
 
 # Medicine
 
