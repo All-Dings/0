@@ -749,6 +749,7 @@
 
 # Medicine
 
+800013.md      Medicine-Drug-Dosis
 800012.md      Therapy
 800011.md      Medicine-Drug-Therapy
 800010.md      Patient
