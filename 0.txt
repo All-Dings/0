@@ -708,6 +708,7 @@
 
 # Medicine
 
+800002.md      Doctor     
 800001.md      Dentist
 800000.md      Medicine
 
