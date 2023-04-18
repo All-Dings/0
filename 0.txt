@@ -323,10 +323,10 @@
 100100002.md   Cigarette
 100100001.md   Drugs
 
-# Chemicals 
+# Chemical
 
 100000001.md   Deoxy-Ribo-Nucleic-Acid
-100000000.md   Chemicals
+100000000.md   Chemical
 
 # Songs
 
