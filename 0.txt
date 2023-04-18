@@ -720,6 +720,7 @@
 
 # Medicine
 
+800010.md      Patient
 800009.md      Medical-Findings
 800008.md      Triptan
 800007.md      Medicine-Drug
