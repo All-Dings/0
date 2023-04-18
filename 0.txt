@@ -503,6 +503,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13000007.md    Mathematic-Fraction-Function
 13000006.md    Angle-Degree
 13000005.md    Arithmetic
 13000004.md    Floating-Point
@@ -524,6 +525,7 @@
 
 10010000.md    Experiment
 
+10000049.md    Physical-Speed
 10000048.md    Physical-Movement-Path
 10000047.md    Physical-Path
 10000046.md    Physical-Periodic-Movement
