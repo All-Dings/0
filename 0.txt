@@ -400,7 +400,7 @@
 40800001.md    Neuro-Dermatitis
 40800000.md    Illness
 
-# Bilogy
+# Biology
 
 40200001.md    Sound
 40200000.md    Perception   
