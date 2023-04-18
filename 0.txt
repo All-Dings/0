@@ -929,6 +929,7 @@
 600012.md      Idea
 600011.md      Concept
 
+600002.md      Academics
 600001.md      Academics-Student
 600000.md      Academics-System
 
