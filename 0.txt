@@ -930,7 +930,7 @@
 600011.md      Concept
 
 600001.md      Academics-Student
-600000.md      Academic-System
+600000.md      Academics-System
 
 # All
 
