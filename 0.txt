@@ -419,7 +419,7 @@
 40090000.md    Biologic-Cell
 
 40080005.md    Human-Respiration-System
-40080004.md    Human-Gastro-Intestinal-Tract
+40080004.md    Human-Gastro-Intestinal-System
 40080003.md    Human-Back
 40080002.md    Back-Of-Head
 40080001.md    Human-Head
