@@ -36,9 +36,9 @@
 
 ## Sport
 
-170111002.md   Leeds-United-Football-Club (Wrong Number)
-170111001.md   Liverpool-Football-Club (Wrong Number)
-170111000.md   English-Premier-League (Wrong Number)   
+170111002.md   Leeds-United-Football-Club (Wrong-Number)
+170111001.md   Liverpool-Football-Club (Wrong-Number)
+170111000.md   English-Premier-League (Wrong-Number)   
 
 270100001.md   Soccer-System
 270110000.md   Soccer
@@ -296,7 +296,7 @@
 140000016.md   Gundelfingen-an-der-Donau
 140000015.md   Günzburg
 140000014.md   Ulm
- 40000013.md   Dettenhausen (Wrong Number)
+ 40000013.md   Dettenhausen (Wrong-Number)
 140000012.md   Turkey
 140000011.md   Stuttgart
 140000010.md   Metzingen
