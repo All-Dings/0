@@ -425,10 +425,10 @@
 
 40100002.md    Body
 40100001.md    Urinary-Bladder    
-40100000.md    Biologic-Organ
+40100000.md    Biological-Organ
 
-40090001.md    Biologic-Organ (DEAD)
-40090000.md    Biologic-Cell
+40090001.md    Biological-Organ (DEAD)
+40090000.md    Biological-Cell
 
 40080007.md    Human-Torso
 40080006.md    Human-Neurologic-System
@@ -449,7 +449,7 @@
 40080015.md    Throat-Clearing
 
 40000016.md    Living-Beeing
-40000015.md    Biologic-Body-Contact
+40000015.md    Biological-Body-Contact
 40000014.md    Body-Half
 40000013.md    Dettenhausen (Wrong Number)
 40000012.md    Body-Part
