@@ -415,6 +415,7 @@
 40080001.md    Head
 40080000.md    Human-Body
 
+40000012.md    Body-Part
 40000011.md    Human-Baby
 40000010.md    Woman 
 40000009.md    Daughter
