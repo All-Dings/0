@@ -960,7 +960,7 @@
 # All
 
 60080.md       Generalisation
-60079.md       Coding
+60079.md       Encoding
 60078.md       Trainer
 60077.md       Teacher
 60076.md       Title
