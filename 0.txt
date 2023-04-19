@@ -798,7 +798,7 @@
 810001.md      Levetiracetam  
 810000.md      Anti-Epilepticum
 
-# Medical
+# Medicine
 
 800015.md      Medical-Practice
 800014.md      Medical-System
