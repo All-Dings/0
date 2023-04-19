@@ -865,16 +865,16 @@
 650013.md      Lower-Case
 650012.md      Mixed-Case
 650011.md      Naming-Convention
-600010.md      Pro-Nomen
-600009.md      Ad-Verbum
-600008.md      Hyphen
-600007.md      Comma
-600006.md      English
-600005.md      Pakistani
-600004.md      German
-600003.md      Indonesian
-600002.md      Articulus
-650001.md      Term
+600010.md      Pro-Nomen (Wrong-Number)
+600009.md      Ad-Verbum (Wrong-Number)
+600008.md      Hyphen (Wrong-Number)
+600007.md      Comma (Wrong-Number)
+600006.md      English (Wrong-Number)
+600005.md      Pakistani (Wrong-Number)
+600004.md      German (Wrong-Number)
+600003.md      Indonesian (Wrong-Number)
+600002.md      Articulus (Wrong-Number)
+650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
 # Concept
