@@ -853,7 +853,7 @@
 
 # Linguistics 
 
-650024.md      Thought-Word-Encoding
+650024.md      Language-Encoding
 650023.md      Participium
 650022.md      Singular
 650021.md      Spelling
@@ -885,6 +885,7 @@
 
 # Concept
 
+600074.md      Mapping
 600073.md      Movement-Path
 600072.md      Path    
 600071.md      Movement
