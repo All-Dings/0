@@ -881,6 +881,10 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
+# Philosophy
+
+645000.md      Philosophy
+
 # Academics
 
 640000.md      Academics
