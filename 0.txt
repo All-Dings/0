@@ -15,23 +15,23 @@
 
 301000001.md   Body-Contact-Increases-Energy
 
-## All-Dings
+## Dings
 
 1000001.md     Blog-Chain-Time
 
-300010000.md   All-Dings-Libraries
+300010000.md   Dings-Libraries
 
-300000011.md   All-Dings-Day
-300000010.md   All-Dings-Number-File
-300000009.md   All-Dings-Work-Flow
-300000008.md   All-Dings-Abbreviation-Character
-300000007.md   All-Dings-System
-300000006.md   All-Dings-Project
-300000004.make All-Dings-HTML-Make-File
-300000003.md   All-Dings-HTML-Make-File
-300000002.html All-Dings-HTML-Template-File
-300000002.md   All-Dings-HTML-Template
-300000001.md   All-Dings
+300000011.md   Dings-Day
+300000010.md   Dings-Number-File
+300000009.md   Dings-Work-Flow
+300000008.md   Dings-Abbreviation-Character
+300000007.md   Dings-System
+300000006.md   Dings-Project
+300000004.make Dings-HTML-Make-File
+300000003.md   Dings-HTML-Make-File
+300000002.html Dings-HTML-Template-File
+300000002.md   Dings-HTML-Template
+300000001.md   Dings
 300000000.md   Blog-Chain
 
 ## Sport
@@ -107,12 +107,12 @@
 
 ## 111 About-Rendering-Repository
 
-5.md           All-Dings-Rules
-23.md          About-All-Dings
+5.md           Dings-Rules
+23.md          About-Dings
 
 300001000.make Rendering-Makefile
 
-17.md          All-Dings
+17.md          Dings
 111.md         About-Rendering-Repository
 
 ## 2000001  Tübingen
