@@ -877,6 +877,10 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
+# Academics
+
+640000.md      Academics
+
 # Concept
 
 600073.md      Movement-Path
@@ -941,8 +945,15 @@
 600014.md      Completeness
 600012.md      Idea
 600011.md      Concept
-
-600002.md      Academics
+600010.md      (WRONG-NUMBER)
+600009.md      (WRONG-NUMBER)
+600008.md      (WRONG-NUMBER)
+600007.md      (WRONG-NUMBER)
+600006.md      (WRONG-NUMBER)
+600005.md      (WRONG-NUMBER)
+600004.md      (WRONG-NUMBER)
+600003.md      (WRONG-NUMBER)
+600002.md      (WRONG-NUMBER)
 600001.md      Academics-Student
 600000.md      Academics-System
 
