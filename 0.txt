@@ -524,7 +524,7 @@
 13010000.md    Famous-Number
 
 13000008.md    Number-Set
-13000007.md    Mathematic-Fraction-Function
+13000007.md    Mathematics-Fraction-Function
 13000006.md    Angle-Degree
 13000005.md    Arithmetic
 13000004.md    Floating-Point
