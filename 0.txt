@@ -860,6 +860,7 @@
 
 # Juristics
 
+670006.md      Juristics-Ownership-Right
 670005.md      Juristics-Usage-Right
 670004.md      Juristics-Right
 670003.md      Juristics-Statement
