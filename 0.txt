@@ -858,6 +858,11 @@
 50000.md       Document (DEAD)
 700001.md      Document
 
+# Juristics
+
+
+670000.md      Juristics
+
 # Linguistics 
 
 650025.md      Word-Set
@@ -897,7 +902,6 @@
 
 # Concept
 
-600078.md      Claim
 600077.md      Correctness
 600076.md      Consumer
 600075.md      Interpretation
