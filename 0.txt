@@ -915,9 +915,9 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
-# Philosophy
+# Philosophics
 
-645000.md      Philosophy
+645000.md      Philosophics
 
 # Academics
 
