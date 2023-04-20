@@ -884,6 +884,7 @@
 
 660000.md      Germanistics
 
+650027.md      Linguistics-Student
 650026.md      Linguistics-System
 650025.md      Word-Set
 650024.md      Language-Encoding
