@@ -964,7 +964,7 @@
 600029.md      Problem
 600028.md      Hypothesis
 600027.md      Conclusion
-600026.md      Limits
+600026.md      Limit
 600025.md      Knowledge
 600024.md      Solution
 600023.md      Complexity
