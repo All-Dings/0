@@ -284,6 +284,10 @@
 150000001.md   Kevin
 150000000.md   Real-Humans
 
+# Politics
+
+141000000.md    Politics
+
 # Geography
 
 140100001.md   Russian-Matrjoschka  
