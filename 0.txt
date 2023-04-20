@@ -286,7 +286,7 @@
 
 # Politics
 
-141000000.md    Politics
+141000000.md   Politics
 
 # Geography
 
