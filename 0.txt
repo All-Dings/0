@@ -924,7 +924,7 @@
 600061.md      Nesting
 600060.md      Specification
 600059.md      Naming
-600058.md      Permission
+600058.md      Right
 600057.md      Implementation
 600056.md      Description
 600055.md      Persistency
