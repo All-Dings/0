@@ -860,6 +860,7 @@
 
 # Juristics
 
+670004.md      Juristics-Right
 670003.md      Juristics-Statement
 670002.md      Juristics-Rule
 670001.md      Juristics-System
