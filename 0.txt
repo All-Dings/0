@@ -923,6 +923,7 @@
 
 # Concept
 
+600082.md      Stress
 600081.md      Ownership-Right
 600080.md      Assignment-Process
 600079.md      Usage
