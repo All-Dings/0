@@ -860,6 +860,7 @@
 
 # Juristics
 
+
 670002.md      Juristics-Rule
 670001.md      Jursitics-System
 670000.md      Juristics
@@ -903,6 +904,7 @@
 
 # Concept
 
+600078.md      Statement
 600077.md      Correctness
 600076.md      Consumer
 600075.md      Interpretation
