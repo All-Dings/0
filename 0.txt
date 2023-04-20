@@ -905,6 +905,7 @@
 
 # Concept
 
+600080.md      Assignment
 600079.md      Usage
 600078.md      Statement
 600077.md      Correctness
