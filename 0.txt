@@ -985,7 +985,7 @@
 600000.md      Academics-System
 
 # All
-     
+    
 60083.md       Task
 60082.md       Cost
 60081.md       Performance
@@ -1020,7 +1020,7 @@
 60052.md       System
 60051.md       Name-Binding
 60050.md       Binding
-60049.md       Access
+60049.md       Usage-Right
 60048.md       Name
 60047.md       Standard
 60046.md       Riddle
