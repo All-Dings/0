@@ -895,15 +895,15 @@
 700001.md      Document
 700000.md      Writing
 
-# Juristics
+# Jurastics / Jura
 
-670006.md      Juristics_Ownership_Right
-670005.md      Juristics_Usage_Right
-670004.md      Juristics_Right
-670003.md      Juristics_Statement
-670002.md      Juristics_Rule
-670001.md      Juristics_System
-670000.md      Juristics
+670006.md      Jura_Ownership_Right
+670005.md      Jura_Usage_Right
+670004.md      Jura_Right
+670003.md      Jura_Statement
+670002.md      Jura_Rule
+670001.md      Jura_System
+670000.md      Jurastics
 
 # Linguistics 
 
