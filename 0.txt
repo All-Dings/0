@@ -212,6 +212,7 @@
 
 # Machine
 
+201000003.md   Universal_Turing_Machine
 201000002.md   Turing_Machine
 201000001.md   Titanic
 201000000.md   Famous_Machine
@@ -405,6 +406,7 @@
 
 # Personality
 
+70000011.md    David_Hilbert
 70000010.md    Alan_Mathison_Turing
 70000009.md    Stephen_Cole_Kleene 
 70000008.md    Aristoteles
