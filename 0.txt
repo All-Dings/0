@@ -941,8 +941,9 @@
 650001.md      Term (Wrong_Number)
 650000.md      Linguistics
 
-# Philosophics
+# Philosophics / Philo
 
+645001.md      Philo_System   
 645000.md      Philosophics
 
 # Academics
