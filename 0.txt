@@ -412,6 +412,7 @@
 
 # Personality
 
+70000012.md    Dua_Lipa
 70000011.md    David_Hilbert
 70000010.md    Alan_Mathison_Turing
 70000009.md    Stephen_Cole_Kleene 
