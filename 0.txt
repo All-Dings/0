@@ -952,6 +952,7 @@
 
 # Concept
 
+600083.md      System
 600082.md      Stress
 600081.md      Ownership_Right
 600080.md      Assignment_Process
