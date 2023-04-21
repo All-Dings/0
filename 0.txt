@@ -400,6 +400,7 @@
 
 # Famous_Problem
 
+600084.md      Entscheidungs_Problem
 72000000.md    Famous_Problem
 
 # Famous_Document
@@ -983,7 +984,7 @@
 # Concept
 
 600085.md      Event
-600084.md      Entscheidungs_Problem
+
 600083.md      System
 600082.md      Stress
 600081.md      Ownership_Right
