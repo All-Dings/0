@@ -655,7 +655,7 @@
 9100001.md     Unix
 9100000.md     Operating_System
 
-9010005.md     Lambda-Calculus
+9010005.md     Lambda_Calculus
 9010004.md     Java_Programming_Language
 9010003.md     Python_Programming_Language
 9010002.md     G_Code
