@@ -1040,6 +1040,7 @@
 
 # All
 
+60095.md       Decision
 60094.md       Symbol
 60093.md       1N_Relation_Set
 60092.md       Directed_Relation_Set
