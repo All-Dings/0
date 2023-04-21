@@ -396,6 +396,11 @@
 80000001.md    Teacher
 80000000.md    Profession
 
+# Famous_Document
+
+71000000.md    Famous_Document
+
+
 # Personality
 
 70000010.md    Alan_Mathison_Turing
