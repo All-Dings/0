@@ -534,6 +534,7 @@
 
 # Logics
 
+15000003.md    Formal-Language
 15000002.md    Logics_Personality
 15000001.md    Logics_System
 15000000.md    Logics
@@ -652,6 +653,7 @@
 9100001.md     Unix
 9100000.md     Operating_System
 
+9010005.md     Lambda-Calculus
 9010004.md     Java_Programming_Language
 9010003.md     Python_Programming_Language
 9010002.md     G_Code
