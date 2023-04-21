@@ -539,6 +539,8 @@
 14000001.md    Encounter
 14000000.md    Psychology
 
+# Crypto_Logics 
+
 13300002.md    Crypto_Logics_Personality
 13300001.md    Crypto_Logics_System
 13300000.md    Crypto_Logics
