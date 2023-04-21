@@ -398,6 +398,10 @@
 80000001.md    Teacher
 80000000.md    Profession
 
+# Famous_Problem
+
+72000000.md    Famous_Problem
+
 # Famous_Document
 
 71000002.md    On_Computable_Numbers
