@@ -968,7 +968,7 @@
 
 # Concept
 
-600084.md      Decision_Problem
+600084.md      Entscheidungs_Problem
 600083.md      System
 600082.md      Stress
 600081.md      Ownership_Right
