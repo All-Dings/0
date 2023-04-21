@@ -461,7 +461,7 @@
 40100001.md    Urinary_Bladder    
 40100000.md    Biologic_Organ
 
-40090001.md    Biologic_Organ (DEAD)
+40090001.md    Biological_Organ (DEAD)
 40090000.md    Biologic_Cell
 
 40080007.md    Human_Torso
