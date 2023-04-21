@@ -530,7 +530,7 @@
 14000001.md    Encounter
 14000000.md    Psychology
 
-13300000.md    Cryoptologics
+13300000.md    Cryptologics
 
 # Mathematics
 
