@@ -107,7 +107,7 @@ function undefinedVariablesTest()
 # ## Minus and printf
 #
 # - b69a4a1 Fix printf with leading Minus
-# - Minus sign at start of string: http://www.das-werkstatt.com/forum/werkstatt/viewtopic.php?t=1959
+# - Minus sign at start of string: http://www.das_werkstatt.com/forum/werkstatt/viewtopic.php?t=1959
 #
 function minusPrintfTest()
 {
@@ -117,7 +117,7 @@ function minusPrintfTest()
 
 # ## Single and double brackets
 #
-# - Compare "[" and "[[": https://stackoverflow.com/questions/3427872/whats-the-difference-between-and-in-bash
+# - Compare "[" and "[[": https://stackoverflow.com/questions/3427872/whats_the-difference_between-and_in-bash
 #
 function bracketTest()
 {
