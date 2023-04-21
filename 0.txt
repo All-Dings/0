@@ -630,11 +630,11 @@
 10000001.md    Electricity
 10000000.md    Physics
 
-# Informatics
+# Informatics / Info
 
-9999999.md     Informatics_System
-9999998.md     Informatics_Student
-9999997.md     Informatics_Personality
+9999999.md     Info_System
+9999998.md     Info_Student
+9999997.md     Info_Personality
 
 9300002.md     Self_Closing_Tag
 9300001.md     Hypertext_Markup_Language
