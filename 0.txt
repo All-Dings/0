@@ -286,7 +286,7 @@
 
 # Politics
 
-141000004.md   United_States
+141000004.md   United_States_of_America
 141000003.md   Erasmus_Student
 141000002.md   European_Union
 141000001.md   Erasmus_Program
