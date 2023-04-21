@@ -215,13 +215,13 @@
 # Movie
 
 200350002.md   Titanic_Birth_of_a_Legend
-200350001.md   Titanic-2012-Television_Series
+200350001.md   Titanic_2012_Television_Series
 
 200300005.md   Drama
 200300004.md   Documentary
 200300003.md   Television_Series
 200300002.md   Director
-200300001.md   Titanic-1997-Movie
+200300001.md   Titanic_1997_Movie
 200300000.md   Movie
 
 # Saying 
@@ -525,7 +525,7 @@
 20000004.md    Car
 20000003.md    Computer
 20000002.md    Disk_Drive
-20000001.md    Samsung_Galaxy_S22-Ultra
+20000001.md    Samsung_Galaxy_S22_Ultra
 20000000.md    Device
 
 # Logic
