@@ -391,6 +391,7 @@
 
 # Personality
 
+70000009.md    Stephen_Cole_Kleene 
 70000008.md    Aristoteles
 70000007.md    Alonzo_Church
 70000006.md    Martin_Edward_Hellman
