@@ -413,7 +413,7 @@
 70000003.md    James_Cameron
 70000002.md    Wladimir_Putin
 70000001.md    Adam_Ries
-70000000.md    Personality
+70000000.md    Famous_Human
 
 # Fine_Arts
 
