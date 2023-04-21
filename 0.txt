@@ -845,7 +845,7 @@
 800001.md      Dentist
 800000.md      Medicine
 
-# Document 
+# Writing 
 
 700032.md      Character-Set
 700031.md      Set-Diagram (Venn-Diagram, Euler-Diagram)
@@ -881,6 +881,7 @@
 
 50000.md       Document (DEAD)
 700001.md      Document
+700000.md      Writing
 
 # Juristics
 
