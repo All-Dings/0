@@ -1018,7 +1018,7 @@
 # All
 
 60092.md       Directed-Relation-Set
-60091.md       Second-Relation-Thing
+60091.md       Right-Relation-Thing
 60090.md       Left-Relation-Thing
 60089.md       Relation-Thing
 60088.md       Relation-Set
