@@ -545,20 +545,20 @@
 13300001.md    Crypto_System
 13300000.md    Crypto_Logics
 
-# Mathematics
+# Mathematics / Math
 
 13010001.md    Circle_Number
 13010000.md    Famous_Number
 
 13000014.md    Greatest_Common_Divisor_Function
 13000013.md    Eulers_Totient_Function
-13000012.md    Mathematics_One_Way_Function
-13000011.md    Mathematics_Function
-13000010.md    Atomic_Number
-13000009.md    Mathematics_Atomic_Property
-13000008.md    Number_Set
-13000007.md    Mathematics_Fraction_Function
-13000006.md    Angle_Degree
+13000012.md    Math_One_Way_Function
+13000011.md    Math_Function
+13000010.md    Math_Atomic_Number
+13000009.md    Math_Atomic_Property
+13000008.md    Math_Number_Set
+13000007.md    Math_Fraction_Function
+13000006.md    Math_Angle_Degree
 13000005.md    Arithmetic
 13000004.md    Floating_Point
 13000003.md    Calculation
