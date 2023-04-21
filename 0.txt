@@ -387,6 +387,7 @@
 
 # Personality
 
+70000007.md    Alonzo_Church
 70000006.md    Martin_Edward_Hellman
 70000005.md    Whitfield_Diffie
 70000004.md    Kyriakos_Mitsotakis
