@@ -391,6 +391,7 @@
 
 # Personality
 
+70000008.md    Aristoteles
 70000007.md    Alonzo_Church
 70000006.md    Martin_Edward_Hellman
 70000005.md    Whitfield_Diffie
