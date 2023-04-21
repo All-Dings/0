@@ -387,6 +387,7 @@
 
 # Personality
 
+70000005.md    Whitfield-Diffie
 70000004.md    Kyriakos-Mitsotakis
 70000003.md    James-Cameron
 70000002.md    Wladimir-Putin
