@@ -530,6 +530,7 @@
 
 # Logics
 
+15000002.md    Logics_Personality
 15000001.md    Logics_System
 15000000.md    Logics
 
