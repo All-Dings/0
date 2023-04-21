@@ -528,6 +528,10 @@
 20000001.md    Samsung_Galaxy_S22-Ultra
 20000000.md    Device
 
+# Logic
+
+15000000.md    Logic
+
 # Psychology
 
 14000001.md    Encounter
