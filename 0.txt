@@ -1017,7 +1017,7 @@
 
 # All
 
-60090.md       Left-Relation-Thing
+60090.md       First-Relation-Thing
 60089.md       Relation-Thing
 60088.md       Relation-Set
 60087.md       Student
