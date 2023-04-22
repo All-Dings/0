@@ -528,6 +528,7 @@
 40080016.md    Throat
 40080015.md    Throat_Clearing
 
+40000019.md    Dance
 40000018.md    Thought_Set
 40000017.md    Thought
 40000016.md    Living_Thing
