@@ -48,6 +48,11 @@
 170111001.md   Liverpool_Football_Club (Wrong_Number)
 170111000.md   English_Premier_League (Wrong_Number)   
 
+270300002.md   Bachata
+270300001.md   Dancing-System
+
+270200004.md   Dancing
+
 270200003.md   Tennis_Teacher     
 270200002.md   Tennis_Trainer
 270200001.md   Tennis_System
