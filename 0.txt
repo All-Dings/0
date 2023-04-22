@@ -531,7 +531,7 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
-40000020.md    Juvenile
+40000020.md    Teen-Ager
 40000019.md    Dance
 40000018.md    Thought-Set
 40000017.md    Thought
