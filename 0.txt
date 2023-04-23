@@ -142,6 +142,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010010.md     Bäckerei-Gehr-Hintere-Grabenstraße-Tübingen
 2010009.md     OVM-Petrol-Station-Tübingen
 2010008.md     Metzgerei-Oskar-Zeeb-Tübingen
 2010007.md     Ibis-Styles-Hotel-Tübingen
