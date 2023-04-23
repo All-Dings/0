@@ -1014,7 +1014,7 @@
 # Time
 
 610004.md      Time-Measure
-610003.md      Day
+610003.md      Day-Measure
 610002.md      Day-of-the-Week
 610001.md      Time-System   
 
