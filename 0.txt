@@ -1031,7 +1031,7 @@
 
 660000.md      Germanistics
 
-650032.md      Phonetics_Phone
+650032.md      Phonetics-Phone
 650031.md      Chinese
 650030.md      Human-Language
 650029.md      Phonetics
