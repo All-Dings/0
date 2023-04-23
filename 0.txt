@@ -254,6 +254,7 @@
 
 # Other-Provider
 
+200020002.md   Petrol-Station
 200020001.md   Post-Office
 
 # Food-Provider
