@@ -1001,8 +1001,8 @@
 
 # Philosophics
 
-645002.md      Philosphics-Personality
-645001.md      Philosphics-System   
+645002.md      Philosophics-Personality
+645001.md      Philosophics-System   
 645000.md      Philosophics
 
 # Academics
