@@ -15,7 +15,7 @@
 
 1971099001.md  michael-holzheu@Git-Hub
 
-1971091177.md  Doktor-Holzheu
+1971091177.md  Doktor_Holzheu
 
 1971091101.md  Our-House-Im-Philosophenweg
 
@@ -688,9 +688,9 @@
 
 # Informatics / Info
 
-9999999.md     Info-System
-9999998.md     Info-Student
-9999997.md     Info-Personality
+9999999.md     Informatics-System
+9999998.md     Informatics-Student
+9999997.md     Informatics-Personality
 
 9300002.md     Self-Closing-Tag
 9300001.md     Hypertext-Markup-Language
