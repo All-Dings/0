@@ -1029,6 +1029,7 @@
 
 660000.md      Germanistics
 
+650031.md      Chinese
 650030.md      Human-Language
 
 650028.md      Spelling-Error
