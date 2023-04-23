@@ -7,13 +7,13 @@
 
 ## Michael_Holzheu
 
-### Movie-From-Michael
+### My Movies
 
 1971099999.md  The-Turing-Machine 
 
 1111.md        Movie-from-Michael  
 
-### Identities
+### My Identities
 
 1971099001.md  michael-holzheu@Git-Hub
 190000002.md   Holyheu
@@ -24,15 +24,15 @@
 
 1971091101.md  Our-House-Im-Philosophenweg
 
-### My-Man-Machine-Study
+### My Man-Machine-Study
 
 302020000.md   My-Man-Machine-Study
 
-### My-Smoking-Study
+### My Smoking-Study
 
 302010000.md   My-Smoking-Study
 
-### My-Brezel-Study
+### My Brezel-Study
 
 302000002.md   B2-Bio-Pur-Shop-Balingen
 302000001.md   My-Brezel-Study
