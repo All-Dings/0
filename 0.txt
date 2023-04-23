@@ -1013,6 +1013,7 @@
 
 # Time
 
+610005.md      Time-Stamp
 610004.md      Time-Measure
 610003.md      Day-Measure
 610002.md      Day-of-the-Week
