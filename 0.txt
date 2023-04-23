@@ -1042,7 +1042,7 @@
 610007.md      Sun-Day
 610006.md      Day
 610005.md      Time-Stamp
-610004.md      Time-Set
+610004.md      Time-Stamp-Set
 610003.md      Day-Set
 610002.md      Day-of-the-Week
 610001.md      Time-System   
