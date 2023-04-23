@@ -1020,6 +1020,7 @@
 
 # Academics
 
+640001.md      Study
 640000.md      Academics
 
 # Time
