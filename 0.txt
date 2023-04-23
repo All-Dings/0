@@ -394,11 +394,11 @@
 
 130000000.md   Economics
 
-# Project-Managment
+# Project-Management
 
 120000002.md   Work-Flow
 120000001.md   Work-Item
-120000000.md   Project-Managment
+120000000.md   Project-Management
 
 # Management
 
