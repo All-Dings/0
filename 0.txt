@@ -252,6 +252,8 @@
 200100001.md   Better-Slow-than-Bad
 200100000.md   Saying
 
+# Other-Provider
+
 200020001.md   Post-Office
 
 # Food-Provider
