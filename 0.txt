@@ -423,6 +423,10 @@
 100000001.md   Deoxy-Ribo-Nucleic-Acid
 100000000.md   Chemical
 
+# Raw-Material
+
+91000000.md    Raw-Material
+
 # Songs
 
 90100002.md    Take-On-Me
@@ -1165,6 +1169,7 @@
 
 # All
 
+60104.md       Nature
 60103.md       Inverse
 60102.md       Separation
 60101.md       Atom
