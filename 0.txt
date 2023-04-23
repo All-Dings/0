@@ -1013,14 +1013,14 @@
 700001.md      Document
 700000.md      Writing
 
-# Jurastics / Jura
+# Jurastics
 
-670006.md      Jura-Ownership-Right
-670005.md      Jura-Usage-Right
-670004.md      Jura-Right
-670003.md      Jura-Statement
-670002.md      Jura-Rule
-670001.md      Jura-System
+670006.md      Juristics-Ownership-Right
+670005.md      Juristics-Usage-Right
+670004.md      Juristics-Right
+670003.md      Juristics-Statement
+670002.md      Juristics-Rule
+670001.md      Juristics-System
 670000.md      Jurastics
 
 # Linguistics 
