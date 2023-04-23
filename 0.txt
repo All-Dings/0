@@ -999,10 +999,10 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
-# Philosophics / Philo
+# Philosophics
 
-645002.md      Philo-Personality
-645001.md      Philo-System   
+645002.md      Philosphics-Personality
+645001.md      Philosphics-System   
 645000.md      Philosophics
 
 # Academics
