@@ -364,6 +364,7 @@
 
 130010000.md   Currency
 
+130000012.md   Economics-Price
 130000011.md   Currency-Set
 130000010.md   Currency-Penny
 130000009.md   Dollar
