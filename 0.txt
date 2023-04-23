@@ -21,6 +21,10 @@
 
 ## Studies
 
+### My-Man-Machine-Study
+
+302020000.md   My-Man-Machine-Study
+
 ### My-Smoking-Study
 
 302010000.md   My-Smoking-Study
