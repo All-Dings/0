@@ -686,7 +686,7 @@
 10000001.md    Electricity
 10000000.md    Physics
 
-# Informatics / Info
+# Informatics
 
 9999999.md     Informatics-System
 9999998.md     Informatics-Student
@@ -895,7 +895,7 @@
 810001.md      Levetiracetam  
 810000.md      Anti-Epilepticum
 
-# Medicine
+# Medicine / Medical
 
 800015.md      Medical-Practice
 800014.md      Medical-System
