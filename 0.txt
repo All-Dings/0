@@ -21,6 +21,7 @@
 
 ## Studies
 
+302000002.md   B2-Bio-Pur-Shop-Balingen
 302000001.md   Brezel-Price-Study
 
 ## Hypothesis
