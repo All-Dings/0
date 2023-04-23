@@ -563,6 +563,7 @@
 40090001.md    Biological-Organ (DEAD)
 40090000.md    Biologic-Cell
 
+40080009.md    Human-Throat
 40080008.md    Human-Leg
 40080007.md    Human-Torso
 40080006.md    Human-Neurologic-System
