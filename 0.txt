@@ -595,11 +595,11 @@
 
 # Cryptologics / Crypto
 
-13300002.md    Crypto-Personality
-13300001.md    Crypto-System
+13300002.md    Cryptologics-Personality
+13300001.md    Cryptologics-System
 13300000.md    Cryptologics
 
-# Mathematics / Math
+# Mathematics
 
 13010001.md    Circle-Number
 13010000.md    Famous-Number
