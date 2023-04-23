@@ -25,10 +25,10 @@
 
 302010000.md   My-Smoking-Study
 
-### Brezel-Study
+### My-Brezel-Study
 
 302000002.md   B2-Bio-Pur-Shop-Balingen
-302000001.md   Brezel-Study
+302000001.md   My-Brezel-Study
 
 ## Hypothesis
 
