@@ -29,6 +29,7 @@
 
 300010000.md   Dings-Libraries
 
+300000012.md   Dings-Combined-Word-Separator
 300000011.md   Dings-Day
 300000010.md   Dings-Number-File
 300000009.md   Dings-Work-Flow
