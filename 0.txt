@@ -967,6 +967,8 @@
 
 # Linguistics 
 
+666001.md      Spanish
+
 660000.md      Germanistics
 
 650028.md      Spelling-Error
