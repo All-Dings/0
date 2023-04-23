@@ -632,6 +632,7 @@
 
 # Device
 
+20000008.md    Accumulator
 20000007.md    Tablet-Computer
 20000006.md    Auto-Bus
 20000005.md    Smart-Phone
