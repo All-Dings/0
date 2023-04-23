@@ -584,7 +584,7 @@
 # Logics
 
 15000003.md    Formal-Language
-15000002.md    Logics-Personality
+15000002.md    Logics-Famous-Human
 15000001.md    Logics-System
 15000000.md    Logics
 
@@ -595,7 +595,7 @@
 
 # Cryptologics / Crypto
 
-13300002.md    Cryptologics-Personality
+13300002.md    Cryptologics-Famous-Human
 13300001.md    Cryptologics-System
 13300000.md    Cryptologics
 
@@ -605,7 +605,7 @@
 13010000.md    Famous-Number
 
 13000016.md    Mathematics-System
-13000015.md    Mathematics-Personality
+13000015.md    Mathematics-Famous-Human
 13000014.md    Greatest-Common-Divisor-Function
 13000013.md    Eulers-Totient-Function
 13000012.md    Mathematics-One-Way-Function
@@ -690,7 +690,7 @@
 
 9999999.md     Informatics-System
 9999998.md     Informatics-Student
-9999997.md     Informatics-Personality
+9999997.md     Informatics-Famous-Human
 
 9300002.md     Self-Closing-Tag
 9300001.md     Hypertext-Markup-Language
@@ -1003,7 +1003,7 @@
 
 # Philosophics
 
-645002.md      Philosophics-Personality
+645002.md      Philosophics-Famous-Human
 645001.md      Philosophics-System   
 645000.md      Philosophics
 
