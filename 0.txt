@@ -506,6 +506,10 @@
 70000001.md    Adam_Ries
 70000000.md    Famous-Human
 
+# Arts
+
+
+
 # Fine-Arts
 
 60000002.md    Ascii-Art
