@@ -486,18 +486,18 @@
 # Personality
 
 70000013.md    Pjotr_Iljitsch_Tschaikowski
-70000012.md    Dua-Lipa
-70000011.md    David-Hilbert
-70000010.md    Alan-Mathison-Turing
-70000009.md    Stephen-Cole-Kleene 
+70000012.md    Dua_Lipa
+70000011.md    David_Hilbert
+70000010.md    Alan_Mathison_Turing
+70000009.md    Stephen_Cole_Kleene 
 70000008.md    Aristoteles
-70000007.md    Alonzo-Church
-70000006.md    Martin-Edward-Hellman
-70000005.md    Whitfield-Diffie
-70000004.md    Kyriakos-Mitsotakis
-70000003.md    James-Cameron
-70000002.md    Wladimir-Putin
-70000001.md    Adam-Ries
+70000007.md    Alonzo_Church
+70000006.md    Martin_Edward_Hellman
+70000005.md    Whitfield_Diffie
+70000004.md    Kyriakos_Mitsotakis
+70000003.md    James_Cameron
+70000002.md    Wladimir_Putin
+70000001.md    Adam_Ries
 70000000.md    Famous-Human
 
 # Fine-Arts
