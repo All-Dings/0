@@ -251,6 +251,7 @@
 
 # Machine
 
+201000004.md   Zuse-Z4
 201000003.md   Universal-Turing-Machine
 201000002.md   Turing-Machine
 201000001.md   Titanic
