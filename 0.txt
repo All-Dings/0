@@ -442,6 +442,8 @@
 
 90100002.md    Take-On-Me
 90100001.md    Some-Times
+73000002.md    Dont-Start-Now
+73000001.md    Physical
 90001004.md    Famous-Song
 
 # Music
@@ -467,8 +469,8 @@
 
 # Famous-Music-Piece
 
-73000002.md    Dont-Start-Now
-73000001.md    Physical
+73000002.md    Dont-Start-Now (Wrong-Number)
+73000001.md    Physical (Wrong-Number)
 73000000.md    Famous-Music-Piece  
 
 # Famous-Problem
