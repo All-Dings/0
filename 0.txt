@@ -777,7 +777,8 @@
 9300001.md     Hypertext-Markup-Language
 9300000.md     Markup-Language
 
-9200000.md     Computer-Networking
+9000152.md     Internet
+9200000.md     Computer-Network
 
 9100002.md     Microsoft-Windows
 9100001.md     Unix
