@@ -497,6 +497,7 @@
 
 # Personality
 
+70000015.md    Theodor_Holm_Nelson
 70000014.md    Timothy_John_Berners-Lee
 70000013.md    Pjotr_Iljitsch_Tschaikowski
 70000012.md    Dua_Lipa
