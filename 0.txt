@@ -1008,6 +1008,7 @@
 
 # Writing 
 
+700039.md      Dot
 700038.md      Spread-Sheet
 700037.md      Typing-Error
 700036.md      Word-Separator
