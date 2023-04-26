@@ -575,6 +575,7 @@
 
 # Biology / Biologic
 
+40201003.md    Nicotine-Flash
 40201002.md    Biologic-Perception-Burning
 40201001.md    Tingling
 
