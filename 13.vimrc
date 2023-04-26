@@ -24,6 +24,8 @@ nnoremap f :call FindName()<CR>
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+syntax on
+
 " ## To-Dos
 "
 " ### Highlight trailing Blans
@@ -35,4 +37,4 @@ match ExtraWhitespace /\s\+$/
 "
 " - https://medium.com/usevim/understanding-listchars-acb9e5a90854
 "
-" set list lcs=trail:·,tab:»·
+set list lcs=trail:·,tab:»·
