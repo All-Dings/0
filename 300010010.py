@@ -25,7 +25,6 @@ Number_File_List = []
 
 ## Read all Number-Files into a [Linked-List](250000019.md)
 def Read_Number_File_List():
-	print("Moin")
 	### Loop over all Files in the Directory
 	for File_Name in os.listdir(Dings_Directory):
 		if not File_Name.endswith('.md'):
@@ -49,7 +48,6 @@ def Print_Number_File_List():
 
 ## Test Number File
 def Number_File_List_Test():
-	print("Moin")
 	Read_Number_File_List()
 	Print_Number_File_List()
 
