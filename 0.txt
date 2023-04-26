@@ -161,6 +161,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+18071962.md    Delhi-Palace-Tübingen
 2010010.md     Bäckerei-Gehr-Hintere-Grabenstraße-Tübingen
 2010009.md     OVM-Petrol-Station-Tübingen
 2010008.md     Metzgerei-Oskar-Zeeb-Tübingen
