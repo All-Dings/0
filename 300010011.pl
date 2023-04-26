@@ -10,7 +10,6 @@ use 5.010;
 use strict;
 use warnings;
 use Cwd;
-use Data::Dumper qw(Dumper);
 
 ## Directory containing the Markdown files
 my $Dings_Directory = getcwd;
@@ -67,7 +66,6 @@ sub Print_Number_File_List()
 
 	foreach my $Number_File (values %Number_File_List) {
 		printf("%d: %s\n", $Number_File->{'Number'}, $Number_File->{'Name'});
-		# say Dumper %$Number_File;
 	}
 }
 
