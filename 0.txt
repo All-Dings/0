@@ -51,7 +51,7 @@
 
 1000001.md     Blog-Chain-Time
 
-300010000.md   Dings-Libraries
+300010000.md   Dings-Lib
 
 300000012.md   Dings-Combined-Word-Separator
 300000011.md   Dings-Day
