@@ -1166,6 +1166,7 @@
 
 # Concept
 
+600088.md      Advertisement
 600087.md      Graph-Structure
 600086.md      Provider
 600085.md      Event
