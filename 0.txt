@@ -168,7 +168,7 @@
 ## `111` About-Rendering-Repository
 
 5.md           Dings-Rules
-23.md          About-Dings
+23.md          About-Dings-Project
 
 300001000.make Rendering-Makefile
 
