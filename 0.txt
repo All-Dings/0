@@ -23,7 +23,6 @@
 
 ### My Friends
 
-1971091150.md  Thomas
 1971091143.md  Man-of-Asha 
 1971091141.md  My-Wibledon-Win-Friend
 1971091140.md  My-Tennis-Win-Friend
@@ -59,7 +58,6 @@
 300010010.py   Dings-Lib-Python
 300010000.md   Dings-Lib
 
-300000013.md   Dings-Css-File
 300000012.md   Dings-Combined-Word-Separator
 300000011.md   Dings-Day
 300000010.md   Dings-Number-File
@@ -259,6 +257,7 @@
 
 # Profession
 
+202000009.md   Bus-Driver
 202000008.md   Tennis-Trainer
 202000007.md   Informaticer
 202000006.md   Program-Writer
