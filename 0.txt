@@ -251,6 +251,7 @@
 203400001.md   Schäufele
 203400000.md   Food
 
+203000003.md   Beer
 203000002.md   Coffee
 203000001.md   Hefe-Weizen
 203000000.md   Drink
