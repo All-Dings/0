@@ -1093,6 +1093,7 @@
 
 # Jurastics
 
+670007.md      License
 670006.md      Juristics-Ownership-Right
 670005.md      Juristics-Usage-Right
 670004.md      Juristics-Right
