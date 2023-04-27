@@ -100,6 +100,7 @@
 
 ## Human-Culture
 
+270000003.md   Bet
 270000002.md   Tournament
 270000001.md   Gender-Separation
 270000000.md   Human-Culture
