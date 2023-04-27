@@ -117,6 +117,7 @@
 
 250010000.pl   Perl-Basics
 
+250000020.md   Data-Type-Inference
 250000019.md   Program-Data-Type-List
 250000018.md   Program-Data-Type-Dictionary
 250000017.md   Program-Data-Type
