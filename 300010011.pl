@@ -25,10 +25,34 @@ my $Heading_Regex = qr/^#\s+(.*)\n$/;
 ## Number-File-List
 my %Number_File_List = ();
 
+## Read Data of a Number-File
+sub Read_Number_File($)
+{
+	my ($Name, $Number, $Number_File);
+	my $File_Name = $_[0];
+
+	open my $File, '<', $File_Name;
+	my $First_Line = <$File>;
+	close $File;
+
+	$First_Line =~ /$Heading_Regex/;
+	$Name = $1;
+
+	$File_Name =~ /$Number_Regex/;
+	$Number = $1;
+
+	### Define new [Dictionary](250000018.md) for Number-File
+	$Number_File = {};
+	$Number_File->{'Number'} = $Number;
+	$Number_File->{'Name'} = $Name;
+
+	return $Number_File;
+}
+
 ## Read all Number-Files into a [Linked-List](250000019.md)
 sub Read_Number_File_List()
 {
-	my ($File, $First_Line, $Name, $Number, $Number_File);
+	my $Number_File;
 	my @File_List;
 
 	### Loop over all Files in the Directory
@@ -40,22 +64,9 @@ sub Read_Number_File_List()
 		if ($File_Name !~ /^.*\.md$/) {
 			next;
 		}
-		open my $File, '<', $File_Name;
-		my $First_Line = <$File>;
-		close $File;
-
-		$First_Line =~ /$Heading_Regex/;
-		$Name = $1;
-
-		$File_Name =~ /$Number_Regex/;
-		$Number = $1;
-
-		### Define new [Dictionary](250000018.md) for Number-File
-		$Number_File = {};
-		$Number_File->{'Number'} = $Number;
-		$Number_File->{'Name'} = $Name;
+		$Number_File = Read_Number_File($File_Name);
 		### Append Number-File-Dictionary to Number-File-List
-		$Number_File_List{$Number} = $Number_File;
+		$Number_File_List{$Number_File->{'Number'}} = Read_Number_File($File_Name);
 	}
 }
 
