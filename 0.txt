@@ -1121,6 +1121,7 @@
 
 # Linguistics 
 
+666002.md      Ukrainian-Language
 666001.md      Spanish
 
 660000.md      Germanistics
