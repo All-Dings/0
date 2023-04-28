@@ -461,6 +461,7 @@
 100200001.md   Gauloises
 100200000.md   Gigantes
 
+100100006.md   Alcohol
 100100005.md   Stimulant-Drug
 100100004.md   Cigarette-Box
 100100003.md   Tobacco-Smoking
