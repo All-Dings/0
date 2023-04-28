@@ -34,6 +34,14 @@ sub Print_Number_File($)
 	printf("%d \"%s\"\n", $Number, $Name);
 }
 
+## Remove White-Space from the Start and End of a String
+sub Strip($)
+{
+	my $String = $_[0];
+	$String =~ s/^\s+|\s+$//g;
+	return $String;
+}
+
 ## Read Data of a Number-File
 sub Read_Number_File($)
 {
@@ -44,6 +52,7 @@ sub Read_Number_File($)
 	my $First_Line = <$File>;
 	close $File;
 
+	$First_Line = Strip($First_Line);
 	$First_Line =~ /$Heading_Regex/;
 	$Name = $1;
 
