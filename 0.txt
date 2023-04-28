@@ -1361,7 +1361,7 @@
 60021.md       Quantity
 60020.md       Quality
 60019.md       Format
-60018.md       Input
+      
 60017.md       Output
 60016.md       Correctness
 60015.md       Trust
