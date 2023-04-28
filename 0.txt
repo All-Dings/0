@@ -1103,6 +1103,7 @@
 
 # Jurastics
 
+670008.md      Privacy-Right
 670007.md      License
 670006.md      Juristics-Ownership-Right
 670005.md      Juristics-Usage-Right
