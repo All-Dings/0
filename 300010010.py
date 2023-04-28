@@ -49,7 +49,7 @@ def Read_Number_File(File_Name):
 
 	### Define new [Dictionary](250000018.md) for Number-File
 	Number_File = {}
-	Number_File['Number'] = Number
+	Number_File['Number'] = int(Number)
 	Number_File['Name'] = Name.strip()
 	return Number_File
 
