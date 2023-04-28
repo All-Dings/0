@@ -1075,7 +1075,7 @@
 700029.md      Clarity (Wrong-Number)
 700028.md      Illustration
 700027.md      Tree-Diagram
-700026.md      White-Space
+700026.md      White-Space-Character
 700025.md      New-Line
 700024.md      Blog-Entry
 700023.md      Table-Of-Contents
