@@ -543,6 +543,7 @@
 
 # Personality
 
+70000016.md    Stephen_Cole_Kleene
 70000015.md    Theodor_Holm_Nelson
 70000014.md    Timothy_John_Berners-Lee
 70000013.md    Pjotr_Iljitsch_Tschaikowski
