@@ -225,6 +225,7 @@
 
 # Business
 
+240000009.md   Google-LLC
 240000008.md   Open-AI
 240000007.md   OMV
 240000006.md   Institut-Für-Beratung-Begutachtung-Kraftfahrereignung-Köln
