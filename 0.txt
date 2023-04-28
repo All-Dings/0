@@ -1345,7 +1345,7 @@
 60046.md       Riddle
 60045.md       Hobby
 60044.md       Technology
-60043.md       Output
+60043.md       Output (DEAD)
 60042.md       Input
 60041.md       Feeling
 60040.md       Intuition
