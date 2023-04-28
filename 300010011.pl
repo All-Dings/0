@@ -20,10 +20,19 @@ my $Dings_Directory = getcwd;
 my $Number_Regex = qr/^(\d+).md$/;
 
 ### Get Heading String from first Line
-my $Heading_Regex = qr/^#\s+(.*)\n$/;
+my $Heading_Regex = qr/^#\s+(.*)$/;
 
 ## Number-File-List
 my %Number_File_List = ();
+
+## Print Number-File
+sub Print_Number_File($)
+{
+	my $Number_File = $_[0];
+	my $Name = $Number_File->{'Name'};
+	my $Number = $Number_File->{'Number'};
+	printf("%d \"%s\"\n", $Number, $Name);
+}
 
 ## Read Data of a Number-File
 sub Read_Number_File($)
@@ -61,7 +70,7 @@ sub Read_Number_File_List()
 	closedir(DH);
 
 	foreach my $File_Name (@File_List) {
-		if ($File_Name !~ /^.*\.md$/) {
+		if ($File_Name !~ /$Number_Regex/) {
 			next;
 		}
 		$Number_File = Read_Number_File($File_Name);
@@ -75,8 +84,8 @@ sub Print_Number_File_List()
 {
 	my $Number_File;
 
-	foreach my $Number_File (values %Number_File_List) {
-		printf("%d: %s\n", $Number_File->{'Number'}, $Number_File->{'Name'});
+	foreach my $Number_File (sort {$a->{'Number'} <=> $b->{'Number'}} values %Number_File_List) {
+		Print_Number_File($Number_File);
 	}
 }
 
