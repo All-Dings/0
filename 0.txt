@@ -1245,7 +1245,7 @@
 600022.md      Proof
 600021.md      Truth
 600020.md      Freedom
-600019.md      Decision
+600019.md      Decision-Problem
 600018.md      Nothing
 600017.md      All
 600016.md      Uniqueness
