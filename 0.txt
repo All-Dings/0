@@ -127,7 +127,7 @@
 
 250010000.pl   Perl-Basics
 
-250000023.md   Sting-Data-Type
+250000023.md   String-Data-Type
 250000022.md   Quick-Sort
 250000021.md   Signed-Integer-Data-Type
 250000020.md   Data-Type-Inference
