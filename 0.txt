@@ -736,6 +736,10 @@
 20000001.md    Samsung-Galaxy-S22-Ultra
 20000000.md    Device
 
+# Technology
+
+16000001.md    Technology-System
+
 # Logics
 
 15000003.md    Formal-Language
