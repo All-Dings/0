@@ -574,6 +574,7 @@
 
 # Personality
 
+70000017.md    Michael_Dorn
 70000016.md    Stephen_Cole_Kleene
 70000015.md    Theodor_Holm_Nelson
 70000014.md    Timothy_John_Berners-Lee
