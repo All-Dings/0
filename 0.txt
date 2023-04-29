@@ -679,7 +679,7 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
-40000022.md    Biologic-Species
+40000022.md    Biologic-Type
 40000021.md    Biology-System
 40000020.md    Teen-Ager
 40000019.md    Dance
