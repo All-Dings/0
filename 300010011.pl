@@ -28,6 +28,13 @@ sub Reg_Exp_Test($$)
 	printf("\"%s\" -> \"%s\"\n", $Line, $Match);
 }
 
+### Get Name String from first Line
+my $Name_Reg_Exp = qr/^#\s+(.*)$/;
+
+sub Name_Reg_Exp_Test() {
+	Reg_Exp_Test($Name_Reg_Exp, "# Michael Holzheu");
+}
+
 ### Get Number from Number-File
 my $Number_Reg_Exp = qr/^(\d+).md$/;
 
@@ -35,12 +42,6 @@ sub Number_Reg_Exp_Test() {
 	Reg_Exp_Test($Number_Reg_Exp, "0.md");
 }
 
-### Get Name String from first Line
-my $Name_Reg_Exp = qr/^#\s+(.*)$/;
-
-sub Name_Reg_Exp_Test() {
-	Reg_Exp_Test($Name_Reg_Exp, "# Michael Holzheu");
-}
 
 ## Number-File-List
 my %Number_File_List = ();

@@ -19,17 +19,17 @@ def Reg_Exp_Test(Reg_Exp, Line):
 	Match = Reg_Exp.sub(r'\1', Line)
 	print(f'"{Line}" -> "{Match}"')
 
-### Get Number from Number-File
-Number_Reg_Exp = re.compile(r'^(\d+).md$')
-
-def Number_Reg_Exp_Test():
-	Reg_Exp_Test(Number_Reg_Exp, "0.md")
-
 ### Get Name String from first Line
 Name_Reg_Exp = re.compile(r'^#\s+(.*)$')
 
 def Name_Reg_Exp_Test():
 	Reg_Exp_Test(Name_Reg_Exp, "# Michael Holzheu")
+
+### Get Number from Number-File
+Number_Reg_Exp = re.compile(r'^(\d+).md$')
+
+def Number_Reg_Exp_Test():
+	Reg_Exp_Test(Number_Reg_Exp, "0.md")
 
 ## Number-File-List
 Number_File_List = {}
