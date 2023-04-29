@@ -17,10 +17,10 @@ my $Dings_Directory = getcwd;
 ## Regular-Expressions
 
 ### Get Number from Number-File
-my $Number_Regex = qr/^(\d+).md$/;
+my $Number_Reg_Exp = qr/^(\d+).md$/;
 
 ### Get Heading String from first Line
-my $Heading_Regex = qr/^#\s+(.*)$/;
+my $Heading_Reg_Exp = qr/^#\s+(.*)$/;
 
 ## Number-File-List
 my %Number_File_List = ();
@@ -53,10 +53,10 @@ sub Read_Number_File($)
 	close $File;
 
 	$First_Line = Strip($First_Line);
-	$First_Line =~ /$Heading_Regex/;
+	$First_Line =~ /$Heading_Reg_Exp/;
 	$Name = $1;
 
-	$File_Name =~ /$Number_Regex/;
+	$File_Name =~ /$Number_Reg_Exp/;
 	$Number = $1;
 
 	### Define new [Dictionary](250000018.md) for Number-File
@@ -79,7 +79,7 @@ sub Read_Number_File_List()
 	closedir(DH);
 
 	foreach my $File_Name (@File_List) {
-		if ($File_Name !~ /$Number_Regex/) {
+		if ($File_Name !~ /$Number_Reg_Exp/) {
 			next;
 		}
 		$Number_File = Read_Number_File($File_Name);

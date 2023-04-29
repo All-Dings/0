@@ -15,10 +15,10 @@ Dings_Directory = os.getcwd()
 ## Regular-Expressions
 
 ### Get Number from Number-File
-Number_Regex = re.compile(r'^(\d+).md$')
+Number_Reg_Exp = re.compile(r'^(\d+).md$')
 
 ### Get Name String from first Line
-Name_Regex = re.compile(r'^#\s+(.*)$')
+Name_Reg_Exp = re.compile(r'^#\s+(.*)$')
 
 ## Number-File-List
 Number_File_List = {}
@@ -44,8 +44,8 @@ def Print_Number_File(Number_File):
 def Read_Number_File(File_Name):
 	with open(os.path.join(Dings_Directory, File_Name), 'r') as File:
 		First_Line = File.readline()
-	Name = Name_Regex.sub(r'\1', First_Line)
-	Number = Number_Regex.sub(r'\1', File_Name)
+	Name = Name_Reg_Exp.sub(r'\1', First_Line)
+	Number = Number_Reg_Exp.sub(r'\1', File_Name)
 
 	### Define new [Dictionary](250000018.md) for Number-File
 	Number_File = {}
@@ -57,7 +57,7 @@ def Read_Number_File(File_Name):
 def Read_Number_File_List():
 	### Loop over all Files in the Directory
 	for File_Name in os.listdir(Dings_Directory):
-		if not Number_Regex.match(File_Name):
+		if not Number_Reg_Exp.match(File_Name):
 			continue
 		Number_File = Read_Number_File(File_Name)
 		### Append Number-File-Dictionary to Number-File-List
