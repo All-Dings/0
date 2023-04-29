@@ -86,6 +86,8 @@
 270300002.md   Bachata
 270300001.md   Dancing-System
 
+270210000.md   Table-Tennis
+
 270200009.md   Wimbledon-Tournament
 270200008.md   Tennis-Tournament
 270200007.md   Tennis-Set
