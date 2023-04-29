@@ -14,22 +14,47 @@ Dings_Directory = os.getcwd()
 
 ## Regular-Expressions
 
+### Dings-Regular-Expressions
+Reg_Exp_Number_File = '\d+' + '.' + '\w+'
+Reg_Exp_Name_Exact = '(' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@' + ')' + '+'
+Reg_Exp_Name = '(' + '.' + ')' + '+'
+
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
 def Reg_Exp_Test(Reg_Exp, Line):
-	Match = Reg_Exp.sub(r'\1', Line)
+	Match = Reg_Exp.search(Line).group(1)
 	print(f'"{Line}" -> "{Match}"')
 
-### Get Name String from first Line
-Name_Reg_Exp = re.compile(r'^#\s+(.*)$')
+### Get Dings-Name from First-Line
+Name_Reg_Exp = re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
 
 def Name_Reg_Exp_Test():
-	Reg_Exp_Test(Name_Reg_Exp, "# Michael Holzheu")
+	Reg_Exp_Test(Name_Reg_Exp, '# Michael-Holzheu')
+	Reg_Exp_Test(Name_Reg_Exp, '# Michael Holzheu')
+	Reg_Exp_Test(Name_Reg_Exp, '# Michael-Holzheu-Neu')
+	Reg_Exp_Test(Name_Reg_Exp, '# michael-holzheu@Git-Hub')
+	Reg_Exp_Test(Name_Reg_Exp, '# Michael_Holzheu-Neu')
+	Reg_Exp_Test(Name_Reg_Exp, '# Brașov')
 
 ### Get Number from Number-File
-Number_Reg_Exp = re.compile(r'^(\d+).md$')
+Number_Reg_Exp = re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')
 
 def Number_Reg_Exp_Test():
-	Reg_Exp_Test(Number_Reg_Exp, "0.md")
+	Reg_Exp_Test(Number_Reg_Exp, '0.md')
+	Reg_Exp_Test(Number_Reg_Exp, '341324.md')
+
+### Get Reference from Line
+Reference_Reg_Exp = re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Number_File + '\)' + ')')
+
+def Reference_Reg_Exp_Test():
+	Reg_Exp_Test(Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.')
+	Reg_Exp_Test(Reference_Reg_Exp, '[Michael-Holzheu](0.md) builds Dings-Project.')
+	Reg_Exp_Test(Reference_Reg_Exp, 'The Digns-Prject is created by [Michael-Holzheu](0.md)')
+
+### Get Name from Reference
+Name_from_Reference_Reg_Exp = re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Number_File + '\)')
+
+def Name_from_Reference_Reg_Exp_Test():
+	Reg_Exp_Test(Name_from_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
 
 ## Number-File-List
 Number_File_List = {}
@@ -55,8 +80,8 @@ def Print_Number_File(Number_File):
 def Read_Number_File(File_Name):
 	with open(os.path.join(Dings_Directory, File_Name), 'r') as File:
 		First_Line = File.readline()
-	Name = Name_Reg_Exp.sub(r'\1', First_Line)
-	Number = Number_Reg_Exp.sub(r'\1', File_Name)
+	Name = Name_Reg_Exp.match(First_Line).group(1)
+	Number = Number_Reg_Exp.match(File_Name).group(1)
 
 	### Define new [Dictionary](250000018.md) for Number-File
 	Number_File = {}
@@ -68,7 +93,7 @@ def Read_Number_File(File_Name):
 def Read_Number_File_List():
 	### Loop over all Files in the Directory
 	for File_Name in os.listdir(Dings_Directory):
-		if not Number_Reg_Exp.match(File_Name):
+		if not Number_Reg_Exp.search(File_Name):
 			continue
 		Number_File = Read_Number_File(File_Name)
 		### Append Number-File-Dictionary to Number-File-List
@@ -89,4 +114,6 @@ def Number_File_List_Test():
 
 Number_Reg_Exp_Test()
 Name_Reg_Exp_Test()
+Reference_Reg_Exp_Test()
+Name_from_Reference_Reg_Exp_Test()
 Number_File_List_Test()

@@ -16,6 +16,10 @@ my $Dings_Directory = getcwd;
 
 ## Regular-Expressions
 
+my $Reg_Exp_Number_File = '\d+' . '.' . '\w+';
+my $Reg_Exp_Name_Exact = '(' . '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@' . ')' . '+';
+my $Reg_Exp_Name = '(' . '.' . ')' . '+';
+
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
 sub Reg_Exp_Test($$)
 {
@@ -28,20 +32,45 @@ sub Reg_Exp_Test($$)
 	printf("\"%s\" -> \"%s\"\n", $Line, $Match);
 }
 
-### Get Name String from first Line
-my $Name_Reg_Exp = qr/^#\s+(.*)$/;
+### Get Dings-Name from First-Line
+my $Name_Reg_Exp = '^' . '#' . ' ' . '(' . $Reg_Exp_Name . ')' . '\s*' . '$';
 
-sub Name_Reg_Exp_Test() {
-	Reg_Exp_Test($Name_Reg_Exp, "# Michael Holzheu");
+sub Name_Reg_Exp_Test()
+{
+	Reg_Exp_Test($Name_Reg_Exp, '# Michael-Holzheu');
+	Reg_Exp_Test($Name_Reg_Exp, '# Michael Holzheu');
+	Reg_Exp_Test($Name_Reg_Exp, '# Michael-Holzheu-Neu');
+	Reg_Exp_Test($Name_Reg_Exp, '# michael-holzheu@Git-Hub');
+	Reg_Exp_Test($Name_Reg_Exp, '# Michael_Holzheu-Neu');
+	Reg_Exp_Test($Name_Reg_Exp, '# Brașov');
 }
 
 ### Get Number from Number-File
-my $Number_Reg_Exp = qr/^(\d+).md$/;
+my $Number_Reg_Exp = '^' . '(' . '\d+' . ')' . '.md' . '$';
 
-sub Number_Reg_Exp_Test() {
-	Reg_Exp_Test($Number_Reg_Exp, "0.md");
+sub Number_Reg_Exp_Test()
+{
+	Reg_Exp_Test($Number_Reg_Exp, '0.md');
+	Reg_Exp_Test($Number_Reg_Exp, '341324.md');
 }
 
+### Get Reference from Line
+my $Reference_Reg_Exp = '(' . '\[' . $Reg_Exp_Name . '\]' . '\(' . $Reg_Exp_Number_File . '\)' . ')';
+
+sub Reference_Reg_Exp_Test()
+{
+	Reg_Exp_Test($Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.');
+	Reg_Exp_Test($Reference_Reg_Exp, '[Michael-Holzheu](0.md) builds Dings-Project.');
+	Reg_Exp_Test($Reference_Reg_Exp, 'The Digns-Prject is created by [Michael-Holzheu](0.md)');
+}
+
+### Get Name from Reference
+my $Name_from_Reference_Reg_Exp = '\[' . '(' . $Reg_Exp_Name . ')' . '\]' . '\(' . $Reg_Exp_Number_File . '\)';
+
+sub Name_from_Reference_Reg_Exp_Test()
+{
+        Reg_Exp_Test($Name_from_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
+}
 
 ## Number-File-List
 my %Number_File_List = ();
@@ -128,4 +157,6 @@ sub Number_File_List_Test()
 
 Number_Reg_Exp_Test();
 Name_Reg_Exp_Test();
+Reference_Reg_Exp_Test();
+Name_from_Reference_Reg_Exp_Test();
 Number_File_List_Test();
