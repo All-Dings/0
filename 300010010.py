@@ -14,11 +14,22 @@ Dings_Directory = os.getcwd()
 
 ## Regular-Expressions
 
+### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
+def Reg_Exp_Test(Reg_Exp, Line):
+	Match = Reg_Exp.sub(r'\1', Line)
+	print(f'"{Line}" -> "{Match}"')
+
 ### Get Number from Number-File
 Number_Reg_Exp = re.compile(r'^(\d+).md$')
 
+def Number_Reg_Exp_Test():
+	Reg_Exp_Test(Number_Reg_Exp, "0.md")
+
 ### Get Name String from first Line
 Name_Reg_Exp = re.compile(r'^#\s+(.*)$')
+
+def Name_Reg_Exp_Test():
+	Reg_Exp_Test(Name_Reg_Exp, "# Michael Holzheu")
 
 ## Number-File-List
 Number_File_List = {}
@@ -76,4 +87,6 @@ def Number_File_List_Test():
 	Read_Number_File_List()
 	Print_Number_File_List()
 
+Number_Reg_Exp_Test()
+Name_Reg_Exp_Test()
 Number_File_List_Test()

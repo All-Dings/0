@@ -16,11 +16,31 @@ my $Dings_Directory = getcwd;
 
 ## Regular-Expressions
 
+### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
+sub Reg_Exp_Test($$)
+{
+	my $Reg_Exp = $_[0];
+	my $Line = $_[1];
+	my $Match;
+
+	$Line =~ /$Reg_Exp/;
+	$Match = $1;
+	printf("\"%s\" -> \"%s\"\n", $Line, $Match);
+}
+
 ### Get Number from Number-File
 my $Number_Reg_Exp = qr/^(\d+).md$/;
 
-### Get Heading String from first Line
-my $Heading_Reg_Exp = qr/^#\s+(.*)$/;
+sub Number_Reg_Exp_Test() {
+	Reg_Exp_Test($Number_Reg_Exp, "0.md");
+}
+
+### Get Name String from first Line
+my $Name_Reg_Exp = qr/^#\s+(.*)$/;
+
+sub Name_Reg_Exp_Test() {
+	Reg_Exp_Test($Name_Reg_Exp, "# Michael Holzheu");
+}
 
 ## Number-File-List
 my %Number_File_List = ();
@@ -53,7 +73,7 @@ sub Read_Number_File($)
 	close $File;
 
 	$First_Line = Strip($First_Line);
-	$First_Line =~ /$Heading_Reg_Exp/;
+	$First_Line =~ /$Name_Reg_Exp/;
 	$Name = $1;
 
 	$File_Name =~ /$Number_Reg_Exp/;
@@ -105,4 +125,6 @@ sub Number_File_List_Test()
 	Print_Number_File_List();
 }
 
+Number_Reg_Exp_Test();
+Name_Reg_Exp_Test();
 Number_File_List_Test();
