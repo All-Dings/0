@@ -807,8 +807,9 @@
 11000001.md    Aristocracy
 11000000.md    History
 
-# Astronomy
+# Astronomy / Astronomical
 
+10500002.md    Astronomical-Object
 10500001.md    Astronomy-System
 10500000.md    Astronomy
 
