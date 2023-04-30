@@ -161,8 +161,8 @@ class Code_To_Markdown:
 
 	def __init__(Self):
 		Self.State = Code_To_Markdown.State.Init
-		Self.Reg_Exp_Heading = re.compile('^#+' + ' ' + '.*')
-		Self.Reg_Exp_Comment = re.compile('"""' + '\s*')
+		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
 
 	def Process_End(Self):
 		if Self.State == Code_To_Markdown.State.Code:
