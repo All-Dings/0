@@ -807,6 +807,10 @@
 11000001.md    Aristocracy
 11000000.md    History
 
+# Astronomy
+
+10500000.md    Astronomy
+
 # Physics / Physical
 
 10010000.md    Experiment
