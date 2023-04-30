@@ -83,7 +83,7 @@
 170111001.md   Liverpool-Football-Club (Wrong-Number)
 170111000.md   English-Premier-League (Wrong-Number)   
 
-270300002.md   Bachata
+270300003.md   Bachata
 270300001.md   Dancing-System
 
 270210000.md   Table-Tennis
@@ -1142,8 +1142,8 @@
 700008.md      Heading
 700007.md      Creative-Work
 700006.md      Element
-700005.md      Anchor
-700004.md      Footnote
+70005.md       Anchor
+50003.md       Footnote
 700003.md      Paragraph
 700002.md      Page
 
@@ -1255,7 +1255,7 @@
 600077.md      Correctness
 600076.md      Consumer
 600075.md      Interpretation
-600074.md      Mapping
+600074.md      Scope
 600073.md      Movement-Path
 600072.md      Path    
 600071.md      Movement
@@ -1368,7 +1368,6 @@
 60076.md       Title
 60075.md       Violation
 60074.md       Error
-60073.md       Scope
 60072.md       Awareness
 60071.md       Pain
 60070.md       Activity
