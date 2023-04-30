@@ -35,6 +35,26 @@ sub Reg_Exp_Test($$)
 	printf("\"%s\" -> \"%s\"\n", $Line, $Match);
 }
 
+### Get File-Extension
+my $File_Extension_Reg_Exp = '.+' . '\.' . '(' . '[a-zA-Z]+' . ')' . '$';
+
+sub File_Extension_Reg_Exp_Test()
+{
+	Reg_Exp_Test($File_Extension_Reg_Exp, 'test.pl');
+	Reg_Exp_Test($File_Extension_Reg_Exp, 'test.py');
+}
+
+sub Get_File_Extension($)
+{
+	my $File_Path =$_[0];
+
+	if ($File_Path !~ /$File_Extension_Reg_Exp/) {
+		return "";
+	} else {
+		return $1;
+	}
+}
+
 ### Get Dings-Name From First-Line
 my $Name_Reg_Exp = '^' . '#' . ' ' . '(' . $Reg_Exp_Name . ')' . '\s*' . '$';
 
@@ -226,6 +246,124 @@ sub Number_File_List_Test()
 	Print_Number_File_List();
 }
 
+package Code_To_Markdown;
+
+use constant {
+	Init => 1,
+	Code => 2,
+	Comment => 3,
+	Heading => 4,
+};
+
+sub new($)
+{
+	my $Class = $_[0];
+	my $Self = {
+		'State' => Init,
+		'Reg_Exp_Heading' => '^' . '#+' . ' ' . '.*',
+		'Reg_Exp_Comment' => '^' . '"""' . '\s*',
+	};
+	bless $Self, $Class;
+	return $Self;
+}
+
+sub Process_End($)
+{
+	my $Self = $_[0];
+	if ($Self->{State} == Code) {
+		printf "```\n";
+	}
+}
+
+sub Process_Line($$$$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+	my $Line_Number = $_[2];
+	my $Language_Tag = $_[3];
+
+	$Line =~ s/\s+$//;
+	if (length($Line) == 0) {
+		# Do nothing
+	} elsif ($Self->{State} == Init) {
+		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+			$Self->{State} = Heading;
+			print "$Line\n";
+		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+			$Self->{State} = Comment;
+		} else {
+			print "```$Language_Tag\n";
+			print "$Line\n";
+			$Self->{State} = Code;
+		}
+	} elsif ($Self->{State} == Heading) {
+		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+			print "$Line\n";
+			$Self->{State} = Heading;
+		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+			$Self->{State} = Comment;
+		} else {
+			print "```$Language_Tag\n";
+			print "$Line\n";
+			$Self->{State} = Code;
+		}
+	} elsif ($Self->{State} == Code) {
+		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+			print "```\n";
+			print "$Line\n";
+			$Self->{State} = Heading;
+		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+			print "```\n";
+			$Self->{State} = Comment;
+		} else {
+			print "$Line\n";
+			$Self->{State} = Code;
+		}
+	} elsif ($Self->{State} == Comment) {
+		if ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+			$Self->{State} = Init;
+		} else {
+			print "$Line\n";
+		}
+	}
+	return $Self->{State};
+}
+
+## Convert a Python-File into a Markdown-File
+sub Convert($$)
+{
+	my $Self = $_[0];
+	my $File_Path = $_[1];
+	my $Line_Number = 1;
+	my $Language_Tag;
+	my $File_Extension = main::Get_File_Extension($File_Path);
+
+	if ($File_Extension eq "py") {
+		$Language_Tag = "python";
+	} elsif ($File_Extension eq "pl") {
+		$Language_Tag = "perl";
+	} else {
+		print STDERR "File-Type not supported: $File_Path\n";
+		exit 1;
+	}
+	open my $File, '<', $File_Path;
+	while (my $Line = <$File>)  {
+		$Self->Process_Line($Line, $Line_Number, $Language_Tag);
+	}
+	$Self->Process_End();
+}
+
+package main;
+
+sub Language_To_Markdown_Test()
+{
+	my $To_Markdown = new Code_To_Markdown();
+	$To_Markdown->Convert("$Dings_Directory/300010010.py");
+	$To_Markdown->Convert("$Dings_Directory/300010011.pl");
+}
+
+File_Extension_Reg_Exp_Test();
+Language_To_Markdown_Test();
 Number_From_Reference_Reg_Exp_Test();
 Name_From_Reference_Reg_Exp_Test();
 Number_Reg_Exp_Test();

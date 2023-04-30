@@ -25,6 +25,21 @@ def Reg_Exp_Test(Reg_Exp, Line):
 	Match = Reg_Exp.search(Line).group(1)
 	print(f'"{Line}" -> "{Match}"')
 
+### Get File-Extension
+File_Extension_Reg_Exp = re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
+
+def File_Extension_Reg_Exp_Test():
+	Reg_Exp_Test(File_Extension_Reg_Exp, 'test.pl')
+	Reg_Exp_Test(File_Extension_Reg_Exp, 'test.py')
+
+
+def Get_File_Extension(File_Path):
+	Match = File_Extension_Reg_Exp.search(File_Path)
+	if not Match:
+		return ""
+	else:
+		return Match.group(1)
+
 ### Get Dings-Name from First-Line
 Name_Reg_Exp = re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
 
@@ -153,76 +168,82 @@ def Print_Number_File_List():
 
 ## Class Code-To-Markdown
 class Code_To_Markdown:
-	class State(Enum):
-		Init = 1
-		Code = 2
-		Comment = 3
-		Heading = 4
-
 	def __init__(Self):
-		Self.State = Code_To_Markdown.State.Init
+		Self.States = Enum('States', ['Init', 'Heading', 'Comment', 'Code'])
+		Self.State = Self.States.Init
 		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
 		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
 
 	def Process_End(Self):
-		if Self.State == Code_To_Markdown.State.Code:
+		if Self.State == Self.States.Code:
 			print("```")
 
-	def Process_Line(Self, Line, Line_Number):
+	def Process_Line(Self, Line, Line_Number, Language_Tag):
 		Line = Line.rstrip()
 		if len(Line) == 0:
 			pass
-		elif Self.State == Code_To_Markdown.State.Init:
+		elif Self.State == Self.States.Init:
 			if Self.Reg_Exp_Heading.match(Line):
-				Self.State = Code_To_Markdown.State.Heading
+				Self.State = Self.States.Heading
 				print(Line)
 			elif Self.Reg_Exp_Comment.match(Line):
-				Self.State = Code_To_Markdown.State.Comment
+				Self.State = Self.States.Comment
 			else:
-				print("```python")
+				print(f"```{Language_Tag}")
 				print(Line)
-				Self.State = Code_To_Markdown.State.Code
-		elif Self.State == Code_To_Markdown.State.Heading:
+				Self.State = Self.States.Code
+		elif Self.State == Self.States.Heading:
 			if Self.Reg_Exp_Heading.match(Line):
 				print(Line)
-				Self.State = Code_To_Markdown.State.Heading
+				Self.State = Self.States.Heading
 			elif Self.Reg_Exp_Comment.match(Line):
-				Self.State = Code_To_Markdown.State.Comment
+				Self.State = Self.State.Comment
 			else:
-				print("```python")
+				print(f"```{Language_Tag}")
 				print(Line)
-				Self.State = Code_To_Markdown.State.Code
-		elif Self.State == Code_To_Markdown.State.Code:
+				Self.State = Self.States.Code
+		elif Self.State == Self.States.Code:
 			if Self.Reg_Exp_Heading.match(Line):
 				print("```")
 				print(Line)
-				Self.State = Code_To_Markdown.State.Heading
+				Self.State = Self.States.Heading
 			elif Self.Reg_Exp_Comment.match(Line):
 				print("```")
-				Self.State = Code_To_Markdown.State.Comment
+				Self.State = Self.States.Comment
 			else:
 				print(Line)
-				Self.State = Code_To_Markdown.State.Code
-		elif Self.State == Code_To_Markdown.State.Comment:
+				Self.State = Self.States.Code
+		elif Self.State == Self.State.Comment:
 			if Self.Reg_Exp_Comment.match(Line):
-				Self.State = Code_To_Markdown.State.Init
+				Self.State = Self.States.Init
 			else:
 				print(Line)
 		return Self.State
 
 	## Convert a Python-File into a Markdown-File
 	def Convert(Self, File_Path):
+		File_Extension = Get_File_Extension(File_Path)
+		if File_Extension == "py":
+			Language_Tag = "python"
+		elif File_Extension == "pl":
+			Language_Tag = "perl"
+		else:
+			print(f"File-Type not supported: {File_Path}", file=sys.stderr)
+			quit();
 		Line_Number = 1
 		with open(File_Path, 'r') as File:
 			Lines = File.readlines()
 		for Line in Lines:
-			Self.Process_Line(Line, Line_Number)
+			Self.Process_Line(Line, Line_Number, Language_Tag)
+			Line_Number = Line_Number + 1
 		Self.Process_End()
 
 ### Test
-def Python_To_Markdown_Test():
+def Language_To_Markdown_Test():
 	To_Markdown = Code_To_Markdown()
 	File_Path = os.path.join(Dings_Directory, "300010010.py")
+	To_Markdown.Convert(File_Path)
+	File_Path = os.path.join(Dings_Directory, "300010011.pl")
 	To_Markdown.Convert(File_Path)
 
 ## Test Number File
@@ -230,7 +251,8 @@ def Number_File_List_Test():
 	Read_Number_File_List()
 	Print_Number_File_List()
 
-Python_To_Markdown_Test()
+File_Extension_Reg_Exp_Test()
+Language_To_Markdown_Test()
 Number_From_Reference_Reg_Exp_Test()
 Name_From_Reference_Reg_Exp_Test()
 Number_Reg_Exp_Test()
