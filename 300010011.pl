@@ -15,7 +15,7 @@ use Cwd;
 binmode(STDOUT, "encoding(UTF-8)");
 use open ':std', ':encoding(UTF-8)';
 
-## Directory containing the Markdown files
+## Directory containing the Markdown Files
 my $Dings_Directory = getcwd;
 
 ## Regular-Expressions
