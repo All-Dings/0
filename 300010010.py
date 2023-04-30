@@ -6,11 +6,12 @@ The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 
 ## Imports
 
+from enum import Enum
 import os
 import re
 import sys
 
-## Directory containing the Markdown files
+## Directory containing the Markdown Files
 Dings_Directory = os.getcwd()
 
 ## Regular-Expressions
@@ -136,7 +137,7 @@ def Read_Number_File_List():
 		if not Number_Reg_Exp.search(File_Name):
 			continue
 		Number_File = Read_Number_File(File_Name)
-		### Append Number-File-Dictionary to Number-File-List
+		#### Append Number-File-Dictionary to Number-File-List
 		Number_File_List[Number_File['Number']] = Number_File
 	for File_Name in os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
@@ -147,15 +148,89 @@ def Read_Number_File_List():
 def Print_Number_File_List():
 	Number_File_List_Sorted = list(Number_File_List.values())
 	Number_File_List_Sorted = sorted(Number_File_List_Sorted, key=lambda x: x['Number'])
-	# Number_File_List_Sorted = Quicksort_List_of_Dictionary(Number_File_List_Sorted, 'Number')
 	for Number_File in Number_File_List_Sorted:
 		Print_Number_File(Number_File)
+
+## Class Code-To-Markdown
+class Code_To_Markdown:
+	class State(Enum):
+		Init = 1
+		Code = 2
+		Comment = 3
+		Heading = 4
+
+	def __init__(Self):
+		Self.State = Code_To_Markdown.State.Init
+		Self.Reg_Exp_Heading = re.compile('^#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment = re.compile('"""' + '\s*')
+
+	def Process_End(Self):
+		if Self.State == Code_To_Markdown.State.Code:
+			print("```")
+
+	def Process_Line(Self, Line, Line_Number):
+		Line = Line.rstrip()
+		if len(Line) == 0:
+			pass
+		elif Self.State == Code_To_Markdown.State.Init:
+			if Self.Reg_Exp_Heading.match(Line):
+				Self.State = Code_To_Markdown.State.Heading
+				print(Line)
+			elif Self.Reg_Exp_Comment.match(Line):
+				Self.State = Code_To_Markdown.State.Comment
+			else:
+				print("```python")
+				print(Line)
+				Self.State = Code_To_Markdown.State.Code
+		elif Self.State == Code_To_Markdown.State.Heading:
+			if Self.Reg_Exp_Heading.match(Line):
+				print(Line)
+				Self.State = Code_To_Markdown.State.Heading
+			elif Self.Reg_Exp_Comment.match(Line):
+				Self.State = Code_To_Markdown.State.Comment
+			else:
+				print("```python")
+				print(Line)
+				Self.State = Code_To_Markdown.State.Code
+		elif Self.State == Code_To_Markdown.State.Code:
+			if Self.Reg_Exp_Heading.match(Line):
+				print("```")
+				print(Line)
+				Self.State = Code_To_Markdown.State.Heading
+			elif Self.Reg_Exp_Comment.match(Line):
+				print("```")
+				Self.State = Code_To_Markdown.State.Comment
+			else:
+				print(Line)
+				Self.State = Code_To_Markdown.State.Code
+		elif Self.State == Code_To_Markdown.State.Comment:
+			if Self.Reg_Exp_Comment.match(Line):
+				Self.State = Code_To_Markdown.State.Init
+			else:
+				print(Line)
+		return Self.State
+
+	## Convert a Python-File into a Markdown-File
+	def Convert(Self, File_Path):
+		Line_Number = 1
+		with open(File_Path, 'r') as File:
+			Lines = File.readlines()
+		for Line in Lines:
+			Self.Process_Line(Line, Line_Number)
+		Self.Process_End()
+
+### Test
+def Python_To_Markdown_Test():
+	To_Markdown = Code_To_Markdown()
+	File_Path = os.path.join(Dings_Directory, "300010010.py")
+	To_Markdown.Convert(File_Path)
 
 ## Test Number File
 def Number_File_List_Test():
 	Read_Number_File_List()
 	Print_Number_File_List()
 
+Python_To_Markdown_Test()
 Number_From_Reference_Reg_Exp_Test()
 Name_From_Reference_Reg_Exp_Test()
 Number_Reg_Exp_Test()
