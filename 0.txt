@@ -137,6 +137,7 @@
 
 250010000.pl   Perl-Basics
 
+250000032.md   Sub-Class
 250000031.md   Class-Constructor
 250000030.md   Class-Function
 250000029.md   Programming-Class
