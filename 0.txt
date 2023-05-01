@@ -1107,6 +1107,7 @@
 
 # Medical-Drug
 
+810003.md      Analgesic
 810002.md      Lamotrigin
 810001.md      Levetiracetam  
 810000.md      Anti-Epilepticum
