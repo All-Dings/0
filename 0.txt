@@ -54,6 +54,8 @@
 
 1000001.md     Blog-Chain-Time
 
+300020000.md   Dings-Tool
+
 300010011.md   Dings-Lib-Perl
 300010010.md   Dings-Lib-Python
 300010010.py   Dings-Lib-Python
