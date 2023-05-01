@@ -1,11 +1,8 @@
 # Dings-Lib-Python
-
 """
 The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 """
-
 ## Imports
-
 from enum import Enum
 import os
 import re
@@ -15,7 +12,6 @@ import sys
 Dings_Directory = os.getcwd()
 
 ## Regular-Expressions
-
 ### Dings-Regular-Expressions
 Reg_Exp_Number_File = '\d+' + '.' + '\w+'
 Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@' + ')' + '+'
@@ -166,85 +162,228 @@ def Print_Number_File_List():
 	for Number_File in Number_File_List_Sorted:
 		Print_Number_File(Number_File)
 
-## Class Code-To-Markdown
+## Base-Class Code-To-Markdown
 class Code_To_Markdown:
 	def __init__(Self):
 		Self.States = Enum('States', ['Init', 'Heading', 'Comment', 'Code'])
 		Self.State = Self.States.Init
-		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
-		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
 
 	def Process_End(Self):
 		if Self.State == Self.States.Code:
 			print("```")
 
-	def Process_Line(Self, Line, Line_Number, Language_Tag):
+	def Process_Line(Self, Line, Line_Number):
 		Line = Line.rstrip()
-		if len(Line) == 0:
-			pass
-		elif Self.State == Self.States.Init:
-			if Self.Reg_Exp_Heading.match(Line):
-				Self.State = Self.States.Heading
-				print(Line)
-			elif Self.Reg_Exp_Comment.match(Line):
-				Self.State = Self.States.Comment
-			else:
-				print(f"```{Language_Tag}")
-				print(Line)
-				Self.State = Self.States.Code
+		if Self.State == Self.States.Init:
+			Self.Handle_State_Init(Line)
 		elif Self.State == Self.States.Heading:
-			if Self.Reg_Exp_Heading.match(Line):
-				print(Line)
-				Self.State = Self.States.Heading
-			elif Self.Reg_Exp_Comment.match(Line):
-				Self.State = Self.State.Comment
-			else:
-				print(f"```{Language_Tag}")
-				print(Line)
-				Self.State = Self.States.Code
+			Self.Handle_State_Heading(Line)
 		elif Self.State == Self.States.Code:
-			if Self.Reg_Exp_Heading.match(Line):
-				print("```")
-				print(Line)
-				Self.State = Self.States.Heading
-			elif Self.Reg_Exp_Comment.match(Line):
-				print("```")
-				Self.State = Self.States.Comment
-			else:
-				print(Line)
-				Self.State = Self.States.Code
+			Self.Handle_State_Code(Line)
 		elif Self.State == Self.State.Comment:
-			if Self.Reg_Exp_Comment.match(Line):
-				Self.State = Self.States.Init
-			else:
-				print(Line)
+			Self.Handle_State_Comment(Line)
 		return Self.State
 
-	## Convert a Python-File into a Markdown-File
+	def Handle_State_Init(Self, Line):
+		raise NotImplementedError()
+	def Handle_State_Heading(Self, Line):
+		raise NotImplementedError()
+	def Handle_State_Code(Self, Line):
+		raise NotImplementedError()
+	def Handle_State_Comment(Self, Line):
+		raise NotImplementedError()
+
+	## Convert a Language-File into a Markdown-File
 	def Convert(Self, File_Path):
-		File_Extension = Get_File_Extension(File_Path)
-		if File_Extension == "py":
-			Language_Tag = "python"
-		elif File_Extension == "pl":
-			Language_Tag = "perl"
-		else:
-			print(f"File-Type not supported: {File_Path}", file=sys.stderr)
-			quit();
 		Line_Number = 1
 		with open(File_Path, 'r') as File:
 			Lines = File.readlines()
 		for Line in Lines:
-			Self.Process_Line(Line, Line_Number, Language_Tag)
+			Self.Process_Line(Line, Line_Number)
 			Line_Number = Line_Number + 1
 		Self.Process_End()
 
-### Test
+# Convert Python-Code ot Markdown
+class Python_To_Markdown(Code_To_Markdown):
+	def __init__(Self):
+		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
+		super().__init__()
+	def Handle_State_Init(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			Self.State = Self.States.Heading
+			print(Line)
+		elif Self.Reg_Exp_Comment.match(Line):
+			Self.State = Self.States.Comment
+		else:
+			print(f"```python")
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Heading(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			print(Line)
+			Self.State = Self.States.Heading
+		elif Self.Reg_Exp_Comment.match(Line):
+			Self.State = Self.State.Comment
+		else:
+			print(f"```python")
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Code(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			print("```")
+			print(Line)
+			Self.State = Self.States.Heading
+		elif Self.Reg_Exp_Comment.match(Line):
+			print("```")
+			Self.State = Self.States.Comment
+		else:
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Comment(Self, Line):
+		if Self.Reg_Exp_Comment.match(Line):
+			Self.State = Self.States.Init
+		else:
+			print(Line)
+
+# Convert Perl-Code to Markdown
+class Perl_To_Markdown(Code_To_Markdown):
+	def __init__(Self):
+		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment_Start = re.compile('^' + '=for comment' + '\s*')
+		Self.Reg_Exp_Comment_End = re.compile('^' + '=cut' + '\s*')
+		super().__init__()
+	def Handle_State_Init(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			Self.State = Self.States.Heading
+			print(Line)
+		elif Self.Reg_Exp_Comment_Start.match(Line):
+			Self.State = Self.States.Comment
+		else:
+			print(f"```perl")
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Heading(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			print(Line)
+			Self.State = Self.States.Heading
+		elif Self.Reg_Exp_Comment_Start.match(Line):
+			Self.State = Self.State.Comment
+		else:
+			print(f"```perl")
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Code(Self, Line):
+		if Self.Reg_Exp_Heading.match(Line):
+			print("```")
+			print(Line)
+			Self.State = Self.States.Heading
+		elif Self.Reg_Exp_Comment_Start.match(Line):
+			print("```")
+			Self.State = Self.States.Comment
+		else:
+			print(Line)
+			Self.State = Self.States.Code
+	def Handle_State_Comment(Self, Line):
+		if Self.Reg_Exp_Comment_End.match(Line):
+			Self.State = Self.States.Init
+		else:
+			print(Line)
+
+# Convert Css-Code to Markdown
+class Css_To_Markdown(Code_To_Markdown):
+	def __init__(Self):
+		Self.Reg_Exp_Heading = re.compile('^' + ' \* ' + '\s+' + '(' + '#+' + ' ' + '.*' + ')')
+		Self.Reg_Exp_Comment_One_Line = re.compile('^' + '/' + '\*' + '\s+' +'(' + '.*' + ')' + '\*' + '/' + '\s*')
+		Self.Reg_Exp_Comment_Start = re.compile('^' + '/' + '\*' + '\s*')
+		Self.Reg_Exp_Comment_End = re.compile('^' + '\*' + '/' + '\s*')
+		super().__init__()
+	def Handle_State_Init(Self, Line):
+		Match = Self.Reg_Exp_Heading.match(Line)
+		if Match:
+			Self.State = Self.States.Heading
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
+		if Match:
+			Self.State = Self.States.Init
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_Start.match(Line)
+		if Match:
+			Self.State = Self.States.Comment
+			return
+		print(f"```css")
+		print(Line)
+		Self.State = Self.States.Code
+	def Handle_State_Heading(Self, Line):
+		Match = Self.Reg_Exp_Heading.match(Line)
+		if Match:
+			Self.State = Self.States.Heading
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
+		if Match:
+			Self.State = Self.States.Init
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_Start.match(Line)
+		if Match:
+			Self.State = Self.State.Comment
+			return
+		print(f"```css")
+		print(Line)
+		Self.State = Self.States.Code
+	def Handle_State_Code(Self, Line):
+		Match = Self.Reg_Exp_Heading.match(Line)
+		if Match:
+			Self.State = Self.States.Heading
+			print("```")
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
+		if Match:
+			Self.State = Self.States.Init
+			print("```")
+			print(Match.group(1))
+			return
+		Match = Self.Reg_Exp_Comment_Start.match(Line)
+		if Match:
+			print("```")
+			Self.State = Self.States.Comment
+			return
+		print(Line)
+		Self.State = Self.States.Code
+	def Handle_State_Comment(Self, Line):
+		Match = Self.Reg_Exp_Comment_End.match(Line)
+		if Match:
+			Self.State = Self.States.Init
+			return
+		print(Line)
+
+# Convert Code-File to Markdown
+def Language_To_Markdown(File_Path):
+	File_Extension = Get_File_Extension(File_Path)
+	if File_Extension == "py":
+		To_Markdown = Python_To_Markdown()
+	elif File_Extension == "pl":
+		To_Markdown = Perl_To_Markdown()
+	elif File_Extension == "css":
+		To_Markdown = Css_To_Markdown()
+	else:
+		print(f"File-Type not supported: {File_Path}", file=sys.stderr)
+		quit()
+	To_Markdown.Convert(File_Path)
+
+# Test Language-To-Markdown Functions
 def Language_To_Markdown_Test():
-	To_Markdown = Code_To_Markdown()
 	File_Path = os.path.join(Dings_Directory, "300010010.py")
-	To_Markdown.Convert(File_Path)
+	Language_To_Markdown(File_Path)
+	quit();
 	File_Path = os.path.join(Dings_Directory, "300010011.pl")
-	To_Markdown.Convert(File_Path)
+	Language_To_Markdown(File_Path)
+	File_Path = os.path.join(Dings_Directory, "300000014.css")
+	Language_To_Markdown(File_Path)
 
 ## Test Number File
 def Number_File_List_Test():
