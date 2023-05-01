@@ -658,6 +658,7 @@
 
 # Illness
 
+48000011.md    Schizophrenia
 48000010.md    Tooth-Pain
 48000009.md    Cold
 48000008.md    Rage-Attack
