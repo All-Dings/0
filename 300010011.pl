@@ -1,8 +1,10 @@
 # Dings-Lib-Perl
-
 =for comment
+
 The Dings-Lib-Perl is a [Dings-Lib](300010000.md) in [Perl](9010001.md).
 =cut
+
+package Dings;
 
 ## Imports
 
@@ -549,7 +551,7 @@ sub Handle_State_Comment($$)
 	}
 }
 
-package main;
+package Dings;
 
 # Convert Code-File to Markdown
 sub Language_To_Markdown($)
@@ -579,6 +581,7 @@ sub Language_To_Markdown_Test()
 	Language_To_Markdown("$Dings_Directory/300000014.css");
 }
 
+=for comment
 File_Extension_Reg_Exp_Test();
 Language_To_Markdown_Test();
 Number_From_Reference_Reg_Exp_Test();
@@ -589,3 +592,6 @@ Reference_Reg_Exp_Test();
 Name_From_Reference_Reg_Exp_Test();
 Read_Number_File_List();
 Print_Number_File_List();
+=cut
+
+1;
