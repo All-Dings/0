@@ -1192,7 +1192,7 @@
 640040.md      Nominal-Form
 640039.md      Infinitivum
 640038.md      Preposition
-640037.md      Possesiv
+640037.md      Possessivus
 640036.md      Lexico-Graphic-Order
 650035.md      Colon
 650034.md      Punctuation-Character
