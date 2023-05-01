@@ -209,6 +209,7 @@ class Python_To_Markdown(Code_To_Markdown):
 		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
 		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
 		super().__init__()
+
 	def Handle_State_Init(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			Self.State = Self.States.Heading
@@ -219,6 +220,7 @@ class Python_To_Markdown(Code_To_Markdown):
 			print(f"```python")
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Heading(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print(Line)
@@ -229,6 +231,7 @@ class Python_To_Markdown(Code_To_Markdown):
 			print(f"```python")
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Code(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print("```")
@@ -240,6 +243,7 @@ class Python_To_Markdown(Code_To_Markdown):
 		else:
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Comment(Self, Line):
 		if Self.Reg_Exp_Comment.match(Line):
 			Self.State = Self.States.Init
@@ -253,6 +257,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 		Self.Reg_Exp_Comment_Start = re.compile('^' + '=for comment' + '\s*')
 		Self.Reg_Exp_Comment_End = re.compile('^' + '=cut' + '\s*')
 		super().__init__()
+
 	def Handle_State_Init(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			Self.State = Self.States.Heading
@@ -263,6 +268,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 			print(f"```perl")
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Heading(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print(Line)
@@ -273,6 +279,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 			print(f"```perl")
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Code(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print("```")
@@ -284,6 +291,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 		else:
 			print(Line)
 			Self.State = Self.States.Code
+
 	def Handle_State_Comment(Self, Line):
 		if Self.Reg_Exp_Comment_End.match(Line):
 			Self.State = Self.States.Init
@@ -298,6 +306,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		Self.Reg_Exp_Comment_Start = re.compile('^' + '/' + '\*' + '\s*')
 		Self.Reg_Exp_Comment_End = re.compile('^' + '\*' + '/' + '\s*')
 		super().__init__()
+
 	def Handle_State_Init(Self, Line):
 		Match = Self.Reg_Exp_Heading.match(Line)
 		if Match:
@@ -316,6 +325,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		print(f"```css")
 		print(Line)
 		Self.State = Self.States.Code
+
 	def Handle_State_Heading(Self, Line):
 		Match = Self.Reg_Exp_Heading.match(Line)
 		if Match:
@@ -334,6 +344,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		print(f"```css")
 		print(Line)
 		Self.State = Self.States.Code
+
 	def Handle_State_Code(Self, Line):
 		Match = Self.Reg_Exp_Heading.match(Line)
 		if Match:
@@ -354,6 +365,7 @@ class Css_To_Markdown(Code_To_Markdown):
 			return
 		print(Line)
 		Self.State = Self.States.Code
+
 	def Handle_State_Comment(Self, Line):
 		Match = Self.Reg_Exp_Comment_End.match(Line)
 		if Match:
@@ -379,7 +391,6 @@ def Language_To_Markdown(File_Path):
 def Language_To_Markdown_Test():
 	File_Path = os.path.join(Dings_Directory, "300010010.py")
 	Language_To_Markdown(File_Path)
-	quit();
 	File_Path = os.path.join(Dings_Directory, "300010011.pl")
 	Language_To_Markdown(File_Path)
 	File_Path = os.path.join(Dings_Directory, "300000014.css")
