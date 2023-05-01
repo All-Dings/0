@@ -98,7 +98,6 @@ sub Name_From_Reference_Reg_Exp_Test()
 
 ### Get Number from Reference
 my $Number_From_Reference_Reg_Exp = '\[' . $Reg_Exp_Name . '\]' . '\(' . '(' . '\d+' . ')' . '.' . '\w+' . '\)';
-# my $Number_From_Reference_Reg_Exp = '\[.*\]' . '\(' . '(' . '\d+' . ')' . '.' . '\w+' . '\)';
 
 sub Number_From_Reference_Reg_Exp_Test()
 {
@@ -260,8 +259,6 @@ sub new($)
 	my $Class = $_[0];
 	my $Self = {
 		'State' => Init,
-		'Reg_Exp_Heading' => '^' . '#+' . ' ' . '.*',
-		'Reg_Exp_Comment' => '^' . '"""' . '\s*',
 	};
 	bless $Self, $Class;
 	return $Self;
@@ -275,56 +272,21 @@ sub Process_End($)
 	}
 }
 
-sub Process_Line($$$$)
+sub Process_Line($$$)
 {
 	my $Self = $_[0];
 	my $Line = $_[1];
 	my $Line_Number = $_[2];
-	my $Language_Tag = $_[3];
 
 	$Line =~ s/\s+$//;
-	if (length($Line) == 0) {
-		# Do nothing
-	} elsif ($Self->{State} == Init) {
-		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
-			$Self->{State} = Heading;
-			print "$Line\n";
-		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
-			$Self->{State} = Comment;
-		} else {
-			print "```$Language_Tag\n";
-			print "$Line\n";
-			$Self->{State} = Code;
-		}
+	if ($Self->{State} == Init) {
+		$Self->Handle_State_Init($Line)
 	} elsif ($Self->{State} == Heading) {
-		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
-			print "$Line\n";
-			$Self->{State} = Heading;
-		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
-			$Self->{State} = Comment;
-		} else {
-			print "```$Language_Tag\n";
-			print "$Line\n";
-			$Self->{State} = Code;
-		}
+		$Self->Handle_State_Heading($Line)
 	} elsif ($Self->{State} == Code) {
-		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
-			print "```\n";
-			print "$Line\n";
-			$Self->{State} = Heading;
-		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
-			print "```\n";
-			$Self->{State} = Comment;
-		} else {
-			print "$Line\n";
-			$Self->{State} = Code;
-		}
+		$Self->Handle_State_Code($Line)
 	} elsif ($Self->{State} == Comment) {
-		if ($Line =~ /$Self->{Reg_Exp_Comment}/) {
-			$Self->{State} = Init;
-		} else {
-			print "$Line\n";
-		}
+		$Self->Handle_State_Comment($Line)
 	}
 	return $Self->{State};
 }
@@ -335,31 +297,286 @@ sub Convert($$)
 	my $Self = $_[0];
 	my $File_Path = $_[1];
 	my $Line_Number = 1;
-	my $Language_Tag;
-	my $File_Extension = main::Get_File_Extension($File_Path);
 
-	if ($File_Extension eq "py") {
-		$Language_Tag = "python";
-	} elsif ($File_Extension eq "pl") {
-		$Language_Tag = "perl";
-	} else {
-		print STDERR "File-Type not supported: $File_Path\n";
-		exit 1;
-	}
 	open my $File, '<', $File_Path;
 	while (my $Line = <$File>)  {
-		$Self->Process_Line($Line, $Line_Number, $Language_Tag);
+		$Self->Process_Line($Line, $Line_Number);
 	}
 	$Self->Process_End();
 }
 
+# Convert Python-Code ot Markdown
+package Python_To_Markdown;
+use base 'Code_To_Markdown';
+
+sub new {
+	my $Class = shift;
+	my $Self = $Class->SUPER::new(@_);
+
+	$Self->{'Reg_Exp_Heading'} = '^' . '#+' . ' ' . '.*';
+	$Self->{'Reg_Exp_Comment'} = '^' . '"""' . '\s*';
+	return $Self;
+}
+
+sub Handle_State_Init($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		$Self->{State} = Code_To_Markdown::Heading;
+		print "$Line\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "```python\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Heading($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Heading;
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "```python\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Code($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		print "```\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Heading;
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+		print "```\n";
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Comment($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Comment}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+	} else {
+		print "$Line\n";
+	}
+}
+
+# Convert Perl-Code to Markdown
+package Perl_To_Markdown;
+use base 'Code_To_Markdown';
+
+sub new {
+	my $Class = shift;
+	my $Self = $Class->SUPER::new(@_);
+
+	$Self->{'Reg_Exp_Heading'} = '^' . '#+' . ' ' . '.*';
+	$Self->{'Reg_Exp_Comment_Start'} = '^' . '=for comment' . '\s*';
+	$Self->{'Reg_Exp_Comment_End'} = '^' . '=cut' . '\s*';
+	return $Self;
+}
+
+sub Handle_State_Init($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		$Self->{State} = Code_To_Markdown::Heading;
+		print "$Line\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "```perl\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Heading($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Heading;
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "```perl\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Code($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		print "```\n";
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Heading;
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		print "```\n";
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		print "$Line\n";
+		$Self->{State} = Code_To_Markdown::Code;
+	}
+}
+
+sub Handle_State_Comment($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Comment_End}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+	} else {
+		print "$Line\n";
+	}
+}
+
+# Convert Css-Code to Markdown
+package Css_To_Markdown;
+use base 'Code_To_Markdown';
+
+sub new {
+	my $Class = shift;
+	my $Self = $Class->SUPER::new(@_);
+
+	$Self->{'Reg_Exp_Heading'} = '^' . ' \* ' . '\s+' . '(' . '#+' . ' ' . '.*' . ')';
+	$Self->{'Reg_Exp_Comment_One_Line'} = '^' . '/' . '\*' . '\s+' .'(' . '.*' . ')' . '\*' . '/' . '\s*';
+	$Self->{'Reg_Exp_Comment_Start'} = '^' . '/' . '\*' . '\s*';
+	$Self->{'Reg_Exp_Comment_End'} = '^' . '\*' . '/' . '\s*';
+	return $Self;
+}
+
+sub Handle_State_Init($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		$Self->{State} = Code_To_Markdown::Heading;
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_One_Line}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		$Self->{State} = Code_To_Markdown::Code;
+		print "```css\n";
+		print "$Line\n";
+	}
+}
+
+sub Handle_State_Heading($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		$Self->{State} = Code_To_Markdown::Heading;
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_One_Line}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		$Self->{State} = Code_To_Markdown::Code;
+		print "```css\n";
+		print "$Line\n";
+	}
+}
+
+sub Handle_State_Code($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
+		$Self->{State} = Code_To_Markdown::Heading;
+		print "```\n";
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_One_Line}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+		print "```\n";
+		print "$1\n";
+	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
+		print "```\n";
+		$Self->{State} = Code_To_Markdown::Comment;
+	} else {
+		$Self->{State} = Code_To_Markdown::Code;
+		print "$Line\n";
+	}
+}
+
+sub Handle_State_Comment($$)
+{
+	my $Self = $_[0];
+	my $Line = $_[1];
+
+	if ($Line =~ /$Self->{Reg_Exp_Comment_End}/) {
+		$Self->{State} = Code_To_Markdown::Init;
+	} else {
+		print "$Line\n";
+	}
+}
+
 package main;
 
+# Convert Code-File to Markdown
+sub Language_To_Markdown($)
+{
+	my $File_Path = $_[0];
+	my $File_Extension = Get_File_Extension($File_Path);
+	my $To_Markdown;
+
+	if ($File_Extension eq "py") {
+		$To_Markdown = new Python_To_Markdown()
+	} elsif ($File_Extension eq "pl") {
+		$To_Markdown = new Perl_To_Markdown()
+	} elsif ($File_Extension eq "css") {
+		$To_Markdown = new Css_To_Markdown()
+	} else {
+		print STDERR "File-Type not supported: $File_Path\n";
+		exit 1;
+	}
+	$To_Markdown->Convert($File_Path);
+}
+
+# Test Language-To-Markdown Functions
 sub Language_To_Markdown_Test()
 {
-	my $To_Markdown = new Code_To_Markdown();
-	$To_Markdown->Convert("$Dings_Directory/300010010.py");
-	$To_Markdown->Convert("$Dings_Directory/300010011.pl");
+	Language_To_Markdown("$Dings_Directory/300010010.py");
+	Language_To_Markdown("$Dings_Directory/300010011.pl");
+	Language_To_Markdown("$Dings_Directory/300000014.css");
 }
 
 File_Extension_Reg_Exp_Test();
