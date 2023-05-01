@@ -630,6 +630,10 @@
 50000001.md    Photo
 50000000.md    Photography
 
+# Habits
+
+41020000.md    Prank
+
 # Bad-Habits
 
 41010001.md    Self-Fraud
