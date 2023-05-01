@@ -1107,6 +1107,7 @@
 
 # Medical-Drug
 
+810005.md      Metamizol-Natrium
 810004.md      Paracetamol
 810003.md      Analgesic
 810002.md      Lamotrigin
