@@ -658,6 +658,7 @@
 
 # Illness
 
+48000010.md    Tooth-Pain
 48000009.md    Cold
 48000008.md    Rage-Attack
 48000007.md    Epilepsy
@@ -713,6 +714,7 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
+40000023.md    Tooth
 40000022.md    Biologic-Type
 40000021.md    Biology-System
 40000020.md    Teen-Ager
