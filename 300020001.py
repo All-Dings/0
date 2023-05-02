@@ -145,9 +145,9 @@ class Command:
 		print("Options:");
 		for Option in Self.Option_List:
 			print(f"  -{Option.Name}: {Option.Description}")
-		print("");
 		if len(Self.Command_List) == 0:
 			quit(0)
+		print("");
 		print("Commands:");
 		for Command in Self.Command_List:
 			Sub_Command_Name = Command.Sub_Command_Name(Self.Name)
@@ -202,6 +202,7 @@ class Dings_Test_Run(Dings_Test):
 
 ## Command-List
 Command_List = {
+	"dings": Dings(),
 	"dings_test": Dings_Test(),
 	"dings_test_list": Dings_Test_List(),
 	"dings_test_run": Dings_Test_Run()
@@ -220,7 +221,7 @@ def Main():
 	Argument_List = sys.argv.copy()
 	Argument_List.pop(0)
 	Add_Sub_Commands(Command_List)
-	Command = Dings().Parse_Commands(Argument_List);
+	Command = Command_List["dings"].Parse_Commands(Argument_List);
 	Command.Parse_Options(Argument_List);
 	Command.Run()
 
