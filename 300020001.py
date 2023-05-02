@@ -87,7 +87,7 @@ class Command:
 			Match_List = Self.Get_Match_List_At_Position(i)
 			if (len(Match_List) > 1):
 				Unique = False
-				print(f"Dings Test: Options not unique: ", file=sys.stderr)
+				print(f"{Self.Command_Name()}: Options not unique: ", file=sys.stderr)
 				for Option in Match_List:
 					Argument = Argument_List[Option.Match_Position]
 					print(f" {Argument}: {Option.Name} ", file=sys.stderr)
@@ -99,15 +99,15 @@ class Command:
 		for i in range (0, len(Argument_List)):
 			Match_List = Self.Get_Match_List_At_Position(i)
 			if (len(Match_List) == 0):
-				print(f"Dings Test: Invalid Option: {Argument_List[i]}", file=sys.stderr)
+				print(f"{Self.Command_Name()}: Invalid Option: {Argument_List[i]}", file=sys.stderr)
 				Invalid = True
 		if (Invalid):
 			quit(1)
 
 	def Parse_Commands(Self, Argument_List):
 		Argument = Argument_List[0]
-		for Command in Command_List:
-			if Command.Name == Self.Name + "_" + Argument:
+		for Command_Name, Command in Command_List.items():
+			if Command_Name == Self.Name + "_" + Argument:
 				Argument_List.pop(0)
 				if (len(Argument_List) == 0):
 					return Command;
@@ -130,14 +130,14 @@ class Command:
 	def Run(Self, Argument_List):
 		raise NotImplementedError()
 
-	def Separated_Command_Name(Self):
+	def Command_Name(Self):
 		return To_Mixed_Case(Self.Name.replace('_', ' '))
 
-	def Local_Command_Name(Self, Prefix):
-		return To_Mixed_Case(Self.Name.removeprefix(Prefix + '_'))
+	def Sub_Command_Name(Self, Parent):
+		return To_Mixed_Case(Self.Name.removeprefix(Parent + '_'))
 
 	def Help(Self):
-		Command_Name = Self.Separated_Command_Name()
+		Command_Name = Self.Command_Name()
 		print(f"{Command_Name} [COMMAND]")
 		print("");
 		Self.Info()
@@ -147,12 +147,13 @@ class Command:
 			print(f"  -{Option.Name}: {Option.Description}")
 		print("");
 		if len(Self.Command_List) == 0:
-			return
+			quit(0)
 		print("Commands:");
 		for Command in Self.Command_List:
-			Local_Command_Name = Command.Local_Command_Name(Self.Name)
-			print(f"   {Local_Command_Name}: ", end='')
+			Sub_Command_Name = Command.Sub_Command_Name(Self.Name)
+			print(f"   {Sub_Command_Name}: ", end='')
 			Command.Info()
+		quit(0)
 
 ## Command: Dings
 class Dings(Command):
@@ -199,17 +200,17 @@ class Dings_Test_Run(Dings_Test):
 	def Info(Self):
 		print("Run Test-Cases");
 
-## List with all Commands
-Command_List = [
-	Dings(),
-	Dings_Test(),
-	Dings_Test_List(),
-	Dings_Test_Run()
-]
+## Command-List
+Command_List = {
+	"dings_test": Dings_Test(),
+	"dings_test_list": Dings_Test_List(),
+	"dings_test_run": Dings_Test_Run()
+}
 
+## Add Sub-Commands to Commands
 def Add_Sub_Commands(Command_List):
-	for Command in Command_List:
-		for Sub_Command in Command_List:
+	for Command in Command_List.values():
+		for Sub_Command in Command_List.values():
 			if (Sub_Command.Name.startswith(Command.Name + "_")):
 				if not "_" in Sub_Command.Name[len(Command.Name) + 1:]:
 					Command.Command_List.append(Sub_Command)
@@ -219,7 +220,7 @@ def Main():
 	Argument_List = sys.argv.copy()
 	Argument_List.pop(0)
 	Add_Sub_Commands(Command_List)
-	Command = Command_List[0].Parse_Commands(Argument_List);
+	Command = Dings().Parse_Commands(Argument_List);
 	Command.Parse_Options(Argument_List);
 	Command.Run()
 
