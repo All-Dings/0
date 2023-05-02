@@ -1382,6 +1382,7 @@
 
 # All
 
+60112.md       Pattern
 60111.md       Sharing-Process
 60110.md       Root
 60109.md       Story
