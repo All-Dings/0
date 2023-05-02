@@ -1286,6 +1286,7 @@
 
 # Concept
 
+600094.md      Competition
 600093.md      Ritual
 600092.md      Compatibility
 600091.md      Search-Process
