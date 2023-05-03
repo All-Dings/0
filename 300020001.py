@@ -42,7 +42,7 @@ class Option:
 	def __init__(Self, Name, Description):
 		Self.Name = Name.lower()
 		Self.Description = Description
-		Self.Match_Position = -1
+		Self.Match = []
 		Self.Set = False;
 
 	def Parse(Self, Argument_List):
@@ -51,8 +51,8 @@ class Option:
 			Option = Argument_List[i].lower()
 			if (Option == '-' + Self.Name[0 : len(Option) - 1]):
 				Self.Set = True
-				Self.Match_Position = i
-				return i
+				Self.Match = [i, i]
+				return Self.Match
 
 # Help-Option
 class Help_Option(Option):
@@ -77,7 +77,7 @@ class Command:
 	def Get_Match_List_At_Position(Self, Position):
 		Match_List = []
 		for Option in Self.Option_List:
-			if (Option.Match_Position == Position):
+			if (Option.Match[1] == Position):
 				Match_List.append(Option)
 		return Match_List
 
@@ -89,7 +89,7 @@ class Command:
 				Unique = False
 				print(f"{Self.Command_Name()}: Options not unique: ", file=sys.stderr)
 				for Option in Match_List:
-					Argument = Argument_List[Option.Match_Position]
+					Argument = Argument_List[Option.Match[0]]
 					print(f" {Argument}: {Option.Name} ", file=sys.stderr)
 		if (not Unique):
 			quit(1)
@@ -117,7 +117,7 @@ class Command:
 
 	def Parse_Options(Self, Argument_List):
 		for Option in Self.Option_List:
-			Match_Position = Option.Parse(Argument_List)
+			Option.Parse(Argument_List)
 
 		Self.Check_For_Uniqueness(Argument_List)
 		Self.Check_For_Invalid_Option(Argument_List)
