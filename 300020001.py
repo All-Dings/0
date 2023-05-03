@@ -196,10 +196,10 @@ class Command:
 		quit(0)
 
 ## Command: Dings
-class Dings(Command):
+class Dings_Command(Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings"
 	def Run(Self):
 		print(f"Run: {Self.Name}")
 		quit(0)
@@ -207,10 +207,10 @@ class Dings(Command):
 		print("Tool for working with Dings")
 
 ## Command: Dings-Bash-Completion
-class Dings_Completion(Dings):
+class Dings_Completion_Command(Dings_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_completion"
 	def Run(Self):
 		print(Self.Remaining_Argument_List)
 		quit(0)
@@ -218,10 +218,10 @@ class Dings_Completion(Dings):
 		print("Print Bash-Completion List");
 
 ## Command: Dings-List
-class Dings_List(Dings):
+class Dings_List_Command(Dings_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_list"
 	def Run(Self):
 		Dings_Lib.Read_Number_File_List()
 		Dings_Lib.Print_Number_File_List()
@@ -230,10 +230,10 @@ class Dings_List(Dings):
 		print("List Dings");
 
 ## Command: Dings-Test
-class Dings_Test(Dings):
+class Dings_Test_Command(Dings_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_test"
 	def Run(Self):
 		print(f"Run: {Self.Name}")
 		quit(0)
@@ -241,10 +241,10 @@ class Dings_Test(Dings):
 		print("Run Test-Cases");
 
 ## Command: Dings-Test-List
-class Dings_Test_List(Dings_Test):
+class Dings_Test_List_Command(Dings_Test_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_test_list"
 		Self.Option_List.append(Test_Option())
 	def Run(Self):
 		Test_List = Dings_Lib.Get_Test_List()
@@ -255,10 +255,10 @@ class Dings_Test_List(Dings_Test):
 		print("List Test-Cases");
 
 ## Command: Dings-Test-Generate
-class Dings_Test_Generate(Dings_Test):
+class Dings_Test_Generate_Command(Dings_Test_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_test_generate"
 	def Run(Self):
 		Test_List = Dings_Lib.Get_Test_List()
 		for Test_Name, Test_Function in Test_List.items():
@@ -272,10 +272,10 @@ class Dings_Test_Generate(Dings_Test):
 		print("Run Test-Cases");
 
 ## Command: Dings-Test-Run
-class Dings_Test_Run(Dings_Test):
+class Dings_Test_Run_Command(Dings_Test_Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = __class__.__name__.lower()
+		Self.Name = "dings_test_run"
 	def Run(Self):
 		if (not Self.Remaining_Argument_List):
 			Test_Regexp = ".*"
@@ -301,13 +301,13 @@ class Dings_Test_Run(Dings_Test):
 
 ## Command-List
 Command_List = {
-	"dings": Dings(),
-	"dings_completion": Dings_Completion(),
-	"dings_list": Dings_List(),
-	"dings_test": Dings_Test(),
-	"dings_test_generate": Dings_Test_Generate(),
-	"dings_test_list": Dings_Test_List(),
-	"dings_test_run": Dings_Test_Run()
+	"dings": Dings_Command(),
+	"dings_completion": Dings_Completion_Command(),
+	"dings_list": Dings_List_Command(),
+	"dings_test": Dings_Test_Command(),
+	"dings_test_generate": Dings_Test_Generate_Command(),
+	"dings_test_list": Dings_Test_List_Command(),
+	"dings_test_run": Dings_Test_Run_Command()
 }
 
 ## Add Sub-Commands to Commands
