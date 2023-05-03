@@ -206,6 +206,18 @@ class Dings(Command):
 	def Info(Self):
 		print("Tool for working with Dings")
 
+## Command: Dings-List
+class Dings_List(Dings):
+	def __init__(Self):
+		super().__init__()
+		Self.Name = __class__.__name__.lower()
+	def Run(Self):
+		Dings_Lib.Read_Number_File_List()
+		Dings_Lib.Print_Number_File_List()
+		quit(0)
+	def Info(Self):
+		print("List Dings");
+
 ## Command: Dings-Test
 class Dings_Test(Dings):
 	def __init__(Self):
@@ -279,6 +291,7 @@ class Dings_Test_Run(Dings_Test):
 ## Command-List
 Command_List = {
 	"dings": Dings(),
+	"dings_list": Dings_List(),
 	"dings_test": Dings_Test(),
 	"dings_test_generate": Dings_Test_Generate(),
 	"dings_test_list": Dings_Test_List(),
