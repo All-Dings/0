@@ -162,7 +162,7 @@
 250000033.md   Base-Class
 250000032.md   Sub-Class
 250000031.md   Class-Constructor
-250000030.md   Object-Method
+250000030.md   Class-Instance-Method
 250000029.md   Programming-Class
 250000028.md   Virtual-Function
 250000027.md   Programming-Inheritance
