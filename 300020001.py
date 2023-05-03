@@ -3,7 +3,8 @@
 
 The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-Programming-Language](9010003.md).
 '''
-import Dings
+import Dings as Dings_Lib
+import re
 import sys
 import typing
 
@@ -85,9 +86,9 @@ class Help_Option(Single_Option):
 		super().__init__("Help", "Print Description of Command")
 
 # Test-Option
-class Test_Option(Single_Option):
+class Test_Option(String_Option):
 	def __init__(Self):
-		super().__init__("Test", "Select Test-Case")
+		super().__init__("Test", "Select Test-Case TEST", "TEST")
 
 # Test-Option
 class Test_Option_String(String_Option):
@@ -103,6 +104,7 @@ class Command:
 			Self.Help_Option,
 		]
 		Self.Command_List = []
+		Self.Remaining_Argument_List = []
 
 	def Get_Match_List_At_Position(Self, Position):
 		Match_List = []
@@ -128,9 +130,11 @@ class Command:
 		Invalid = False
 		for i in range (0, len(Argument_List)):
 			Match_List = Self.Get_Match_List_At_Position(i)
-			if (len(Match_List) == 0):
+			if (len(Match_List) == 0 and Argument_List[i][0] == "-"):
 				print(f"{Self.Command_Name()}: Invalid Option: {Argument_List[i]}", file=sys.stderr)
 				Invalid = True
+			else:
+				Self.Remaining_Argument_List.append(Argument_List[i])
 		if (Invalid):
 			quit(1)
 
@@ -216,9 +220,10 @@ class Dings_Test_List(Dings_Test):
 		super().__init__()
 		Self.Name = __class__.__name__.lower()
 		Self.Option_List.append(Test_Option())
-		Self.Option_List.append(Test_Option_String())
 	def Run(Self):
-		print(f"Run: {Self.Name}")
+		Test_List = Dings_Lib.Get_Test_List()
+		for Test_Name in Test_List:
+			print(Test_Name)
 		quit(0)
 	def Info(Self):
 		print("List Test-Cases");
@@ -229,7 +234,16 @@ class Dings_Test_Run(Dings_Test):
 		super().__init__()
 		Self.Name = __class__.__name__.lower()
 	def Run(Self):
-		print(f"Run: {Self.Name}")
+		if (not Self.Remaining_Argument_List):
+			Test_Regexp = ".*"
+		else:
+			Test_Regexp = Self.Remaining_Argument_List[0]
+		Test_Reg_Exp = re.compile(Test_Regexp)
+		Test_List = Dings_Lib.Get_Test_List()
+		for Test_Name,Test_Function in Test_List.items():
+			if (Test_Reg_Exp.match(Test_Name)):
+				print(Test_Name)
+				Test_Function()
 		quit(0)
 	def Info(Self):
 		print("Run Test-Cases");

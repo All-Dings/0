@@ -18,7 +18,7 @@ Reg_Exp_Number_File = '\d+' + '.' + '\w+'
 Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@' + ')' + '+'
 
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
-def Reg_Exp_Test(Reg_Exp, Line):
+def Test_Reg_Exp(Reg_Exp, Line):
 	Match = Reg_Exp.search(Line).group(1)
 	print(f'"{Line}" -> "{Match}"')
 
@@ -26,8 +26,8 @@ def Reg_Exp_Test(Reg_Exp, Line):
 File_Extension_Reg_Exp = re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
 
 def File_Extension_Reg_Exp_Test():
-	Reg_Exp_Test(File_Extension_Reg_Exp, 'test.pl')
-	Reg_Exp_Test(File_Extension_Reg_Exp, 'test.py')
+	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.pl')
+	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.py')
 
 
 def Get_File_Extension(File_Path):
@@ -41,40 +41,40 @@ def Get_File_Extension(File_Path):
 Name_Reg_Exp = re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
 
 def Name_Reg_Exp_Test():
-	Reg_Exp_Test(Name_Reg_Exp, '# Michael-Holzheu')
-	Reg_Exp_Test(Name_Reg_Exp, '# Michael Holzheu')
-	Reg_Exp_Test(Name_Reg_Exp, '# Michael-Holzheu-Neu')
-	Reg_Exp_Test(Name_Reg_Exp, '# michael-holzheu@Git-Hub')
-	Reg_Exp_Test(Name_Reg_Exp, '# Michael_Holzheu-Neu')
-	Reg_Exp_Test(Name_Reg_Exp, '# Brașov')
+	Test_Reg_Exp(Name_Reg_Exp, '# Michael-Holzheu')
+	Test_Reg_Exp(Name_Reg_Exp, '# Michael Holzheu')
+	Test_Reg_Exp(Name_Reg_Exp, '# Michael-Holzheu-Neu')
+	Test_Reg_Exp(Name_Reg_Exp, '# michael-holzheu@Git-Hub')
+	Test_Reg_Exp(Name_Reg_Exp, '# Michael_Holzheu-Neu')
+	Test_Reg_Exp(Name_Reg_Exp, '# Brașov')
 
 ### Get Number from Number-File
 Number_Reg_Exp = re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')
 
 def Number_Reg_Exp_Test():
-	Reg_Exp_Test(Number_Reg_Exp, '0.md')
-	Reg_Exp_Test(Number_Reg_Exp, '341324.md')
+	Test_Reg_Exp(Number_Reg_Exp, '0.md')
+	Test_Reg_Exp(Number_Reg_Exp, '341324.md')
 
 ### Get Reference from Line
 Reference_Reg_Exp = re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Number_File + '\)' + ')')
 
 def Reference_Reg_Exp_Test():
-	Reg_Exp_Test(Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.')
-	Reg_Exp_Test(Reference_Reg_Exp, '[Michael-Holzheu](0.md) builds Dings-Project.')
-	Reg_Exp_Test(Reference_Reg_Exp, 'The Digns-Prject is created by [Michael-Holzheu](0.md)')
-	Reg_Exp_Test(Reference_Reg_Exp, 'Height is a [Dimension-Interval](10000021.md) for the [Altitude-Dimension](10000030.md).')
+	Test_Reg_Exp(Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.')
+	Test_Reg_Exp(Reference_Reg_Exp, '[Michael-Holzheu](0.md) builds Dings-Project.')
+	Test_Reg_Exp(Reference_Reg_Exp, 'The Digns-Prject is created by [Michael-Holzheu](0.md)')
+	Test_Reg_Exp(Reference_Reg_Exp, 'Height is a [Dimension-Interval](10000021.md) for the [Altitude-Dimension](10000030.md).')
 
 ### Get Name from Reference
 Name_From_Reference_Reg_Exp = re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Number_File + '\)')
 
 def Name_From_Reference_Reg_Exp_Test():
-	Reg_Exp_Test(Name_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
+	Test_Reg_Exp(Name_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
 
 ### Get Number from Reference
 Number_From_Reference_Reg_Exp = re.compile('\[' + Reg_Exp_Name + '\]' + '\(' + '(' + '\d+' + ')' + '.' + '\w+' + '\)')
 
 def Number_From_Reference_Reg_Exp_Test():
-	Reg_Exp_Test(Number_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
+	Test_Reg_Exp(Number_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
 
 ## Number-File-List
 Number_File_List = {}
@@ -402,15 +402,10 @@ def Number_File_List_Test():
 	Read_Number_File_List()
 	Print_Number_File_List()
 
-'''
-File_Extension_Reg_Exp_Test()
-Language_To_Markdown_Test()
-Number_From_Reference_Reg_Exp_Test()
-Name_From_Reference_Reg_Exp_Test()
-Number_Reg_Exp_Test()
-Name_Reg_Exp_Test()
-Reference_Reg_Exp_Test()
-Name_From_Reference_Reg_Exp_Test()
-Read_Number_File_List()
-Print_Number_File_List()
-'''
+## Get Test_List
+def Get_Test_List():
+	Test_List = {}
+	for Test_Name, Test_Function in globals().items():
+		if (Test_Name.endswith("_Test")):
+			Test_List[Test_Name] = Test_Function
+	return Test_List
