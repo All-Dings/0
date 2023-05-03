@@ -55,12 +55,12 @@ class Option:
 				return i
 
 # Help-Option
-class Option_Help(Option):
+class Help_Option(Option):
 	def __init__(Self):
 		super().__init__("Help", "Print Description of Command")
 
 # Test-Option
-class Option_Test(Option):
+class Test_Option(Option):
 	def __init__(Self):
 		super().__init__("Test", "Select Test-Case")
 
@@ -68,9 +68,9 @@ class Option_Test(Option):
 class Command:
 	def __init__(Self):
 		Self.Name = __class__.__name__[8:].lower()
-		Self.Option_Help = Option_Help()
+		Self.Help_Option = Help_Option()
 		Self.Option_List = [
-			Self.Option_Help,
+			Self.Help_Option,
 		]
 		Self.Command_List = []
 
@@ -122,7 +122,7 @@ class Command:
 		Self.Check_For_Uniqueness(Argument_List)
 		Self.Check_For_Invalid_Option(Argument_List)
 
-		if (Self.Option_Help.Set):
+		if (Self.Help_Option.Set):
 			Self.Help()
 		else:
 			Self.Run()
@@ -182,7 +182,7 @@ class Dings_Test_List(Dings_Test):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = __class__.__name__.lower()
-		Self.Option_List.append(Option_Test())
+		Self.Option_List.append(Test_Option())
 	def Run(Self):
 		print(f"Run: {Self.Name}")
 		quit(0)
