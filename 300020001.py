@@ -19,6 +19,11 @@ class Test_Option_String(Dings_Lib.String_Option):
 	def __init__(Self):
 		super().__init__("String-Test", "Test String Option", "STRING")
 
+# Pos-Option
+class Pos_Option_String(Dings_Lib.String_Option):
+	def __init__(Self):
+		super().__init__("Position", "Position in String", "POSITION")
+
 ## Command: Dings
 class Dings_Command(Dings_Lib.Command):
 	def __init__(Self):
@@ -36,17 +41,38 @@ class Dings_Completion_Command(Dings_Lib.Command):
 		super().__init__()
 		Self.Help_On_Empty = False
 		Self.Name = "dings_completion"
+		Self.Pos_Opt = Pos_Option_String()
+		Self.Option_List.append(Self.Pos_Opt)
 	def Run(Self):
+		Argument = ""
 		if (Self.Remaining_Argument_List):
-			Argument = Self.Remaining_Argument_List[0]
-		else:
-			Argument = ""
+			for Arg in Self.Remaining_Argument_List:
+				if Argument == "":
+					Argument = Arg
+				else:
+					Argument = Argument + "_" + Arg
 		Argument = Argument.lower()
+		Answer = ""
 		for Command in Dings_Command.Command_List.values():
-			print(Command.Name)
-			print(Command.Name[6:])
+			Pos = int(Self.Pos_Opt.Value)
+			# print(f"Arg={Argument} Command={Command.Name[6:]}")
+			if (Command.Name[6:] == Argument):
+				continue
 			if (Command.Name[6:].startswith(Argument)):
-				print(Command.Name[6:])
+				# print(Command.Name[6:].replace("_", " "))
+				Command_Parts = Command.Name[6:].split("_")
+				if (len(Command_Parts) > Pos):
+					continue
+				for Arg in Command_Parts:
+					Pos = Pos - 1
+					if (Pos > 0):
+						continue
+					if not Answer:
+						Answer = Arg
+					else:
+						Answer = Answer + " " + Arg
+					break
+		print(Answer)
 		quit(0)
 	def Info(Self):
 		print("Print Bash-Completion List");

@@ -30,3 +30,15 @@ alias ls="ls --color=auto"
 #
 # - [Better safe than sorry](
 alias mv="mv -i"
+
+# Bash Completion (Not completed)
+Dings_Completion()
+{
+	echo "Input: \"${COMP_WORDS[1]}\" \"${COMP_WORDS[2]}\" \"${COMP_WORDS[3]}\"" >> out
+	echo "Cword: ${COMP_CWORD}" >> out
+	out=$(./Dings-Python completion ${COMP_WORDS[1]} ${COMP_WORDS[2]} ${COMP_WORDS[3]} -p ${COMP_CWORD})
+	echo "Tool: \"$out\"" >> out
+	COMPREPLY=$(./Dings-Python completion ${COMP_WORDS[1]} ${COMP_WORDS[2]} ${COMP_WORDS[3]} -p ${COMP_CWORD})
+}
+
+complete -F Dings_Completion Dings-Python
