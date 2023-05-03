@@ -42,6 +42,7 @@ class Option:
 	def __init__(Self, Name, Description):
 		Self.Name = Name.lower()
 		Self.Description = Description
+		Self.Parameter_Name = ""
 		Self.Match = [-1,-1]
 		Self.Set = False;
 
@@ -63,7 +64,7 @@ class String_Option(Option):
 	def __init__(Self, Name, Description, Parameter_Name):
 		super().__init__(Name, Description)
 		Self.Value = ""
-		Self.Parameter_Name = ""
+		Self.Parameter_Name = Parameter_Name
 
 	def Parse(Self, Command_Name, Argument_List):
 		Self.Set = False
@@ -173,7 +174,10 @@ class Command:
 		print("");
 		print("Options:");
 		for Option in Self.Option_List:
-			print(f"  -{Option.Name}: {Option.Description}")
+			if (Option.Parameter_Name):
+				print(f"  -{Option.Name} {Option.Parameter_Name}: {Option.Description}")
+			else:
+				print(f"  -{Option.Name}: {Option.Description}")
 		if len(Self.Command_List) == 0:
 			quit(0)
 		print("");
