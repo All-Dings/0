@@ -1116,6 +1116,10 @@
 9000001.md     Tree-Collection
 9000000.md     Informatics
 
+# German-Institutions
+
+8020001.md     Bundes-Kartell-Amt     
+
 # German-Federal-Railroad
 
 8011004.md     Deutschland-Ticket
