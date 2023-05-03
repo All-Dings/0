@@ -732,7 +732,7 @@
 
 40000024.md    Biologic-Genus
 40000023.md    Tooth
-40000022.md    Biologic-Type
+40000022.md    Biologic-Species
 40000021.md    Biology-System
 40000020.md    Teen-Ager
 40000019.md    Dance
