@@ -402,6 +402,10 @@ def Number_File_List_Test():
 	Read_Number_File_List()
 	Print_Number_File_List()
 
+## Generate Test-Output-File_Name from File_Name
+def Test_Output_File_Name(File_Name):
+	return File_Name + ".Dings-Test"
+
 ## Get Test_List
 def Get_Test_List():
 	Test_List = {}

@@ -4,6 +4,8 @@
 The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-Programming-Language](9010003.md).
 '''
 import Dings as Dings_Lib
+from io import StringIO
+import contextlib
 import re
 import sys
 import typing
@@ -228,6 +230,23 @@ class Dings_Test_List(Dings_Test):
 	def Info(Self):
 		print("List Test-Cases");
 
+## Command: Dings-Test-Generate
+class Dings_Test_Generate(Dings_Test):
+	def __init__(Self):
+		super().__init__()
+		Self.Name = __class__.__name__.lower()
+	def Run(Self):
+		Test_List = Dings_Lib.Get_Test_List()
+		for Test_Name, Test_Function in Test_List.items():
+			Output_File_Name = Dings_Lib.Test_Output_File_Name(Test_Name)
+			print(f"Generate: {Output_File_Name}")
+			with open(Output_File_Name, 'w') as File:
+				with contextlib.redirect_stdout(File):
+					Test_Function()
+		quit(0)
+	def Info(Self):
+		print("Run Test-Cases");
+
 ## Command: Dings-Test-Run
 class Dings_Test_Run(Dings_Test):
 	def __init__(Self):
@@ -240,10 +259,18 @@ class Dings_Test_Run(Dings_Test):
 			Test_Regexp = Self.Remaining_Argument_List[0]
 		Test_Reg_Exp = re.compile(Test_Regexp)
 		Test_List = Dings_Lib.Get_Test_List()
-		for Test_Name,Test_Function in Test_List.items():
+		for Test_Name, Test_Function in Test_List.items():
 			if (Test_Reg_Exp.match(Test_Name)):
-				print(Test_Name)
+				Old_Stdout = sys.stdout
+				sys.stdout = Result = StringIO()
 				Test_Function()
+				sys.stdout = Old_Stdout
+				Output_File_Name = Dings_Lib.Test_Output_File_Name(Test_Name)
+				with open(Output_File_Name) as File: Expected_Result = File.read()
+				if (Result.getvalue() == Expected_Result):
+					print(f"{Test_Name}: Ok")
+				else:
+					print(f"{Test_Name}: Fail")
 		quit(0)
 	def Info(Self):
 		print("Run Test-Cases");
@@ -252,6 +279,7 @@ class Dings_Test_Run(Dings_Test):
 Command_List = {
 	"dings": Dings(),
 	"dings_test": Dings_Test(),
+	"dings_test_generate": Dings_Test_Generate(),
 	"dings_test_list": Dings_Test_List(),
 	"dings_test_run": Dings_Test_Run()
 }
