@@ -407,5 +407,6 @@ def Get_Test_List():
 	Test_List = {}
 	for Test_Name, Test_Function in globals().items():
 		if (Test_Name.endswith("_Test")):
-			Test_List[Test_Name] = Test_Function
+			Full_Test_Name = "Dings." + Test_Name
+			Test_List[Full_Test_Name] = Test_Function
 	return Test_List
