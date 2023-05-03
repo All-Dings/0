@@ -99,13 +99,29 @@ class Test_Option_String(String_Option):
 ## Command Base-Class
 class Command:
 	def __init__(Self):
-		Self.Name = __class__.__name__[8:].lower()
 		Self.Help_Option = Help_Option()
 		Self.Option_List = [
 			Self.Help_Option,
 		]
-		Self.Command_List = []
+		Self.Sub_Command_List = []
+		Self.Command_List = {}
 		Self.Remaining_Argument_List = []
+
+	## Initialize all Commands and add Sub-Commands
+	def Initialize(Self, Name, Description):
+		Self.Name = Name
+		Self.Description = Description
+		## Add Commands
+		for Command_Name, Command_Class in globals().items():
+			if (Command_Name.endswith("_Command")):
+				Command_Name = Command_Name.removesuffix("_Command").lower()
+				Self.Command_List[Command_Name] = Command_Class()
+		## Add Sub-Commands
+		for Command in Self.Command_List.values():
+			for Sub_Command in Self.Command_List.values():
+				if (Sub_Command.Name.startswith(Command.Name + "_")):
+					if not "_" in Sub_Command.Name[len(Command.Name) + 1:]:
+						Command.Sub_Command_List.append(Sub_Command)
 
 	def Get_Match_List_At_Position(Self, Position):
 		Match_List = []
@@ -143,7 +159,7 @@ class Command:
 		if not Argument_List:
 			Self.Help()
 		Argument = Argument_List[0]
-		for Command_Name, Command in Command_List.items():
+		for Command_Name, Command in Self.Command_List.items():
 			if Command_Name == Self.Name + "_" + Argument:
 				Argument_List.pop(0)
 				if (len(Argument_List) == 0):
@@ -164,7 +180,7 @@ class Command:
 		else:
 			Self.Run()
 
-	def Run(Self, Argument_List):
+	def Run(Self):
 		raise NotImplementedError()
 
 	def Command_Name(Self):
@@ -172,6 +188,9 @@ class Command:
 
 	def Sub_Command_Name(Self, Parent):
 		return To_Mixed_Case(Self.Name.removeprefix(Parent + '_'))
+
+	def Info(Self):
+		print(Self.Description)
 
 	def Help(Self):
 		Command_Name = Self.Command_Name()
@@ -185,29 +204,18 @@ class Command:
 				print(f"  -{Option.Name} {Option.Parameter_Name}: {Option.Description}")
 			else:
 				print(f"  -{Option.Name}: {Option.Description}")
-		if len(Self.Command_List) == 0:
+		if len(Self.Sub_Command_List) == 0:
 			quit(0)
 		print("");
 		print("Commands:");
-		for Command in Self.Command_List:
+		for Command in Self.Sub_Command_List:
 			Sub_Command_Name = Command.Sub_Command_Name(Self.Name)
 			print(f"   {Sub_Command_Name}: ", end='')
 			Command.Info()
 		quit(0)
 
-## Command: Dings
-class Dings_Command(Command):
-	def __init__(Self):
-		super().__init__()
-		Self.Name = "dings"
-	def Run(Self):
-		print(f"Run: {Self.Name}")
-		quit(0)
-	def Info(Self):
-		print("Tool for working with Dings")
-
 ## Command: Dings-Bash-Completion
-class Dings_Completion_Command(Dings_Command):
+class Dings_Completion_Command(Command):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_completion"
@@ -218,7 +226,7 @@ class Dings_Completion_Command(Dings_Command):
 		print("Print Bash-Completion List");
 
 ## Command: Dings-List
-class Dings_List_Command(Dings_Command):
+class Dings_List_Command(Command):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_list"
@@ -230,7 +238,7 @@ class Dings_List_Command(Dings_Command):
 		print("List Dings");
 
 ## Command: Dings-Test
-class Dings_Test_Command(Dings_Command):
+class Dings_Test_Command(Command):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_test"
@@ -299,31 +307,14 @@ class Dings_Test_Run_Command(Dings_Test_Command):
 	def Info(Self):
 		print("Run Test-Cases");
 
-## Command-List
-Command_List = {
-}
-
-## Add Sub-Commands to Commands
-def Initialize_Commands():
-	## Add Commands
-	for Command_Name, Command_Class in globals().items():
-		if (Command_Name.endswith("_Command")):
-			Command_Name = Command_Name.removesuffix("_Command").lower()
-			Command_List[Command_Name] = Command_Class()
-	## Add Sub-Commands
-	for Command in Command_List.values():
-		for Sub_Command in Command_List.values():
-			if (Sub_Command.Name.startswith(Command.Name + "_")):
-				if not "_" in Sub_Command.Name[len(Command.Name) + 1:]:
-					Command.Command_List.append(Sub_Command)
-
 # Entry-Point
 def Main():
 	Argument_List = Sys.argv.copy()
 	Argument_List.pop(0)
-	Initialize_Commands()
-	Command = Command_List["dings"].Parse_Commands(Argument_List);
-	Command.Parse_Options(Argument_List);
-	Command.Run()
+	Dings_Command = Command()
+	Dings_Command.Initialize("dings", "Tool for working with Dings.")
+	Sub_Command = Dings_Command.Parse_Commands(Argument_List);
+	Sub_Command.Parse_Options(Argument_List);
+	Subs_Command.Run()
 
 Main()
