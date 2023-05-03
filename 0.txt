@@ -1096,6 +1096,7 @@
 
 # German-Federal-Railroad
 
+8011004.md     Deutschland-Ticket
 8011003.md     Verspätung-aus-einer-vorherigen-Fahrt
 8011002.md     Reparatur-an-einem-Signal
 8011001.md     Reparatur-an-einer-Weiche
