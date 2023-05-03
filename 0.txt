@@ -502,6 +502,7 @@
 
 130010000.md   Currency
 
+130000016.md   Inflation
 130000015.md   Maestro-Card
 130000014.md   Debit-Card
 130000013.md   Referral
