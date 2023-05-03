@@ -315,6 +315,5 @@ def Main():
 	Dings_Command.Initialize("dings", "Tool for working with Dings.")
 	Sub_Command = Dings_Command.Parse_Commands(Argument_List);
 	Sub_Command.Parse_Options(Argument_List);
-	Subs_Command.Run()
 
 Main()
