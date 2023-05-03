@@ -140,6 +140,8 @@ class Command:
 			quit(1)
 
 	def Parse_Commands(Self, Argument_List):
+		if not Argument_List:
+			Self.Help()
 		Argument = Argument_List[0]
 		for Command_Name, Command in Command_List.items():
 			if Command_Name == Self.Name + "_" + Argument:
