@@ -42,20 +42,40 @@ class Option:
 	def __init__(Self, Name, Description):
 		Self.Name = Name.lower()
 		Self.Description = Description
-		Self.Match = []
+		Self.Match = [-1,-1]
 		Self.Set = False;
 
 # Single-Option without Parameters
 class Single_Option(Option):
 	def __init__(Self, Name, Description):
 		super().__init__(Name, Description)
-	def Parse(Self, Argument_List):
+	def Parse(Self, Command_Name, Argument_List):
 		Self.Set = False
 		for i in range(0, len(Argument_List)):
 			Option = Argument_List[i].lower()
 			if (Option == '-' + Self.Name[0 : len(Option) - 1]):
 				Self.Set = True
 				Self.Match = [i, i]
+				return Self.Match
+
+# String-Option
+class String_Option(Option):
+	def __init__(Self, Name, Description, Parameter_Name):
+		super().__init__(Name, Description)
+		Self.Value = ""
+		Self.Parameter_Name = ""
+
+	def Parse(Self, Command_Name, Argument_List):
+		Self.Set = False
+		for i in range(0, len(Argument_List)):
+			Argument = Argument_List[i]
+			if (Argument.lower() == '-' + Self.Name[0 : len(Argument) - 1]):
+				if i == len(Argument_List) - 1:
+					print(f"{Command_Name}: Option -{Self.Name} requires a Value ", file=sys.stderr)
+					quit(1)
+				Self.Set = True
+				Self.Value = Argument_List[i + 1]
+				Self.Match = [i, i + 1]
 				return Self.Match
 
 # Help-Option
@@ -67,6 +87,11 @@ class Help_Option(Single_Option):
 class Test_Option(Single_Option):
 	def __init__(Self):
 		super().__init__("Test", "Select Test-Case")
+
+# Test-Option
+class Test_Option_String(String_Option):
+	def __init__(Self):
+		super().__init__("String-Test", "Test String Option", "STRING")
 
 ## Command Base-Class
 class Command:
@@ -81,7 +106,7 @@ class Command:
 	def Get_Match_List_At_Position(Self, Position):
 		Match_List = []
 		for Option in Self.Option_List:
-			if (Option.Match[1] == Position):
+			if (Option.Match[0] == Position or Option.Match[1] == Position):
 				Match_List.append(Option)
 		return Match_List
 
@@ -121,7 +146,7 @@ class Command:
 
 	def Parse_Options(Self, Argument_List):
 		for Option in Self.Option_List:
-			Option.Parse(Argument_List)
+			Match = Option.Parse(Self.Command_Name(), Argument_List)
 
 		Self.Check_For_Uniqueness(Argument_List)
 		Self.Check_For_Invalid_Option(Argument_List)
@@ -187,6 +212,7 @@ class Dings_Test_List(Dings_Test):
 		super().__init__()
 		Self.Name = __class__.__name__.lower()
 		Self.Option_List.append(Test_Option())
+		Self.Option_List.append(Test_Option_String())
 	def Run(Self):
 		print(f"Run: {Self.Name}")
 		quit(0)
