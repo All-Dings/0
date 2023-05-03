@@ -45,6 +45,10 @@ class Option:
 		Self.Match = []
 		Self.Set = False;
 
+# Single-Option without Parameters
+class Single_Option(Option):
+	def __init__(Self, Name, Description):
+		super().__init__(Name, Description)
 	def Parse(Self, Argument_List):
 		Self.Set = False
 		for i in range(0, len(Argument_List)):
@@ -55,12 +59,12 @@ class Option:
 				return Self.Match
 
 # Help-Option
-class Help_Option(Option):
+class Help_Option(Single_Option):
 	def __init__(Self):
 		super().__init__("Help", "Print Description of Command")
 
 # Test-Option
-class Test_Option(Option):
+class Test_Option(Single_Option):
 	def __init__(Self):
 		super().__init__("Test", "Select Test-Case")
 
