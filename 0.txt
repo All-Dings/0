@@ -33,9 +33,9 @@
 1971091102.md  My-VW-California
 1971091101.md  Our-House-Im-Philosophenweg
 
-### My-Programming-Study
+### Programming-Study
 
-302030000.md   My-Programming-Study  
+302030000.md   Programming-Study  
 
 ### My Man-Machine-Study
 
