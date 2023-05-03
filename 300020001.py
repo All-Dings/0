@@ -301,17 +301,16 @@ class Dings_Test_Run_Command(Dings_Test_Command):
 
 ## Command-List
 Command_List = {
-	"dings": Dings_Command(),
-	"dings_completion": Dings_Completion_Command(),
-	"dings_list": Dings_List_Command(),
-	"dings_test": Dings_Test_Command(),
-	"dings_test_generate": Dings_Test_Generate_Command(),
-	"dings_test_list": Dings_Test_List_Command(),
-	"dings_test_run": Dings_Test_Run_Command()
 }
 
 ## Add Sub-Commands to Commands
-def Add_Sub_Commands(Command_List):
+def Initialize_Commands():
+	## Add Commands
+	for Command_Name, Command_Class in globals().items():
+		if (Command_Name.endswith("_Command")):
+			Command_Name = Command_Name.removesuffix("_Command").lower()
+			Command_List[Command_Name] = Command_Class()
+	## Add Sub-Commands
 	for Command in Command_List.values():
 		for Sub_Command in Command_List.values():
 			if (Sub_Command.Name.startswith(Command.Name + "_")):
@@ -322,7 +321,7 @@ def Add_Sub_Commands(Command_List):
 def Main():
 	Argument_List = Sys.argv.copy()
 	Argument_List.pop(0)
-	Add_Sub_Commands(Command_List)
+	Initialize_Commands()
 	Command = Command_List["dings"].Parse_Commands(Argument_List);
 	Command.Parse_Options(Argument_List);
 	Command.Run()
