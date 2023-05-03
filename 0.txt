@@ -1305,6 +1305,7 @@
 
 # Concept
 
+600095.md      Delay
 600094.md      Competition
 600093.md      Ritual
 600092.md      Compatibility
