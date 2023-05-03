@@ -406,11 +406,222 @@ def Number_File_List_Test():
 def Test_Output_File_Name(File_Name):
 	return File_Name + ".Dings-Test"
 
+## Return Sub-Set of String_Dict with all Elements where Reg_Exp applies
+def Get_Dict_Sub_Set(String_Dict, Reg_Exp):
+	Reg_Exp_Comp = Re.compile(Reg_Exp)
+	New_Dict = {}
+	for Key, Value in String_Dict.items():
+		if (Reg_Exp_Comp.match(Key)):
+			New_Dict[Key] = Value
+	return New_Dict
+
 ## Get Test_List
 def Get_Test_List():
-	Test_List = {}
-	for Test_Name, Test_Function in globals().items():
-		if (Test_Name.endswith("_Test")):
-			Full_Test_Name = "Dings." + Test_Name
-			Test_List[Full_Test_Name] = Test_Function
-	return Test_List
+	return Get_Dict_Sub_Set(globals(), ".*_Test");
+
+# Convert Combined-String to Mixed-Case
+def To_Mixed_Case(String):
+	Separator_Character_List = ['-', '_', ' ']
+	for i in range(len(String) - 1, 0, -1):
+		if (String[i] in Separator_Character_List):
+			String = String[0 : i + 1] + String[i + 1].upper() + String[i + 2:]
+	String = String[0].upper() + String[1:]
+	return String
+
+def To_Mixed_Case_Test():
+	In = "dings_test_list"
+	Out = To_Mixed_Case(In)
+	print(In + " -> " + Out)
+
+	In = "dings-test-list"
+	Out = To_Mixed_Case(In)
+	print(In + " -> " + Out)
+
+	In = "dings_test-list"
+	Out = To_Mixed_Case(In)
+	print(In + " -> " + Out)
+
+	In = "dings test"
+	Out = To_Mixed_Case(In)
+	print(In + " -> " + Out)
+
+	In = "dings-test"
+	Out = To_Mixed_Case(In)
+	print(In + " -> " + Out)
+
+# Option Base-Class
+class Option:
+	def __init__(Self, Name, Description):
+		Self.Name = Name.lower()
+		Self.Description = Description
+		Self.Parameter_Name = ""
+		Self.Match = [-1,-1]
+		Self.Set = False;
+
+# Single-Option without Parameters
+class Single_Option(Option):
+	def __init__(Self, Name, Description):
+		super().__init__(Name, Description)
+	def Parse(Self, Command_Name, Argument_List):
+		Self.Set = False
+		for i in range(0, len(Argument_List)):
+			Option = Argument_List[i].lower()
+			if (Option == '-' + Self.Name[0 : len(Option) - 1]):
+				Self.Set = True
+				Self.Match = [i, i]
+				return Self.Match
+
+# String-Option
+class String_Option(Option):
+	def __init__(Self, Name, Description, Parameter_Name):
+		super().__init__(Name, Description)
+		Self.Value = ""
+		Self.Parameter_Name = Parameter_Name
+
+	def Parse(Self, Command_Name, Argument_List):
+		Self.Set = False
+		for i in range(0, len(Argument_List)):
+			Argument = Argument_List[i]
+			if (Argument.lower() == '-' + Self.Name[0 : len(Argument) - 1]):
+				if i == len(Argument_List) - 1:
+					print(f"{Command_Name}: Option -{Self.Name} requires a Value ", file=Sys.stderr)
+					quit(1)
+				Self.Set = True
+				Self.Value = Argument_List[i + 1]
+				Self.Match = [i, i + 1]
+				return Self.Match
+
+# Help-Option
+class Help_Option(Single_Option):
+	def __init__(Self):
+		super().__init__("Help", "Print Description of Command")
+
+## Command Base-Class
+class Command:
+	Command_List = {}
+	Command_Name = ""
+
+	def __init__(Self):
+		Self.Help_Option = Help_Option()
+		Self.Option_List = [
+			Self.Help_Option,
+		]
+		Self.Sub_Command_List = []
+		Self.Remaining_Argument_List = []
+		Self.Help_On_Empty = False
+
+	## Initialize all Commands and add Sub-Commands
+	@classmethod
+	def Parse_And_Run(Class, Command_Name, Command_List, Argument_List):
+		Class.Command_List = {}
+		Class.Command_Name = Command_Name
+
+		## Create Object-Instances
+		for Command_Name, Command_Class in Command_List.items():
+			Command_Object = Command_Class()
+			Class.Command_List[Command_Object.Name] = Command_Object
+
+		## Add Sub-Commands
+		for Command in Class.Command_List.values():
+			for Sub_Command in Class.Command_List.values():
+				if (not Sub_Command.Name.startswith(Command.Name + "_")):
+					continue
+				if not "_" in Sub_Command.Name[len(Command.Name) + 1:]:
+					Command.Sub_Command_List.append(Sub_Command)
+
+		# Parse Arguments and find Sub-Command "Command"
+		Matches = 0
+		Command_Name = ""
+		for Argument in Argument_List:
+			if not Command_Name:
+				Command_Name = Argument.lower()
+			else:
+				Command_Name = Command_Name + "_" + Argument.lower()
+			if Command_Name in Command.Command_List:
+				Command = Command.Command_List[Command_Name]
+				Matches = Matches + 1
+		Argument_List = Argument_List[Matches:]
+
+		# Parse Options
+		for Option in Command.Option_List:
+			Match = Option.Parse(Command.Name, Argument_List)
+
+		Command.Check_For_Uniqueness(Argument_List)
+		Command.Check_For_Invalid_Option(Argument_List)
+
+		if (Command.Help_Option.Set):
+			Command.Help()
+		elif (Command.Help_On_Empty and not Command.Remaining_Argument_List):
+			Command.Help()
+		else:
+			Command.Run()
+
+	def Get_Match_List_At_Position(Self, Position):
+		Match_List = []
+		for Option in Self.Option_List:
+			if (Option.Match[0] == Position or Option.Match[1] == Position):
+				Match_List.append(Option)
+		return Match_List
+
+	def Check_For_Uniqueness(Self, Argument_List):
+		Unique = True
+		for i in range (0, len(Argument_List)):
+			Match_List = Self.Get_Match_List_At_Position(i)
+			if (len(Match_List) > 1):
+				Unique = False
+				print(f"{Self.Get_Command_Name()}: Options not unique: ", file=Sys.stderr)
+				for Option in Match_List:
+					Argument = Argument_List[Option.Match[0]]
+					print(f" {Argument}: {Option.Name} ", file=Sys.stderr)
+		if (not Unique):
+			quit(1)
+
+	def Check_For_Invalid_Option(Self, Argument_List):
+		Invalid = False
+		for i in range (0, len(Argument_List)):
+			Match_List = Self.Get_Match_List_At_Position(i)
+			if (len(Match_List) != 0):
+				continue
+			if Argument_List[i][0] == "-":
+				print(f"{Self.Get_Command_Name()}: Invalid Option: {Argument_List[i]}", file=Sys.stderr)
+				Invalid = True
+			else:
+				print(f"Add: {Argument_List[i]}")
+				Self.Remaining_Argument_List.append(Argument_List[i])
+		if (Invalid):
+			quit(1)
+
+	def Run(Self):
+		raise NotImplementedError()
+
+	def Get_Command_Name(Self):
+		return To_Mixed_Case(Self.Name.replace('_', ' '))
+
+	def Sub_Command_Name(Self, Parent):
+		return To_Mixed_Case(Self.Name.removeprefix(Parent + '_'))
+
+	def Info(Self):
+		print(Self.Description)
+
+	def Help(Self):
+		Command_Name = Self.Get_Command_Name()
+		print(f"{Command_Name} [COMMAND]")
+		print("");
+		Self.Info()
+		print("");
+		print("Options:");
+		for Option in Self.Option_List:
+			if (Option.Parameter_Name):
+				print(f"  -{Option.Name} {Option.Parameter_Name}: {Option.Description}")
+			else:
+				print(f"  -{Option.Name}: {Option.Description}")
+		if len(Self.Sub_Command_List) == 0:
+			quit(0)
+		print("");
+		print("Commands:");
+		for Command in Self.Sub_Command_List:
+			Sub_Command_Name = Command.Sub_Command_Name(Self.Name)
+			print(f"   {Sub_Command_Name}: ", end='')
+			Command.Info()
+		quit(0)
+
