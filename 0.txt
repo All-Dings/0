@@ -156,6 +156,7 @@
 
 250010000.pl   Perl-Basics
 
+250000037.md   Hacking
 250000036.md   Class-Instance
 250000035.md   Class-Variable
 250000034.md   Class-Tree
