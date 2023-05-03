@@ -206,6 +206,17 @@ class Dings(Command):
 	def Info(Self):
 		print("Tool for working with Dings")
 
+## Command: Dings-Bash-Completion
+class Dings_Completion(Dings):
+	def __init__(Self):
+		super().__init__()
+		Self.Name = __class__.__name__.lower()
+	def Run(Self):
+		print(Self.Remaining_Argument_List)
+		quit(0)
+	def Info(Self):
+		print("Print Bash-Completion List");
+
 ## Command: Dings-List
 class Dings_List(Dings):
 	def __init__(Self):
@@ -291,6 +302,7 @@ class Dings_Test_Run(Dings_Test):
 ## Command-List
 Command_List = {
 	"dings": Dings(),
+	"dings_completion": Dings_Completion(),
 	"dings_list": Dings_List(),
 	"dings_test": Dings_Test(),
 	"dings_test_generate": Dings_Test_Generate(),
