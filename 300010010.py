@@ -586,7 +586,6 @@ class Command:
 				print(f"{Self.Get_Command_Name()}: Invalid Option: {Argument_List[i]}", file=Sys.stderr)
 				Invalid = True
 			else:
-				print(f"Add: {Argument_List[i]}")
 				Self.Remaining_Argument_List.append(Argument_List[i])
 		if (Invalid):
 			quit(1)
