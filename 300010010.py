@@ -5,12 +5,12 @@ The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 """
 ## Imports
 from enum import Enum
-import os
-import re
-import sys
+import os as Os
+import re as Re
+import sys as Sys
 
 ## Directory containing the Markdown Files
-Dings_Directory = os.getcwd()
+Dings_Directory = Os.getcwd()
 
 ## Regular-Expressions
 ### Dings-Regular-Expressions
@@ -23,7 +23,7 @@ def Test_Reg_Exp(Reg_Exp, Line):
 	print(f'"{Line}" -> "{Match}"')
 
 ### Get File-Extension
-File_Extension_Reg_Exp = re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
+File_Extension_Reg_Exp = Re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
 
 def File_Extension_Reg_Exp_Test():
 	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.pl')
@@ -38,7 +38,7 @@ def Get_File_Extension(File_Path):
 		return Match.group(1)
 
 ### Get Dings-Name from First-Line
-Name_Reg_Exp = re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
+Name_Reg_Exp = Re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
 
 def Name_Reg_Exp_Test():
 	Test_Reg_Exp(Name_Reg_Exp, '# Michael-Holzheu')
@@ -49,14 +49,14 @@ def Name_Reg_Exp_Test():
 	Test_Reg_Exp(Name_Reg_Exp, '# Brașov')
 
 ### Get Number from Number-File
-Number_Reg_Exp = re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')
+Number_Reg_Exp = Re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')
 
 def Number_Reg_Exp_Test():
 	Test_Reg_Exp(Number_Reg_Exp, '0.md')
 	Test_Reg_Exp(Number_Reg_Exp, '341324.md')
 
 ### Get Reference from Line
-Reference_Reg_Exp = re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Number_File + '\)' + ')')
+Reference_Reg_Exp = Re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Number_File + '\)' + ')')
 
 def Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.')
@@ -65,13 +65,13 @@ def Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Reference_Reg_Exp, 'Height is a [Dimension-Interval](10000021.md) for the [Altitude-Dimension](10000030.md).')
 
 ### Get Name from Reference
-Name_From_Reference_Reg_Exp = re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Number_File + '\)')
+Name_From_Reference_Reg_Exp = Re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Number_File + '\)')
 
 def Name_From_Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Name_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
 
 ### Get Number from Reference
-Number_From_Reference_Reg_Exp = re.compile('\[' + Reg_Exp_Name + '\]' + '\(' + '(' + '\d+' + ')' + '.' + '\w+' + '\)')
+Number_From_Reference_Reg_Exp = Re.compile('\[' + Reg_Exp_Name + '\]' + '\(' + '(' + '\d+' + ')' + '.' + '\w+' + '\)')
 
 def Number_From_Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Number_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
@@ -101,7 +101,7 @@ def Print_Number_File(Number_File):
 
 ## Read Data of a Number-File
 def Read_Number_File(File_Name):
-	with open(os.path.join(Dings_Directory, File_Name), 'r') as File:
+	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		First_Line = File.readline()
 	Name = Name_Reg_Exp.match(First_Line).group(1)
 	Number = Number_Reg_Exp.match(File_Name).group(1)
@@ -118,7 +118,7 @@ def Read_Number_File(File_Name):
 def Read_Number_File_References(File_Name):
 	Source_Number = Number_Reg_Exp.match(File_Name).group(1)
 	Source = Number_File_List[int(Source_Number)]
-	with open(os.path.join(Dings_Directory, File_Name), 'r') as File:
+	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		Lines = File.readlines()
 	for Line in Lines:
 		Match = Reference_Reg_Exp.search(Line)
@@ -129,10 +129,10 @@ def Read_Number_File_References(File_Name):
 		Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
 
 		if not int(Source_Number) in Number_File_List:
-			print(f"Source-Number {Source_Number} not found.", file=sys.stderr)
+			print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
 			continue
 		if not int(Target_Number) in Number_File_List:
-			print(f"Target-Number {Target_Number} not found.", file=sys.stderr)
+			print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
 			continue
 		Target = Number_File_List[int(Target_Number)]
 		Reference = {}
@@ -145,13 +145,13 @@ def Read_Number_File_References(File_Name):
 ## Read all Number-Files into a [Linked-List](250000019.md)
 def Read_Number_File_List():
 	### Loop over all Files in the Directory
-	for File_Name in os.listdir(Dings_Directory):
+	for File_Name in Os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
 			continue
 		Number_File = Read_Number_File(File_Name)
 		#### Append Number-File-Dictionary to Number-File-List
 		Number_File_List[Number_File['Number']] = Number_File
-	for File_Name in os.listdir(Dings_Directory):
+	for File_Name in Os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
 			continue
 		Read_Number_File_References(File_Name)
@@ -207,8 +207,8 @@ class Code_To_Markdown:
 # Convert Python-Code ot Markdown
 class Python_To_Markdown(Code_To_Markdown):
 	def __init__(Self):
-		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
-		Self.Reg_Exp_Comment = re.compile('^' + '"""' + '\s*')
+		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment = Re.compile('^' + '"""' + '\s*')
 		super().__init__()
 
 	def Handle_State_Init(Self, Line):
@@ -254,9 +254,9 @@ class Python_To_Markdown(Code_To_Markdown):
 # Convert Perl-Code to Markdown
 class Perl_To_Markdown(Code_To_Markdown):
 	def __init__(Self):
-		Self.Reg_Exp_Heading = re.compile('^' + '#+' + ' ' + '.*')
-		Self.Reg_Exp_Comment_Start = re.compile('^' + '=for comment' + '\s*')
-		Self.Reg_Exp_Comment_End = re.compile('^' + '=cut' + '\s*')
+		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Comment_Start = Re.compile('^' + '=for comment' + '\s*')
+		Self.Reg_Exp_Comment_End = Re.compile('^' + '=cut' + '\s*')
 		super().__init__()
 
 	def Handle_State_Init(Self, Line):
@@ -302,10 +302,10 @@ class Perl_To_Markdown(Code_To_Markdown):
 # Convert Css-Code to Markdown
 class Css_To_Markdown(Code_To_Markdown):
 	def __init__(Self):
-		Self.Reg_Exp_Heading = re.compile('^' + ' \* ' + '\s+' + '(' + '#+' + ' ' + '.*' + ')')
-		Self.Reg_Exp_Comment_One_Line = re.compile('^' + '/' + '\*' + '\s+' +'(' + '.*' + ')' + '\*' + '/' + '\s*')
-		Self.Reg_Exp_Comment_Start = re.compile('^' + '/' + '\*' + '\s*')
-		Self.Reg_Exp_Comment_End = re.compile('^' + '\*' + '/' + '\s*')
+		Self.Reg_Exp_Heading = Re.compile('^' + ' \* ' + '\s+' + '(' + '#+' + ' ' + '.*' + ')')
+		Self.Reg_Exp_Comment_One_Line = Re.compile('^' + '/' + '\*' + '\s+' +'(' + '.*' + ')' + '\*' + '/' + '\s*')
+		Self.Reg_Exp_Comment_Start = Re.compile('^' + '/' + '\*' + '\s*')
+		Self.Reg_Exp_Comment_End = Re.compile('^' + '\*' + '/' + '\s*')
 		super().__init__()
 
 	def Handle_State_Init(Self, Line):
@@ -384,17 +384,17 @@ def Language_To_Markdown(File_Path):
 	elif File_Extension == "css":
 		To_Markdown = Css_To_Markdown()
 	else:
-		print(f"File-Type not supported: {File_Path}", file=sys.stderr)
+		print(f"File-Type not supported: {File_Path}", file=Sys.stderr)
 		quit()
 	To_Markdown.Convert(File_Path)
 
 # Test Language-To-Markdown Functions
 def Language_To_Markdown_Test():
-	File_Path = os.path.join(Dings_Directory, "300010010.py")
+	File_Path = Os.path.join(Dings_Directory, "300010010.py")
 	Language_To_Markdown(File_Path)
-	File_Path = os.path.join(Dings_Directory, "300010011.pl")
+	File_Path = Os.path.join(Dings_Directory, "300010011.pl")
 	Language_To_Markdown(File_Path)
-	File_Path = os.path.join(Dings_Directory, "300000014.css")
+	File_Path = Os.path.join(Dings_Directory, "300000014.css")
 	Language_To_Markdown(File_Path)
 
 ## Test Number File

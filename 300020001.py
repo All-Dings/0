@@ -5,10 +5,9 @@ The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-P
 '''
 import Dings as Dings_Lib
 from io import StringIO
-import contextlib
-import re
-import sys
-import typing
+import contextlib as Context_Lib
+import re as Re
+import sys as Sys
 
 # Convert Combined-String to Mixed-Case
 def To_Mixed_Case(String):
@@ -75,7 +74,7 @@ class String_Option(Option):
 			Argument = Argument_List[i]
 			if (Argument.lower() == '-' + Self.Name[0 : len(Argument) - 1]):
 				if i == len(Argument_List) - 1:
-					print(f"{Command_Name}: Option -{Self.Name} requires a Value ", file=sys.stderr)
+					print(f"{Command_Name}: Option -{Self.Name} requires a Value ", file=Sys.stderr)
 					quit(1)
 				Self.Set = True
 				Self.Value = Argument_List[i + 1]
@@ -121,10 +120,10 @@ class Command:
 			Match_List = Self.Get_Match_List_At_Position(i)
 			if (len(Match_List) > 1):
 				Unique = False
-				print(f"{Self.Command_Name()}: Options not unique: ", file=sys.stderr)
+				print(f"{Self.Command_Name()}: Options not unique: ", file=Sys.stderr)
 				for Option in Match_List:
 					Argument = Argument_List[Option.Match[0]]
-					print(f" {Argument}: {Option.Name} ", file=sys.stderr)
+					print(f" {Argument}: {Option.Name} ", file=Sys.stderr)
 		if (not Unique):
 			quit(1)
 
@@ -133,7 +132,7 @@ class Command:
 		for i in range (0, len(Argument_List)):
 			Match_List = Self.Get_Match_List_At_Position(i)
 			if (len(Match_List) == 0 and Argument_List[i][0] == "-"):
-				print(f"{Self.Command_Name()}: Invalid Option: {Argument_List[i]}", file=sys.stderr)
+				print(f"{Self.Command_Name()}: Invalid Option: {Argument_List[i]}", file=Sys.stderr)
 				Invalid = True
 			else:
 				Self.Remaining_Argument_List.append(Argument_List[i])
@@ -241,7 +240,7 @@ class Dings_Test_Generate(Dings_Test):
 			Output_File_Name = Dings_Lib.Test_Output_File_Name(Test_Name)
 			print(f"Generate: {Output_File_Name}")
 			with open(Output_File_Name, 'w') as File:
-				with contextlib.redirect_stdout(File):
+				with Context_Lib.redirect_stdout(File):
 					Test_Function()
 		quit(0)
 	def Info(Self):
@@ -257,14 +256,14 @@ class Dings_Test_Run(Dings_Test):
 			Test_Regexp = ".*"
 		else:
 			Test_Regexp = Self.Remaining_Argument_List[0]
-		Test_Reg_Exp = re.compile(Test_Regexp)
+		Test_Reg_Exp = Re.compile(Test_Regexp)
 		Test_List = Dings_Lib.Get_Test_List()
 		for Test_Name, Test_Function in Test_List.items():
 			if (Test_Reg_Exp.match(Test_Name)):
-				Old_Stdout = sys.stdout
-				sys.stdout = Result = StringIO()
+				Old_Stdout = Sys.stdout
+				Sys.stdout = Result = StringIO()
 				Test_Function()
-				sys.stdout = Old_Stdout
+				Sys.stdout = Old_Stdout
 				Output_File_Name = Dings_Lib.Test_Output_File_Name(Test_Name)
 				with open(Output_File_Name) as File: Expected_Result = File.read()
 				if (Result.getvalue() == Expected_Result):
@@ -294,7 +293,7 @@ def Add_Sub_Commands(Command_List):
 
 # Entry-Point
 def Main():
-	Argument_List = sys.argv.copy()
+	Argument_List = Sys.argv.copy()
 	Argument_List.pop(0)
 	Add_Sub_Commands(Command_List)
 	Command = Command_List["dings"].Parse_Commands(Argument_List);
