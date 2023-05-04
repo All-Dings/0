@@ -227,6 +227,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010012.md     Landes-Theather-Tübingen
 2010011.md     Stocher-Kahn-Fahrten-Tübingen
 18071962.md    Delhi-Palace-Tübingen
 2010010.md     Bäckerei-Gehr-Hintere-Grabenstraße-Tübingen
