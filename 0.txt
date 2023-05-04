@@ -36,7 +36,6 @@
 
 ### Programming-Study
 
-302030001.pl.  
 302030000.md   Programming-Study  
 
 ### My Man-Machine-Study
