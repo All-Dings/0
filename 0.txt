@@ -1436,6 +1436,7 @@
 
 # All
 
+60117.md       Bad-Luck
 60116.md       Luck
 60115.md       Recognition
 60114.md       Prize
