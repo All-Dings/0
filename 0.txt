@@ -605,6 +605,7 @@
 
 # Profession 
 
+80000005.md    Manager
 80000004.md    Telephonist
 80000003.md    Taxi-Driver
 80000002.md    Mathematician
