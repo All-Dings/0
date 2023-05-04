@@ -53,5 +53,9 @@ RUN ln -s 15.gitconfig .gitconfig
 # ### Install vim Base Package
 RUN apt-get install -y vim
 
+# ## ImageMagic
+#
+RUN apt-get install -y imagemagick
+
 # ### Setup Configuration File (vimrc)
 RUN ln -s 13.vimrc .vimrc
