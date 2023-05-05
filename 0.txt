@@ -634,7 +634,7 @@
 
 # Famous-Document
 
-71000003.md    The-Hitchhiker's-Guide-to-the-Galaxy
+71000003.md    The_Hitchhiker's_Guide_to_the_Galaxy
 71000002.md    On-Computable-Numbers
 71000000.md    Famous-Document
 
