@@ -3,7 +3,7 @@
 
 The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-Programming-Language](9010003.md).
 '''
-import Dings as Dings_Lib
+import Dings_Lib
 from io import StringIO
 import contextlib as Context_Lib
 import re as Re
@@ -76,6 +76,30 @@ class Dings_Completion_Command(Dings_Lib.Command):
 		quit(0)
 	def Info(Self):
 		print("Print Bash-Completion List");
+
+## Command: Dings-Generate
+class Dings_Generate_Command(Dings_Command):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_generate"
+		Self.Argument_String = "INPUT-FILE"
+	def Run(Self):
+		if (not Self.Remaining_Argument_List):
+			print(f"Error: No Input-File specified", file=Sys.stderr)
+			quit(1)
+		if (len(Self.Remaining_Argument_List) > 1):
+			print(f"Error: Too many Arguments specified: Self.Remaining_Argument_List", file=Sys.stderr)
+			quit(1)
+		Input_File_Name = Self.Remaining_Argument_List[0]
+		Input_File_Extension = Dings_Lib.Get_File_Extension(Input_File_Name)
+		Output_File_Name = Input_File_Name.replace("." + Input_File_Extension, ".md")
+		with open(Output_File_Name, 'w') as File:
+			with Context_Lib.redirect_stdout(File):
+				Dings_Lib.Language_To_Markdown(Input_File_Name)
+		quit(0)
+	def Info(Self):
+		print("Automatically transform INPUT-FILE into Markdown-File.");
 
 ## Command: Dings-List
 class Dings_List_Command(Dings_Lib.Command):
