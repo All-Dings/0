@@ -37,6 +37,17 @@ RUN ln -s 14.bashrc .bashrc
 #
 RUN apt-get install -y man
 
+# ## Python3
+#
+# ### Install Python-3 Base Package
+RUN apt-get install -y python3
+
+# ### Install pip Pyhton-Packet-Manager
+RUN apt-get install -y pip
+
+# ### Install Time-Zone-Support
+RUN pip install pip install pytz
+
 # ## Git Version Control
 #
 # ### Install Git Base Package
