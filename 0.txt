@@ -226,9 +226,6 @@
 ## `250000000` Programming
 
 250020001.md   Python-Sorted-Function
-250020000.py   Python-Basics
-
-250010000.pl   Perl-Basics
 
 # Government
 
