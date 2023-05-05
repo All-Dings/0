@@ -1175,7 +1175,7 @@
 
 # Healing
 
-1000001.md     Healy-Device
+1000002.md     Healy-Device
 1000000.md     Healing
 
 # Medical-Drug
