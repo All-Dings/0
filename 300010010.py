@@ -8,9 +8,20 @@ from enum import Enum
 import os as Os
 import re as Re
 import sys as Sys
+import datetime
 
 ## Directory containing the Markdown Files
 Dings_Directory = Os.getcwd()
+
+## Blog-Chain-Time
+### Get the current Blog-Chain-Time
+def Get_Current_Bct():
+	Bct_Format = '%Y.%m.%d-%H:%M:%S'
+	Time_Now = datetime.datetime.now()
+	return Time_Now.strftime(Bct_Format)
+
+def Get_Current_Bct_Test():
+	print(Get_Current_Bct())
 
 ## Regular-Expressions
 ### Dings-Regular-Expressions
@@ -172,6 +183,10 @@ class Code_To_Markdown:
 	def Process_End(Self):
 		if Self.State == Self.States.Code:
 			print("```")
+		print("")
+		print("```")
+		print(f"Auto-Generated: {Get_Current_Bct()}")
+		print("```")
 
 	def Process_Line(Self, Line, Line_Number):
 		Line = Line.rstrip()
