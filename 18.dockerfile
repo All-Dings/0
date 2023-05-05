@@ -46,7 +46,8 @@ RUN apt-get install -y python3
 RUN apt-get install -y pip
 
 # ### Install Time-Zone-Support
-RUN pip install pip install pytz
+RUN pip install pytz
+RUN pip install tzlocal
 
 # ## Git Version Control
 #
