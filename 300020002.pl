@@ -5,6 +5,6 @@ The Dings-Tool-Perl is the [Dings-Tool](300020000.md) written in the [Perl-Progr
 =cut
 
 BEGIN {push @INC, '.'}
-use Dings;
+use Dings_Lib;
 
-Dings::File_Extension_Reg_Exp_Test();
+Dings_Lib::File_Extension_Reg_Exp_Test();

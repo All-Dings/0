@@ -175,7 +175,7 @@ def Print_Number_File_List():
 	for Number_File in Number_File_List_Sorted:
 		Print_Number_File(Number_File)
 
-## Base-Class Code-To-Markdown
+# Base-Class Code-To-Markdown
 class Code_To_Markdown:
 	def __init__(Self):
 		Self.States = Enum('States', ['Init', 'Heading', 'Comment', 'Code'])
@@ -220,7 +220,7 @@ class Code_To_Markdown:
 			Line_Number = Line_Number + 1
 		Self.Process_End()
 
-# Convert Python-Code ot Markdown
+## Convert Python-Code to Markdown
 class Python_To_Markdown(Code_To_Markdown):
 	def __init__(Self):
 		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
@@ -267,7 +267,7 @@ class Python_To_Markdown(Code_To_Markdown):
 		else:
 			print(Line)
 
-# Convert Perl-Code to Markdown
+## Convert Perl-Code to Markdown
 class Perl_To_Markdown(Code_To_Markdown):
 	def __init__(Self):
 		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
