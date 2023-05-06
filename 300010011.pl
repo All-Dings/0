@@ -23,7 +23,7 @@ my $Dings_Directory = getcwd;
 ## Regular-Expressions
 
 my $Reg_Exp_Number_File = '\d+' . '.' . '\w+';
-my $Reg_Exp_Name = '[' . '\"\=\?\!\:\(\)\#\-\w\s@' . ']' . '+';
+my $Reg_Exp_Name = '[' . '\"\=\?\!\:\(\)\#\-\w\s@\'' . ']' . '+';
 
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
 sub Reg_Exp_Test($$)

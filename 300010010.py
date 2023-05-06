@@ -26,7 +26,7 @@ def Get_Current_Bct_Test():
 ## Regular-Expressions
 ### Dings-Regular-Expressions
 Reg_Exp_Number_File = '\d+' + '.' + '\w+'
-Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@' + ')' + '+'
+Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@|\'' + ')' + '+'
 
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
 def Test_Reg_Exp(Reg_Exp, Line):
