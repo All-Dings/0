@@ -230,7 +230,7 @@ class Python_To_Markdown(Code_To_Markdown):
 	def Handle_State_Init(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			Self.State = Self.States.Heading
-			print(Line)
+			print(f"\n{Line}")
 		elif Self.Reg_Exp_Comment.match(Line):
 			Self.State = Self.States.Comment
 		else:
@@ -240,7 +240,7 @@ class Python_To_Markdown(Code_To_Markdown):
 
 	def Handle_State_Heading(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
-			print(Line)
+			print(f"\n{Line}")
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment.match(Line):
 			Self.State = Self.State.Comment
@@ -252,7 +252,7 @@ class Python_To_Markdown(Code_To_Markdown):
 	def Handle_State_Code(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print("```")
-			print(Line)
+			print(f"\n{Line}")
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment.match(Line):
 			print("```")
@@ -278,7 +278,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 	def Handle_State_Init(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			Self.State = Self.States.Heading
-			print(Line)
+			print(f"\n{Line}")
 		elif Self.Reg_Exp_Comment_Start.match(Line):
 			Self.State = Self.States.Comment
 		else:
@@ -288,7 +288,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 
 	def Handle_State_Heading(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
-			print(Line)
+			print(f"\n{Line}")
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment_Start.match(Line):
 			Self.State = Self.State.Comment
@@ -300,7 +300,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 	def Handle_State_Code(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			print("```")
-			print(Line)
+			print(f"\n{Line}")
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment_Start.match(Line):
 			print("```")
@@ -328,7 +328,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		Match = Self.Reg_Exp_Heading.match(Line)
 		if Match:
 			Self.State = Self.States.Heading
-			print(Match.group(1))
+			print(f"\n{Match.group(1)}")
 			return
 		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
 		if Match:
@@ -347,7 +347,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		Match = Self.Reg_Exp_Heading.match(Line)
 		if Match:
 			Self.State = Self.States.Heading
-			print(Match.group(1))
+			print(f"\n{Match.group(1)}")
 			return
 		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
 		if Match:
@@ -367,7 +367,7 @@ class Css_To_Markdown(Code_To_Markdown):
 		if Match:
 			Self.State = Self.States.Heading
 			print("```")
-			print(Match.group(1))
+			print(f"\n{Match.group(1)}")
 			return
 		Match = Self.Reg_Exp_Comment_One_Line.match(Line)
 		if Match:

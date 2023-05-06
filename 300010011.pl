@@ -328,7 +328,7 @@ sub Handle_State_Init($$)
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 		$Self->{State} = Code_To_Markdown::Heading;
-		print "$Line\n";
+		print "\n$Line\n";
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
 		$Self->{State} = Code_To_Markdown::Comment;
 	} else {
@@ -344,7 +344,7 @@ sub Handle_State_Heading($$)
 	my $Line = $_[1];
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
-		print "$Line\n";
+		print "\n$Line\n";
 		$Self->{State} = Code_To_Markdown::Heading;
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
 		$Self->{State} = Code_To_Markdown::Comment;
@@ -362,7 +362,7 @@ sub Handle_State_Code($$)
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 		print "```\n";
-		print "$Line\n";
+		print "\n$Line\n";
 		$Self->{State} = Code_To_Markdown::Heading;
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
 		print "```\n";
@@ -406,7 +406,7 @@ sub Handle_State_Init($$)
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 		$Self->{State} = Code_To_Markdown::Heading;
-		print "$Line\n";
+		print "\n$Line\n";
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
 		$Self->{State} = Code_To_Markdown::Comment;
 	} else {
@@ -422,7 +422,7 @@ sub Handle_State_Heading($$)
 	my $Line = $_[1];
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
-		print "$Line\n";
+		print "\n$Line\n";
 		$Self->{State} = Code_To_Markdown::Heading;
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
 		$Self->{State} = Code_To_Markdown::Comment;
@@ -440,7 +440,7 @@ sub Handle_State_Code($$)
 
 	if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 		print "```\n";
-		print "$Line\n";
+		print "\n$Line\n";
 		$Self->{State} = Code_To_Markdown::Heading;
 	} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
 		print "```\n";
