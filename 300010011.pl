@@ -329,7 +329,7 @@ package Python_To_Markdown;
 
 		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 			$Self->{State} = Code_To_Markdown::Heading;
-			print "\n$Line\n";
+			print "$Line\n";
 		} elsif ($Line =~ /$Self->{Reg_Exp_Comment}/) {
 			$Self->{State} = Code_To_Markdown::Comment;
 		} else {
@@ -407,7 +407,7 @@ package Perl_To_Markdown;
 
 		if ($Line =~ /$Self->{Reg_Exp_Heading}/) {
 			$Self->{State} = Code_To_Markdown::Heading;
-			print "\n$Line\n";
+			print "$Line\n";
 		} elsif ($Line =~ /$Self->{Reg_Exp_Comment_Start}/) {
 			$Self->{State} = Code_To_Markdown::Comment;
 		} else {
