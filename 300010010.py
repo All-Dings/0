@@ -58,6 +58,7 @@ def Name_Reg_Exp_Test():
 	Test_Reg_Exp(Name_Reg_Exp, '# michael-holzheu@Git-Hub')
 	Test_Reg_Exp(Name_Reg_Exp, '# Michael_Holzheu-Neu')
 	Test_Reg_Exp(Name_Reg_Exp, '# Brașov')
+	Test_Reg_Exp(Name_Reg_Exp, '# Douglas_Noël_Adams')
 
 ### Get Number from Number-File
 Number_Reg_Exp = Re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')

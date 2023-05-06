@@ -68,6 +68,7 @@ sub Name_Reg_Exp_Test()
 	Reg_Exp_Test($Name_Reg_Exp, '# michael-holzheu@Git-Hub');
 	Reg_Exp_Test($Name_Reg_Exp, '# Michael_Holzheu-Neu');
 	Reg_Exp_Test($Name_Reg_Exp, '# Brașov');
+	Reg_Exp_Test($Name_Reg_Exp, '# Douglas_Noël_Adams');
 }
 
 ### Get Number From Number-File
