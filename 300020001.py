@@ -101,11 +101,11 @@ class Dings_Generate_Command(Dings_Command):
 	def Info(Self):
 		print("Automatically transform INPUT-FILE into Markdown-File.");
 
-## Command: Dings-Ls
-class Dings_Ls_Command(Dings_Lib.Command):
+## Command: Dings-List
+class Dings_List_Command(Dings_Lib.Command):
 	def __init__(Self):
 		super().__init__()
-		Self.Name = "dings_ls"
+		Self.Name = "dings_list"
 		Self.Help_On_Empty = False
 	def Run(Self):
 		Dings_Lib.Read_Number_File_List()
