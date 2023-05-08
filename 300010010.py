@@ -102,14 +102,22 @@ def Quicksort_List_of_Dictionary(List, Key):
 	Right = [Element for Element in List if Element[Key] > Pivot]
 	return Quicksort_List_of_Dictionary(Left, Key) + Middle + Quicksort_List_of_Dictionary(Right, Key)
 
+## Class Number-File
+class Number_File_Class:
+	def __init__(Self, Number, Name):
+		Self.Name = Name
+		Self.Number = Number
+		Self.Source_References = []
+		Self.Target_References = []
+
 ## Print Number-File
 def Print_Number_File(Number_File):
-	Name = Number_File['Name']
-	Number = Number_File['Number']
+	Name = Number_File.Name
+	Number = Number_File.Number
 	print(f'{Number} "{Name}"')
-	for Reference in Number_File['Target_References']:
-		Source = Reference['Source']
-		print(f"  - {Reference['Name']} [{Source['Name']}]({Source['Number']})")
+	for Reference in Number_File.Target_References:
+		Number_File = Reference['Source']
+		print(f"  - {Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
 
 ## Read Data of a Number-File
 def Read_Number_File(File_Name):
@@ -119,11 +127,7 @@ def Read_Number_File(File_Name):
 	Number = Number_Reg_Exp.match(File_Name).group(1)
 
 	### Define new [Dictionary](250000018.md) for Number-File
-	Number_File = {}
-	Number_File['Number'] = int(Number)
-	Number_File['Name'] = Name.strip()
-	Number_File['Source_References'] = []
-	Number_File['Target_References'] = []
+	Number_File = Number_File_Class(int(Number), Name.strip())
 	return Number_File
 
 ## Read References of a Number-File
@@ -151,8 +155,8 @@ def Read_Number_File_References(File_Name):
 		Reference['Source'] = Source
 		Reference['Target'] = Target
 		Reference['Name'] = Target_Name
-		Source['Source_References'].append(Reference)
-		Target['Target_References'].append(Reference)
+		Source.Source_References.append(Reference)
+		Target.Target_References.append(Reference)
 
 ## Read all Number-Files into a [Linked-List](250000019.md)
 def Read_Number_File_List():
@@ -162,7 +166,7 @@ def Read_Number_File_List():
 			continue
 		Number_File = Read_Number_File(File_Name)
 		#### Append Number-File-Dictionary to Number-File-List
-		Number_File_List[Number_File['Number']] = Number_File
+		Number_File_List[Number_File.Number] = Number_File
 	for File_Name in Os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
 			continue
@@ -171,7 +175,7 @@ def Read_Number_File_List():
 ## Print all Number-Files
 def Print_Number_File_List():
 	Number_File_List_Sorted = list(Number_File_List.values())
-	Number_File_List_Sorted = sorted(Number_File_List_Sorted, key=lambda x: x['Number'])
+	Number_File_List_Sorted = sorted(Number_File_List_Sorted, key=lambda x: x.Number)
 	for Number_File in Number_File_List_Sorted:
 		Print_Number_File(Number_File)
 
