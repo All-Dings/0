@@ -33,7 +33,7 @@ class Dings_Command_Class(Dings_Lib.Command_Class):
 	def Run(Self):
 		return 0
 	def Info(Self):
-		print("Tool for working with Dings.");
+		print("Tool for working with Dings.")
 
 def Get_Command_List(Argument_List, Start_Pos):
 	Argument = ""
@@ -66,6 +66,20 @@ def Get_Command_List(Argument_List, Start_Pos):
 				break
 	return Answer
 
+## Command: Dings-Ls
+class Dings_Ls_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_ls"
+	def Run(Self):
+		Dings_Lib.Read_Number_File_List()
+		Dings_Lib.Print_Number_File_Targets(int(Self.Remaining_Argument_List[0]))
+		return 0
+
+	def Info(Self):
+		print("List Number-File")
+
 ## Command: Dings-Shell
 class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
@@ -86,7 +100,7 @@ class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
 			#	if (Command.Name.startswith(Self.Prefix)):
 			#		print(Command.Name[len(Self.Prefix):])
 	def Info(Self):
-		print("Start a Shell-Session");
+		print("Start a Shell-Session")
 
 ## Command: Dings-Bash-Completion
 class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
@@ -128,7 +142,7 @@ class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
 		print(Answer)
 		return 0
 	def Info(Self):
-		print("Print Bash-Completion List");
+		print("Print Bash-Completion List")
 
 ## Command: Dings-Generate
 class Dings_Generate_Command_Class(Dings_Command_Class):
@@ -152,7 +166,7 @@ class Dings_Generate_Command_Class(Dings_Command_Class):
 				Dings_Lib.Language_To_Markdown(Input_File_Name)
 		return 0
 	def Info(Self):
-		print("Automatically transform INPUT-FILE into Markdown-File.");
+		print("Automatically transform INPUT-FILE into Markdown-File.")
 
 ## Command: Dings-List
 class Dings_List_Command_Class(Dings_Lib.Command_Class):
@@ -165,7 +179,7 @@ class Dings_List_Command_Class(Dings_Lib.Command_Class):
 		Dings_Lib.Print_Number_File_List()
 		return 0
 	def Info(Self):
-		print("List Dings");
+		print("List Dings")
 
 ## Command: Dings-Test
 class Dings_Test_Command_Class(Dings_Lib.Command_Class):
@@ -176,7 +190,7 @@ class Dings_Test_Command_Class(Dings_Lib.Command_Class):
 	def Run(Self):
 		return 0
 	def Info(Self):
-		print("Run Test-Cases");
+		print("Run Test-Cases")
 
 ## Command: Dings-Test-List
 class Dings_Test_List_Command_Class(Dings_Test_Command_Class):
@@ -191,7 +205,7 @@ class Dings_Test_List_Command_Class(Dings_Test_Command_Class):
 			print(Test_Name)
 		return 0
 	def Info(Self):
-		print("List Test-Cases");
+		print("List Test-Cases")
 
 ## Command: Dings-Test-Generate
 class Dings_Test_Generate_Command_Class(Dings_Test_Command_Class):
@@ -209,7 +223,7 @@ class Dings_Test_Generate_Command_Class(Dings_Test_Command_Class):
 					Test_Function()
 		return 0
 	def Info(Self):
-		print("Run Test-Cases");
+		print("Run Test-Cases")
 
 ## Command: Dings-Test-Run
 class Dings_Test_Run_Command_Class(Dings_Test_Command_Class):
@@ -238,7 +252,7 @@ class Dings_Test_Run_Command_Class(Dings_Test_Command_Class):
 					print(f"{Test_Name}: Fail")
 		return 0
 	def Info(Self):
-		print("Run Test-Cases");
+		print("Run Test-Cases")
 
 # Entry-Point
 def Main():

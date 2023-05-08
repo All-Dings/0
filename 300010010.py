@@ -119,6 +119,13 @@ def Print_Number_File(Number_File):
 		Number_File = Reference['Source']
 		print(f"  - {Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
 
+## Print Number-File-Targets
+def Print_Number_File_Targets(Number):
+	Number_File = Number_File_List[Number]
+	for Reference in Number_File.Source_References:
+		Number_File = Reference['Target']
+		print(f"{Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
+
 ## Read Data of a Number-File
 def Read_Number_File(File_Name):
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
