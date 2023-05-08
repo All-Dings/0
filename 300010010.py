@@ -575,7 +575,13 @@ class Command_Class:
 		elif (Command.Help_On_Empty and not Command.Remaining_Argument_List):
 			Command.Help()
 		else:
-			Command.Run()
+			quit(Command.Run())
+
+	## Run Sub-Command
+	@classmethod
+	def Run_Command(Class, Command_Name, Argument_List):
+		Class.Command_List["dings_" + Command_Name].Remaining_Argument_List = Argument_List
+		Class.Command_List["dings_" + Command_Name].Run()
 
 	def Get_Match_List_At_Position(Self, Position):
 		Match_List = []

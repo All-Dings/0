@@ -31,9 +31,62 @@ class Dings_Command_Class(Dings_Lib.Command_Class):
 		Self.Name = "dings"
 		Self.Help_On_Empty = True
 	def Run(Self):
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Tool for working with Dings.");
+
+def Get_Command_List(Argument_List, Start_Pos):
+	Argument = ""
+	if (Argument_List):
+		for Arg in Argument_List:
+			if Argument == "":
+				Argument = Arg
+			else:
+				Argument = Argument + "_" + Arg
+	Argument = Argument.lower()
+	Answer = ""
+	for Command in Dings_Command_Class.Command_List.values():
+		Pos = Start_Pos
+		# print(f"Arg={Argument} Command={Command.Name[6:]}")
+		if (Command.Name[6:] == Argument):
+			continue
+		if (Command.Name[6:].startswith(Argument)):
+			# print(Command.Name[6:].replace("_", " "))
+			Command_Parts = Command.Name[6:].split("_")
+			if (len(Command_Parts) > Pos):
+				continue
+			for Arg in Command_Parts:
+				Pos = Pos - 1
+				if (Pos > 0):
+					continue
+				if not Answer:
+					Answer = Arg
+				else:
+					Answer = Answer + " " + Arg
+				break
+	return Answer
+
+## Command: Dings-Shell
+class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_shell"
+		Self.Prefix = "dings_"
+		Self.Current = int(17)
+	def Run(Self):
+		Dings_Lib.Read_Number_File_List()
+		while(True):
+			Command = input().lower()
+			if (Command == "exit" or Command == "quit"):
+				quit(0)
+			Command_Parts = Command.split(" ")
+			Dings_Lib.Command_Class.Run_Command(Command_Parts[0], Command_Parts[1:])
+			# for Command in Dings_Command_Class.Command_List.values():
+			#	if (Command.Name.startswith(Self.Prefix)):
+			#		print(Command.Name[len(Self.Prefix):])
+	def Info(Self):
+		print("Start a Shell-Session");
 
 ## Command: Dings-Bash-Completion
 class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
@@ -53,7 +106,7 @@ class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
 					Argument = Argument + "_" + Arg
 		Argument = Argument.lower()
 		Answer = ""
-		for Command in Dings_Command.Command_List.values():
+		for Command in Dings_Command_Class.Command_List.values():
 			Pos = int(Self.Pos_Opt.Value)
 			# print(f"Arg={Argument} Command={Command.Name[6:]}")
 			if (Command.Name[6:] == Argument):
@@ -73,7 +126,7 @@ class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
 						Answer = Answer + " " + Arg
 					break
 		print(Answer)
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Print Bash-Completion List");
 
@@ -87,17 +140,17 @@ class Dings_Generate_Command_Class(Dings_Command_Class):
 	def Run(Self):
 		if (not Self.Remaining_Argument_List):
 			print(f"Error: No Input-File specified", file=Sys.stderr)
-			quit(1)
+			return 1
 		if (len(Self.Remaining_Argument_List) > 1):
 			print(f"Error: Too many Arguments specified: Self.Remaining_Argument_List", file=Sys.stderr)
-			quit(1)
+			return 1
 		Input_File_Name = Self.Remaining_Argument_List[0]
 		Input_File_Extension = Dings_Lib.Get_File_Extension(Input_File_Name)
 		Output_File_Name = Input_File_Name.replace("." + Input_File_Extension, ".md")
 		with open(Output_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
 				Dings_Lib.Language_To_Markdown(Input_File_Name)
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Automatically transform INPUT-FILE into Markdown-File.");
 
@@ -110,7 +163,7 @@ class Dings_List_Command_Class(Dings_Lib.Command_Class):
 	def Run(Self):
 		Dings_Lib.Read_Number_File_List()
 		Dings_Lib.Print_Number_File_List()
-		quit(0)
+		return 0
 	def Info(Self):
 		print("List Dings");
 
@@ -121,7 +174,7 @@ class Dings_Test_Command_Class(Dings_Lib.Command_Class):
 		Self.Name = "dings_test"
 		Self.Help_On_Empty = True
 	def Run(Self):
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Run Test-Cases");
 
@@ -136,7 +189,7 @@ class Dings_Test_List_Command_Class(Dings_Test_Command_Class):
 		Test_List = Dings_Lib.Get_Test_List()
 		for Test_Name in Test_List:
 			print(Test_Name)
-		quit(0)
+		return 0
 	def Info(Self):
 		print("List Test-Cases");
 
@@ -154,7 +207,7 @@ class Dings_Test_Generate_Command_Class(Dings_Test_Command_Class):
 			with open(Output_File_Name, 'w') as File:
 				with Context_Lib.redirect_stdout(File):
 					Test_Function()
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Run Test-Cases");
 
@@ -183,7 +236,7 @@ class Dings_Test_Run_Command_Class(Dings_Test_Command_Class):
 					print(f"{Test_Name}: Ok")
 				else:
 					print(f"{Test_Name}: Fail")
-		quit(0)
+		return 0
 	def Info(Self):
 		print("Run Test-Cases");
 
