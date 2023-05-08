@@ -110,14 +110,12 @@ class Number_File_Class:
 		Self.Source_References = []
 		Self.Target_References = []
 
-## Print Number-File
-def Print_Number_File(Number_File):
-	Name = Number_File.Name
-	Number = Number_File.Number
-	print(f'{Number} "{Name}"')
-	for Reference in Number_File.Target_References:
-		Number_File = Reference['Source']
-		print(f"  - {Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
+	## Print Number-File
+	def Print(Self):
+		print(f'{Self.Number} "{Self.Name}"')
+		for Reference in Self.Target_References:
+			Number_File = Reference['Source']
+			print(f"  - {Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
 
 ## Print Number-File-Targets
 def Print_Number_File_Targets(Number):
@@ -184,7 +182,7 @@ def Print_Number_File_List():
 	Number_File_List_Sorted = list(Number_File_List.values())
 	Number_File_List_Sorted = sorted(Number_File_List_Sorted, key=lambda x: x.Number)
 	for Number_File in Number_File_List_Sorted:
-		Print_Number_File(Number_File)
+		Number_File.Print()
 
 # Base-Class Code-To-Markdown
 class Code_To_Markdown_Class:
