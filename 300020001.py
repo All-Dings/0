@@ -10,22 +10,22 @@ import re as Re
 import sys as Sys
 
 # Test-Option
-class Test_Option(Dings_Lib.String_Option):
+class Test_Option_Class(Dings_Lib.String_Option_Class):
 	def __init__(Self):
 		super().__init__("Test", "Select Test-Case TEST", "TEST")
 
 # Test-Option
-class Test_Option_String(Dings_Lib.String_Option):
+class Test_Option_String_Class(Dings_Lib.String_Option_Class):
 	def __init__(Self):
 		super().__init__("String-Test", "Test String Option", "STRING")
 
 # Pos-Option
-class Pos_Option_String(Dings_Lib.String_Option):
+class Pos_Option_String_Class(Dings_Lib.String_Option_Class):
 	def __init__(Self):
 		super().__init__("Position", "Position in String", "POSITION")
 
 ## Command: Dings
-class Dings_Command(Dings_Lib.Command):
+class Dings_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings"
@@ -36,12 +36,12 @@ class Dings_Command(Dings_Lib.Command):
 		print("Tool for working with Dings.");
 
 ## Command: Dings-Bash-Completion
-class Dings_Completion_Command(Dings_Lib.Command):
+class Dings_Completion_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Help_On_Empty = False
 		Self.Name = "dings_completion"
-		Self.Pos_Opt = Pos_Option_String()
+		Self.Pos_Opt = Pos_Option_String_Class()
 		Self.Option_List.append(Self.Pos_Opt)
 	def Run(Self):
 		Argument = ""
@@ -78,7 +78,7 @@ class Dings_Completion_Command(Dings_Lib.Command):
 		print("Print Bash-Completion List");
 
 ## Command: Dings-Generate
-class Dings_Generate_Command(Dings_Command):
+class Dings_Generate_Command_Class(Dings_Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Help_On_Empty = False
@@ -102,7 +102,7 @@ class Dings_Generate_Command(Dings_Command):
 		print("Automatically transform INPUT-FILE into Markdown-File.");
 
 ## Command: Dings-List
-class Dings_List_Command(Dings_Lib.Command):
+class Dings_List_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_list"
@@ -115,7 +115,7 @@ class Dings_List_Command(Dings_Lib.Command):
 		print("List Dings");
 
 ## Command: Dings-Test
-class Dings_Test_Command(Dings_Lib.Command):
+class Dings_Test_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_test"
@@ -126,12 +126,12 @@ class Dings_Test_Command(Dings_Lib.Command):
 		print("Run Test-Cases");
 
 ## Command: Dings-Test-List
-class Dings_Test_List_Command(Dings_Test_Command):
+class Dings_Test_List_Command_Class(Dings_Test_Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Name = "dings_test_list"
 		Self.Help_On_Empty = False
-		Self.Option_List.append(Test_Option())
+		Self.Option_List.append(Test_Option_Class())
 	def Run(Self):
 		Test_List = Dings_Lib.Get_Test_List()
 		for Test_Name in Test_List:
@@ -141,7 +141,7 @@ class Dings_Test_List_Command(Dings_Test_Command):
 		print("List Test-Cases");
 
 ## Command: Dings-Test-Generate
-class Dings_Test_Generate_Command(Dings_Test_Command):
+class Dings_Test_Generate_Command_Class(Dings_Test_Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Help_On_Empty = False
@@ -159,7 +159,7 @@ class Dings_Test_Generate_Command(Dings_Test_Command):
 		print("Run Test-Cases");
 
 ## Command: Dings-Test-Run
-class Dings_Test_Run_Command(Dings_Test_Command):
+class Dings_Test_Run_Command_Class(Dings_Test_Command_Class):
 	def __init__(Self):
 		super().__init__()
 		Self.Help_On_Empty = False
@@ -191,7 +191,7 @@ class Dings_Test_Run_Command(Dings_Test_Command):
 def Main():
 	Argument_List = Sys.argv.copy()
 	Argument_List[0] = "dings"
-	Command_List = Dings_Lib.Get_Dict_Sub_Set(globals(), ".*_Command$")
-	Dings_Lib.Command.Parse_And_Run("dings", Command_List, Argument_List)
+	Command_List = Dings_Lib.Get_Dict_Sub_Set(globals(), ".*_Command_Class$")
+	Dings_Lib.Command_Class.Parse_And_Run("dings", Command_List, Argument_List)
 
 Main()

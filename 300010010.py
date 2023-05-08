@@ -180,7 +180,7 @@ def Print_Number_File_List():
 		Print_Number_File(Number_File)
 
 # Base-Class Code-To-Markdown
-class Code_To_Markdown:
+class Code_To_Markdown_Class:
 	def __init__(Self):
 		Self.States = Enum('States', ['Init', 'Heading', 'Comment', 'Code'])
 		Self.State = Self.States.Init
@@ -225,7 +225,7 @@ class Code_To_Markdown:
 		Self.Process_End()
 
 ## Convert Python-Code to Markdown
-class Python_To_Markdown(Code_To_Markdown):
+class Python_To_Markdown_Class(Code_To_Markdown_Class):
 	def __init__(Self):
 		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
 		Self.Reg_Exp_Comment = Re.compile('^' + '"""' + '\s*')
@@ -272,7 +272,7 @@ class Python_To_Markdown(Code_To_Markdown):
 			print(Line)
 
 ## Convert Perl-Code to Markdown
-class Perl_To_Markdown(Code_To_Markdown):
+class Perl_To_Markdown_Class(Code_To_Markdown_Class):
 	def __init__(Self):
 		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
 		Self.Reg_Exp_Comment_Start = Re.compile('^' + '=for comment' + '\s*')
@@ -320,7 +320,7 @@ class Perl_To_Markdown(Code_To_Markdown):
 			print(Line)
 
 # Convert Css-Code to Markdown
-class Css_To_Markdown(Code_To_Markdown):
+class Css_To_Markdown_Class(Code_To_Markdown_Class):
 	def __init__(Self):
 		Self.Reg_Exp_Heading = Re.compile('^' + ' \* ' + '\s+' + '(' + '#+' + ' ' + '.*' + ')')
 		Self.Reg_Exp_Comment_One_Line = Re.compile('^' + '/' + '\*' + '\s+' +'(' + '.*' + ')' + '\*' + '/' + '\s*')
@@ -398,11 +398,11 @@ class Css_To_Markdown(Code_To_Markdown):
 def Language_To_Markdown(File_Path):
 	File_Extension = Get_File_Extension(File_Path)
 	if File_Extension == "py":
-		To_Markdown = Python_To_Markdown()
+		To_Markdown = Python_To_Markdown_Class()
 	elif File_Extension == "pl":
-		To_Markdown = Perl_To_Markdown()
+		To_Markdown = Perl_To_Markdown_Class()
 	elif File_Extension == "css":
-		To_Markdown = Css_To_Markdown()
+		To_Markdown = Css_To_Markdown_Class()
 	else:
 		print(f"File-Type not supported: {File_Path}", file=Sys.stderr)
 		quit()
@@ -470,7 +470,7 @@ def To_Mixed_Case_Test():
 	print(In + " -> " + Out)
 
 # Option Base-Class
-class Option:
+class Option_Class:
 	def __init__(Self, Name, Description):
 		Self.Name = Name.lower()
 		Self.Description = Description
@@ -479,7 +479,7 @@ class Option:
 		Self.Set = False;
 
 # Single-Option without Parameters
-class Single_Option(Option):
+class Single_Option_Class(Option_Class):
 	def __init__(Self, Name, Description):
 		super().__init__(Name, Description)
 	def Parse(Self, Command_Name, Argument_List):
@@ -492,7 +492,7 @@ class Single_Option(Option):
 				return Self.Match
 
 # String-Option
-class String_Option(Option):
+class String_Option_Class(Option_Class):
 	def __init__(Self, Name, Description, Parameter_Name):
 		super().__init__(Name, Description)
 		Self.Value = ""
@@ -512,17 +512,17 @@ class String_Option(Option):
 				return Self.Match
 
 # Help-Option
-class Help_Option(Single_Option):
+class Help_Option_Class(Single_Option_Class):
 	def __init__(Self):
 		super().__init__("Help", "Print Description of Command")
 
 ## Command Base-Class
-class Command:
+class Command_Class:
 	Command_List = {}
 	Command_Name = ""
 
 	def __init__(Self):
-		Self.Help_Option = Help_Option()
+		Self.Help_Option = Help_Option_Class()
 		Self.Option_List = [
 			Self.Help_Option,
 		]
