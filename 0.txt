@@ -277,6 +277,7 @@
 
 # Business
 
+240000012.md   Tüv-Süd-Ag
 240000011.md   Mastercard
 240000010.md   Facebook-Incorporated
 240000009.md   Google-LLC
