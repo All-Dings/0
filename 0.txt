@@ -837,6 +837,7 @@
 
 # Device
 
+20000010.md    Measuring-Device
 20000009.md    Desktop-Computer
 20000008.md    Accumulator
 20000007.md    Tablet-Computer
