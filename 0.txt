@@ -1260,6 +1260,7 @@
 
 # Jurastics
 
+670009.md      Court
 670008.md      Juristics-Privacy-Right
 670007.md      License
 670006.md      Juristics-Ownership-Right
