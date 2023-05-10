@@ -528,6 +528,7 @@
 
 130010000.md   Currency
 
+130000021.md   Share
 130000020.md   Joint-Stock-Company
 130000019.md   Producing-System
 130000018.md   Producing-Company
