@@ -1260,6 +1260,7 @@
 
 # Jurastics
 
+680002.md      Land-Gericht
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
