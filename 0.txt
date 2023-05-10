@@ -1273,6 +1273,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670010.md      Amount-in-Controversy
 670009.md      Court
 670008.md      Juristics-Privacy-Right
 670007.md      License
