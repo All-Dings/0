@@ -106,6 +106,7 @@
 
 ## `1000001000` Medical-Psychological-Assessment
 
+1000001007.md     Tüv-Süd-Balingen
 1000001006.md     Mr-V-from-Tüv-Süd-Balingen
 1000001005.md     Mrs-H-from-Tüv-Süd-Balingen
 1000001004.md     Alkohol-Hair-Analysis
@@ -528,6 +529,7 @@
 
 130010000.md   Currency
 
+130000022.md   Branch-Office
 130000021.md   Share
 130000020.md   Joint-Stock-Company
 130000019.md   Producing-System
