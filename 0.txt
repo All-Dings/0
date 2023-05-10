@@ -135,6 +135,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010017.md     Markladen-Tübingen
 2010016.md     Amts-Gericht-Tübingen
 2010015.md     Cafee-Lieb-Bahnhof-Tübingen
 2010014.md     Österberg-Tübingen
