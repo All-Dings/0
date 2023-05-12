@@ -108,7 +108,7 @@
 
 ## `1000001000` Medical-Psychological-Assessment
 
-1000001013.md     Deutsche-Gesellschaft-für-Verkehrsmedizin
+1000001013.md     Deutsche-Gesellschaft-für-Verkehrs-Medizin-DGVM
 1000001012.md     Deutsche-Gesellschaft-für-Psychologie-DGPS
 1000001011.md     Deutsche-Gesellschaft-für-Verkehrs-Psychologie-DGVP
 1000001010.md     Beurteilungs-Kriterien-Study
