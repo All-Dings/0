@@ -108,6 +108,7 @@
 
 ## `1000001000` Medical-Psychological-Assessment
 
+1000001015.md     Wolfgang_Schubert
 1000001014.md     Verkehrs-Medizin
 1000001013.md     Deutsche-Gesellschaft-für-Verkehrs-Medizin-DGVM
 1000001012.md     Deutsche-Gesellschaft-für-Psychologie-DGPS
