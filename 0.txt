@@ -286,6 +286,7 @@
 
 # Business
 
+240000014.md   Organization
 240000013.md   Kirschbaum-Verlag
 240000012.md   Tüv-Süd-Ag
 240000011.md   Mastercard
@@ -1283,6 +1284,7 @@
 
 # Jurastics
 
+680003.md      Eingetragener-Verein
 680002.md      Land-Gericht
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
