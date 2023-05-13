@@ -105,9 +105,9 @@ def Quicksort_List_of_Dictionary(List, Key):
 
 # Class Git_Commit_Number_File
 class Git_Commit_Number_File_Class:
-	def __init__(Self, Commit_Type, Number_File):
+	def __init__(Self, Commit_Type, Name):
 		Self.Commit_Type = Commit_Type
-		Self.Number_File = Number_File
+		Self.Name = Name
 
 # Class Git_Commit
 class Git_Commit_Class:
@@ -122,7 +122,7 @@ class Git_Commit_Class:
 		print(f" Sub-Module: {Self.Sub_Module}")
 		print(f"    Message: {Self.Message}")
 		for Number_File in Self.Number_File_List:
-			print(f"          {Number_File.Commit_Type}: {Number_File.Number_File}")
+			print(f"          {Number_File.Commit_Type}: {Number_File.Name}")
 		print("")
 
 ## Class Git
@@ -130,6 +130,7 @@ class Git_Class:
 	def __init__(Self):
 		Self.Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
 		Self.Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
+		Self.Number_File_Reg_Exp = Re.compile(Reg_Exp_Number_File)
 		Self.Commit_Dict = {}
 
 	def Read_All(Self):
@@ -171,23 +172,65 @@ class Git_Class:
 			elif (Line[0] == " " and not Line.startswith("    Signed-off-by")):
 				Commit.Message = Line[4:]
 				# print(f"Message: {Commit.Message}")
+			elif (Line.startswith("R100\t")):
+				Words = Line.split("\t")
+				Match = Self.Number_File_Reg_Exp.match(Words[2])
+				if not Match:
+					continue
+				Commit_Number_File = Git_Commit_Number_File_Class("A", Words[2])
+				Commit.Number_File_List.append(Commit_Number_File)
+				# print(f"Modify: {Line[2:]}")
+			# elif (Line.startswith("D\t")):
+			#	Match = Self.Number_File_Reg_Exp.match(Line[2:])
+			#	if not Match:
+			#		continue
+			#	Commit_Number_File = Git_Commit_Number_File_Class("D", Line[2:])
+			#	Commit.Number_File_List.append(Commit_Number_File)
+			# print(f"Delete: {Line[2:]}")
 			elif (Line.startswith("M\t")):
+				Match = Self.Number_File_Reg_Exp.match(Line[2:])
+				if not Match:
+					continue
 				Commit_Number_File = Git_Commit_Number_File_Class("M", Line[2:])
 				Commit.Number_File_List.append(Commit_Number_File)
 				# print(f"Modify: {Line[2:]}")
-			elif (Line.startswith("D\t")):
-				Commit_Number_File = Git_Commit_Number_File_Class("D", Line[2:])
-				Commit.Number_File_List.append(Commit_Number_File)
-				# print(f"Delete: {Line[2:]}")
 			elif (Line.startswith("A\t")):
+				Match = Self.Number_File_Reg_Exp.match(Line[2:])
+				if not Match:
+					continue
 				Commit_Number_File = Git_Commit_Number_File_Class("A", Line[2:])
 				Commit.Number_File_List.append(Commit_Number_File)
 				# print(f"Add: {Line[2:]}")
+
 	def Print_Commits(Self):
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
 		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
+		Number_File_List = {}
 		for Commit in Commit_List_Sorted:
 			Commit.Print()
+
+	def Fix_Commits(Self):
+		Commit_List_Sorted = list(Self.Commit_Dict.values())
+		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
+		Number_File_List = {}
+		for Commit in Commit_List_Sorted:
+			for Number_File in Commit.Number_File_List:
+				if Number_File.Commit_Type == "A":
+					if Number_File.Name in Number_File_List:
+						print(f"Error: {Number_File.Name} already there")
+						print("Old:")
+						Number_File_List[Number_File.Name].Print()
+						print("New:")
+						Commit.Print()
+						Number_File.Commit_Type = "M"
+					else:
+						Number_File_List[Number_File.Name] = Commit
+				if Number_File.Commit_Type == "D":
+					if not Number_File_List[Number_File.Name]:
+						print(f"Error: {Number_File.Name} not there")
+						Commit.Print()
+						quit(1)
+					del Number_File_List[Number_File.Name]
 
 ## Test Git_Class
 def Git_Class_Test():
@@ -195,7 +238,13 @@ def Git_Class_Test():
 	Git.Read_All()
 #	Git.Read_Commits("0")
 	Git.Print_Commits()
+	print("Fixing Problems")
+	Git.Fix_Commits()
+	print("Now it should work")
+	Git.Fix_Commits()
 	quit(1)
+
+Git_Class_Test()
 
 ## Class Number-File
 class Number_File_Class:
