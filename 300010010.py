@@ -103,11 +103,30 @@ def Quicksort_List_of_Dictionary(List, Key):
 	Right = [Element for Element in List if Element[Key] > Pivot]
 	return Quicksort_List_of_Dictionary(Left, Key) + Middle + Quicksort_List_of_Dictionary(Right, Key)
 
+class Git_Commit_Number_File_Class:
+	def __init__(Self, Commit_Type, Number_File):
+		Self.Commit_Type = Commit_Type
+		Self.Number_File = Number_File
+
+class Git_Commit_Class:
+	def __init__(Self, Commit_Hash):
+		Self.Hash = Commit_Hash
+		Self.Date = ""
+		Self.Message = ""
+		Self.Number_File_List = [];
+	def Print(Self):
+		print(f"Commit-Hash: {Self.Hash}")
+		print(f"    Message: {Self.Message}")
+		for Number_File in Self.Number_File_List:
+			print(f"          {Number_File.Commit_Type}: {Number_File.Number_File}")
+		print("")
+
 ## Class Git
 class Git_Class:
 	def __init__(Self):
-		Self.Git_Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
-		Self.Git_Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
+		Self.Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
+		Self.Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
+		Self.Commit_Dict = {}
 	### Get Number from Reference
 
 	def Read_Commits(Self):
@@ -119,28 +138,42 @@ class Git_Class:
 			Line = Line.rstrip()
 			if not Line:
 				continue
-			Match = Self.Git_Commit_Hash_Reg_Exp.match(Line)
+			Match = Self.Commit_Hash_Reg_Exp.match(Line)
 			if (Match):
-				Git_Commit_Hash = Match.group(1)
-				print(Git_Commit_Hash)
-			Match = Self.Git_Commit_Time_Reg_Exp.match(Line)
+				Commit_Hash = Match.group(1)
+				# print(Commit_Hash)
+				Commit = Git_Commit_Class(Commit_Hash)
+				Self.Commit_Dict[Commit_Hash] = Commit
+			Match = Self.Commit_Time_Reg_Exp.match(Line)
 			if (Match):
-				Git_Commit_Time = Match.group(1)
-				print(f"Time: {Git_Commit_Time}")
+				Commit.Time = Match.group(1)
+				# print(f"Time: {Commit.Time}")
 			elif (Line[0] == " " and not Line.startswith("    Signed-off-by")):
-				Git_Commit_Message = Line[4:]
-				print(f"Message: {Git_Commit_Message}")
+				Commit.Message = Line[4:]
+				# print(f"Message: {Commit.Message}")
 			elif (Line.startswith("M\t")):
-				print(f"Modify: {Line[2:]}")
+				Commit_Number_File = Git_Commit_Number_File_Class("M", Line[2:])
+				Commit.Number_File_List.append(Commit_Number_File)
+				# print(f"Modify: {Line[2:]}")
 			elif (Line.startswith("D\t")):
-				print(f"Delete: {Line[2:]}")
+				Commit_Number_File = Git_Commit_Number_File_Class("D", Line[2:])
+				Commit.Number_File_List.append(Commit_Number_File)
+				# print(f"Delete: {Line[2:]}")
 			elif (Line.startswith("A\t")):
-				print(f"Add: {Line[2:]}")
+				Commit_Number_File = Git_Commit_Number_File_Class("A", Line[2:])
+				Commit.Number_File_List.append(Commit_Number_File)
+				# print(f"Add: {Line[2:]}")
+	def Print_Commits(Self):
+		Commit_List_Sorted = list(Self.Commit_Dict.values())
+		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Date)
+		for Commit in Commit_List_Sorted:
+			Commit.Print()
 
 ## Test Git_Class
 def Git_Class_Test():
 	Git = Git_Class()
 	Git.Read_Commits()
+	Git.Print_Commits()
 	quit(1)
 
 ## Class Number-File
