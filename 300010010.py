@@ -26,7 +26,7 @@ def Get_Current_Bct_Test():
 
 ## Regular-Expressions
 ### Dings-Regular-Expressions
-Reg_Exp_Number_File = '\d+' + '.' + '\w+'
+Reg_Exp_Number_File = '\d+' + '\.' + '\w+'
 Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@|\'' + ')' + '+'
 
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
@@ -40,7 +40,6 @@ File_Extension_Reg_Exp = Re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
 def File_Extension_Reg_Exp_Test():
 	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.pl')
 	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.py')
-
 
 def Get_File_Extension(File_Path):
 	Match = File_Extension_Reg_Exp.search(File_Path)
@@ -132,18 +131,10 @@ class Git_Class:
 		Self.Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
 		Self.Number_File_Reg_Exp = Re.compile(Reg_Exp_Number_File)
 		Self.Commit_Dict = {}
+		Self.Sub_Modules = ["0", "111", "1000001000", "140100000", "1997080300", "2000001", "250000000", "260010000", "400000000", "888"]
 
 	def Read_All(Self):
-		Lines = Sub_Process.run(['git', 'submodule'], stdout=Sub_Process.PIPE)
-		Lines = Lines.stdout.decode()
-		Lines = Lines.split("\n")
-		for Line in Lines:
-			if not Line:
-				continue
-			if Line[0] == "+":
-				Sub_Module = Line.split(" ")[1]
-			else:
-				Sub_Module = Line.split(" ")[2]
+		for Sub_Module in Self.Sub_Modules:
 			print(Sub_Module)
 			Os.chdir(Sub_Module)
 			Self.Read_Commits(Sub_Module)
@@ -232,6 +223,30 @@ class Git_Class:
 						quit(1)
 					del Number_File_List[Number_File.Name]
 
+	def Write_Commits(Self):
+		Commit_Number = 10000000000
+		Commit_List_Sorted = list(Self.Commit_Dict.values())
+		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
+		for Commit in Commit_List_Sorted:
+			Command = "mkdir -p " + "Commits/" + str(Commit_Number)
+			Os.system(Command)
+			print(f"Commit: {Commit.Hash} {Commit.Message}")
+			if Commit_Number != 10000000000:
+				Last_Commit_Dir = "Commits/" + str(Commit_Number - 1)
+				This_Commit_Dir = "Commits/" + str(Commit_Number)
+				for File_Name in Os.listdir(Last_Commit_Dir):
+					Os.link(Last_Commit_Dir + "/" + File_Name, This_Commit_Dir + "/" + File_Name)
+			# Command = "mkdir -p Commits/"
+			Os.system(Command)
+			Os.chdir(Commit.Sub_Module)
+			Os.system(Command)
+			for Number_File in Commit.Number_File_List:
+				Command = "git show " + Commit.Hash + ":" + Number_File.Name + "> ../Commits/" + str(Commit_Number) + "/" + Number_File.Name
+				Os.system(Command)
+			Os.chdir("..")
+			Commit_Number = Commit_Number + 1
+
+
 ## Test Git_Class
 def Git_Class_Test():
 	Git = Git_Class()
@@ -242,9 +257,8 @@ def Git_Class_Test():
 	Git.Fix_Commits()
 	print("Now it should work")
 	Git.Fix_Commits()
+	Git.Write_Commits()
 	quit(1)
-
-Git_Class_Test()
 
 ## Class Number-File
 class Number_File_Class:
