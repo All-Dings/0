@@ -103,11 +103,13 @@ def Quicksort_List_of_Dictionary(List, Key):
 	Right = [Element for Element in List if Element[Key] > Pivot]
 	return Quicksort_List_of_Dictionary(Left, Key) + Middle + Quicksort_List_of_Dictionary(Right, Key)
 
+# Class Git_Commit_Number_File
 class Git_Commit_Number_File_Class:
 	def __init__(Self, Commit_Type, Number_File):
 		Self.Commit_Type = Commit_Type
 		Self.Number_File = Number_File
 
+# Class Git_Commit
 class Git_Commit_Class:
 	def __init__(Self, Commit_Hash):
 		Self.Hash = Commit_Hash
@@ -117,6 +119,7 @@ class Git_Commit_Class:
 	def Print(Self):
 		print(f"Commit-Hash: {Self.Hash}")
 		print(f"       Date: {Self.Time}")
+		print(f" Sub-Module: {Self.Sub_Module}")
 		print(f"    Message: {Self.Message}")
 		for Number_File in Self.Number_File_List:
 			print(f"          {Number_File.Commit_Type}: {Number_File.Number_File}")
@@ -128,9 +131,24 @@ class Git_Class:
 		Self.Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
 		Self.Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
 		Self.Commit_Dict = {}
-	### Get Number from Reference
 
-	def Read_Commits(Self):
+	def Read_All(Self):
+		Lines = Sub_Process.run(['git', 'submodule'], stdout=Sub_Process.PIPE)
+		Lines = Lines.stdout.decode()
+		Lines = Lines.split("\n")
+		for Line in Lines:
+			if not Line:
+				continue
+			if Line[0] == "+":
+				Sub_Module = Line.split(" ")[1]
+			else:
+				Sub_Module = Line.split(" ")[2]
+			print(Sub_Module)
+			Os.chdir(Sub_Module)
+			Self.Read_Commits(Sub_Module)
+			Os.chdir("..")
+
+	def Read_Commits(Self, Sub_Module):
 		Lines = Sub_Process.run(['git', 'log', "--date=format:%Y.%m.%d-%H:%M:%S%z", '--name-status'], stdout=Sub_Process.PIPE)
 		Lines = Lines.stdout.decode()
 		Lines = Lines.split("\n")
@@ -144,6 +162,7 @@ class Git_Class:
 				Commit_Hash = Match.group(1)
 				# print(Commit_Hash)
 				Commit = Git_Commit_Class(Commit_Hash)
+				Commit.Sub_Module = Sub_Module
 				Self.Commit_Dict[Commit_Hash] = Commit
 			Match = Self.Commit_Time_Reg_Exp.match(Line)
 			if (Match):
@@ -173,11 +192,10 @@ class Git_Class:
 ## Test Git_Class
 def Git_Class_Test():
 	Git = Git_Class()
-	Git.Read_Commits()
+	Git.Read_All()
+#	Git.Read_Commits("0")
 	Git.Print_Commits()
 	quit(1)
-
-Git_Class_Test()
 
 ## Class Number-File
 class Number_File_Class:
