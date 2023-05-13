@@ -7,6 +7,7 @@ The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 from enum import Enum
 import os as Os
 import re as Re
+import shutil as Sh_Util
 import subprocess as Sub_Process
 import sys as Sys
 import datetime as Date_Time
@@ -228,21 +229,20 @@ class Git_Class:
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
 		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
 		for Commit in Commit_List_Sorted:
-			Command = "mkdir -p " + "Commits/" + str(Commit_Number)
-			Os.system(Command)
-			print(f"Commit: {Commit.Hash} {Commit.Message}")
+			Os.system("mkdir -p " + "Commits/" + str(Commit_Number))
+			print(f"Commit: {Commit.Hash} {Commit.Time} {Commit.Message}")
 			if Commit_Number != 10000000000:
 				Last_Commit_Dir = "Commits/" + str(Commit_Number - 1)
 				This_Commit_Dir = "Commits/" + str(Commit_Number)
 				for File_Name in Os.listdir(Last_Commit_Dir):
 					Os.link(Last_Commit_Dir + "/" + File_Name, This_Commit_Dir + "/" + File_Name)
-			# Command = "mkdir -p Commits/"
-			Os.system(Command)
+					# Sh_Util.copy(Last_Commit_Dir + "/" + File_Name, This_Commit_Dir + "/" + File_Name)
 			Os.chdir(Commit.Sub_Module)
-			Os.system(Command)
 			for Number_File in Commit.Number_File_List:
-				Command = "git show " + Commit.Hash + ":" + Number_File.Name + "> ../Commits/" + str(Commit_Number) + "/" + Number_File.Name
-				Os.system(Command)
+				Target_File = "../Commits/" + str(Commit_Number) + "/" + Number_File.Name
+				if Os.path.isfile(Target_File):
+					Os.unlink(Target_File)
+				Os.system("git show " + Commit.Hash + ":" + Number_File.Name + ">" + Target_File)
 			Os.chdir("..")
 			Commit_Number = Commit_Number + 1
 
