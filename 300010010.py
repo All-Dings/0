@@ -111,11 +111,12 @@ class Git_Commit_Number_File_Class:
 class Git_Commit_Class:
 	def __init__(Self, Commit_Hash):
 		Self.Hash = Commit_Hash
-		Self.Date = ""
+		Self.Time = ""
 		Self.Message = ""
 		Self.Number_File_List = [];
 	def Print(Self):
 		print(f"Commit-Hash: {Self.Hash}")
+		print(f"       Date: {Self.Time}")
 		print(f"    Message: {Self.Message}")
 		for Number_File in Self.Number_File_List:
 			print(f"          {Number_File.Commit_Type}: {Number_File.Number_File}")
@@ -130,7 +131,7 @@ class Git_Class:
 	### Get Number from Reference
 
 	def Read_Commits(Self):
-		Lines = Sub_Process.run(['git', 'log', "--date=format:'%Y.%m.%d-%H:%M:%S%z'", '--name-status'], stdout=Sub_Process.PIPE)
+		Lines = Sub_Process.run(['git', 'log', "--date=format:%Y.%m.%d-%H:%M:%S%z", '--name-status'], stdout=Sub_Process.PIPE)
 		Lines = Lines.stdout.decode()
 		Lines = Lines.split("\n")
 		for Line in Lines:
@@ -165,7 +166,7 @@ class Git_Class:
 				# print(f"Add: {Line[2:]}")
 	def Print_Commits(Self):
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
-		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Date)
+		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
 		for Commit in Commit_List_Sorted:
 			Commit.Print()
 
@@ -175,6 +176,8 @@ def Git_Class_Test():
 	Git.Read_Commits()
 	Git.Print_Commits()
 	quit(1)
+
+Git_Class_Test()
 
 ## Class Number-File
 class Number_File_Class:
