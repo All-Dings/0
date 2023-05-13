@@ -7,8 +7,9 @@ The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 from enum import Enum
 import os as Os
 import re as Re
+import subprocess as Sub_Process
 import sys as Sys
-import datetime
+import datetime as Date_Time
 
 ## Directory containing the Markdown Files
 Dings_Directory = Os.getcwd()
@@ -17,7 +18,7 @@ Dings_Directory = Os.getcwd()
 ### Get the current Blog-Chain-Time
 def Get_Current_Bct():
 	Bct_Format = '%Y.%m.%d-%H:%M:%S'
-	Time_Now = datetime.datetime.now()
+	Time_Now = Date_Time.datetime.now()
 	return Time_Now.strftime(Bct_Format)
 
 def Get_Current_Bct_Test():
@@ -101,6 +102,46 @@ def Quicksort_List_of_Dictionary(List, Key):
 	Middle = [Element for Element in List if Element[Key] == Pivot]
 	Right = [Element for Element in List if Element[Key] > Pivot]
 	return Quicksort_List_of_Dictionary(Left, Key) + Middle + Quicksort_List_of_Dictionary(Right, Key)
+
+## Class Git
+class Git_Class:
+	def __init__(Self):
+		Self.Git_Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
+		Self.Git_Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
+	### Get Number from Reference
+
+	def Read_Commits(Self):
+		Lines = Sub_Process.run(['git', 'log', "--date=format:'%Y.%m.%d-%H:%M:%S%z'", '--name-status'], stdout=Sub_Process.PIPE)
+		Lines = Lines.stdout.decode()
+		Lines = Lines.split("\n")
+		for Line in Lines:
+			# print(f"Line: '{Line}'")
+			Line = Line.rstrip()
+			if not Line:
+				continue
+			Match = Self.Git_Commit_Hash_Reg_Exp.match(Line)
+			if (Match):
+				Git_Commit_Hash = Match.group(1)
+				print(Git_Commit_Hash)
+			Match = Self.Git_Commit_Time_Reg_Exp.match(Line)
+			if (Match):
+				Git_Commit_Time = Match.group(1)
+				print(f"Time: {Git_Commit_Time}")
+			elif (Line[0] == " " and not Line.startswith("    Signed-off-by")):
+				Git_Commit_Message = Line[4:]
+				print(f"Message: {Git_Commit_Message}")
+			elif (Line.startswith("M\t")):
+				print(f"Modify: {Line[2:]}")
+			elif (Line.startswith("D\t")):
+				print(f"Delete: {Line[2:]}")
+			elif (Line.startswith("A\t")):
+				print(f"Add: {Line[2:]}")
+
+## Test Git_Class
+def Git_Class_Test():
+	Git = Git_Class()
+	Git.Read_Commits()
+	quit(1)
 
 ## Class Number-File
 class Number_File_Class:
