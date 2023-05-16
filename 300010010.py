@@ -15,6 +15,9 @@ import datetime as Date_Time
 ## Directory containing the Markdown Files
 Dings_Directory = Os.getcwd()
 
+## Dings-File-List
+Dings_File_List = {}
+
 ## Blog-Chain-Time
 ### Get the current Blog-Chain-Time
 def Get_Current_Bct():
@@ -27,7 +30,7 @@ def Get_Current_Bct_Test():
 
 ## Regular-Expressions
 ### Dings-Regular-Expressions
-Reg_Exp_Number_File = '\d+' + '\.' + '\w+'
+Reg_Exp_Dings_File = '\d+' + '\.' + '\w+'
 Reg_Exp_Name = '(?:' + '\"|=|\?|\!|\:|\(|\)|#|-|\w|\s|@|\'' + ')' + '+'
 
 ### Apply [Reg_Exp](9000103.md) to [Line](700011.md) and print the [Match](404.md)
@@ -49,6 +52,10 @@ def Get_File_Extension(File_Path):
 	else:
 		return Match.group(1)
 
+## Remove File-Extension
+def Remove_File_Extension(File_Name):
+	return Os.path.splitext(File_Name)[0]
+
 ### Get Dings-Name from First-Line
 Name_Reg_Exp = Re.compile('^' + '#' + ' ' + '(' + Reg_Exp_Name + ')' + '\s*' + '$')
 
@@ -61,7 +68,7 @@ def Name_Reg_Exp_Test():
 	Test_Reg_Exp(Name_Reg_Exp, '# Brașov')
 	Test_Reg_Exp(Name_Reg_Exp, '# Douglas_Noël_Adams')
 
-### Get Number from Number-File
+### Get Number from Dings-File
 Number_Reg_Exp = Re.compile('^' + '(' + '\d+' + ')' + '.md' + '$')
 
 def Number_Reg_Exp_Test():
@@ -69,7 +76,7 @@ def Number_Reg_Exp_Test():
 	Test_Reg_Exp(Number_Reg_Exp, '341324.md')
 
 ### Get Reference from Line
-Reference_Reg_Exp = Re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Number_File + '\)' + ')')
+Reference_Reg_Exp = Re.compile('(' + '\[' + Reg_Exp_Name + '\]' + '\(' + Reg_Exp_Dings_File + '\)' + ')')
 
 def Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Reference_Reg_Exp, 'The Man [Michael-Holzheu](0.md) creates the Dings-Project.')
@@ -78,7 +85,7 @@ def Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Reference_Reg_Exp, 'Height is a [Dimension-Interval](10000021.md) for the [Altitude-Dimension](10000030.md).')
 
 ### Get Name from Reference
-Name_From_Reference_Reg_Exp = Re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Number_File + '\)')
+Name_From_Reference_Reg_Exp = Re.compile('\[' + '(' + Reg_Exp_Name + ')' + '\]' + '\(' + Reg_Exp_Dings_File + '\)')
 
 def Name_From_Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Name_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
@@ -88,9 +95,6 @@ Number_From_Reference_Reg_Exp = Re.compile('\[' + Reg_Exp_Name + '\]' + '\(' + '
 
 def Number_From_Reference_Reg_Exp_Test():
 	Test_Reg_Exp(Number_From_Reference_Reg_Exp, '[Michael-Holzheu](0.md)')
-
-## Number-File-List
-Number_File_List = {}
 
 ## Quick-Sort for List of Dictionary
 def Quicksort_List_of_Dictionary(List, Key):
@@ -103,8 +107,8 @@ def Quicksort_List_of_Dictionary(List, Key):
 	Right = [Element for Element in List if Element[Key] > Pivot]
 	return Quicksort_List_of_Dictionary(Left, Key) + Middle + Quicksort_List_of_Dictionary(Right, Key)
 
-# Class Git_Commit_Number_File
-class Git_Commit_Number_File_Class:
+# Class Git_Commit_Dings_File
+class Git_Commit_Dings_File_Class:
 	def __init__(Self, Commit_Type, Name):
 		Self.Commit_Type = Commit_Type
 		Self.Name = Name
@@ -115,14 +119,14 @@ class Git_Commit_Class:
 		Self.Hash = Commit_Hash
 		Self.Time = ""
 		Self.Message = ""
-		Self.Number_File_List = [];
+		Self.Dings_File_List = [];
 	def Print(Self):
 		print(f"Commit-Hash: {Self.Hash}")
 		print(f"       Date: {Self.Time}")
 		print(f" Sub-Module: {Self.Sub_Module}")
 		print(f"    Message: {Self.Message}")
-		for Number_File in Self.Number_File_List:
-			print(f"          {Number_File.Commit_Type}: {Number_File.Name}")
+		for Dings_File in Self.Dings_File_List:
+			print(f"          {Dings_File.Commit_Type}: {Dings_File.Name}")
 		print("")
 
 ## Class Git
@@ -130,7 +134,7 @@ class Git_Class:
 	def __init__(Self):
 		Self.Commit_Hash_Reg_Exp = Re.compile('^commit ' + '('  + '[0-9a-fA-F]+' + ')')
 		Self.Commit_Time_Reg_Exp = Re.compile('^Date:   ' + '('  + '.*' + ')')
-		Self.Number_File_Reg_Exp = Re.compile(Reg_Exp_Number_File)
+		Self.Dings_File_Reg_Exp = Re.compile(Reg_Exp_Dings_File)
 		Self.Commit_Dict = {}
 		Self.Sub_Modules = ["0", "111", "1000001000", "140100000", "1997080300", "2000001", "250000000", "260010000", "400000000", "888"]
 
@@ -166,63 +170,63 @@ class Git_Class:
 				# print(f"Message: {Commit.Message}")
 			elif (Line.startswith("R100\t")):
 				Words = Line.split("\t")
-				Match = Self.Number_File_Reg_Exp.match(Words[2])
+				Match = Self.Dings_File_Reg_Exp.match(Words[2])
 				if not Match:
 					continue
-				Commit_Number_File = Git_Commit_Number_File_Class("A", Words[2])
-				Commit.Number_File_List.append(Commit_Number_File)
+				Commit_Dings_File = Git_Commit_Dings_File_Class("A", Words[2])
+				Commit.Dings_File_List.append(Commit_Dings_File)
 				# print(f"Modify: {Line[2:]}")
 			# elif (Line.startswith("D\t")):
-			#	Match = Self.Number_File_Reg_Exp.match(Line[2:])
+			#	Match = Self.Dings_File_Reg_Exp.match(Line[2:])
 			#	if not Match:
 			#		continue
-			#	Commit_Number_File = Git_Commit_Number_File_Class("D", Line[2:])
-			#	Commit.Number_File_List.append(Commit_Number_File)
+			#	Commit_Dings_File = Git_Commit_Dings_File_Class("D", Line[2:])
+			#	Commit.Dings_File_List.append(Commit_Dings_File)
 			# print(f"Delete: {Line[2:]}")
 			elif (Line.startswith("M\t")):
-				Match = Self.Number_File_Reg_Exp.match(Line[2:])
+				Match = Self.Dings_File_Reg_Exp.match(Line[2:])
 				if not Match:
 					continue
-				Commit_Number_File = Git_Commit_Number_File_Class("M", Line[2:])
-				Commit.Number_File_List.append(Commit_Number_File)
+				Commit_Dings_File = Git_Commit_Dings_File_Class("M", Line[2:])
+				Commit.Dings_File_List.append(Commit_Dings_File)
 				# print(f"Modify: {Line[2:]}")
 			elif (Line.startswith("A\t")):
-				Match = Self.Number_File_Reg_Exp.match(Line[2:])
+				Match = Self.Dings_File_Reg_Exp.match(Line[2:])
 				if not Match:
 					continue
-				Commit_Number_File = Git_Commit_Number_File_Class("A", Line[2:])
-				Commit.Number_File_List.append(Commit_Number_File)
+				Commit_Dings_File = Git_Commit_Dings_File_Class("A", Line[2:])
+				Commit.Dings_File_List.append(Commit_Dings_File)
 				# print(f"Add: {Line[2:]}")
 
 	def Print_Commits(Self):
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
 		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
-		Number_File_List = {}
+		Dings_File_List = {}
 		for Commit in Commit_List_Sorted:
 			Commit.Print()
 
 	def Fix_Commits(Self):
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
 		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
-		Number_File_List = {}
+		Dings_File_List = {}
 		for Commit in Commit_List_Sorted:
-			for Number_File in Commit.Number_File_List:
-				if Number_File.Commit_Type == "A":
-					if Number_File.Name in Number_File_List:
-						print(f"Error: {Number_File.Name} already there")
+			for Dings_File in Commit.Dings_File_List:
+				if Dings_File.Commit_Type == "A":
+					if Dings_File.Name in Dings_File_List:
+						print(f"Error: {Dings_File.Name} already there")
 						print("Old:")
-						Number_File_List[Number_File.Name].Print()
+						Dings_File_List[Dings_File.Name].Print()
 						print("New:")
 						Commit.Print()
-						Number_File.Commit_Type = "M"
+						Dings_File.Commit_Type = "M"
 					else:
-						Number_File_List[Number_File.Name] = Commit
-				if Number_File.Commit_Type == "D":
-					if not Number_File_List[Number_File.Name]:
-						print(f"Error: {Number_File.Name} not there")
+						Dings_File_List[Dings_File.Name] = Commit
+				if Dings_File.Commit_Type == "D":
+					if not Dings_File_List[Dings_File.Name]:
+						print(f"Error: {Dings_File.Name} not there")
 						Commit.Print()
 						quit(1)
-					del Number_File_List[Number_File.Name]
+					del Dings_File_List[Dings_File.Name]
 
 	def Write_Commits(Self):
 		Commit_Number = 10000000000
@@ -238,11 +242,11 @@ class Git_Class:
 					Os.link(Last_Commit_Dir + "/" + File_Name, This_Commit_Dir + "/" + File_Name)
 					# Sh_Util.copy(Last_Commit_Dir + "/" + File_Name, This_Commit_Dir + "/" + File_Name)
 			Os.chdir(Commit.Sub_Module)
-			for Number_File in Commit.Number_File_List:
-				Target_File = "../Commits/" + str(Commit_Number) + "/" + Number_File.Name
+			for Dings_File in Commit.Dings_File_List:
+				Target_File = "../Commits/" + str(Commit_Number) + "/" + Dings_File.Name
 				if Os.path.isfile(Target_File):
 					Os.unlink(Target_File)
-				Os.system("git show " + Commit.Hash + ":" + Number_File.Name + ">" + Target_File)
+				Os.system("git show " + Commit.Hash + ":" + Dings_File.Name + ">" + Target_File)
 			Os.chdir("..")
 			Commit_Number = Commit_Number + 1
 
@@ -260,8 +264,8 @@ def Git_Class_Test():
 	Git.Write_Commits()
 	quit(1)
 
-## Class Number-File
-class Number_File_Class:
+## Class Dings-File
+class Dings_File_Class:
 	def __init__(Self, Number, Name):
 		Self.Name = Name
 		Self.Number = Number
@@ -269,38 +273,38 @@ class Number_File_Class:
 		Self.Target_References = []
 		Self.Meta_Data = {}
 
-	## Print Number-File
+	## Print Dings-File
 	def Print(Self):
 		print(f'{Self.Number} "{Self.Name}"')
 		for Reference in Self.Target_References:
-			Number_File = Reference['Source']
-			print(f"  - {Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
+			Dings_File = Reference['Source']
+			print(f"  - {Reference['Name']} [{Dings_File.Name}]({Dings_File.Number})")
 
-## Print Number-File-Targets
-def Print_Number_File_Targets(Number):
-	Number_File = Number_File_List[Number]
-	for Reference in Number_File.Source_References:
-		Number_File = Reference['Target']
-		print(f"{Reference['Name']} [{Number_File.Name}]({Number_File.Number})")
+## Print Dings-File-Targets
+def Print_Dings_File_Targets(Number):
+	Dings_File = Dings_File_List[Number]
+	for Reference in Dings_File.Source_References:
+		Dings_File = Reference['Target']
+		print(f"{Reference['Name']} [{Dings_File.Name}]({Dings_File.Number})")
 
-## Read Data of a Number-File
-def Read_Number_File(File_Name):
+## Read Data of a Dings-File
+def Read_Dings_File(File_Name):
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		First_Line = File.readline()
 	Name = Name_Reg_Exp.match(First_Line).group(1)
 	Number = Number_Reg_Exp.match(File_Name).group(1)
 
-	### Define new [Dictionary](250000018.md) for Number-File
-	Number_File = Number_File_Class(int(Number), Name.strip())
-	return Number_File
+	### Define new [Dictionary](250000018.md) for Dings-File
+	Dings_File = Dings_File_Class(int(Number), Name.strip())
+	return Dings_File
 
-## Read References of a Number-File
-def Read_Number_File_References(File_Name):
+## Read References of a Dings-File
+def Read_Dings_File_References(File_Name):
 	State = "Init"
 	Meta_Data_Reg_Exp = Re.compile('^' + '## Meta-Data')
 	Meta_Data_Entry_Reg_Exp = Re.compile('^' + '- ' + '(' + '\w+' + ')' + ":" + "\s+" + "(" + ".*" + ")")
 	Source_Number = Number_Reg_Exp.match(File_Name).group(1)
-	Source = Number_File_List[int(Source_Number)]
+	Source = Dings_File_List[int(Source_Number)]
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		Lines = File.readlines()
 	for Line in Lines:
@@ -316,13 +320,13 @@ def Read_Number_File_References(File_Name):
 			Target_Number = Number_From_Reference_Reg_Exp.search(Reference).group(1)
 			Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
 
-			if not int(Source_Number) in Number_File_List:
+			if not int(Source_Number) in Dings_File_List:
 				print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
 				continue
-			if not int(Target_Number) in Number_File_List:
+			if not int(Target_Number) in Dings_File_List:
 				print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
 				continue
-			Target = Number_File_List[int(Target_Number)]
+			Target = Dings_File_List[int(Target_Number)]
 			Reference = {}
 			Reference['Source'] = Source
 			Reference['Target'] = Target
@@ -340,26 +344,26 @@ def Read_Number_File_References(File_Name):
 					Source.Meta_Data[Entry_Name] = []
 				Source.Meta_Data[Entry_Name].append(Entry_Value)
 
-## Read all Number-Files into a [Linked-List](250000019.md)
-def Read_Number_File_List():
+## Read all Dings-Files into a [Linked-List](250000019.md)
+def Read_Dings_File_List():
 	### Loop over all Files in the Directory
 	for File_Name in Os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
 			continue
-		Number_File = Read_Number_File(File_Name)
-		#### Append Number-File-Dictionary to Number-File-List
-		Number_File_List[Number_File.Number] = Number_File
+		Dings_File = Read_Dings_File(File_Name)
+		#### Append Dings-File-Dictionary to Dings-File-List
+		Dings_File_List[Dings_File.Number] = Dings_File
 	for File_Name in Os.listdir(Dings_Directory):
 		if not Number_Reg_Exp.search(File_Name):
 			continue
-		Read_Number_File_References(File_Name)
+		Read_Dings_File_References(File_Name)
 
-## Print all Number-Files
-def Print_Number_File_List():
-	Number_File_List_Sorted = list(Number_File_List.values())
-	Number_File_List_Sorted = sorted(Number_File_List_Sorted, key=lambda x: x.Number)
-	for Number_File in Number_File_List_Sorted:
-		Number_File.Print()
+## Print all Dings-Files
+def Print_Dings_File_List():
+	Dings_File_List_Sorted = list(Dings_File_List.values())
+	Dings_File_List_Sorted = sorted(Dings_File_List_Sorted, key=lambda x: x.Number)
+	for Dings_File in Dings_File_List_Sorted:
+		Dings_File.Print()
 
 # Base-Class Code-To-Markdown
 class Code_To_Markdown_Class:
@@ -600,9 +604,9 @@ def Language_To_Markdown_Test():
 	Language_To_Markdown(File_Path)
 
 ## Test Number File
-def Number_File_List_Test():
-	Read_Number_File_List()
-	Print_Number_File_List()
+def Dings_File_List_Test():
+	Read_Dings_File_List()
+	Print_Dings_File_List()
 
 ## Generate Test-Output-File_Name from File_Name
 def Test_Output_File_Name(File_Name):

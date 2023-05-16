@@ -73,8 +73,17 @@ class Dings_Ls_Command_Class(Dings_Lib.Command_Class):
 		Self.Help_On_Empty = False
 		Self.Name = "dings_ls"
 	def Run(Self):
-		Dings_Lib.Read_Number_File_List()
-		Dings_Lib.Print_Number_File_Targets(int(Self.Remaining_Argument_List[0]))
+		Dings_Lib.Read_Dings_File_List()
+		Root_Dir = Dings_Lib.Dings_File_List[10000000000]
+		for Dings_File_Name in Root_Dir.Meta_Data["Dings_File_Child"]:
+			Number = int(Dings_Lib.Remove_File_Extension(Dings_File_Name))
+			Dings_File = Dings_Lib.Dings_File_List[Number]
+			if "Dings_File_Child" in Dings_File.Meta_Data:
+				print(f"{Dings_File.Name}.{Dings_File.Number}/")
+			else:
+				print(f"{Dings_File.Name}.{Dings_File.Number}")
+		quit()
+		Dings_Lib.Print_Dings_File_Targets(int(Self.Remaining_Argument_List[0]))
 		return 0
 
 	def Info(Self):
@@ -89,7 +98,7 @@ class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
 		Self.Prefix = "dings_"
 		Self.Current = int(17)
 	def Run(Self):
-		Dings_Lib.Read_Number_File_List()
+		Dings_Lib.Read_Dings_File_List()
 		while(True):
 			Command = input().lower()
 			if (Command == "exit" or Command == "quit"):
@@ -175,8 +184,8 @@ class Dings_List_Command_Class(Dings_Lib.Command_Class):
 		Self.Name = "dings_list"
 		Self.Help_On_Empty = False
 	def Run(Self):
-		Dings_Lib.Read_Number_File_List()
-		Dings_Lib.Print_Number_File_List()
+		Dings_Lib.Read_Dings_File_List()
+		Dings_Lib.Print_Dings_File_List()
 		return 0
 	def Info(Self):
 		print("List Dings")
