@@ -267,6 +267,7 @@ class Number_File_Class:
 		Self.Number = Number
 		Self.Source_References = []
 		Self.Target_References = []
+		Self.Meta_Data = {}
 
 	## Print Number-File
 	def Print(Self):
@@ -295,31 +296,51 @@ def Read_Number_File(File_Name):
 
 ## Read References of a Number-File
 def Read_Number_File_References(File_Name):
+	State = "Init"
+	Meta_Data_Reg_Exp = Re.compile('^' + '## Meta-Data')
+	Meta_Data_Entry_Reg_Exp = Re.compile('^' + '- ' + '(' + '\w+' + ')' + ":" + "\s+" + "(" + ".*" + ")")
 	Source_Number = Number_Reg_Exp.match(File_Name).group(1)
 	Source = Number_File_List[int(Source_Number)]
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		Lines = File.readlines()
 	for Line in Lines:
-		Match = Reference_Reg_Exp.search(Line)
-		if not Match:
-			continue
-		Reference = Match.group(1)
-		Target_Number = Number_From_Reference_Reg_Exp.search(Reference).group(1)
-		Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
+		if State == "Init":
+			Match = Meta_Data_Reg_Exp.search(Line)
+			if Match:
+				print("Meta")
+				State = "Meta-Data"
+				continue
+			Match = Reference_Reg_Exp.search(Line)
+			if not Match:
+				continue
+			Reference = Match.group(1)
+			Target_Number = Number_From_Reference_Reg_Exp.search(Reference).group(1)
+			Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
 
-		if not int(Source_Number) in Number_File_List:
-			print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
-			continue
-		if not int(Target_Number) in Number_File_List:
-			print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
-			continue
-		Target = Number_File_List[int(Target_Number)]
-		Reference = {}
-		Reference['Source'] = Source
-		Reference['Target'] = Target
-		Reference['Name'] = Target_Name
-		Source.Source_References.append(Reference)
-		Target.Target_References.append(Reference)
+			if not int(Source_Number) in Number_File_List:
+				print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
+				continue
+			if not int(Target_Number) in Number_File_List:
+				print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
+				continue
+			Target = Number_File_List[int(Target_Number)]
+			Reference = {}
+			Reference['Source'] = Source
+			Reference['Target'] = Target
+			Reference['Name'] = Target_Name
+			Source.Source_References.append(Reference)
+			Target.Target_References.append(Reference)
+		elif State == "Meta-Data":
+			if Line.strip() == "":
+				continue
+			Match = Meta_Data_Entry_Reg_Exp.search(Line)
+			if (Match):
+				Entry_Name = Match.group(1)
+				Entry_Value = Match.group(2)
+				if Entry_Name not in Source.Meta_Data:
+					Source.Meta_Data[Entry_Name] = []
+				Source.Meta_Data[Entry_Name].append(Entry_Value)
+				print(f"Mata-Data-Entry: {Source.Number}: {Entry_Name}: {Entry_Value}")
 
 ## Read all Number-Files into a [Linked-List](250000019.md)
 def Read_Number_File_List():
