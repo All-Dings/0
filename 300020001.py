@@ -74,20 +74,44 @@ class Dings_Ls_Command_Class(Dings_Lib.Command_Class):
 		Self.Name = "dings_ls"
 	def Run(Self):
 		Dings_Lib.Read_Dings_File_List()
-		Root_Dir = Dings_Lib.Dings_File_List[10000000000]
-		for Dings_File_Name in Root_Dir.Meta_Data["Dings_File_Child"]:
-			Number = int(Dings_Lib.Remove_File_Extension(Dings_File_Name))
-			Dings_File = Dings_Lib.Dings_File_List[Number]
+		Current_Dings_File = Dings_Lib.Get_Current_Dings_File()
+		for Dings_File_Number in Current_Dings_File.Meta_Data["Dings_File_Child"]:
+			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
 			if "Dings_File_Child" in Dings_File.Meta_Data:
 				print(f"{Dings_File.Name}.{Dings_File.Number}/")
 			else:
 				print(f"{Dings_File.Name}.{Dings_File.Number}")
-		quit()
-		Dings_Lib.Print_Dings_File_Targets(int(Self.Remaining_Argument_List[0]))
+		for Dings_File_Number in Current_Dings_File.Meta_Data["Dings_File_Parent"]:
+			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
+			print(f".. ({Dings_File.Name}.{Dings_File.Number})")
+		# Dings_Lib.Print_Dings_File_Targets(int(Self.Remaining_Argument_List[0]))
 		return 0
 
 	def Info(Self):
-		print("List Number-File")
+		print("List Directory")
+
+## Command: Dings-Cd
+class Dings_Cd_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_cd"
+	def Run(Self):
+		Dings_Lib.Read_Dings_File_List()
+		Current_Dings_File = Dings_Lib.Get_Current_Dings_File()
+		Cd_Dings_File_Name = Self.Remaining_Argument_List[0]
+		for Dings_File_Number in Current_Dings_File.Meta_Data["Dings_File_Child"]:
+			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
+			if not "Dings_File_Child" in Dings_File.Meta_Data:
+				continue
+			if (Dings_File.Name.lower() == Cd_Dings_File_Name):
+				Dings_Lib.Set_Current_Dings_File(Dings_File.Number)
+				return 0
+		print(f"Error: No such Directory: {Cd_Dings_File_Name}", file=Sys.stderr)
+		return 1
+
+	def Info(Self):
+		print("Change Directory")
 
 ## Command: Dings-Shell
 class Dings_Shell_Command_Class(Dings_Lib.Command_Class):

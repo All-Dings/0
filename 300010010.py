@@ -12,11 +12,25 @@ import subprocess as Sub_Process
 import sys as Sys
 import datetime as Date_Time
 
+## Dings-File-List
+Dings_File_List = {}
+
+### Get Dings-File
+def Get_Dings_File(Dings_File_Number):
+	return Dings_File_List[int(Dings_File_Number)]
+
 ## Directory containing the Markdown Files
 Dings_Directory = Os.getcwd()
 
-## Dings-File-List
-Dings_File_List = {}
+## Current-Dings-File
+
+### Get the Current-Dings-File
+def Get_Current_Dings_File():
+	return Dings_File_List[int(Os.environ["Current_Dings_File"])]
+
+### Set the Current-Dings-File
+def Set_Current_Dings_File(Dings_File_Number):
+	Os.environ["Current_Dings_File"] = str(Dings_File_Number)
 
 ## Blog-Chain-Time
 ### Get the current Blog-Chain-Time

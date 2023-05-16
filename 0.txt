@@ -1,5 +1,10 @@
 # Naming-File
 
+## Dings-Directories
+
+10000000001.md Blogs
+10000000000.md Dings-Root-Directory
+
 ## `1997080300` Roxana_Stanciu
 
 1997080300.md  Roxana_Stanciu
