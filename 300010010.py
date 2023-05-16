@@ -307,7 +307,6 @@ def Read_Number_File_References(File_Name):
 		if State == "Init":
 			Match = Meta_Data_Reg_Exp.search(Line)
 			if Match:
-				print("Meta")
 				State = "Meta-Data"
 				continue
 			Match = Reference_Reg_Exp.search(Line)
@@ -340,7 +339,6 @@ def Read_Number_File_References(File_Name):
 				if Entry_Name not in Source.Meta_Data:
 					Source.Meta_Data[Entry_Name] = []
 				Source.Meta_Data[Entry_Name].append(Entry_Value)
-				print(f"Mata-Data-Entry: {Source.Number}: {Entry_Name}: {Entry_Value}")
 
 ## Read all Number-Files into a [Linked-List](250000019.md)
 def Read_Number_File_List():
