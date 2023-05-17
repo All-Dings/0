@@ -28,6 +28,8 @@ Dings_Directory = Os.getcwd()
 def Get_Current_Dings_File():
 	return Dings_File_List[int(Os.environ["Current_Dings_File"])]
 
+Os.environ["Current_Dings_File"] = str(10000000000)
+
 ### Set the Current-Dings-File
 def Set_Current_Dings_File(Dings_File_Number):
 	Os.environ["Current_Dings_File"] = str(Dings_File_Number)
@@ -315,8 +317,8 @@ def Read_Dings_File(File_Name):
 ## Read References of a Dings-File
 def Read_Dings_File_References(File_Name):
 	State = "Init"
-	Meta_Data_Reg_Exp = Re.compile('^' + '## Meta-Data')
-	Meta_Data_Entry_Reg_Exp = Re.compile('^' + '- ' + '(' + '\w+' + ')' + ":" + "\s+" + "(" + ".*" + ")")
+	Meta_Data_Reg_Exp = Re.compile('^' + '## Meta-Data' + '\s+' + '$')
+	Meta_Data_Entry_Reg_Exp = Re.compile('- \[' + Reg_Exp_Name + '\]' + '\(' + '(' + Reg_Exp_Dings_File + ')' + '\)' + ":" + "\s+" + '(' + '.*' + ')')
 	Source_Number = Number_Reg_Exp.match(File_Name).group(1)
 	Source = Dings_File_List[int(Source_Number)]
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
@@ -350,13 +352,13 @@ def Read_Dings_File_References(File_Name):
 		elif State == "Meta-Data":
 			if Line.strip() == "":
 				continue
-			Match = Meta_Data_Entry_Reg_Exp.search(Line)
+			Match = Meta_Data_Entry_Reg_Exp.match(Line)
 			if (Match):
-				Entry_Name = Match.group(1)
+				Entry_Key_Number = int(Remove_File_Extension(Match.group(1)))
 				Entry_Value = Match.group(2)
-				if Entry_Name not in Source.Meta_Data:
-					Source.Meta_Data[Entry_Name] = []
-				Source.Meta_Data[Entry_Name].append(Entry_Value)
+				if Entry_Key_Number not in Source.Meta_Data:
+					Source.Meta_Data[Entry_Key_Number] = []
+				Source.Meta_Data[Entry_Key_Number].append(Entry_Value)
 
 ## Read all Dings-Files into a [Linked-List](250000019.md)
 def Read_Dings_File_List():
