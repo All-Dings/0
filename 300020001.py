@@ -4,10 +4,14 @@
 The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-Programming-Language](9010003.md).
 '''
 import Dings_Lib
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from io import StringIO
 import contextlib as Context_Lib
+import logging as Logging
 import re as Re
 import sys as Sys
+
+Logging.getLogger().setLevel(Logging.DEBUG)
 
 # Test-Option
 class Test_Option_Class(Dings_Lib.String_Option_Class):
@@ -112,6 +116,53 @@ class Dings_Cd_Command_Class(Dings_Lib.Command_Class):
 
 	def Info(Self):
 		print("Change Directory")
+
+## Web_Server
+class Web_Server_Class(BaseHTTPRequestHandler):
+	def do_GET(Self):
+		Self.send_response(200)
+		Self.send_header("Content-type", "text/html")
+		Self.end_headers()
+		Request = Self.path[1:]
+		if Dings_Lib.Get_File_Extension(Request) == "html":
+			File = open(Self.path[1:], mode='r')
+			File_Content = File.read()
+			File.close()
+			Self.wfile.write(bytes(File_Content, "utf-8"))
+		else:
+			Command = Request.lower()
+			Logging.warning("Command %s", Command)
+			Command_Parts = Command.split(" ")
+			Old_Stdout = Sys.stdout
+			Sys.stdout = Result = StringIO()
+			Dings_Lib.Command_Class.Run_Command(Command_Parts[0], Command_Parts[1:])
+			Sys.stdout = Old_Stdout
+			Self.wfile.write(bytes(Result.getvalue(), "utf-8"))
+
+## Command: Dings-Server
+class Dings_Server_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_server"
+		Self.Prefix = "dings_"
+		Self.Host_Name = "localhost"
+		Self.Server_Port = 8000
+
+	def Run(Self):
+		Dings_Lib.Read_Dings_File_List()
+		Web_Server = HTTPServer((Self.Host_Name, Self.Server_Port), Web_Server_Class)
+		Logging.info("Server started http://%s:%s", Self.Host_Name, Self.Server_Port)
+		try:
+			Web_Server.serve_forever()
+		except KeyboardInterrupt:
+			pass
+		Web_Server.server_close()
+		Logging.info("Server stopped.")
+		quit(0)
+
+	def Info(Self):
+		print("Start a Web-Server-Session")
 
 ## Command: Dings-Shell
 class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
