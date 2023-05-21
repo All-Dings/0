@@ -120,16 +120,17 @@ class Dings_Cd_Command_Class(Dings_Lib.Command_Class):
 ## Web_Server
 class Web_Server_Class(BaseHTTPRequestHandler):
 	def do_GET(Self):
-		Self.send_response(200)
-		Self.send_header("Content-type", "text/html")
-		Self.end_headers()
 		Request = Self.path[1:]
+		Self.send_response(200)
 		if Dings_Lib.Get_File_Extension(Request) == "html":
-			File = open(Self.path[1:], mode='r')
-			File_Content = File.read()
-			File.close()
-			Self.wfile.write(bytes(File_Content, "utf-8"))
+			Self.send_header("Content-type", "text/html")
+		elif Dings_Lib.Get_File_Extension(Request) == "css":
+			Self.send_header("Content-type", "text/css")
 		else:
+			Self.send_header("Content-type", "text/txt")
+		Self.end_headers()
+
+		if Dings_Lib.Get_File_Extension(Request) == "":
 			Command = Request.lower()
 			Logging.warning("Command %s", Command)
 			Command_Parts = Command.split(" ")
@@ -138,6 +139,11 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			Dings_Lib.Command_Class.Run_Command(Command_Parts[0], Command_Parts[1:])
 			Sys.stdout = Old_Stdout
 			Self.wfile.write(bytes(Result.getvalue(), "utf-8"))
+		else:
+			File = open(Self.path[1:], mode='r')
+			File_Content = File.read()
+			File.close()
+			Self.wfile.write(bytes(File_Content, "utf-8"))
 
 ## Command: Dings-Server
 class Dings_Server_Command_Class(Dings_Lib.Command_Class):
