@@ -126,6 +126,8 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			Self.send_header("Content-type", "text/html")
 		elif Dings_Lib.Get_File_Extension(Request) == "css":
 			Self.send_header("Content-type", "text/css")
+		elif Dings_Lib.Get_File_Extension(Request) == "jpg":
+			Self.send_header("Content-type", "image/jpg")
 		else:
 			Self.send_header("Content-type", "text/txt")
 		Self.end_headers()
@@ -138,12 +140,11 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			Sys.stdout = Result = StringIO()
 			Dings_Lib.Command_Class.Run_Command(Command_Parts[0], Command_Parts[1:])
 			Sys.stdout = Old_Stdout
-			Self.wfile.write(bytes(Result.getvalue(), "utf-8"))
 		else:
-			File = open(Self.path[1:], mode='r')
+			File = open(Self.path[1:], mode='rb')
 			File_Content = File.read()
 			File.close()
-			Self.wfile.write(bytes(File_Content, "utf-8"))
+			Self.wfile.write(File_Content)
 
 ## Command: Dings-Server
 class Dings_Server_Command_Class(Dings_Lib.Command_Class):
