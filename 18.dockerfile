@@ -80,3 +80,7 @@ Run pip3 install "kivy[base]" kivy_examples
 Run pip3 install --upgrade buildozer
 # ### Install Cython
 Run pip3 install --upgrade cython
+# ### Java
+Run apt-get install openjdk-8-jdk
+# ### Unzip
+Run apt-get install unzip
