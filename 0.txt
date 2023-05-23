@@ -1045,6 +1045,7 @@
 
 9000200.md     Git-Fetch-Command
 
+9000167.md     Observer-Pattern
 9000166.md     Kivy
 9000165.md     Pip
 9000164.md     Http-Server
