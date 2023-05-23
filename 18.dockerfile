@@ -81,6 +81,6 @@ Run pip3 install --upgrade buildozer
 # ### Install Cython
 Run pip3 install --upgrade cython
 # ### Java
-Run apt-get install openjdk-8-jdk
+Run apt-get install -y openjdk-8-jdk
 # ### Unzip
 Run apt-get install unzip
