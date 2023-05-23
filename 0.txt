@@ -1046,6 +1046,7 @@
 
 9000200.md     Git-Fetch-Command
 
+9000175.md     Kivy-Buildozer-Spec-File
 9000174.md     Kivy-Buildozer
 9000173.md     Configuration-File
 9000172.md     Kv-File
