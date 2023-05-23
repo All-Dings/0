@@ -71,3 +71,12 @@ RUN apt-get install -y imagemagick
 
 # ### Setup Configuration File (vimrc)
 RUN ln -s 13.vimrc .vimrc
+
+# ## Kivy
+#
+# ### Install Kivy
+Run pip3 install "kivy[base]" kivy_examples
+# ### Install Buildozer
+Run pip3 install --upgrade buildozer
+# ### Install Cython
+Run pip3 install --upgrade cython
