@@ -84,3 +84,7 @@ Run pip3 install --upgrade cython
 Run apt-get install -y openjdk-8-jdk
 # ### Unzip
 Run apt-get install unzip
+# ### Aidl
+RUN apt-get install -y aidl
+RUN mkdir -p /root/.buildozer/android/platform/android-sdk/build-tools/34.0.0-rc4/
+RUN cp `which aidl` /root/.buildozer/android/platform/android-sdk/build-tools/34.0.0-rc4/
