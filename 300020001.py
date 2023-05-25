@@ -7,6 +7,7 @@ import Dings_Lib
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from io import StringIO
 import urllib.parse as Url_Lib_Parse
+import http.client as Http_Client
 import cgi as Cgi
 import contextlib as Context_Lib
 import logging as Logging
@@ -142,6 +143,7 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			Sys.stdout = Result = StringIO()
 			Dings_Lib.Command_Class.Run_Command(Command_Parts[0], Command_Parts[1:])
 			Sys.stdout = Old_Stdout
+			Self.wfile.write(bytes(Result.getvalue(), "utf-8"))
 		else:
 			File = open(Self.path[1:], mode='rb')
 			File_Content = File.read()
@@ -192,6 +194,26 @@ class Dings_Server_Command_Class(Dings_Lib.Command_Class):
 
 	def Info(Self):
 		print("Start a Web-Server-Session")
+
+## Command: Dings-Client
+class Dings_Client_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_client"
+		Self.Host_Name = "localhost"
+		Self.Server_Port = 8000
+	def Run(Self):
+		Connection = Http_Client.HTTPConnection(Self.Host_Name + ":" + str(Self.Server_Port))
+		Connection.request("GET", "/" + Self.Remaining_Argument_List[0])
+		Response = Connection.getresponse()
+		Data = Response.read().decode('utf-8')
+		# print("Status: {} and reason: {}".format(Response.status, Response.reason))
+		print(Data)
+		Connection.close()
+		return 0
+	def Info(Self):
+		print("Issue Client-Commands")
 
 ## Command: Dings-Shell
 class Dings_Shell_Command_Class(Dings_Lib.Command_Class):
