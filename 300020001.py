@@ -6,6 +6,8 @@ The Dings-Tool-Python is the [Dings-Tool](300020000.md) written in the [Python-P
 import Dings_Lib
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from io import StringIO
+import urllib.parse as Url_Lib_Parse
+import cgi as Cgi
 import contextlib as Context_Lib
 import logging as Logging
 import re as Re
@@ -145,6 +147,26 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			File_Content = File.read()
 			File.close()
 			Self.wfile.write(File_Content)
+
+	def parse_POST(Self):
+		C_Type, P_Dict = Cgi.parse_header(Self.headers['content-type'])
+		if C_Type == 'application/x-www-form-urlencoded':
+			Length = int(Self.headers['content-length'])
+			Post_Data = Url_Lib_Parse.parse_qs(Self.rfile.read(Length), keep_blank_values=1)
+		elif C_Type == 'multipart/form-data':
+			Post_Data = Cgi.parse_multipart(Self.rfile, P_Dict)
+		else:
+			Post_Data = {}
+		return Post_Data
+
+	def do_POST(Self):
+		Request = Self.path
+		Post_Data = Self.parse_POST()
+		print("POST")
+		print(f"Request..: '{Request}'")
+		for Data in Post_Data:
+			print(f"Post_Data: '{Data}'")
+		Self.wfile.write(bytes("OK", "utf-8"))
 
 ## Command: Dings-Server
 class Dings_Server_Command_Class(Dings_Lib.Command_Class):
