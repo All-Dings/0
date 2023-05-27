@@ -81,13 +81,16 @@ class Dings_Ls_Command_Class(Dings_Lib.Command_Class):
 	def Run(Self):
 		Dings_Lib.Read_Dings_File_List()
 		Current_Dings_File = Dings_Lib.Get_Current_Dings_File()
-		for Dings_File_Number in Current_Dings_File.Meta_Data[int(300000017)]:
+		print(Current_Dings_File.Meta_Data)
+		for Dings_File_Number in Current_Dings_File.Meta_Data["300000017"]:
 			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
 			if 300000017 in Dings_File.Meta_Data:
 				print(f"{Dings_File.Name}.{Dings_File.Number}/")
 			else:
 				print(f"{Dings_File.Name}.{Dings_File.Number}")
-		for Dings_File_Number in Current_Dings_File.Meta_Data[int(300000019)]:
+		if not "300000019" in Current_Dings_File.Meta_Data:
+			return 0
+		for Dings_File_Number in Current_Dings_File.Meta_Data["300000019"]:
 			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
 			print(f".. ({Dings_File.Name}.{Dings_File.Number})")
 		# Dings_Lib.Print_Dings_File_Targets(int(Self.Remaining_Argument_List[0]))
@@ -106,9 +109,9 @@ class Dings_Cd_Command_Class(Dings_Lib.Command_Class):
 		Dings_Lib.Read_Dings_File_List()
 		Current_Dings_File = Dings_Lib.Get_Current_Dings_File()
 		Cd_Dings_File_Name = Self.Remaining_Argument_List[0]
-		for Dings_File_Number in Current_Dings_File.Meta_Data[int(300000017)]:
+		for Dings_File_Number in Current_Dings_File.Meta_Data["300000017"]:
 			Dings_File = Dings_Lib.Get_Dings_File(Dings_File_Number)
-			if not int(300000017) in Dings_File.Meta_Data:
+			if not "300000017" in Dings_File.Meta_Data:
 				continue
 			if (Dings_File.Name.lower() == Cd_Dings_File_Name):
 				Dings_Lib.Set_Current_Dings_File(Dings_File.Number)

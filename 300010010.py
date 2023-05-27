@@ -5,6 +5,7 @@ The Dings-Lib-Python is a [Dings-Lib](300010000.md) in [Python](9010003.md).
 """
 ## Imports
 from enum import Enum
+import json as Json
 import os as Os
 import re as Re
 import shutil as Sh_Util
@@ -303,6 +304,15 @@ def Print_Dings_File_Targets(Number):
 		Dings_File = Reference['Target']
 		print(f"{Reference['Name']} [{Dings_File.Name}]({Dings_File.Number})")
 
+## Read Meta-Data from Dings-File-Json
+def Read_Dings_File_Json(Dings_File):
+	Dings_File_Json = str(Dings_File.Number) + ".json"
+
+	if (Os.path.isfile(Dings_File_Json) and Os.access(Dings_File_Json, Os.R_OK)):
+		# print(f"Loading: {Dings_File_Json}")
+		with open(str(Dings_File.Number) + ".json") as File:
+			Dings_File.Meta_Data = Json.load(File)
+
 ## Read Data of a Dings-File
 def Read_Dings_File(File_Name):
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
@@ -312,53 +322,38 @@ def Read_Dings_File(File_Name):
 
 	### Define new [Dictionary](250000018.md) for Dings-File
 	Dings_File = Dings_File_Class(int(Number), Name.strip())
+	Read_Dings_File_Json(Dings_File)
 	return Dings_File
 
 ## Read References of a Dings-File
 def Read_Dings_File_References(File_Name):
-	State = "Init"
-	Meta_Data_Reg_Exp = Re.compile('^' + '## Meta-Data' + '\s+' + '$')
 	Meta_Data_Entry_Reg_Exp = Re.compile('- \[' + Reg_Exp_Name + '\]' + '\(' + '(' + Reg_Exp_Dings_File + ')' + '\)' + ":" + "\s+" + '(' + '.*' + ')')
 	Source_Number = Number_Reg_Exp.match(File_Name).group(1)
 	Source = Dings_File_List[int(Source_Number)]
 	with open(Os.path.join(Dings_Directory, File_Name), 'r') as File:
 		Lines = File.readlines()
 	for Line in Lines:
-		if State == "Init":
-			Match = Meta_Data_Reg_Exp.search(Line)
-			if Match:
-				State = "Meta-Data"
-				continue
-			Match = Reference_Reg_Exp.search(Line)
-			if not Match:
-				continue
-			Reference = Match.group(1)
-			Target_Number = Number_From_Reference_Reg_Exp.search(Reference).group(1)
-			Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
+		Match = Reference_Reg_Exp.search(Line)
+		if not Match:
+			continue
+		Reference = Match.group(1)
+		Target_Number = Number_From_Reference_Reg_Exp.search(Reference).group(1)
+		Target_Name = Name_From_Reference_Reg_Exp.search(Reference).group(1)
 
-			if not int(Source_Number) in Dings_File_List:
-				print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
-				continue
-			if not int(Target_Number) in Dings_File_List:
-				print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
-				continue
-			Target = Dings_File_List[int(Target_Number)]
-			Reference = {}
-			Reference['Source'] = Source
-			Reference['Target'] = Target
-			Reference['Name'] = Target_Name
-			Source.Source_References.append(Reference)
-			Target.Target_References.append(Reference)
-		elif State == "Meta-Data":
-			if Line.strip() == "":
-				continue
-			Match = Meta_Data_Entry_Reg_Exp.match(Line)
-			if (Match):
-				Entry_Key_Number = int(Remove_File_Extension(Match.group(1)))
-				Entry_Value = Match.group(2)
-				if Entry_Key_Number not in Source.Meta_Data:
-					Source.Meta_Data[Entry_Key_Number] = []
-				Source.Meta_Data[Entry_Key_Number].append(Entry_Value)
+		if not int(Source_Number) in Dings_File_List:
+			print(f"Source-Number {Source_Number} not found.", file=Sys.stderr)
+			continue
+		if not int(Target_Number) in Dings_File_List:
+			print(f"Target-Number {Target_Number} not found.", file=Sys.stderr)
+			continue
+		Target = Dings_File_List[int(Target_Number)]
+		Reference = {}
+		Reference['Source'] = Source
+		Reference['Target'] = Target
+		Reference['Name'] = Target_Name
+		Source.Source_References.append(Reference)
+		Target.Target_References.append(Reference)
+
 
 ## Read all Dings-Files into a [Linked-List](250000019.md)
 def Read_Dings_File_List():
