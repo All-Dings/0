@@ -304,6 +304,7 @@
 
 # Business
 
+240000016.md   Intel
 240000015.md   Creative-Work-Publisher
 240000014.md   Organization
 240000013.md   Kirschbaum-Verlag
