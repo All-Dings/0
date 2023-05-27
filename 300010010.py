@@ -304,13 +304,13 @@ def Print_Dings_File_Targets(Number):
 		Dings_File = Reference['Target']
 		print(f"{Reference['Name']} [{Dings_File.Name}]({Dings_File.Number})")
 
-## Read Meta-Data from Dings-File-Json
-def Read_Dings_File_Json(Dings_File):
-	Dings_File_Json = str(Dings_File.Number) + ".json"
+## Read Dings-Meta-File
+def Read_Dings_Meta_File(Dings_File):
+	Dings_Meta_File = str(Dings_File.Number) + ".dings-meta"
 
-	if (Os.path.isfile(Dings_File_Json) and Os.access(Dings_File_Json, Os.R_OK)):
+	if (Os.path.isfile(Dings_Meta_File) and Os.access(Dings_Meta_File, Os.R_OK)):
 		# print(f"Loading: {Dings_File_Json}")
-		with open(str(Dings_File.Number) + ".json") as File:
+		with open(str(Dings_File.Number) + ".dings-meta") as File:
 			Dings_File.Meta_Data = Json.load(File)
 
 ## Read Data of a Dings-File
@@ -322,7 +322,7 @@ def Read_Dings_File(File_Name):
 
 	### Define new [Dictionary](250000018.md) for Dings-File
 	Dings_File = Dings_File_Class(int(Number), Name.strip())
-	Read_Dings_File_Json(Dings_File)
+	Read_Dings_Meta_File(Dings_File)
 	return Dings_File
 
 ## Read References of a Dings-File
