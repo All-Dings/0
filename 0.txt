@@ -1059,6 +1059,7 @@
 
 9000200.md     Git-Fetch-Command
 
+9000192.md     iXml-Meta-Data
 9000191.md     Mpeg-Meta-Data
 9000190.md     Id3-Meta-Data
 9000189.md     Mutagen-Library
