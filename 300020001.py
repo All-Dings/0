@@ -180,6 +180,11 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			print(f"Post_Data: '{Data}'")
 		Self.wfile.write(bytes("OK", "utf-8"))
 
+# IP-Adress-Option
+class Address_Option_String_Class(Dings_Lib.String_Option_Class):
+	def __init__(Self):
+		super().__init__("Address", "Server Address and Port", "IP-ADDRESS:PORT")
+
 ## Command: Dings-Server
 class Dings_Server_Command_Class(Dings_Lib.Command_Class):
 	def __init__(Self):
@@ -187,10 +192,17 @@ class Dings_Server_Command_Class(Dings_Lib.Command_Class):
 		Self.Help_On_Empty = False
 		Self.Name = "dings_server"
 		Self.Prefix = "dings_"
-		Self.Host_Name = "localhost"
-		Self.Server_Port = 8000
+		Self.Address_Option = Address_Option_String_Class()
+		Self.Option_List.append(Self.Address_Option)
 
 	def Run(Self):
+		if (Self.Address_Option.Set):
+			Address = Self.Address_Option.Value.split(":")
+			Self.Host_Name = Address[0]
+			Self.Server_Port = int(Address[1])
+		else:
+			Self.Host_Name = "localhost"
+			Self.Server_Port = 8000
 		Dings_Lib.Read_Dings_File_List()
 		Web_Server = HTTPServer((Self.Host_Name, Self.Server_Port), Web_Server_Class)
 		Logging.info("Server started http://%s:%s", Self.Host_Name, Self.Server_Port)
