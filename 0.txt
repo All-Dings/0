@@ -1473,6 +1473,7 @@
 
 # Concept
 
+600099.md      Serialization
 600098.md      Creator
 600097.md      Institution
 600096.md      Experience
