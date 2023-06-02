@@ -37,4 +37,5 @@ syntax on
 "
 " - https://medium.com/usevim/understanding-listchars-acb9e5a90854
 "
-set list lcs=trail:·,tab:»·
+set list
+set listchars=tab:>-,trail:~,extends:>,precedes:<

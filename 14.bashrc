@@ -1,8 +1,5 @@
 # # Bash Configruation File
 
-# ## Include Commands
-source 33.bash
-
 # ## Bash Completion
 #
 # Prequisite: ```$ apt-get install git bash-completion```

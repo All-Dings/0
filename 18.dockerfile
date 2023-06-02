@@ -12,6 +12,9 @@ FROM ubuntu:22.04
 # # Working Directory for all Files
 WORKDIR root
 
+# # User
+USER root
+
 # # Copy Repitory Files to Docker Image
 COPY . .
 
@@ -48,6 +51,9 @@ RUN apt-get install -y pip
 # ### Install Time-Zone-Support
 RUN pip install pytz
 RUN pip install tzlocal
+
+# ### Install Pumpy
+RUN pip install numpy
 
 # ## Git Version Control
 #
