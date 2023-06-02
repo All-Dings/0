@@ -15,6 +15,9 @@ WORKDIR root
 # # User
 USER root
 
+# ## Set PATH
+ENV PATH="/root:$PATH"
+
 # # Copy Repitory Files to Docker Image
 COPY . .
 
