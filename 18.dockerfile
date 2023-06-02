@@ -58,6 +58,9 @@ RUN pip install tzlocal
 # ### Install Pumpy
 RUN pip install numpy
 
+# ### Mat-Plot-Lib
+RUN pip3 install matplotlib
+
 # ## Git Version Control
 #
 # ### Install Git Base Package
