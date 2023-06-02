@@ -52,11 +52,11 @@ RUN apt-get install -y python3
 RUN apt-get install -y pip
 
 # ### Install Time-Zone-Support
-RUN pip install pytz
-RUN pip install tzlocal
+RUN pip3 install pytz
+RUN pip3 install tzlocal
 
 # ### Install Pumpy
-RUN pip install numpy
+RUN pip3 install numpy
 
 # ### Mat-Plot-Lib
 RUN pip3 install matplotlib
