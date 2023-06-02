@@ -61,6 +61,9 @@ RUN pip install numpy
 # ### Mat-Plot-Lib
 RUN pip3 install matplotlib
 
+# ### Bit-Math: For KiB,MiB and Friends
+RUN pip3 install bitmath
+
 # ## Git Version Control
 #
 # ### Install Git Base Package
