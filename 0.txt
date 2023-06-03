@@ -939,6 +939,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13000019.md    Hash-Function
 13000018.md    One-Way-Function (13000012.md)
 13000017.md    Compare-Function
 13000016.md    Mathematics-System
