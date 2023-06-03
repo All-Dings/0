@@ -161,6 +161,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010019.md     Philosophers-Course-Tübingen
 2010018.md     Tee-Stube-Klinke-Tübingen
 2010017.md     Markladen-Tübingen
 2010016.md     Amts-Gericht-Tübingen
