@@ -899,6 +899,7 @@
 
 # Device
 
+20000013.md    Laptop
 20000012.md    iPad
 20000011.md    Alcohol-Measuring-Device
 20000010.md    Measuring-Device
