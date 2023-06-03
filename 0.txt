@@ -1447,6 +1447,7 @@
 
 # Philosophics
 
+645003.md      Moral
 645002.md      Philosophics-Famous-Human
 645001.md      Philosophics-System   
 645000.md      Philosophics
