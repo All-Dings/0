@@ -939,7 +939,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
-13000018.md    One-Way-Function
+13000018.md    One-Way-Function (13000012.md)
 13000017.md    Compare-Function
 13000016.md    Mathematics-System
 13000015.md    Mathematics-Famous-Human
@@ -1071,6 +1071,7 @@
 
 9000200.md     Git-Fetch-Command
 
+9000195.md     Hash-Function
 9000194.md     JavaScript-Object-Notation
 9000193.md     File-Format
 9000192.md     iXml-Meta-Data
