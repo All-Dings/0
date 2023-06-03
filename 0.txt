@@ -1266,7 +1266,7 @@
 9000018.md     Block
 9000017.md     Block-Size
 9000016.md     Data-Size
-9000015.md     Mebi-Byte
+9000015.md     Mega-Byte
 9000014.md     Kibi-Byte
 9000013.md     Byte
 9000012.md     Commit
