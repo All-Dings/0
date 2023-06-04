@@ -1268,7 +1268,7 @@
 9000033.md     Pointer
 9000032.md     FIND-Command
 9000031.md     Unix (DUPLICATE: 9100001)
-9000030.md     Operating-System
+9000030.md     Operating-System (DUPLICATE: 9100000.md)
 9000029.md     Command-Option
 9000028.md     DU-Command
 9000027.md     Disk-Usage
