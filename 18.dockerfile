@@ -18,7 +18,7 @@ USER root
 # ## Set PATH
 ENV PATH="/root:$PATH"
 
-# # Copy Repitory Files to Docker Image
+# # Copy Repository Files to Docker Image
 COPY . .
 
 # # Resynchronize the Package Index
