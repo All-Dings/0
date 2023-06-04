@@ -723,6 +723,7 @@
 
 # Personality
 
+70000026.md    Christopher_Allen_Lloyd
 70000025.md    Michael_Andrew_Fox
 70000024.md    Vin_Diesel
 70000023.md    Tyrese_Darnell_Gibson
