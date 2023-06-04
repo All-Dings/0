@@ -720,6 +720,7 @@
 
 # Personality
 
+70000023.md    Tyrese_Darnell_Gibson
 70000022.md    Bud_Spencer
 70000021.md    Terence_Hill 
 70000020.md    Paul_William_Walker_IV
