@@ -988,6 +988,7 @@
 
 # Electrical Engineering / Electrisics
 
+10400001.md    Electrisics-System
 10400000.md    Electrisics
 
 # Physics / Physical
