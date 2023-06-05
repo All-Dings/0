@@ -725,6 +725,7 @@
 
 # Personality
 
+50000028.md    Crispin_Hellion_Glover
 70000027.md    Huey_Lewis
 70000026.md    Christopher_Allen_Lloyd
 70000025.md    Michael_Andrew_Fox
