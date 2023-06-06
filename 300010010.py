@@ -29,7 +29,7 @@ Dings_Directory = Os.getcwd()
 def Get_Current_Dings_File():
 	return Dings_File_List[int(Os.environ["Current_Dings_File"])]
 
-Os.environ["Current_Dings_File"] = str(10000000000)
+Os.environ["Current_Dings_File"] = str(10000000001)
 
 ### Set the Current-Dings-File
 def Set_Current_Dings_File(Dings_File_Number):
@@ -246,13 +246,13 @@ class Git_Class:
 					del Dings_File_List[Dings_File.Name]
 
 	def Write_Commits(Self):
-		Commit_Number = 10000000000
+		Commit_Number = 10000000001
 		Commit_List_Sorted = list(Self.Commit_Dict.values())
 		Commit_List_Sorted = sorted(Commit_List_Sorted, key=lambda x: x.Time)
 		for Commit in Commit_List_Sorted:
 			Os.system("mkdir -p " + "Commits/" + str(Commit_Number))
 			print(f"Commit: {Commit.Hash} {Commit.Time} {Commit.Message}")
-			if Commit_Number != 10000000000:
+			if Commit_Number != 10000000001:
 				Last_Commit_Dir = "Commits/" + str(Commit_Number - 1)
 				This_Commit_Dir = "Commits/" + str(Commit_Number)
 				for File_Name in Os.listdir(Last_Commit_Dir):
