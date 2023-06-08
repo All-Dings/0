@@ -10,6 +10,7 @@ import urllib.parse as Url_Lib_Parse
 import http.client as Http_Client
 import contextlib as Context_Lib
 import logging as Logging
+import os as Os
 import re as Re
 import sys as Sys
 
@@ -410,6 +411,94 @@ class Dings_Test_Run_Command_Class(Dings_Test_Command_Class):
 		return 0
 	def Info(Self):
 		print("Run Test-Cases")
+
+# Command: Dings-Html
+class Dings_Html_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Name = "dings_html"
+		Self.Help_On_Empty = True
+	def Run(Self):
+		return 0
+	def Info(Self):
+		print("Work with Html")
+
+# Output-Option
+class Output_Option_String_Class(Dings_Lib.String_Option_Class):
+	def __init__(Self):
+		super().__init__("Output", "Html-File to generate", "HTML-FILE")
+
+## Command: Dings-Html-Generate
+class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_html_generate"
+		Self.Argument_String = "MARKDOWN-FILE"
+		Self.Output_Option = Output_Option_String_Class()
+		Self.Option_List.append(Self.Output_Option)
+	def Run(Self):
+		if (not Self.Remaining_Argument_List):
+			print(f"Error: No Markdown-File specified", file=Sys.stderr)
+			return 1
+		if (Self.Output_Option.Set):
+			Output_File_Name = Self.Output_Option.Value
+		Markdown_File = Self.Remaining_Argument_List[0]
+		return Self.Gen_Html(Markdown_File, Output_File_Name)
+
+	def Gen_Side_Bar(Self, Markdown_File):
+		Heading_Reg_Exp = Re.compile('^#+\s+' + '(' + '.+' + ')' + '\s*' + '<a id="' + '(' + '\d+' + ')' + '"/>')
+		with open(Markdown_File) as File:
+			Md_Lines = File.readlines()
+
+		First = True
+		print('\t<div class="Dings-Side-Bar" id="Dings-Side-Bar">')
+		for Line in Md_Lines:
+			Match = Heading_Reg_Exp.match(Line)
+			if Match:
+				Text = Match.group(1).strip()
+				Link_Target = Match.group(2).strip()
+				if Line[0:5] == "#####":
+					Heading_Class = 'class="Heading_6"'
+				elif Line[0:4] == "####":
+					Heading_Class = 'class="Heading_5"'
+				elif Line[0:3] == "###":
+					Heading_Class = 'class="Heading_4"'
+				elif Line[0:2] == "##":
+					Heading_Class = 'class="Heading_3"'
+				elif Line[0:1] == "##":
+					Heading_Class = 'class="Heading_2"'
+				elif Line[0] == "#":
+					Heading_Class = 'class="Heading_1"'
+				if First:
+					print('\t\t<a id="First-Sidebar-Element" href="#' + Link_Target + '" ' + Heading_Class + ' onclick="Select_Sidebar_Element(event)">' + Text + '</a>')
+					First = False
+				else:
+					print('\t\t<a href="#' + Link_Target + '" ' + Heading_Class + ' onclick="Select_Sidebar_Element(event)">' + Text + '</a>')
+		print('\t</div>')
+
+	def Gen_Html_Pandoc(Self, Markdown_File):
+		with open("300000002.htm") as Htm_File:
+			Htm_Lines = Htm_File.readlines()
+		for Line in Htm_Lines:
+			if "$Dings-Side-Bar$" in Line:
+				Self.Gen_Side_Bar(Markdown_File)
+			else:
+				print(Line, end='')
+
+	def Gen_Html(Self, Markdown_File, Output_File_Name=None):
+		Htm_File_Name = Os.path.splitext(Markdown_File)[0]+'.pandoc.htm'
+		if not Output_File_Name:
+			Output_File_Name = Os.path.splitext(Markdown_File)[0]+'.html'
+		with open(Htm_File_Name, 'w') as File:
+			with Context_Lib.redirect_stdout(File):
+				Self.Gen_Html_Pandoc(Markdown_File)
+		Os.system(f"pandoc -f markdown-auto_identifiers --standalone --template {Htm_File_Name} {Markdown_File} -o {Output_File_Name}")
+		Os.unlink(Htm_File_Name)
+		return 0
+
+	def Info(Self):
+		print("Generate Html")
 
 # Entry-Point
 def Main():
