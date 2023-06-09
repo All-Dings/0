@@ -487,13 +487,16 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 				print(Line, end='')
 
 	def Gen_Html(Self, Markdown_File, Output_File_Name=None):
+		with open(Markdown_File) as File:
+			First_Line = File.readline()
+		Title = First_Line[2:].strip()
 		Htm_File_Name = Os.path.splitext(Markdown_File)[0]+'.pandoc.htm'
 		if not Output_File_Name:
 			Output_File_Name = Os.path.splitext(Markdown_File)[0]+'.html'
 		with open(Htm_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
 				Self.Gen_Html_Pandoc(Markdown_File)
-		Os.system(f"pandoc -f markdown-auto_identifiers --metadata title={Markdown_File} --standalone --template {Htm_File_Name} {Markdown_File} -o {Output_File_Name}")
+		Os.system(f"pandoc -f markdown-auto_identifiers --metadata title={Title} --standalone --template {Htm_File_Name} {Markdown_File} -o {Output_File_Name}")
 		Os.unlink(Htm_File_Name)
 		return 0
 
