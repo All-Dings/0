@@ -452,7 +452,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			Md_Lines = File.readlines()
 
 		First = True
-		print('\t<div class="Dings-Side-Bar" id="Dings-Side-Bar">')
+		print('\t<div class="Dings-Side-Bar-Hidden" id="Dings-Side-Bar">')
 		for Line in Md_Lines:
 			Match = Heading_Reg_Exp.match(Line)
 			if Match:
