@@ -512,7 +512,8 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		with open(Md_Pandoc_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
 				Self.Gen_Inline_Ids(Markdown_File)
-		Os.system(f'pandoc --section-divs -f markdown-auto_identifiers --metadata title="{Title}" --standalone --template {Htm_Pandoc_File_Name} {Md_Pandoc_File_Name} -o {Output_File_Name}')
+		# Os.system(f'pandoc --section-divs -f markdown-auto_identifiers --metadata title="{Title}" --standalone --template {Htm_Pandoc_File_Name} {Md_Pandoc_File_Name} -o {Output_File_Name}')
+		Os.system(f'pandoc -f markdown-auto_identifiers --metadata title="{Title}" --standalone --template {Htm_Pandoc_File_Name} {Md_Pandoc_File_Name} -o {Output_File_Name}')
 		Os.unlink(Htm_Pandoc_File_Name)
 		Os.unlink(Md_Pandoc_File_Name)
 		return 0
