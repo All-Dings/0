@@ -446,6 +446,18 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		Markdown_File = Self.Remaining_Argument_List[0]
 		return Self.Gen_Html(Markdown_File, Output_File_Name)
 
+	# Generate Pandoc-Markdown for Ids: "Heading <a id=4711>" -> "Heading{#4711}"
+	def Gen_Inline_Ids(Self, Markdown_File):
+		Heading_Reg_Exp = Re.compile('^' + '(' + '#+' + ')' + '\s+' + '(' + '.+' + ')' + '\s*' + '<a id="' + '(' + '\d+' + ')' + '"/>')
+		with open(Markdown_File) as File:
+			Md_Lines = File.readlines()
+		for Line in Md_Lines:
+			Match = Heading_Reg_Exp.match(Line)
+			if Match:
+				print(Match.group(1) + " " + Match.group(2).strip() + "{#" + Match.group(3) + "}")
+			else:
+				print(Line, end="")
+
 	def Gen_Side_Bar(Self, Markdown_File):
 		Heading_Reg_Exp = Re.compile('^#+\s+' + '(' + '.+' + ')' + '\s*' + '<a id="' + '(' + '\d+' + ')' + '"/>')
 		with open(Markdown_File) as File:
@@ -490,14 +502,19 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		with open(Markdown_File) as File:
 			First_Line = File.readline()
 		Title = First_Line[2:].strip()
-		Htm_File_Name = Os.path.splitext(Markdown_File)[0]+'.pandoc.htm'
+		Htm_Pandoc_File_Name = Os.path.splitext(Markdown_File)[0] + '.pandoc.htm'
+		Md_Pandoc_File_Name = Os.path.splitext(Markdown_File)[0] + '.pandoc.md'
 		if not Output_File_Name:
 			Output_File_Name = Os.path.splitext(Markdown_File)[0]+'.html'
-		with open(Htm_File_Name, 'w') as File:
+		with open(Htm_Pandoc_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
 				Self.Gen_Html_Pandoc(Markdown_File)
-		Os.system(f'pandoc -f markdown-auto_identifiers --metadata title="{Title}" --standalone --template {Htm_File_Name} {Markdown_File} -o {Output_File_Name}')
-		Os.unlink(Htm_File_Name)
+		with open(Md_Pandoc_File_Name, 'w') as File:
+			with Context_Lib.redirect_stdout(File):
+				Self.Gen_Inline_Ids(Markdown_File)
+		Os.system(f'pandoc --section-divs -f markdown-auto_identifiers --metadata title="{Title}" --standalone --template {Htm_Pandoc_File_Name} {Md_Pandoc_File_Name} -o {Output_File_Name}')
+		Os.unlink(Htm_Pandoc_File_Name)
+		Os.unlink(Md_Pandoc_File_Name)
 		return 0
 
 	def Info(Self):
