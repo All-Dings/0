@@ -767,6 +767,7 @@
 
 # Architecture
 
+60100003.md    Kölner-Dom
 60100002.md    Building
 60100000.md    Architecture 
 
