@@ -56,7 +56,7 @@ def Test_Reg_Exp(Reg_Exp, Line):
 	print(f'"{Line}" -> "{Match}"')
 
 ### Get File-Extension
-File_Extension_Reg_Exp = Re.compile('.+' + '\.' + '(' + '[a-zA-Z]+' + ')' + '$')
+File_Extension_Reg_Exp = Re.compile('.+' + '\.' + '(' + '[a-zA-Z0-9]+' + ')' + '$')
 
 def File_Extension_Reg_Exp_Test():
 	Test_Reg_Exp(File_Extension_Reg_Exp, 'test.pl')

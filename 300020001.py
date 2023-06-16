@@ -134,10 +134,11 @@ class Web_Server_Class(BaseHTTPRequestHandler):
 			Self.send_header("Content-type", "text/css")
 		elif Dings_Lib.Get_File_Extension(Request) == "jpg":
 			Self.send_header("Content-type", "image/jpg")
+		elif Dings_Lib.Get_File_Extension(Request) == "mp4":
+			Self.send_header("Content-type", "video/mp4")
 		else:
 			Self.send_header("Content-type", "text/txt")
 		Self.end_headers()
-
 		if Dings_Lib.Get_File_Extension(Request) == "":
 			Command = Request.lower()
 			Logging.warning("Command %s", Command)
