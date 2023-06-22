@@ -780,6 +780,7 @@
 
 # Fiction
 
+60020003.md    Hero
 60020002.md    Zombie
 60020001.md    Monster
 60020000.md    Fiction    
@@ -1670,6 +1671,8 @@
 
 # All
 
+60121.md       The-Bad
+60120.md       The-Good
 60119.md       Pattern-Recognition
 60118.md       Meta-Data
 60117.md       Bad-Luck
