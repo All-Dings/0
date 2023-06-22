@@ -780,6 +780,7 @@
 
 # Fiction
 
+60020002.md    Zombie
 60020001.md    Monster
 60020000.md    Fiction    
 
