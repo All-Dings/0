@@ -781,6 +781,7 @@
 
 # Fiction
 
+60020004.md    Bad-Guy
 60020003.md    Hero
 60020002.md    Zombie
 60020001.md    Monster
