@@ -374,6 +374,7 @@
 
 # Clothing
 
+204000006.md   Short-Pants
 204000005.md   Dress
 204000004.md   Track-Suit
 204000003.md   Laundry-Label
