@@ -46,6 +46,9 @@
 
 ### `400000000` Media-Files
 
+400000023.md   Tennis-Win-or-Loose-Photo
+400000022.md   Tools-Stolen-Photo
+400000021.md   My-Bicycle-Photo
 400000020.md   Playstation-For-Nicole-And-Son-Photo
 400000019.md   Diablo-4-Grey-Heron-Screen-Shot
 400000018.md   Diablo-In-Bed-Photo
@@ -229,6 +232,7 @@
 
 270210000.md   Table-Tennis
 
+270000012.md   Tennis-Match
 270000011.md   Tennis-Club-Tübingen
 270200010.md   Round-Robin-Tournament-Tübingen. 
 270200009.md   Wimbledon-Tournament
