@@ -1491,6 +1491,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670012.md      Criminal-Offense
 670011.md      Juristics-Process
 670010.md      Amount-in-Controversy
 670009.md      Court
@@ -1500,7 +1501,7 @@
 670005.md      Juristics-Usage-Right
 670004.md      Juristics-Right
 670003.md      Juristics-Statement
-670002.md      Juristics-Rule
+670002.md      Juristics-Rule (Law)
 670001.md      Juristics-System
 670000.md      Jurastics
 
