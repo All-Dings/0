@@ -768,6 +768,7 @@
 
 # Personality
 
+70000029.md    Pythagoras
 70000028.md    Niklaus_Emil_Wirth 
 50000028.md    Crispin_Hellion_Glover
 70000027.md    Huey_Lewis
