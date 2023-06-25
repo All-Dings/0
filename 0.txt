@@ -577,6 +577,7 @@
 
 140100001.md   Russian-Matrjoschka  
 
+140000047.md   Freiburg
 140000046.md   Poltringen
 140000045.md   England
 140000044.md   Plochingen
@@ -716,6 +717,7 @@
 
 # Music
 
+90001005.md    SUSI-Chor
 90001003.md    Blue-Note
 90001002.md    Choir-Rehearsal
 90001001.md    Tenor
