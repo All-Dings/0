@@ -720,6 +720,7 @@
 
 # Music
 
+91001006.md    Choral-Set
 90001005.md    SUSI-Chor
 90001003.md    Blue-Note
 90001002.md    Choir-Rehearsal
