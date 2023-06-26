@@ -775,6 +775,7 @@
 
 # Personality
 
+70000031.md    Ansgar_Rettner
 70000030.md    Ralph_Christian_Möbius
 70000029.md    Pythagoras
 70000028.md    Niklaus_Emil_Wirth 
