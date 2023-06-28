@@ -522,9 +522,6 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 	def Info(Self):
 		print("Generate Html")
 
-	def Run(Self):
-		return 0
-
 ## Type-Option
 class Is_A_Option_Class(Dings_Lib.Integer_Option_Class):
 	def __init__(Self):
