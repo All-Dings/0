@@ -325,7 +325,7 @@ class Dings_Generate_Command_Class(Dings_Command_Class):
 				Dings_Lib.Language_To_Markdown(Input_File_Name)
 		return 0
 	def Info(Self):
-		print("Automatically transform INPUT-FILE into Markdown-File.")
+		print("Automatically transform INPUT-FILE into Markdown-File")
 
 ## Command: Dings-List
 class Dings_List_Command_Class(Dings_Lib.Command_Class):
@@ -424,7 +424,7 @@ class Dings_Html_Command_Class(Dings_Lib.Command_Class):
 	def Info(Self):
 		print("Work with Html")
 
-# Output-Option
+## Output-Option
 class Output_Option_String_Class(Dings_Lib.String_Option_Class):
 	def __init__(Self):
 		super().__init__("Output", "Html-File to generate", "HTML-FILE")
@@ -521,6 +521,94 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 
 	def Info(Self):
 		print("Generate Html")
+
+	def Run(Self):
+		return 0
+
+## Type-Option
+class Is_A_Option_Class(Dings_Lib.Integer_Option_Class):
+	def __init__(Self):
+		super().__init__("Is-A", "Number of the Parent-Ding", "DINGS-NUMBER")
+
+	def Verify_Quit(Self):
+		if not Dings_Lib.Get_Dings_File(Self.Value):
+			print(f'Error: Option "Is_A": Number {Self.Value} does not exist', file=Sys.stderr)
+			quit(1)
+
+## Number-Option
+class Number_Option_Class(Dings_Lib.Integer_Option_Class):
+	def __init__(Self):
+		super().__init__("Number", "Number of the Ding", "DINGS-NUMBER")
+
+	def Verify_Quit(Self):
+		if Dings_Lib.Get_Dings_File(Self.Value) != None:
+			print(f'Error: Option "Number": Number {Self.Value} already exists', file=Sys.stderr)
+			quit(1)
+
+## Add-On-File-Option
+class Add_On_File_Option_Class(Dings_Lib.String_Option_Class):
+	def __init__(Self):
+		super().__init__("Add-On-File", "File like Image, Sound, etc.", "FILE-PATH")
+
+	def Verify_Quit(Self):
+		if not Self.Set:
+			return
+		if not Os.path.exists(Self.Value):
+			print(f'Error: Option "Add-On-File": File {Self.Value} does not exist', file=Sys.stderr)
+			quit(1)
+
+## Command: Dings-Html-Generate
+class Dings_New_Command_Class(Dings_Lib.Command_Class):
+	def __init__(Self):
+		super().__init__()
+		Self.Help_On_Empty = False
+		Self.Name = "dings_new"
+		Self.Argument_String = "DINGS-NAME"
+		Self.Is_A_Option = Is_A_Option_Class()
+		Self.Option_List.append(Self.Is_A_Option)
+		Self.Number_Option = Number_Option_Class()
+		Self.Option_List.append(Self.Number_Option)
+		Self.Add_On_File_Option = Add_On_File_Option_Class()
+		Self.Option_List.append(Self.Add_On_File_Option)
+	def Verify_Is_A_Option(Self):
+		Option = Self.Is_A_Option
+		if not Self.Value in Dings_Lib.Dings_File_List:
+			print(f'Error: Option "Is-A": Number {Self.Value} does not exist', file=Sys.stderr)
+			quit(1)
+	def Run(Self):
+		if (not Self.Remaining_Argument_List):
+			print(f"Error: No Dings-Name specified", file=Sys.stderr)
+			return 1
+		Dings_Lib.Read_Dings_File_List()
+		Self.Is_A_Option.Ensure_Option_Set_Quit()
+		Self.Number_Option.Ensure_Option_Set_Quit()
+		for Option in Self.Option_List:
+			Option.Verify_Quit()
+		Is_A_Number = Self.Is_A_Option.Value
+		Is_A_Name = Dings_Lib.Get_Dings_File(Is_A_Number).Name
+		Dings_Number = Self.Number_Option.Value
+		Dings_Name = Self.Remaining_Argument_List[0]
+		Contents = ''
+		Contents += '# ' + Dings_Name + '\n'
+		Contents += '\n'
+		Contents += Dings_Name + ' is a [' + Is_A_Name + '](' + str(Is_A_Number) + ').\n'
+		if Self.Add_On_File_Option.Set:
+			Add_On_File = Self.Add_On_File_Option.Value
+			Contents += '\n'
+			File_Extension = Dings_Lib.Get_File_Extension(Add_On_File)
+			if File_Extension == "jpg":
+				Contents += '<img src="' + Add_On_File + '" alt="' + Dings_Name + '" style="width:800px;"/>\n'
+			elif File_Extension == "mp3":
+				Contents += '<audio controls>\n'
+				Contents += '  <source src ="' + Add_On_File + '" type="audio/mpeg">\n'
+				Contents += '</audio>\n'
+			else:
+				print(f"Error: Unsupported File-Extension: {Add_On_File}", file=Sys.stderr)
+				return 1
+		print(Contents)
+		return 0
+	def Info(Self):
+		print("Create a new Dings-File")
 
 # Entry-Point
 def Main():

@@ -18,6 +18,8 @@ Dings_File_List = {}
 
 ### Get Dings-File
 def Get_Dings_File(Dings_File_Number):
+	if not int(Dings_File_Number) in Dings_File_List:
+		return None
 	return Dings_File_List[int(Dings_File_Number)]
 
 ## Directory containing the Markdown Files
@@ -674,6 +676,12 @@ class Option_Class:
 		Self.Parameter_Name = ""
 		Self.Match = [-1,-1]
 		Self.Set = False;
+	def Ensure_Option_Set_Quit(Self):
+		if not Self.Set:
+			print(f'Error: Option "{Self.Name}": Not specified', file=Sys.stderr)
+			quit(1)
+	def Verify_Quit(Self):
+		return 0
 
 # Single-Option without Parameters
 class Single_Option_Class(Option_Class):
@@ -705,6 +713,30 @@ class String_Option_Class(Option_Class):
 					quit(1)
 				Self.Set = True
 				Self.Value = Argument_List[i + 1]
+				Self.Match = [i, i + 1]
+				return Self.Match
+
+# Int-Option
+class Integer_Option_Class(Option_Class):
+	def __init__(Self, Name, Description, Parameter_Name):
+		super().__init__(Name, Description)
+		Self.Value = 0
+		Self.Parameter_Name = Parameter_Name
+
+	def Parse(Self, Command_Name, Argument_List):
+		Self.Set = False
+		for i in range(0, len(Argument_List)):
+			Argument = Argument_List[i]
+			if (Argument.lower() == '-' + Self.Name[0 : len(Argument) - 1]):
+				if i == len(Argument_List) - 1:
+					print(f'{Command_Name}: Option "{Self.Name}": Requires a Value', file=Sys.stderr)
+					quit(1)
+				Value = Argument_List[i + 1]
+				if not Value.isnumeric():
+					print(f'{Command_Name}: Option "{Self.Name}": Must be an Integer', file=Sys.stderr)
+					quit(1)
+				Self.Set = True
+				Self.Value = int(Value)
 				Self.Match = [i, i + 1]
 				return Self.Match
 
