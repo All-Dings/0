@@ -1564,6 +1564,7 @@
 
 660000.md      Germanistics
 
+640044.md      Latin
 640043.md      British-English
 640042.md      American-English
 640041.md      Tempus-Praesens
