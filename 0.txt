@@ -238,6 +238,7 @@
 
 270210000.md   Table-Tennis
 
+270000017.md   Tennis-Court-Broom
 270000016.md   Tennis-Single-Net-Supports
 270000015.md   Tennis-Serve
 270000014.md   Mixed-Double-Tennis-Match
