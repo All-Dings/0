@@ -240,6 +240,7 @@
 
 270210000.md   Table-Tennis
 
+270000020.md   Tennis-Stroke-Technique
 270000019.md   Tennis-Sand-Court
 270000018.md   Tennis-Court
 270000017.md   Tennis-Court-Broom
