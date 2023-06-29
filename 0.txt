@@ -190,6 +190,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010020.md     Universitäts-Klinikum-Tübingen
 2010019.md     Philosophers-Club-Tübingen
 2010018.md     Tee-Stube-Klinke-Tübingen
 2010017.md     Markladen-Tübingen
