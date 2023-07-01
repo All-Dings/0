@@ -1626,6 +1626,10 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
+# Religion
+
+647000.md      Religion
+
 # Philosophics
 
 645005.md      Theory-of-Forms
