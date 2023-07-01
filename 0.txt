@@ -1627,7 +1627,7 @@
 
 # Philosophics
 
-645004.md      Metha-Physics
+645004.md      Meta-Physics
 645003.md      Moral
 645002.md      Philosophics-Famous-Human
 645001.md      Philosophics-System   
