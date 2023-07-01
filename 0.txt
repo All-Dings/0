@@ -805,6 +805,7 @@
 
 # Personality
 
+70000037.md    Baruch_de_Spinoza
 70000036.md    Philip_Miller
 70000035.md    Reinhard_Mey
 70000034.md    Mick_Deussen
