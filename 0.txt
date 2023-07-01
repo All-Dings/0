@@ -192,6 +192,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010022.md     International-Brass-Festival-Tübingen
 2010021.md     Botanischer-Garten-der-Universität-Tübingen
 2010020.md     Universitäts-Klinikum-Tübingen
 2010019.md     Philosophers-Club-Tübingen
