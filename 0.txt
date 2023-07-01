@@ -807,6 +807,7 @@
 
 # Personality
 
+70000039.md    Plato
 70000038.md    John-Philip_Sousa
 70000037.md    Baruch_de_Spinoza
 70000036.md    Philip_Miller
