@@ -1628,6 +1628,7 @@
 
 # Philosophics
 
+645005.md      Theory-of-Forms
 645004.md      Meta-Physics
 645003.md      Moral
 645002.md      Philosophics-Famous-Human
