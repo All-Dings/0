@@ -1555,7 +1555,7 @@
 700001.md      Document
 700000.md      Writing
 
-# Jurastics
+# Juristics
 
 680003.md      Eingetragener-Verein
 680002.md      Land-Gericht
@@ -1575,7 +1575,7 @@
 670003.md      Juristics-Statement
 670002.md      Juristics-Rule (Law)
 670001.md      Juristics-System
-670000.md      Jurastics
+670000.md      Juristics
 
 # Linguistics 
 
