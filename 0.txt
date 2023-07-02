@@ -315,14 +315,14 @@
 260010001.md   Parus-Major (Kohl-Meise)
 260010000.md   Bird
 
-## `250000000` Programming
-
-250020001.md   Python-Sorted-Function
-
 # Government
 
 250010001.md   Landrats-Amt
 250010000.md   Government-Institution
+
+## `250000000` Programming
+
+250020001.md   Python-Sorted-Function
 
 250000037.md   Hacking
 250000036.md   Class-Instance
