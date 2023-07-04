@@ -1083,6 +1083,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13000021.md    Multiplication
 13000020.md    Digit-Sum
 13000019.md    Hash-Function
 13000018.md    One-Way-Function (13000012.md)
