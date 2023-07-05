@@ -447,6 +447,25 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		Markdown_File = Self.Remaining_Argument_List[0]
 		return Self.Gen_Html(Markdown_File, Output_File_Name)
 
+	def Process_TeX_Equation(Self, Line):
+		# Example: $$ 2^x $$ {#0:4711}
+		Tex_Equation_Reg_Exp = Re.compile('^' + '\s*' + '(' + '\$\$' + '.*' + '\$\$' + ')' + '\s*' + '{#' + '(' + '.*' + ')' + ':' + '(' + '\d+' + ')' + '}')
+		Match = Tex_Equation_Reg_Exp.match(Line)
+		if not Match:
+			return False
+		Equation = Match.group(1)
+		Tag = Match.group(2)
+		Anchor = Match.group(3)
+		print(f'<table class="TeX-Table">')
+		print(f'   <tr class="TeX-Tr">')
+		print(f'     <td class="TeX-Td-Left"><a id="{Anchor}"/> </td>')
+		print(f'     <td class="TeX-Td-Equation">')
+		print(f'       {Equation}')
+		print(f'     <td class="TeX-Td-Right">\({Tag}\)</td>>')
+		print(f'   </tr>')
+		print(f'</table>')
+		return True
+
 	def Gen_Inline_Ids_And_Objects(Self, Markdown_File):
 		Directory = Os.path.dirname(Markdown_File)
 		# Example: ## This is a heading <a id=4711>
@@ -456,6 +475,9 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		with open(Markdown_File) as File:
 			Md_Lines = File.readlines()
 		for Line in Md_Lines:
+			# Check for Tex-Equations
+			if Process_TeX_Equation(Line):
+				continue
 			# Generate Pandoc-Markdown for Ids: "Heading <a id=4711>" -> "Heading{#4711}"
 			Match = Heading_Reg_Exp.match(Line)
 			if Match:
