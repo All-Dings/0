@@ -479,12 +479,53 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		Self.Print_Tex_Equation(Equation, "", "")
 		return True
 
-	def Gen_Inline_Ids_And_Objects(Self, Markdown_File):
-		Directory = Os.path.dirname(Markdown_File)
+	def Process_Heading(Self, Line):
 		# Example: ## This is a heading <a id=4711>
 		Heading_Reg_Exp = Re.compile('^' + '(' + '#+' + ')' + '\s+' + '(' + '.+' + ')' + '\s*' + '<a id="' + '(' + '\d+' + ')' + '"/>')
+		# Generate Pandoc-Markdown for Ids: "Heading <a id=4711>" -> "Heading{#4711}"
+		Match = Heading_Reg_Exp.match(Line)
+		if not Match:
+			return False
+		print(Match.group(1) + " " + Match.group(2).strip() + "{#" + Match.group(3) + "}")
+		return True
+
+	def Process_Dings_Object(Self, Line, Directory):
 		# Example: ![Castanea-sativa-Mill-Photo](400000033.jpg)
 		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|mp3|mp4)' + ')' + '\)' + '\s*$')
+		Match = Dings_Object_Reg_Exp.match(Line)
+		if not Match:
+			return False
+		Object_Name = Match.group(1)
+		Object_File = Match.group(2)
+		Object_Number = Os.path.splitext(Object_File)[0]
+		Object_Extension = Dings_Lib.Get_File_Extension(Object_File)
+		if not Os.path.exists(Directory + "/" + Object_File):
+			print('Error: Dings-Object not available: ' + Directory + "/" + Object_File, file=Sys.stderr)
+			quit(1)
+		if Object_Name != "":
+			print('<figure>')
+		if Object_Extension == "jpg":
+			print(f'<a href="{Object_Number}.html">')
+			print(f'  <img src="{Object_File}" alt="{Object_Name}" style="100%;"/>')
+			print(f'</a>')
+		elif Object_Extension == "mp3":
+			print(f'<audio controls>')
+			print(f'  <source src="{Object_File}" type="audio/mpeg">')
+			print(f'</audio>')
+		elif Object_Extension == "mp4":
+			print(f'<video id="{Object_Name}" width="100%" height="auto" controls>')
+			print(f'  <source src="{Object_File}" type=video/mp4>')
+			print(f'</video>')
+		else:
+			print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
+			quit(1)
+		if Object_Name != "":
+			print(f'<figcaption><a href="{Object_Number}.html">{Object_Name}</a></figcaption>')
+			print(f'</figure>')
+		return True
+
+	def Gen_Inline_Ids_And_Objects(Self, Markdown_File):
+		Directory = Os.path.dirname(Markdown_File)
 		with open(Markdown_File) as File:
 			Md_Lines = File.readlines()
 		for Line in Md_Lines:
@@ -493,41 +534,9 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 				continue
 			if Self.Process_TeX_Equation_Simple(Line):
 				continue
-			# Generate Pandoc-Markdown for Ids: "Heading <a id=4711>" -> "Heading{#4711}"
-			Match = Heading_Reg_Exp.match(Line)
-			if Match:
-				print(Match.group(1) + " " + Match.group(2).strip() + "{#" + Match.group(3) + "}")
+			if Self.Process_Heading(Line):
 				continue
-			# Generate Dings-Objects
-			Match = Dings_Object_Reg_Exp.match(Line)
-			if Match:
-				Object_Name = Match.group(1)
-				Object_File = Match.group(2)
-				Object_Number = Os.path.splitext(Object_File)[0]
-				Object_Extension = Dings_Lib.Get_File_Extension(Object_File)
-				if not Os.path.exists(Directory + "/" + Object_File):
-					print('Error: Dings-Object not available: ' + Directory + "/" + Object_File, file=Sys.stderr)
-					quit(1)
-				if Object_Name != "":
-					print('<figure>')
-				if Object_Extension == "jpg":
-					print(f'<a href="{Object_Number}.html">')
-					print(f'  <img src="{Object_File}" alt="{Object_Name}" style="100%;"/>')
-					print(f'</a>')
-				elif Object_Extension == "mp3":
-					print(f'<audio controls>')
-					print(f'  <source src="{Object_File}" type="audio/mpeg">')
-					print(f'</audio>')
-				elif Object_Extension == "mp4":
-					print(f'<video id="{Object_Name}" width="100%" height="auto" controls>')
-					print(f'  <source src="{Object_File}" type=video/mp4>')
-					print(f'</video>')
-				else:
-					print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
-					quit(1)
-				if Object_Name != "":
-					print(f'<figcaption><a href="{Object_Number}.html">{Object_Name}</a></figcaption>')
-					print(f'</figure>')
+			if Self.Process_Dings_Object(Line, Directory):
 				continue
 			print(Line, end="")
 
