@@ -1201,6 +1201,7 @@
 9400001.md     Universal-Serial-Bus
 9400000.md     Hardware
 
+9300009.md     TeX
 9300008.md     Mathematical-Markup-Language
 9300007.md     Re-Structured-Text
 9300006.md     Hyper-Link
