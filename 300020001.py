@@ -449,6 +449,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 
 	def Gen_Inline_Ids_And_Objects(Self, Markdown_File):
 		Directory = Os.path.dirname(Markdown_File)
+		# Example: ## This is a heading <a id=4711>
 		Heading_Reg_Exp = Re.compile('^' + '(' + '#+' + ')' + '\s+' + '(' + '.+' + ')' + '\s*' + '<a id="' + '(' + '\d+' + ')' + '"/>')
 		# Example: ![Castanea-sativa-Mill-Photo](400000033.jpg)
 		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|mp3|mp4)' + ')' + '\)' + '\s*$')
