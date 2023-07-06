@@ -1087,6 +1087,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13000025.md    Mathematics-Formula
 13000024.md    Quod-erat-demonstrandum
 13000023.md    Mathematics-Root
 13000022.md    Exponentiation
