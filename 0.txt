@@ -1202,6 +1202,7 @@
 9400001.md     Universal-Serial-Bus
 9400000.md     Hardware
 
+9300010.md     LaTeX
 9300009.md     TeX
 9300008.md     Mathematical-Markup-Language
 9300007.md     Re-Structured-Text
