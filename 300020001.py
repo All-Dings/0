@@ -516,6 +516,10 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'<video id="{Object_Name}" width="100%" height="auto" controls>')
 			print(f'  <source src="{Object_File}" type=video/mp4>')
 			print(f'</video>')
+		elif Object_Extension == "pdf":
+			print(f'<a href="{Object_Number}.pdf" type="application/pdf" target="_blank">')
+			print(f'  <img src="{Object_Number}.jpg" alt="{Object_Name}" style="100%;"/>')
+			print(f'</a>')
 		else:
 			print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
 			quit(1)
