@@ -817,6 +817,7 @@
 
 # Personality
 
+70000041.md    Leslie_Lamport
 70000040.md    Donald_Ervin_Knuth
 70000039.md    Platon
 70000038.md    John-Philip_Sousa
