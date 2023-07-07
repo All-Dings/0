@@ -528,12 +528,23 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'</figure>')
 		return True
 
+	def Process_Code(Self, Line):
+		Code_Block_Reg_Exp = Re.compile('^```')
+		if Code_Block_Reg_Exp.match(Line):
+			Self.In_Code = not Self.In_Code
+		if not Self.In_Code:
+			return False
+		print(Line, end="")
+		return True
+
 	def Gen_Inline_Ids_And_Objects(Self, Markdown_File):
+		Self.In_Code = False
 		Directory = Os.path.dirname(Markdown_File)
 		with open(Markdown_File) as File:
 			Md_Lines = File.readlines()
 		for Line in Md_Lines:
-			# Check for Tex-Equations
+			if Self.Process_Code(Line):
+				continue
 			if Self.Process_TeX_Equation_With_Anchor(Line):
 				continue
 			if Self.Process_TeX_Equation_Simple(Line):
