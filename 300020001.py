@@ -491,7 +491,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 
 	def Process_Dings_Object(Self, Line, Directory):
 		# Example: ![Castanea-sativa-Mill-Photo](400000033.jpg)
-		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|mp3|mp4)' + ')' + '\)' + '\s*$')
+		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|mp3|mp4|pdf)' + ')' + '\)' + '\s*$')
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
 			return False
@@ -506,7 +506,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print('<figure>')
 		if Object_Extension == "jpg":
 			print(f'<a href="{Object_Number}.html">')
-			print(f'  <img src="{Object_File}" alt="{Object_Name}" style="100%;"/>')
+			print(f'  <img src="{Object_File}" alt="{Object_Name}" width="100%"/>')
 			print(f'</a>')
 		elif Object_Extension == "mp3":
 			print(f'<audio controls>')
@@ -518,7 +518,10 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'</video>')
 		elif Object_Extension == "pdf":
 			print(f'<a href="{Object_Number}.pdf" type="application/pdf" target="_blank">')
-			print(f'  <img src="{Object_Number}.jpg" alt="{Object_Name}" style="100%;"/>')
+			print(f' <div class="Overlay-Image-Container">')
+			print(f'  <img src="{Object_Number}.jpg" alt="{Object_Name}" width="100%"/>')
+			print(f'  <img src="300000101.png" class="Overlay-Image-Child" width="100%"/>')
+			print(f' </div>')
 			print(f'</a>')
 		else:
 			print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
