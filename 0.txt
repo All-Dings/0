@@ -124,6 +124,8 @@
 300010010.py   Dings-Lib-Python
 300010000.md   Dings-Lib
 
+300000101.md   Dings-Overlay-Image-PDF
+
 300000021.md   Dings-Warning-Under-Construction
 300000020.md   Dings-App
 300000019.md   Dings-File-Parent
