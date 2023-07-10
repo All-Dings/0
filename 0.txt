@@ -1687,6 +1687,7 @@
 
 # Academics
 
+640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
 640005.md      University
 640004.md      Studien-Arbeit
 640003.md      Academic-Work
