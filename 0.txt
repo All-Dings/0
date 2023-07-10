@@ -1687,6 +1687,7 @@
 
 # Academics
 
+640005.md      University
 640004.md      Studien-Arbeit
 640003.md      Academic-Work
 640002.md      Probe
