@@ -519,7 +519,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		elif Object_Extension == "pdf":
 			print(f'<a href="{Object_Number}.pdf" type="application/pdf" target="_blank">')
 			print(f' <div class="Overlay-Image-Container">')
-			print(f'  <img src="{Object_Number}.jpg" alt="{Object_Name}" width="100%"/>')
+			print(f'  <img src="{Object_Number}.jpg" class="Overlay-Image-Parent" alt="{Object_Name}" width="100%"/>')
 			print(f'  <img src="300000101.png" class="Overlay-Image-Child" width="100%"/>')
 			print(f' </div>')
 			print(f'</a>')
