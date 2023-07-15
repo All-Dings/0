@@ -458,14 +458,14 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		print(f'</table>')
 
 	def Process_TeX_Equation_With_Anchor(Self, Line):
-		# Example: $$ 2^x $$ {#0:4711}
+		# Example: $$ 2^x $$ {#4711:1}
 		Tex_Equation_Reg_Exp = Re.compile('^' + '\s*' + '(' + '\$\$' + '.*' + '\$\$' + ')' + '\s*' + '{#' + '(' + '.*' + ')' + ':' + '(' + '\d+' + ')' + '}')
 		Match = Tex_Equation_Reg_Exp.match(Line)
 		if not Match:
 			return False
 		Equation = Match.group(1)
-		Tag = "\(" + Match.group(2) + "\)"
-		Anchor = '<a id="' + Match.group(3) + '"/>'
+		Anchor = '<a id="' + Match.group(2) + '"/>'
+		Tag = "\(" + Match.group(3) + "\)"
 		Self.Print_Tex_Equation(Equation, Tag, Anchor)
 		return True
 
