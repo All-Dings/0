@@ -14,6 +14,11 @@ import os as Os
 import re as Re
 import sys as Sys
 
+from Dings_Image import Dings_Image_Class
+from Dings_Sip_Toggle import Dings_Sip_Toggle_Class
+from Dings_Sound import Dings_Sound_Class
+from Dings_Video import Dings_Video_Class
+
 Logging.getLogger().setLevel(Logging.DEBUG)
 
 # Test-Option
@@ -438,6 +443,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		Self.Argument_String = "MARKDOWN-FILE"
 		Self.Output_Option = Output_Option_String_Class()
 		Self.Option_List.append(Self.Output_Option)
+
 	def Run(Self):
 		if (not Self.Remaining_Argument_List):
 			print(f"Error: No Markdown-File specified", file=Sys.stderr)
@@ -458,14 +464,14 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		print(f'</table>')
 
 	def Process_TeX_Equation_With_Anchor(Self, Line):
-		# Example: $$ 2^x $$ {#4711:1}
+		# Example: $$ 2^x $$ {#0:4711}
 		Tex_Equation_Reg_Exp = Re.compile('^' + '\s*' + '(' + '\$\$' + '.*' + '\$\$' + ')' + '\s*' + '{#' + '(' + '.*' + ')' + ':' + '(' + '\d+' + ')' + '}')
 		Match = Tex_Equation_Reg_Exp.match(Line)
 		if not Match:
 			return False
 		Equation = Match.group(1)
-		Anchor = '<a id="' + Match.group(2) + '"/>'
-		Tag = "\(" + Match.group(3) + "\)"
+		Tag = "\(" + Match.group(2) + "\)"
+		Anchor = '<a id="' + Match.group(3) + '"/>'
 		Self.Print_Tex_Equation(Equation, Tag, Anchor)
 		return True
 
@@ -489,46 +495,74 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		print(Match.group(1) + " " + Match.group(2).strip() + "{#" + Match.group(3) + "}")
 		return True
 
+	def Process_Dings_Object_Parameter(Self, Line_Part):
+		# Example: opacity=90% width=7px)
+		Dings_Object_Parameter_Reg_Exp = Re.compile('^,\s*' + '(' + '.*' + ')' + '\)' + '\s*' + '(' + '.*' + ')')
+		Match = Dings_Object_Parameter_Reg_Exp.match(Line_Part)
+		if Match:
+			Parameter = Match.group(1)
+			Remainder = Match.group(2)
+		else:
+			Parameter = None
+			Remainder = Line_Part
+		return Parameter, Remainder
+
+	def Process_Dings_Object_Tag(Self, Line_Part):
+		# Example: {#4711:1}
+		Dings_Object_Tag_Reg_Exp = Re.compile('\s*{#' + '(' + '.*' + ')' + ':' + '(' + '\d+' + ')' + '}' + '\s*' + '$')
+		Match = Dings_Object_Tag_Reg_Exp.match(Line_Part)
+		if Match:
+			Anchor = Match.group(1)
+			Tag = Match.group(2)
+		else:
+			Tag = Anchor = None
+		return Tag, Anchor
+
 	def Process_Dings_Object(Self, Line, Directory):
-		# Example: ![Castanea-sativa-Mill-Photo](400000033.jpg)
-		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|mp3|mp4|pdf)' + ')' + '\)' + '\s*$')
+		# Examples:
+		# ![Test Me](10000.Dings_Sip_Toggle)
+		# ![Test Me](10000.Dings_Sip_Toggle) {#1:4711}
+		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px)
+		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px) {#4711:1}
+		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|png|mp3|mp4|pdf|sip_toggle)' + ")" + '\s*' + '(' + '.*' + ')')
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
 			return False
-		Object_Name = Match.group(1)
-		Object_File = Match.group(2)
-		Object_Number = Os.path.splitext(Object_File)[0]
-		Object_Extension = Dings_Lib.Get_File_Extension(Object_File)
-		if not Os.path.exists(Directory + "/" + Object_File):
-			print('Error: Dings-Object not available: ' + Directory + "/" + Object_File, file=Sys.stderr)
-			quit(1)
-		if Object_Name != "":
-			print('<figure>')
-		if Object_Extension == "jpg":
-			print(f'<a href="{Object_Number}.html">')
-			print(f'  <img src="{Object_File}" alt="{Object_Name}" width="100%"/>')
-			print(f'</a>')
-		elif Object_Extension == "mp3":
-			print(f'<audio controls>')
-			print(f'  <source src="{Object_File}" type="audio/mpeg">')
-			print(f'</audio>')
-		elif Object_Extension == "mp4":
-			print(f'<video id="{Object_Name}" width="100%" height="auto" controls>')
-			print(f'  <source src="{Object_File}" type=video/mp4>')
-			print(f'</video>')
-		elif Object_Extension == "pdf":
-			print(f'<a href="{Object_Number}.pdf" type="application/pdf" target="_blank">')
-			print(f' <div class="Overlay-Image-Container">')
-			print(f'  <img src="{Object_Number}.jpg" class="Overlay-Image-Parent" alt="{Object_Name}" width="100%"/>')
-			print(f'  <img src="300000101.png" class="Overlay-Image-Child" width="100%"/>')
-			print(f' </div>')
-			print(f'</a>')
+		Object_Caption = Match.group(1)
+		Object_File_Path = Match.group(2)
+		Remainder = Match.group(3)
+		Object_Number = Os.path.splitext(Object_File_Path)[0]
+		Object_Parameter = Object_Tag = Object_Anchor = None
+		if Remainder[0] != ')':
+			Object_Parameter, Remainder = Self.Process_Dings_Object_Parameter(Remainder)
+		else:
+			Remainder = Remainder[1:]
+		Object_Tag, Object_Anchor = Self.Process_Dings_Object_Tag(Remainder)
+		Extension = Dings_Lib.Get_File_Extension(Object_File_Path).lower()
+		if Extension == "sip_toggle":
+			Dings_Object = Dings_Sip_Toggle_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
+		elif Extension == "jpg" or Extension == "png":
+			Dings_Object = Dings_Image_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
+		elif Extension == "mp3":
+			Dings_Object = Dings_Sound_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
+		elif Extension == "mp4":
+			Dings_Object = Dings_Video_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
+		elif Extension == "pdf":
+			Dings_Object = Dings_Pdf_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
 		else:
 			print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
 			quit(1)
-		if Object_Name != "":
-			print(f'<figcaption><a href="{Object_Number}.html">{Object_Name}</a></figcaption>')
-			print(f'</figure>')
+		if Object_Anchor:
+			print(f'<figure id="{Object_Anchor}">')
+			Object_Tag = " \(" + Object_Tag + "\)"
+		else:
+			print(f'<figure>')
+			Object_Tag = ""
+		Dings_Object.Generate_Html("Dings_Object_" + str(Self.Dings_Object_Count))
+		if Object_Caption != "" or Object_Tag != None:
+			print(f'<figcaption><a href="{Object_Number}.html">{Object_Caption}{Object_Tag}</a></figcaption>')
+		print(f'</figure>')
+		Self.Dings_Object_Count += 1
 		return True
 
 	def Process_Code(Self, Line):
@@ -599,6 +633,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 				print(Line, end='')
 
 	def Gen_Html(Self, Markdown_File, Output_File_Name=None):
+		Self.Dings_Object_Count = 0
 		with open(Markdown_File) as File:
 			First_Line = File.readline()
 		Title = First_Line[2:].strip()

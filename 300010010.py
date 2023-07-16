@@ -145,7 +145,7 @@ class Git_Commit_Class:
 		print(f" Sub-Module: {Self.Sub_Module}")
 		print(f"    Message: {Self.Message}")
 		for Dings_File in Self.Dings_File_List:
-			print(f"          {Dings_File.Commit_Type}: {Dings_File.Name}")
+			print(f"	  {Dings_File.Commit_Type}: {Dings_File.Name}")
 		print("")
 
 ## Class Git
@@ -880,3 +880,12 @@ class Command_Class:
 			Command.Info()
 		quit(0)
 
+class Object_Class():
+	def __init__(Self, Caption, File_Path, Parameter, Tag, Anchor):
+		Self.Caption = Caption
+		Self.File_Path = File_Path
+		Self.Parameter = Parameter
+		Self.Tag = Tag
+		Self.Anchor = Anchor
+		Self.Number = Os.path.splitext(File_Path)[0]
+		Self.Extension = Get_File_Extension(File_Path)

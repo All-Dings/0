@@ -112,6 +112,13 @@
 
 1000001.md     Blog-Chain-Time
 
+300040005.md   Dings-Pdf
+300040004.md   Dings-Video
+300040003.md   Dings-Sound
+300040002.md   Dings-Image
+300040001.md   Dings-Sip-Toggle
+300040000.md   Dings-Object
+
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
 300030004.make Dings-Backup-Makefile
