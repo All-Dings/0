@@ -15,6 +15,7 @@ import re as Re
 import sys as Sys
 
 from Dings_Image import Dings_Image_Class
+from Dings_Pdf import Dings_Pdf_Class
 from Dings_Sip_Toggle import Dings_Sip_Toggle_Class
 from Dings_Sound import Dings_Sound_Class
 from Dings_Video import Dings_Video_Class
@@ -528,6 +529,8 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
 			return False
+		From_Directory = Os.getcwd()
+		Os.chdir(Directory)
 		Object_Caption = Match.group(1)
 		Object_File_Path = Match.group(2)
 		Remainder = Match.group(3)
@@ -563,6 +566,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'<figcaption><a href="{Object_Number}.html">{Object_Caption}{Object_Tag}</a></figcaption>')
 		print(f'</figure>')
 		Self.Dings_Object_Count += 1
+		Os.chdir(From_Directory)
 		return True
 
 	def Process_Code(Self, Line):
