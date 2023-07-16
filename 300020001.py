@@ -471,8 +471,8 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		if not Match:
 			return False
 		Equation = Match.group(1)
-		Tag = "\(" + Match.group(2) + "\)"
-		Anchor = '<a id="' + Match.group(3) + '"/>'
+		Anchor = '<a id="' + Match.group(2) + '"/>'
+		Tag = "\(" + Match.group(3) + "\)"
 		Self.Print_Tex_Equation(Equation, Tag, Anchor)
 		return True
 
