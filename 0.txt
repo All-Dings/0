@@ -49,6 +49,10 @@
 
 ### `400000000` Media-Files
 
+400000041.md   Michael's-U-and-Ü
+400000040.md   Michael's-Phone-U-F4
+400000039.md   Michael's-Phone-Ü-F4
+
 400000037.md   Pythagorean-Comma-Q-E-D
 400000036.md   Sousa-Phone-on-Brass-Festival
 400000035.md   Spinoza-and-Brass-Festival
