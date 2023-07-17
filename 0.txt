@@ -840,6 +840,7 @@
 
 # Personality
 
+70000042.md    Eugene_Wesley_Roddenberry
 70000041.md    Leslie_Lamport
 70000040.md    Donald_Ervin_Knuth
 70000039.md    Platon
