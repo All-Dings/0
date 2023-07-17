@@ -527,6 +527,7 @@
 
 ## Star-Trek
 
+200030114.md   Spock
 200030113.md   Vulcan-Species
 200030112.md   Isaac
 200030111.md   The-Orville
