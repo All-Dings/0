@@ -710,6 +710,7 @@
 
 130010000.md   Currency
 
+130000025.md   Credit
 130000024.md   Interest
 130000023.md   Bitcoin
 130000022.md   Branch-Office
