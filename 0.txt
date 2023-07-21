@@ -300,6 +300,7 @@
 270100001.md   Soccer-System
 270110000.md   Soccer
 
+270100002.md   Trophy
 270100000.md   Sport
 
 ## Human-Culture
