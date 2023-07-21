@@ -284,7 +284,7 @@
 270000013.md   Double-Tennis-Match
 270000012.md   Tennis-Match
 270000011.md   Tennis-Club-Tübingen
-270200010.md   Round-Robin-Tournament-Tübingen. 
+270200010.md   Round-Robin-Tournament-Tübingen
 270200009.md   Wimbledon-Tournament
 270200008.md   Tennis-Tournament
 270200007.md   Tennis-Set
