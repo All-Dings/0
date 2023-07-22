@@ -721,7 +721,7 @@
 
 130010000.md   Currency
 
-130000028.md   Bauspar-Vertrag
+130000028.md   Bausparvertrag
 130000027.md   Financial-Product
 130000026.md   Big-Mac-Index
 130000025.md   Credit
