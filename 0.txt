@@ -813,6 +813,7 @@
 
 # Music
 
+91001007.md    Singing
 91001006.md    Choral-Set
 90001005.md    SUSI-Chor
 90001003.md    Blue-Note
