@@ -1013,6 +1013,7 @@
 
 # Biology / Biologic
 
+40201004.md    Humor
 40201003.md    Nicotine-Flash
 40201002.md    Biologic-Perception-Burning
 40201001.md    Tingling
@@ -1598,6 +1599,7 @@
 
 # Literature
 
+720001.md      Joke
 720000.md      Literature
 
 # Writing 
