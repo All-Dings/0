@@ -219,6 +219,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010026.md     TüDoKop
 2010025.md     Heimat-Programm
 2010024.md     Ernst-Bloch-Choir-Conductor
 2010023.md     Kichererbse-Tübingen
@@ -630,7 +631,7 @@
 180000003.md   Married-Couple
 180000002.md   Friend
 180000001.md   Clan
-180000000.md   Grouping
+180000000.md   Group
 
 # Identity
 
