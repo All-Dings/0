@@ -56,7 +56,7 @@
 
 400000085.md   Bell-Counter-A-Multiple
 400000081.md   Lupe-magnifer
-400000080.md   Smiley-1Icon
+
 400000079.md   Bottle-Deposit-Euros
 400000077.md   Bottle-Deposit-Receipts-Kasten-Pfand-Loupe
 400000076.md   Bottle-Deposit-Receipts-Mehrweg-Pfand
