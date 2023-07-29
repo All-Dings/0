@@ -1678,6 +1678,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670016.md      CC-BY-License
 670015.md      Paragraph
 670014.md      Driving-License
 670013.md      Thievery
