@@ -222,6 +222,7 @@
 
 140100002.md   Landrats-Amt-Tübingen
 
+2010027.md     Kaufland-Tübingen
 2010026.md     TüDoKop
 2010025.md     Heimat-Programm
 2010024.md     Ernst-Bloch-Choir-Conductor
