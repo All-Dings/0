@@ -975,6 +975,7 @@
 
 # Fine-Arts
 
+60000003.md    Collage
 60000002.md    Ascii-Art
 60000001.md    Picture
 60000000.md    Fine-Arts
