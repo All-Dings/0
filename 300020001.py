@@ -14,6 +14,7 @@ import os as Os
 import re as Re
 import sys as Sys
 
+from Dings_Quiz import Dings_Quiz_Class
 from Dings_Image import Dings_Image_Class
 from Dings_Pdf import Dings_Pdf_Class
 from Dings_Sip_Toggle import Dings_Sip_Toggle_Class
@@ -525,12 +526,13 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		# ![Test Me](10000.Dings_Sip_Toggle) {#1:4711}
 		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px)
 		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px) {#4711:1}
-		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|png|mp3|mp4|pdf|sip_toggle)' + ")" + '\s*' + '(' + '.*' + ')')
+		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|png|mp3|mp4|pdf|sip_toggle|quiz)' + ")" + '\s*' + '(' + '.*' + ')')
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
 			return False
 		From_Directory = Os.getcwd()
-		Os.chdir(Directory)
+		if Directory != "":
+			Os.chdir(Directory)
 		Object_Caption = Match.group(1)
 		Object_File_Path = Match.group(2)
 		Remainder = Match.group(3)
@@ -542,7 +544,9 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			Remainder = Remainder[1:]
 		Object_Tag, Object_Anchor = Self.Process_Dings_Object_Tag(Remainder)
 		Extension = Dings_Lib.Get_File_Extension(Object_File_Path).lower()
-		if Extension == "sip_toggle":
+		if Extension == "quiz":
+			Dings_Object = Dings_Quiz_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
+		elif Extension == "sip_toggle":
 			Dings_Object = Dings_Sip_Toggle_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
 		elif Extension == "jpg" or Extension == "png":
 			Dings_Object = Dings_Image_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
