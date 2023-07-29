@@ -832,6 +832,7 @@
 
 # Music
 
+91001008.md    Sound-Collage
 91001007.md    Singing
 91001006.md    Choral-Set
 90001005.md    SUSI-Chor
