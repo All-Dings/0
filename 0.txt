@@ -1790,6 +1790,7 @@
 
 # Concept
 
+600104.md      Waste
 600103.md      Ability
 600102.md      Examination
 600101.md      Creation
