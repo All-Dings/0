@@ -14,6 +14,7 @@
 	Color: White;
 	Background-Color: var(--Dings-Quiz-Green);
 	Font-Weight: Bold;
+	Text-Align: Center;
 	Transition:0.5s Ease;
 	-moz-transition:0.5s Ease;
 	-webkit-transition:0.5s Ease;
