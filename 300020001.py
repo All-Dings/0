@@ -442,18 +442,27 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		super().__init__()
 		Self.Help_On_Empty = False
 		Self.Name = "dings_html_generate"
-		Self.Argument_String = "MARKDOWN-FILE"
+		Self.Argument_String = "INPUT-FILE"
 		Self.Output_Option = Output_Option_String_Class()
 		Self.Option_List.append(Self.Output_Option)
 
 	def Run(Self):
 		if (not Self.Remaining_Argument_List):
-			print(f"Error: No Markdown-File specified", file=Sys.stderr)
+			print(f"Error: No INPUT-File specified", file=Sys.stderr)
 			return 1
 		if (Self.Output_Option.Set):
 			Output_File_Name = Self.Output_Option.Value
-		Markdown_File = Self.Remaining_Argument_List[0]
-		return Self.Gen_Html(Markdown_File, Output_File_Name)
+		Input_File = Self.Remaining_Argument_List[0]
+		Extension = Dings_Lib.Get_File_Extension(Input_File)
+		if Extension == "md":
+			return Self.Gen_Html_from_Md(Input_File, Output_File_Name)
+		elif Extension == "html":
+			return Self.Gen_Html_from_Html(Input_File, Output_File_Name)
+		elif Extension == "php":
+			return Self.Gen_Php_from_Php(Input_File, Output_File_Name)
+		else:
+			print(f"Error: Unknown File-Extension: {Extension}", file=Sys.stderr)
+			return 1
 
 	def Print_Tex_Equation(Self, Equation, Tag, Anchor):
 		print(f'<table class="TeX-Table">')
@@ -631,7 +640,33 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 					print('\t\t<a href="#' + Link_Target + '" ' + Heading_Class + ' onclick="Select_Sidebar_Element(event)">' + Text + '</a>')
 		print('\t</div>')
 
-	def Gen_Html_Pandoc(Self, Markdown_File):
+	def Gen_Php_from_Php_File(Self, Php_File_Name, Output_File_Name=None):
+		print("<?php")
+		print("session_start();")
+		print("?>")
+		with open("300000002.htm") as Htm_File:
+			Htm_Lines = Htm_File.readlines()
+		for Line in Htm_Lines:
+			if "$Dings-Side-Bar$" in Line:
+				print('\t<div class="Dings-Side-Bar-Hide" id="Dings-Side-Bar">')
+				print('\t</div>')
+			elif "$body$" in Line:
+				with open(Php_File_Name) as Php_File:
+					Php_Content = Php_File.read()
+				print(Php_Content)
+			else:
+				print(Line, end='')
+
+	def Gen_Php_from_Php(Self, Php_File, Output_File_Name):
+		with open(Output_File_Name, 'w') as File:
+			with Context_Lib.redirect_stdout(File):
+				Self.Gen_Php_from_Php_File(Php_File)
+
+	def Gen_Html_from_Html(Self, Html_File, Output_File_Name):
+		# We can use the same Code here
+		Self.Gen_Php_from_Php(Html_File, Output_File_Name)
+
+	def Gen_Html_from_Md_Pandoc(Self, Markdown_File):
 		with open("300000002.htm") as Htm_File:
 			Htm_Lines = Htm_File.readlines()
 		for Line in Htm_Lines:
@@ -640,7 +675,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			else:
 				print(Line, end='')
 
-	def Gen_Html(Self, Markdown_File, Output_File_Name=None):
+	def Gen_Html_from_Md(Self, Markdown_File, Output_File_Name=None):
 		Self.Dings_Object_Count = 0
 		with open(Markdown_File) as File:
 			First_Line = File.readline()
@@ -651,7 +686,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			Output_File_Name = Os.path.splitext(Markdown_File)[0]+'.html'
 		with open(Htm_Pandoc_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
-				Self.Gen_Html_Pandoc(Markdown_File)
+				Self.Gen_Html_from_Md_Pandoc(Markdown_File)
 		with open(Md_Pandoc_File_Name, 'w') as File:
 			with Context_Lib.redirect_stdout(File):
 				Self.Gen_Inline_Ids_And_Objects(Markdown_File)

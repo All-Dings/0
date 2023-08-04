@@ -173,6 +173,12 @@
 
 300000101.md   Dings-Overlay-Image-PDF
 
+300000027.md   Dings-Font-Awesome-4.7
+300000026.md   Dings-Local-Logout-Template
+300000025.md   Dings-Local-Login-Form
+300000024.md   Dings-Htaccess
+300000023.md   Dings-Php-Load
+300000022.md   Dings-Php-Login
 300000021.md   Dings-Warning-Under-Construction
 300000020.md   Dings-App
 300000019.md   Dings-File-Parent
@@ -1737,6 +1743,8 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670020.md      SIL-Open-Font-License
+670019.md      MIT-License
 670018.md      Receipt
 670017.md      Public-Domain-License
 670016.md      CC-BY-License
