@@ -426,14 +426,15 @@ class Code_To_Markdown_Class:
 ## Convert Python-Code to Markdown
 class Python_To_Markdown_Class(Code_To_Markdown_Class):
 	def __init__(Self):
-		Self.Reg_Exp_Heading = Re.compile('^' + '#+' + ' ' + '.*')
+		Self.Reg_Exp_Heading = Re.compile('^' + '\s*' + '#+' + ' ' + '.*')
 		Self.Reg_Exp_Comment = Re.compile('^' + '"""' + '\s*')
 		super().__init__()
 
 	def Handle_State_Init(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
 			Self.State = Self.States.Heading
-			print(f"{Line}")
+			Heading = Line.lstrip()
+			print(f"{Heading}")
 		elif Self.Reg_Exp_Comment.match(Line):
 			Self.State = Self.States.Comment
 		else:
@@ -443,7 +444,8 @@ class Python_To_Markdown_Class(Code_To_Markdown_Class):
 
 	def Handle_State_Heading(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
-			print(f"\n{Line}")
+			Heading = Line.lstrip()
+			print(f'\n{Heading}')
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment.match(Line):
 			Self.State = Self.State.Comment
@@ -454,8 +456,9 @@ class Python_To_Markdown_Class(Code_To_Markdown_Class):
 
 	def Handle_State_Code(Self, Line):
 		if Self.Reg_Exp_Heading.match(Line):
+			Heading = Line.lstrip()
 			print("```")
-			print(f"\n{Line}")
+			print(f"\n{Heading}")
 			Self.State = Self.States.Heading
 		elif Self.Reg_Exp_Comment.match(Line):
 			print("```")
