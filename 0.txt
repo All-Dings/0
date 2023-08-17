@@ -130,7 +130,7 @@
 303000010.md   Pic-Tool
 303000002.md   Würfelwand-Team
 303000001.md   Würfelwand-Photo
-303000000.md   Würfelwand
+303000000.md   Projekt-Würfelwand
 
 ### Programming-Study
 
