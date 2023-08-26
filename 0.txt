@@ -661,7 +661,7 @@
 
 # Exhibition
 
-
+199000004.md   Maker-Faire
 199000003.md   Wilhelma
 199000002.md   Botanics-Garden
 199000001.md   Zoo
@@ -959,6 +959,7 @@
 
 # Personality
 
+70000045.md    Konrad_Zuse
 70000044.md    Samuel_Langhorne_Clemens
 70000043.md    Seth_Woodbury_MacFarlane
 70000042.md    Eugene_Wesley_Roddenberry
