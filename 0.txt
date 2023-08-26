@@ -963,6 +963,7 @@
 
 # Personality
 
+70000046.md    Horst_Konrad_Zuse
 70000045.md    Konrad_Zuse
 70000044.md    Samuel_Langhorne_Clemens
 70000043.md    Seth_Woodbury_MacFarlane
@@ -1861,6 +1862,7 @@
 
 # Academics
 
+640007.md      Doctorial-Thesis
 640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
 640005.md      University
 640004.md      Studien-Arbeit
