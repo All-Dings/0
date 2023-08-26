@@ -560,6 +560,7 @@
 
 # Machine
 
+201000010.md   Zuse-Z25
 201000009.md   Zuse-Z3
 201000008.md   Zuse-Z2
 201000007.md   Zuse-Z1
