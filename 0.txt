@@ -560,6 +560,7 @@
 
 # Machine
 
+201000007.md   Zuse-Z1
 201000006.md   Playstation
 201000005.md   Lilith
 201000004.md   Zuse-Z4
