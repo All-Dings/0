@@ -1304,6 +1304,7 @@
 
 # History
 
+11000002.md    Second-World-War
 11000001.md    Aristocracy
 11000000.md    History
 
@@ -1777,6 +1778,10 @@
 700001.md      Document
 700000.md      Writing
 
+# Criminalistics
+
+690000.md      Criminalistics
+
 # Juristics
 
 680003.md      Eingetragener-Verein
@@ -2014,6 +2019,7 @@
 
 # All
 
+60123.md       War
 60122.md       Capability
 60121.md       The-Bad
 60120.md       The-Good
