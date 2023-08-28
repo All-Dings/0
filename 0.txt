@@ -1264,6 +1264,8 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13000029.md    Mathematics-System
+13000028.md    Floating-Point-System
 13000027.md    Mathematics-Difference
 13000026.md    Mathematics-Equation
 13000025.md    Mathematics-Formula
@@ -1317,6 +1319,7 @@
 
 # Electronics
 
+10400003.md    Transistor
 10400002.md    Electronic-Circuit
 10400001.md    Electronics-System
 10400000.md    Electronics
