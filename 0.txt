@@ -1298,6 +1298,10 @@
 12000001.md    Nerd
 12000000.md    Expert
 
+# Archaeology
+
+11200000.md    Archaeology
+
 # History
 
 11000001.md    Aristocracy
