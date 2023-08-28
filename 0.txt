@@ -561,6 +561,7 @@
 
 # Machine
 
+201000011.md   Zuse-Z1-Replica
 201000010.md   Zuse-Z25
 201000009.md   Zuse-Z3
 201000008.md   Zuse-Z2
