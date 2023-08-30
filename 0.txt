@@ -1315,6 +1315,10 @@
 12000001.md    Nerd
 12000000.md    Expert
 
+# Didactics
+
+11300000.md    Didactics
+
 # Archaeology
 
 11200000.md    Archaeology
