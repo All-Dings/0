@@ -1099,6 +1099,7 @@
 
 # Illness
 
+48000015.md    Corona
 48000014.md    Parkinson's-Disease
 48000013.md    Mental-Illness
 48000012.md    Depression
