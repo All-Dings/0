@@ -685,13 +685,14 @@
 
 # Information-Provider
 
+190000006.md   Wikipedia
 191000000.md   Information-Provider
 
 # Content-Seller
 
 190000008.md   Twitter
 190000007.md   SoundBible
-190000006.md   Wikipedia
+
 190000005.md   First-German-Television  
 190000004.md   German-Public-Broadcast
 190000003.md   You-Tube-Channel
