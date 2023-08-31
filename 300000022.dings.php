@@ -1,6 +1,8 @@
 <?php
+
 if (isset($_GET['Protected'])) {
 	$Current_User = $_SESSION['User_Id'];
+	$_SESSION['File_To_Load'] = $_GET['File_To_Load'];
 	echo "<h1> Access denied </h1>";
 	if ($Current_User == "") {
 		echo 'This Page is protected, please login to continue!<br><br>';
@@ -38,7 +40,7 @@ if (isset($_GET['Protected'])) {
 	}
 	// Login User
 	$_SESSION['User_Id'] = $User_Id;
-	echo 'Successful for User-Id "' .  $_SESSION['User_Id'] . '".' . '<br>';
+	echo 'Successful for User-Id "' .  $_SESSION['User_Id'] . '", click here to proceed: <a href="' . $_SESSION['File_To_Load'] . '">' . $_SESSION['File_To_Load'] . '</a><br>';
 	$User_Id_String = '"' . $User_Id . '"';
 	echo '<script type="text/javascript">',
 	"localStorage.setItem('All_Dings.Current_User', $User_Id_String);",

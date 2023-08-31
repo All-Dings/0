@@ -31,8 +31,8 @@ function Exit_if_Secret_File($File_To_Load) {
 /*
  * Redirect to Login-Page
  */
-function Redirect_to_Login_and_Exit() {
-	header("Location: 300000022.php?Protected=1");
+function Redirect_to_Login_and_Exit($File_To_Load) {
+	header("Location: 300000022.php?File_To_Load=" . $File_To_Load . "&Protected=1");
 	die("");
 }
 
@@ -44,11 +44,11 @@ function Exit_if_User_has_no_Access($File_To_Load) {
 	$Access_File_Name = $Dings_Number . ".access";
 	if (file_exists($Access_File_Name)) {
 		if (!isset($_SESSION['User_Id']))
-			Redirect_to_Login_and_Exit();
+			Redirect_to_Login_and_Exit($File_To_Load);
 		$Access_Info = json_decode(file_get_contents($Access_File_Name), true);
 		$Current_User = $_SESSION['User_Id'];
 		if (!in_array($Current_User, $Access_Info["User_List"]))
-			Redirect_to_Login_and_Exit();
+			Redirect_to_Login_and_Exit($File_To_Load);
 	}
 }
 
