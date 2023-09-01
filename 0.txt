@@ -1938,6 +1938,7 @@
 
 # Concept
 
+600108.md      Method
 600107.md      Question
 600106.md      Simulation
 600105.md      Ambiguity-Tolerance
