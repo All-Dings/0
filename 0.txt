@@ -588,6 +588,7 @@
 200500001.md   Bicycle
 200500000.md   Vehicle
 
+200400005.md   Metal-Detector
 200400004.md   Android
 200400003.md   Robot
 200400002.md   Camping-Vehicle
@@ -1939,6 +1940,7 @@
 
 # Concept
 
+600112.md      Contradiction
 600111.md      Unclarity
 600110.md      Combination
 600109.md      Proof-Of-Concept
