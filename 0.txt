@@ -1042,6 +1042,7 @@
 
 # Architecture
 
+60100005.md    Cellar
 60100004.md    Internationales-Congress-Centrum-Berlin
 60100003.md    Kölner-Dom
 60100002.md    Building
