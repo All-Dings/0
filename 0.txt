@@ -1273,6 +1273,10 @@
 15000001.md    Logics-System
 15000000.md    Logics
 
+# Humoristics
+
+14200000.md    Humoristics
+
 # Esotherics
 
 14100001.md    Esotherics-Medium
