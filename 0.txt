@@ -993,6 +993,7 @@
 
 # Personality
 
+70000051.md    Helmut_Theodor_Schreyer
 70000050.md    Lorenz_Handewinkel
 70000049.md    Hannelore_Zuse-Stöcker
 70000048.md    Hadwig_Dorsch
