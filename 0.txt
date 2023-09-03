@@ -998,7 +998,7 @@
 
 # Personality
 
-70000052.md    Raúl_Rojas
+70000052.md    Raúl_Rojas-González
 70000051.md    Helmut_Theodor_Schreyer
 70000050.md    Lorenz_Handewinkel
 70000049.md    Hannelore_Zuse-Stöcker
