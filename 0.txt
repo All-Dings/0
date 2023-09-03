@@ -993,6 +993,7 @@
 
 # Personality
 
+70000050.md    Lorenz_Handewinkel
 70000049.md    Hannelore_Zuse-Stöcker
 70000048.md    Hadwig_Dorsch
 70000047.md    Stephen_Wolfram
@@ -1919,6 +1920,7 @@
 
 # Academics
 
+640009.md      Survey-Method
 640008.md      Academics-Method
 640007.md      Doctorial-Thesis
 640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
