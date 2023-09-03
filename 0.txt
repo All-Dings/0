@@ -1296,6 +1296,8 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13005000.md    Statistics
+
 13000029.md    Mathematics-System
 13000028.md    Floating-Point-System
 13000027.md    Mathematics-Difference
