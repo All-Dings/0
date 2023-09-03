@@ -26,6 +26,7 @@
 
 ### My Academic-Work
 
+1971092003.md  Holzheu-Zuse-Blogs
 1971092002.md  Regler-zur-Robotersteuerung
 1971091177.md  Doktor_Holzheu
 
