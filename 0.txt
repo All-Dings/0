@@ -984,6 +984,7 @@
 
 # Famous Document or Book
 
+71000007.md    Mein-Weg-mit-Konrad_Zuse-und-Heinz_Nixdorf
 71000006.md    Die-Rechenmaschinen-von-Konrad_Zuse
 71000005.md    Der-Computer–Mein-Lebenswerk
 71000004.md    The_Adventures_of_Tom_Sawyer
@@ -1000,7 +1001,7 @@
 
 70000052.md    Raúl_Rojas-González
 70000051.md    Helmut_Theodor_Schreyer
-70000050.md    Lorenz_Handewinkel
+70000050.md    Lorenz_Hanewinkel
 70000049.md    Hannelore_Zuse-Stöcker
 70000048.md    Hadwig_Dorsch
 70000047.md    Stephen_Wolfram
