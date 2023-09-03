@@ -1271,6 +1271,7 @@
 
 # Esotherics
 
+14100001.md    Esotherics-Medium
 14100000.md    Esotherics
 
 # Psychology
