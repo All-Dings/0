@@ -684,6 +684,10 @@
 199000001.md   Zoo
 610000.md      Exhibition
 
+# Web-Sites
+
+192000001.md   Konrad-Zuse-Internet-Archive
+
 # Information-Provider
 
 191000001.md   Wikidata
