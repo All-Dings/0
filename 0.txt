@@ -686,6 +686,7 @@
 
 # Web-Sites
 
+192000002.md   Horst-Zuse-Web-Site
 192000001.md   Konrad-Zuse-Internet-Archive
 
 # Information-Provider
@@ -1918,6 +1919,7 @@
 
 # Academics
 
+640008.md      Academics-Method
 640007.md      Doctorial-Thesis
 640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
 640005.md      University
