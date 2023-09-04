@@ -734,6 +734,7 @@
 
 # Identity
 
+170100006.md   Finger-Print
 170100005.md   User-Identifier
 170100004.md   Passport
 170100003.md   World-Identifier
@@ -1961,6 +1962,7 @@
 
 # Academics
 
+640013.md      Universität-Potsdam
 640012.md      Technische-Universität-Berlin
 640011.md      Humboldt-Universität-Berlin
 640010.md      Freie-Universität-Berlin
