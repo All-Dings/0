@@ -1268,6 +1268,7 @@
 
 # Device
 
+20000015.md    Calculating-Machine
 20000014.md    Electronic-Visual-Display
 20000013.md    Laptop
 20000012.md    iPad
