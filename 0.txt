@@ -699,6 +699,7 @@
 
 # Web-Sites
 
+192000003.md   Rechner-Lexikon-Web-Site
 192000002.md   Horst-Zuse-Web-Site
 192000001.md   Konrad-Zuse-Internet-Archive
 
