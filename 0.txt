@@ -475,7 +475,7 @@
 
 # Business
 
-240000023.md   Internations-Business-Machines-Corporation
+240000023.md   International-Business-Machines-Corporation
 240000022.md   Worldcoin
 240000021.md   Texas-Instruments-Incorporated
 240000020.md   Zuse-KG
