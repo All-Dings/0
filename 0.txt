@@ -1384,6 +1384,7 @@
 
 # Electronics
 
+10400004.md    Chip-Card
 10400003.md    Transistor
 10400002.md    Electronic-Circuit
 10400001.md    Electronics-System
