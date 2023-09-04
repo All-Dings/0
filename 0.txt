@@ -575,6 +575,7 @@
 
 # Machine
 
+201000012.md   Analytical-Engine
 201000011.md   Zuse-Z1-Replica
 201000010.md   Zuse-Z25
 201000009.md   Zuse-Z3
