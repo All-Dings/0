@@ -610,6 +610,7 @@
 
 # Movie
 
+200040008.md   Konrad-Zuse-Movie
 200040007.md   The-Suicide-Squad 
 200040006.md   Back-to-the-Future
 200040005.md   Back-to-the-Future-Series
@@ -1014,6 +1015,7 @@
 
 # Personality
 
+70000055.md    Mathias_Knauer
 70000054.md    Charles_Babbage
 70000053.md    Heinz_Nixdorf
 70000052.md    Raúl_Rojas-González
