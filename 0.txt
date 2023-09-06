@@ -424,6 +424,7 @@
 
 # Government
 
+250010002.md   European-Space-Agency
 250010001.md   Landrats-Amt
 250010000.md   Government-Institution
 
@@ -692,6 +693,7 @@
 
 # Exhibition
 
+199000007.md   Internationale-Funkausstellung-Berlin
 199000006.md   Deutsches-Museum
 199000005.md   Museum
 199000004.md   Maker-Faire
