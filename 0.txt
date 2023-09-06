@@ -613,7 +613,9 @@
 
 # Movie
 
-200040009.md   Dr.-No 
+200040011.md   Goldfinger
+200040010.md   From-Russia-with-Love
+200040009.md   Dr.-No
 200040008.md   Konrad_Zuse-Movie
 200040007.md   The-Suicide-Squad 
 200040006.md   Back-to-the-Future
