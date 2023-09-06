@@ -1800,6 +1800,7 @@
 
 # Literature
 
+730002.md      Pinocchio
 730001.md      Tom_Sawyer
 
 720001.md      Joke
