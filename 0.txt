@@ -700,7 +700,8 @@
 
 # Exhibition
 
-190000008.md   Technik-Museum-Berlin
+199000009.md   Museum-für-Kommunikation-Bern
+199000008.md   Technik-Museum-Berlin
 199000007.md   Internationale-Funkausstellung-Berlin
 199000006.md   Deutsches-Museum
 199000005.md   Museum
