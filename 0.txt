@@ -780,6 +780,7 @@
 
 140100001.md   Russian-Matrjoschka  
 
+140000055.md   Zürich
 140000054.md   Methfesselstraße-10
 140000053.md   Methfesselstraße-7
 140000052.md   Recklinghausen
@@ -1983,6 +1984,7 @@
 
 # Academics
 
+640014.md      Eidgenössische-Technische-Hochschule-Zürich
 640013.md      Universität-Potsdam
 640012.md      Technische-Universität-Berlin
 640011.md      Humboldt-Universität-Berlin
