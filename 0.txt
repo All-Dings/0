@@ -1484,6 +1484,7 @@
 9999998.md     Informatics-Student
 9999997.md     Informatics-Famous-Human
 
+9400005.md     Instruction-Pipelining
 9400004.md     Arithmethic-Unit
 9400003.md     Central-Processing-Unit
 9400002.md     Graphics-Processing-Unit
