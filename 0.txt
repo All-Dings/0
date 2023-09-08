@@ -2086,7 +2086,7 @@
 600055.md      Persistency
 600054.md      Consistency
 600053.md      Addressing
-600052.md      Jusitce
+600052.md      Justice
 600051.md      Topic
 600050.md      Dream
 600049.md      Reasoning
