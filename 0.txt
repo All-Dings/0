@@ -2021,6 +2021,7 @@
 
 # Concept
 
+600120.md      Quality
 600119.md      Integration
 600118.md      Coordination
 600117.md      Cooperation
