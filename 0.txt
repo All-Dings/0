@@ -30,7 +30,6 @@
 ### My Academic-Work
 
 333333333.md   Truth-in-a-digital-World
-1971092003.md  Holzheu-Zuse-Blogs
 1971092002.md  Regler-zur-Robotersteuerung
 1971091177.md  Doktor_Holzheu
 
@@ -49,6 +48,7 @@
 
 ### My Things
 
+1971092003.md  Holzheu-Zuse-Blogs
 1971091107.md  My-Jose-Ribera
 1971091106.md  My-Peugeot
 1971091105.md  My-Bicycle
@@ -133,7 +133,7 @@
 400000002.md   Beurteilungs-Kriterien-before-Scan-Photo
 400000001.md   Muffi-and-Schnuffi-Image
 
-### Truth in a digitized World
+### Truth in a digital World
 
 333333336.md   Truth-in-a-digital-World-Team
 333333335.md   Notes-for-the-Thesis
