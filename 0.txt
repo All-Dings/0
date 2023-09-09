@@ -1450,6 +1450,10 @@
 10400001.md    Electronics-System
 10400000.md    Electronics
 
+# Chemistry
+
+10100000.md    Chemistry
+
 # Physics / Physical
 
 10010000.md    Experiment
