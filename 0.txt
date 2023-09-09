@@ -1038,6 +1038,7 @@
 
 # Personality
 
+70000057.md    Eduard_Ludwig_Stiefel
 70000056.md    Liselotte_Zuse
 70000055.md    Mathias_Knauer
 70000054.md    Charles_Babbage
