@@ -1328,6 +1328,7 @@
 
 # Theology
 
+14300001.md    Sacret-Script
 14300000.md    Theology
 
 # Humoristics
@@ -2043,6 +2044,7 @@
 
 # Concept
 
+600124.md      Conformity
 600123.md      Similarity
 600122.md      Variant
 600121.md      Knowledge-Transfer
