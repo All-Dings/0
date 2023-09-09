@@ -1039,6 +1039,7 @@
 
 # Personality
 
+70000060.md    Howard_Hathaway_Aiken
 70000059.md    Ambros_Paul_Speiser
 70000058.md    Heinz_Rutishauser
 70000057.md    Eduard_Ludwig_Stiefel
