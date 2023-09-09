@@ -1326,6 +1326,10 @@
 15000001.md    Logics-System
 15000000.md    Logics
 
+# Feminism
+
+14400000.md    Feminism
+
 # Theology
 
 14300002.md    Divine-Command
@@ -1336,10 +1340,10 @@
 
 14200000.md    Humoristics
 
-# Esotherics
+# Spiritism
 
 14100001.md    Esotherics-Medium
-14100000.md    Esotherics
+14100000.md    Spiritism
 
 # Psychology
 
