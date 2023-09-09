@@ -1184,6 +1184,10 @@
 40800001.md    Neuro-Dermatitis
 40800000.md    Illness
 
+# Genetics
+
+40300000.md    Genetics
+
 # Biology / Biologic
 
 40201004.md    Humor
