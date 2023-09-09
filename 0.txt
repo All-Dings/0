@@ -2083,6 +2083,7 @@
 
 # Concept
 
+600128.md      Verification
 600127.md      Learning
 600126.md      Influence
 600125.md      Belief
@@ -2212,6 +2213,7 @@
 
 # All
 
+60134.md       The-First
 60133.md       Successor
 60132.md       Old-Thing
 60131.md       New-Thing
