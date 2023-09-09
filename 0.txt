@@ -2083,6 +2083,7 @@
 
 # Concept
 
+600127.md      Learning
 600126.md      Influence
 600125.md      Belief
 600124.md      Conformity
