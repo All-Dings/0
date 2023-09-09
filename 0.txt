@@ -1343,7 +1343,8 @@
 
 # Ethics
 
-14400001.md    Ethic-Rule
+14400002.md    Ethics-System
+14400001.md    Ethics-Rule
 14400000.md    Ethics
 
 # Theology
