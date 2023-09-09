@@ -1232,6 +1232,9 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
+40000035.md    Biologic-Sibling
+40000034.md    Biologic-Child
+40000033.md    Biologic-Relation
 40000032.md    Biologic-Relative
 40000031.md    Alien
 40000030.md    Biologic-State-Dead
