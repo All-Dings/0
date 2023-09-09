@@ -1232,6 +1232,7 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
+40000036.md    Family-Tree
 40000035.md    Biologic-Siblings
 40000034.md    Biologic-Child
 40000033.md    Biologic-Relation
