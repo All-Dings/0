@@ -2050,6 +2050,7 @@
 
 # Concept
 
+600126.md      Influence
 600125.md      Belief
 600124.md      Conformity
 600123.md      Similarity
