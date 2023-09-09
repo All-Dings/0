@@ -2211,7 +2211,7 @@
 
 # All
 
-60133.md       Sucessor
+60133.md       Successor
 60132.md       Old-Thing
 60131.md       New-Thing
 60130,md       Responsiblity
