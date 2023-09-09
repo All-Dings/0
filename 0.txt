@@ -1328,6 +1328,7 @@
 
 # Theology
 
+14300002.md    Divine-Command
 14300001.md    Sacret-Script
 14300000.md    Theology
 
@@ -2044,6 +2045,7 @@
 
 # Concept
 
+600125.md      Belief
 600124.md      Conformity
 600123.md      Similarity
 600122.md      Variant
