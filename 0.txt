@@ -1947,6 +1947,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670028.md      Copy-Left-License
 670027.md      CC-BY-SA-4.0
 670026.md      Sabotage
 670025.md      Industrial-Espionage
