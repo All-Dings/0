@@ -1343,6 +1343,7 @@
 
 # Ethics
 
+14400001.md    Ethic-Rule
 14400000.md    Ethics
 
 # Theology
