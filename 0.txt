@@ -1020,6 +1020,7 @@
 
 # Famous Document or Book
 
+71000008.md    Bible
 71000007.md    Mein-Weg-mit-Konrad_Zuse-und-Heinz_Nixdorf
 71000006.md    Die-Rechenmaschinen-von-Konrad_Zuse
 71000005.md    Der-Computer–Mein-Lebenswerk
@@ -1322,6 +1323,10 @@
 15000002.md    Logics-Famous-Human
 15000001.md    Logics-System
 15000000.md    Logics
+
+# Theology
+
+14300000.md    Theology
 
 # Humoristics
 
