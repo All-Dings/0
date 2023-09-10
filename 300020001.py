@@ -531,10 +531,12 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 
 	def Process_Dings_Object(Self, Line, Directory):
 		# Examples:
-		# ![Test Me](10000.Dings_Sip_Toggle)
-		# ![Test Me](10000.Dings_Sip_Toggle) {#1:4711}
-		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px)
-		# ![Test Me](10000.Dings_Sip_Toggle, opacity=90% width=7px) {#4711:1}
+		# ![](10000.Dings_Sip_Toggle)
+		# ![](10000.Dings_Sip_Toggle) {#1:4711}
+		# ![Test Me 1](10000.Dings_Sip_Toggle)
+		# ![Test Me 2](10000.Dings_Sip_Toggle) {#1:4711}
+		# ![Test Me 3](10000.Dings_Sip_Toggle, opacity=90% width=7px)
+		# ![Test Me 4](10000.Dings_Sip_Toggle, opacity=90% width=7px) {#4711:1}
 		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|png|mp3|mp4|pdf|sip_toggle|quiz)' + ")" + '\s*' + '(' + '.*' + ')')
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
