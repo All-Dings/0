@@ -6,5 +6,8 @@ class Dings_Image_Class(Dings_Lib.Object_Class):
 
 	def Generate_Html(Self, Html_Id):
 		print(f'<a href="{Self.Number}.html">')
-		print(f'  <img src="{Self.File_Path}" alt="{Self.Caption}" width="100%"/>')
+		if Self.Caption:
+			print(f'  <img src="{Self.File_Path}" alt="{Self.Caption}" width="100%"/>')
+		else:
+			print(f'  <img src="{Self.File_Path}" width="100%"/>')
 		print(f'</a>')

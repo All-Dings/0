@@ -544,7 +544,7 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		From_Directory = Os.getcwd()
 		if Directory != "":
 			Os.chdir(Directory)
-		Object_Caption = Match.group(1)
+		Object_Caption = Match.group(1) if (Match.group(1) != "") else None
 		Object_File_Path = Match.group(2)
 		Remainder = Match.group(3)
 		Object_Number = Os.path.splitext(Object_File_Path)[0]
@@ -577,8 +577,11 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'<figure>')
 			Object_Tag = ""
 		Dings_Object.Generate_Html("Dings_Object_" + str(Self.Dings_Object_Count))
-		if Object_Caption != "" or Object_Tag != None:
-			print(f'<figcaption><a href="{Object_Number}.html">{Object_Caption}{Object_Tag}</a></figcaption>')
+		Caption_Html = ""
+		Caption_Html += Object_Caption if Object_Caption != None else ""
+		Caption_Html += " " if Object_Caption and Object_Tag else ""
+		Caption_Html += Object_Tag if Object_Caption != None else ""
+		print(f'<figcaption><a href="{Object_Number}.html">{Caption_Html}</a></figcaption>')
 		print(f'</figure>')
 		Self.Dings_Object_Count += 1
 		Os.chdir(From_Directory)
