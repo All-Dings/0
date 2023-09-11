@@ -1344,6 +1344,8 @@
 
 # Logics
 
+15000005.md    And-Function
+15000004.md    Logics-Function
 15000003.md    Formal-Language
 15000002.md    Logics-Famous-Human
 15000001.md    Logics-System
