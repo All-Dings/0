@@ -1344,6 +1344,7 @@
 
 # Logics
 
+15000006.md    Or-Function
 15000005.md    And-Function
 15000004.md    Logics-Function
 15000003.md    Formal-Language
