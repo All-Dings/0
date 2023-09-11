@@ -1404,6 +1404,7 @@
 
 13005000.md    Statistics
 
+13000030.md    Add-Function
 13000029.md    Mathematics-System
 13000028.md    Floating-Point-System
 13000027.md    Mathematics-Difference
@@ -1545,6 +1546,7 @@
 9999998.md     Informatics-Student
 9999997.md     Informatics-Famous-Human
 
+9400006.md     Add-Unit
 9400005.md     Instruction-Pipelining
 9400004.md     Arithmethic-Unit
 9400003.md     Central-Processing-Unit
