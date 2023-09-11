@@ -577,10 +577,9 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 			print(f'<figure>')
 			Object_Tag = ""
 		Dings_Object.Generate_Html("Dings_Object_" + str(Self.Dings_Object_Count))
-		Caption_Html = ""
-		Caption_Html += Object_Caption if Object_Caption != None else ""
+		Caption_Html = Object_Caption if Object_Caption != None else ""
 		Caption_Html += " " if Object_Caption and Object_Tag else ""
-		Caption_Html += Object_Tag if Object_Caption != None else ""
+		Caption_Html += Object_Tag if Object_Tag != None else ""
 		print(f'<figcaption><a href="{Object_Number}.html">{Caption_Html}</a></figcaption>')
 		print(f'</figure>')
 		Self.Dings_Object_Count += 1
