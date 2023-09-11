@@ -1344,6 +1344,8 @@
 
 # Logics
 
+15000008.md    Identity-Function
+15000007.md    Xor-Function
 15000006.md    Or-Function
 15000005.md    And-Function
 15000004.md    Logics-Function
