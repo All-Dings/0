@@ -538,22 +538,31 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		# ![Test Me 3](10000.Dings_Sip_Toggle, opacity=90% width=7px)
 		# ![Test Me 4](10000.Dings_Sip_Toggle, opacity=90% width=7px) {#4711:1}
 		Dings_Object_Reg_Exp = Re.compile('^\!\[' + '(' + '.*' + ')' + '\]\(' + '(' + '[0-9]+' + '\.(?:jpg|png|mp3|mp4|pdf|sip_toggle|quiz)' + ")" + '\s*' + '(' + '.*' + ')')
+
+		# Check if Line contains a Dings-Object
 		Match = Dings_Object_Reg_Exp.match(Line)
 		if not Match:
 			return False
-		From_Directory = Os.getcwd()
-		if Directory != "":
-			Os.chdir(Directory)
+
+		# Parse Dings-Object
 		Object_Caption = Match.group(1) if (Match.group(1) != "") else None
 		Object_File_Path = Match.group(2)
 		Remainder = Match.group(3)
 		Object_Number = Os.path.splitext(Object_File_Path)[0]
 		Object_Parameter = Object_Tag = Object_Anchor = None
+		# Parse Parameters
 		if Remainder[0] != ')':
 			Object_Parameter, Remainder = Self.Process_Dings_Object_Parameter(Remainder)
 		else:
 			Remainder = Remainder[1:]
+		# Parse Tag and Anchor
 		Object_Tag, Object_Anchor = Self.Process_Dings_Object_Tag(Remainder)
+
+		# Enter Render-Directory
+		From_Directory = Os.getcwd()
+		if Directory != "":
+			Os.chdir(Directory)
+		# Search for Extension
 		Extension = Dings_Lib.Get_File_Extension(Object_File_Path).lower()
 		if Extension == "quiz":
 			Dings_Object = Dings_Quiz_Class(Object_Caption, Object_File_Path, Object_Parameter, Object_Tag, Object_Anchor)
@@ -570,19 +579,31 @@ class Dings_Html_Generate_Command_Class(Dings_Html_Command_Class):
 		else:
 			print(f'Error: Unknown Dings-Object: {Line}', file=Sys.stderr)
 			quit(1)
-		if Object_Anchor:
+
+		# Start Figure
+		if Object_Anchor and Object_Tag:
 			print(f'<figure id="{Object_Anchor}">')
-			Object_Tag = " \(" + Object_Tag + "\)"
 		else:
 			print(f'<figure>')
-			Object_Tag = ""
+
+		# Write Contents
 		Dings_Object.Generate_Html("Dings_Object_" + str(Self.Dings_Object_Count))
-		Caption_Html = Object_Caption if Object_Caption != None else ""
-		Caption_Html += " " if Object_Caption and Object_Tag else ""
-		Caption_Html += Object_Tag if Object_Tag != None else ""
+
+		# End Figure
+		if Object_Caption:
+			if Object_Tag:
+				Caption_Html = Object_Caption + " " + Object_Tag
+			else:
+				Caption_Html = Object_Caption
+		else:
+			if Object_Tag:
+				Caption_Html = "(" + Object_Tag + ")"
+			else:
+				Caption_Html = ""
 		print(f'<figcaption><a href="{Object_Number}.html">{Caption_Html}</a></figcaption>')
 		print(f'</figure>')
 		Self.Dings_Object_Count += 1
+		# Go back to Home
 		Os.chdir(From_Directory)
 		return True
 
