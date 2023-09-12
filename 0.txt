@@ -790,6 +790,7 @@
 
 140100001.md   Russian-Matrjoschka  
 
+140000060.md   Singapore
 140000059.md   Potsdam
 140000058.md   Bern
 140000057.md   China
