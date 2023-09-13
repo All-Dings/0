@@ -39,3 +39,5 @@ Dings_Completion()
 }
 
 complete -F Dings_Completion dings
+
+export PATH=$PATH:.
