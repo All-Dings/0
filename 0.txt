@@ -1066,7 +1066,7 @@
 70000049.md    Hannelore_Zuse-Stöcker
 70000048.md    Hadwig_Dorsch
 70000047.md    Stephen_Wolfram
-70000046.md    Horst_Konrad_Zuse
+70000046.md    Horst-Konrad_Zuse
 70000045.md    Konrad_Zuse
 70000044.md    Samuel_Langhorne_Clemens
 70000043.md    Seth_Woodbury_MacFarlane
