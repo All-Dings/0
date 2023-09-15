@@ -2101,6 +2101,7 @@
 
 # Concept
 
+600134.md      Abiguity
 600133.md      Simplicity
 600132.md      Bottom-Up
 600131.md      Update
