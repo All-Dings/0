@@ -2101,6 +2101,7 @@
 
 # Concept
 
+600132.md      Bottom-Up
 600131.md      Update
 600130.md      Source-Thing
 600129.md      Inteligence
