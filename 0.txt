@@ -173,7 +173,7 @@
 
 1000001.md     Blog-Chain-Time
 
-300040007.md   Dings-Quiz
+300040007.md   Dings_Quiz
 
 300040005.md   Dings_Pdf
 300040004.md   Dings_Video
