@@ -175,12 +175,12 @@
 
 300040007.md   Dings-Quiz
 
-300040005.md   Dings-Pdf
-300040004.md   Dings-Video
-300040003.md   Dings-Sound
-300040002.md   Dings-Image
-300040001.md   Dings-Sip-Toggle
-300040000.md   Dings-Object
+300040005.md   Dings_Pdf
+300040004.md   Dings_Video
+300040003.md   Dings_Sound
+300040002.md   Dings_Image
+300040001.md   Dings_Sip-Toggle
+300040000.md   Dings_Object
 
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
