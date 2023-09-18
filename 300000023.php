@@ -7,11 +7,16 @@ session_start();
 function Load_File($File_To_Load) {
 	if (str_ends_with($File_To_Load, ".jpg")) {
 		header("Content-Type: image/jpg");
+	} else if (str_ends_with($File_To_Load, ".mp3")) {
+		header("Content-Type: audio/mpeg");
+	} else if (str_ends_with($File_To_Load, ".mp4")) {
+		header("Content-Type: video/mp4");
 	} else if (str_ends_with($File_To_Load, ".css")) {
 		header("Content-Type: text/css; charset=utf-8");
 	} else {
 		header("Content-Type: text/html; charset=utf-8");
 	}
+	header("Content-Length: " . filesize($File_To_Load));
 	$fp = fopen($File_To_Load, 'rb');
 	fpassthru($fp);
 	// readfile($File_To_Load)
