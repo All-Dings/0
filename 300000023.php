@@ -13,6 +13,12 @@ function Load_File($File_To_Load) {
 		header("Content-Type: video/mp4");
 	} else if (str_ends_with($File_To_Load, ".css")) {
 		header("Content-Type: text/css; charset=utf-8");
+	} else if (str_ends_with($File_To_Load, ".pdf")) {
+		header("Content-Type: application/pdf");
+	} else if (str_ends_with($File_To_Load, ".jpg")) {
+		header("Content-Type: image/jpeg");
+	} else if (str_ends_with($File_To_Load, ".png")) {
+		header("Content-Type: image/png");
 	} else {
 		header("Content-Type: text/html; charset=utf-8");
 	}
