@@ -57,7 +57,7 @@
 
 ### My Friends
 
-#### My-Fellow-Occupant
+#### My Fellow-Occupant
 
 88.md          My-Fellow-Occupant
 
@@ -101,11 +101,6 @@
 2000002.md     My-Mac-Book
 
 ## Dings-System
-
-## Dings-Directories
-
-10000000001.md Blogs
-10000000000.md Dings-Root-Directory
 
 1000001.md     Blog-Chain-Time
 
@@ -158,10 +153,15 @@
 300000006.md   Dings-Project
 300000004.make Dings-HTML-Make-File
 300000003.md   Dings-HTML-Make-File
-300000002.html Dings-HTML-Template-File
+300000002.htm  Dings-HTML-Template-File
 300000002.md   Dings-HTML-Template
 300000001.md   Dings
 300000000.md   Blog-Chain
+
+### Dings-Directories
+
+10000000001.md Blogs
+10000000000.md Dings-Root-Directory
 
 ## Media-Files
 
@@ -281,7 +281,7 @@
 
 7777777.md     Private-Thing
 
-## 2000001  Tübingen
+## Tübingen
 
 140100002.md   Landrats-Amt-Tübingen
 
@@ -328,7 +328,7 @@
 280100001.md   Coc-Games-Champion-Achievement 
 3.md           Clash-of-Clans
 
-### Other-Games
+### Other Games
 
 280000010.md   Quiz
 280000009.md   Mephisto
