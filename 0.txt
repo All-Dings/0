@@ -5,7 +5,7 @@
 10000000001.md Blogs
 10000000000.md Dings-Root-Directory
 
-## `1997080300` Roxana_Stanciu
+## Roxana_Stanciu
 
 1997080300.md  Roxana_Stanciu
 1997080300.jpg Roxana_Stanciu
@@ -17,7 +17,7 @@
 1971099999.md  The-Turing-Machine
 1971099998.md  VW-California-für-Anfänger-Gas
 
-1111.md        Movie-from-Michael  
+1111.md        Movie-from-Michael
 
 ### My Identities
 
@@ -56,8 +56,9 @@
 1971091103.md  Bird-Quiz-App
 1971091102.md  My-VW-California
 1971091101.md  Our-House-Im-Philosophenweg
+2000002.md     My-Mac-Book
 
-### `400000000` Media-Files
+## Media-Files
 
 400000088.md   My-Nose-is-currently-growing
 400000087.md   Le-avventure-di-Pinocchio-pag164
@@ -133,14 +134,14 @@
 400000002.md   Beurteilungs-Kriterien-before-Scan-Photo
 400000001.md   Muffi-and-Schnuffi-Image
 
-### Truth in a digital World
+## Truth in a digital World
 
 333333336.md   Truth-in-a-digital-World-Team
 333333335.md   Notes-for-the-Thesis
 333333334.md   Steven-Wolfram-Relicts-of-the-Z1-2016-final
 333333333.md   Truth-in-a-digital-World
 
-### Würfelwand
+## Würfelwand
 
 303000010.md   Pic-Tool
 303000003.md   Lebendige-Technik
@@ -148,9 +149,11 @@
 303000001.md   Würfelwand-Photo
 303000000.md   Projekt-Würfelwand
 
+## Studies
+
 ### Programming-Study
 
-302030000.md   Programming-Study  
+302030000.md   Programming-Study
 
 ### My Man-Machine-Study
 
@@ -169,7 +172,7 @@
 
 301000001.md   Body-Contact-Increases-Energy
 
-## Dings
+## Dings-System
 
 1000001.md     Blog-Chain-Time
 
@@ -227,18 +230,12 @@
 300000001.md   Dings
 300000000.md   Blog-Chain
 
-## Sport
-
-170111002.md   Leeds-United-Football-Club (Wrong-Number)
-170111001.md   Liverpool-Football-Club (Wrong-Number)
-170111000.md   English-Premier-League (Wrong-Number)   
-
-## Fellow-Occupant-Illness
+## My-Fellow-Occupant-Illness
 
 1000010001.md     Dr-H-Tübingen
 1000010000.md     Fellow-Occupant-Illness
 
-## `1000001000` Medical-Psychological-Assessment
+## Medical-Psychological-Assessment
 
 1000001016.md     Bonner-Institut-für-Rechts-und-Verkehrs-Psychologie-BIRVp
 1000001015.md     Wolfgang_Schubert
@@ -258,12 +255,12 @@
 1000001001.md     Medical-Psychological-Assessment
 1000001000.md     My-Medical-Psychological-Assessment
 
-## `888` Metzingen-with-Nicole
+## Metzingen-with-Nicole
 
 1000000000.jpg Nicole-and-Michael-in-Metzingen
 888.md         Metzingen-with-Nicole
 
-## `111` About-Rendering-Repository
+## About-Rendering-Repository
 
 5.md           Dings-Rules
 23.md          About-Dings-Project
@@ -304,7 +301,7 @@
 2000002.md     Philosophen-Weg-Tübingen
 2000001.md     Tübingen
 
-## `140100000` Kunst-Halle-Tübingen
+### Wanne-Kunst-Halle-Tübingen
 
 140100001.jpg  Kunst-Halle-Tübingen-Coffee-House-Sculpture  
 140100000.md   Kunst-Halle-Tübingen
@@ -314,13 +311,15 @@
 400000001.md   Noise-Pollution
 400000000.md   Environment-Pollution
 
-# Game
-
-## Clash of Clans
-
-280100001.md   Coc-Games-Champion-Achievement 
-
 ## Games
+
+### Clash of Clans
+
+11.md          Clash-of-Clans-Nordfriesländer
+280100001.md   Coc-Games-Champion-Achievement 
+3.md           Clash-of-Clans
+
+### Other-Games
 
 280000010.md   Quiz
 280000009.md   Mephisto
@@ -337,9 +336,16 @@
 270300003.md   Bachata
 270300001.md   Dancing-System
 
+## Sports
+
+## Table-Tennis
+
 270210000.md   Table-Tennis
 
+## Tennis
+
 ### 2270200011.md Next Number
+
 270000022.md   Tennis-Top-Spin
 270000021.md   Tennis-Back-Spin
 270000020.md   Tennis-Stroke-Technique
@@ -360,27 +366,33 @@
 270200005.md   Tennis-Point
 270200004.md   Dancing
 
-270200003.md   Tennis-Teacher     
+270200003.md   Tennis-Teacher
 270200002.md   Tennis-Trainer
 270200001.md   Tennis-System
 270200000.md   Tennis
 
+### Soccer
+
 270100001.md   Soccer-System
 270110000.md   Soccer
+
+170111002.md   Leeds-United-Football-Club (Wrong-Number)
+170111001.md   Liverpool-Football-Club (Wrong-Number)
+170111000.md   English-Premier-League (Wrong-Number)
 
 270100002.md   Trophy
 270100000.md   Sport
 
 ## Human-Culture
 
-### 270000011.md Tennis (Wrong-Number)
+`270000011.md Tennis (Wrong-Number)`
 
 270000027.md   Super-Hero-Genre
 270000026.md   Phantasy-Genre
 270000025.md   Science-Fiction-Genre
 270000024.md   Comedy-Genre
 270000023.md   Action-Genre
-270000010.md   Horror-Genre 
+270000010.md   Horror-Genre
 270000009.md   Human-Creation-Genre
 270000008.md   Human-Creation
 270000007.md   Cannstadter-Waasen
@@ -392,7 +404,7 @@
 270000001.md   Gender-Separation
 270000000.md   Human-Culture
 
-## Botanics 
+## Botanics
 
 260030005.md   Blow-Ball
 260030004.md   Taraxacum-Officinale
@@ -401,7 +413,7 @@
 260030001.md   Galium-Album
 260030000.md   Botanics-Plant
 
-### Flower
+### Flowers
 
 260020003.md   Taraxacum-Officinale
 260020002.md   Ranunculus-Acris
@@ -410,29 +422,29 @@
 260019999.md   Botanics-System
 260019998.md   Botanics
 
-## `260010000` Bird
+### Birds
 
 260010005.md   Ardea-Cinerea (Grau-Reiher)
 260010004.md   Corvus-Corone (Raben-Krähe)
 260010003.md   Fringilla-Celebs (Buch-Fink)
-260010002.md   Turdus-Merula (Amsel)  
+260010002.md   Turdus-Merula (Amsel)
 260010001.md   Parus-Major (Kohl-Meise)
 260010000.md   Bird
 
-# Waste-Dispolsal-System
+## Waste-Dispolsal-System
 
 250100004.md   Einweg-Pfand
 250100003.md   Mehrweg-Pfand
 250100002.md   Deposit-Bottle
 250100001.md   Waste-Disposal-System
 
-# Government
+## Government
 
 250010002.md   European-Space-Agency
 250010001.md   Landrats-Amt
 250010000.md   Government-Institution
 
-## `250000000` Programming
+## Programming
 
 250020001.md   Python-Sorted-Function
 
@@ -476,12 +488,12 @@
 250000001.md   Programming-Basics
 250000000.md   Programming
 
-# Social-Media
+## Social-Media
 
 241000001.md   LinkedIn
 241000000.md   Social-Media
 
-# Business
+## Business
 
 240000023.md   International-Business-Machines-Corporation
 240000022.md   Worldcoin
@@ -510,7 +522,7 @@
 
 220000000.md   Business
 
-# Abbreviation
+## Abbreviation
 
 210000004.md   IMHO = In-My-Homble-Opinion
 210000003.md   TBH = To-Be-Honest
@@ -521,7 +533,7 @@
 205000001.md   Envelope
 205000000.md   Stationery
 
-# Clothing
+## Cloths
 
 204000006.md   Short-Pants
 204000005.md   Dress
@@ -531,7 +543,7 @@
 204000001.md   Jacket
 204000000.md   Clothing
 
-# Food
+## Food
 
 203500002.md   Big-Mac
 203500001.md   Pizza
@@ -551,18 +563,18 @@
 203000001.md   Hefe-Weizen
 203000000.md   Drink
 
-# Title
+## Titles
 
 202900014.md   Honorary-Professor
 202900013.md   Doctor-Rerum-Naturalium
 
-# Position
+## Positions
 
 202800002.md   President
 202800001.md   Chair-Man
 202800000.md   Position
 
-# Profession
+## Professions
 
 202000016.md   Conductor
 202000015.md   Philosopher
@@ -582,7 +594,16 @@
 202000001.md   Waiter
 202000000.md   Profession
 
-# Machine
+80000007.md    Stunt-Performer
+80000006.md    Train-Conductor
+80000005.md    Manager
+80000004.md    Telephonist
+80000003.md    Taxi-Driver
+80000002.md    Mathematician
+80000001.md    Teacher
+80000000.md    Profession (DEAD)
+
+## Machines
 
 201000018.md   Electronic-Numerical-Integrator-and-Computer
 201000017.md   Mark-I
@@ -621,14 +642,14 @@
 200400001.md   Motor-Vehicle
 200400000.md   Machine
 
-# Movie
+## Movies
 
 200040012.md   Thunderball
 200040011.md   Goldfinger
 200040010.md   From-Russia-with-Love
 200040009.md   Dr.-No
 200040008.md   Konrad_Zuse-Movie
-200040007.md   The-Suicide-Squad 
+200040007.md   The-Suicide-Squad
 200040006.md   Back-to-the-Future
 200040005.md   Back-to-the-Future-Series
 200040004.md   2-Fast-2-Furious
@@ -636,13 +657,13 @@
 200040002.md   Fast-and-Furious-Movie-Series
 200040001.md   Fast-and-Furious-Part-9
 
-## Star-Wars
+### Star-Wars
 
 200035002.md   Death-Star
 200035001.md   X-Wing
 200035000.md   Star-Wars-Universe
 
-## Star-Trek
+### Star-Trek
 
 200030114.md   Spock
 200030113.md   Vulcan-Species
@@ -660,16 +681,16 @@
 200030101.md   Star-Trek-Picard
 200350100.md   Star-Trek-The-Next-Generation
 
-## Titanic 
+### Titanic
 
 200350002.md   Titanic-Birth-of-a-Legend
 200350001.md   Titanic-2012-Television-Series
 200300001.md   Titanic-1997-Movie
 
-## General
+### General
 
 200300009.md   Movie-Genre
-200300008.md   Special-Effect  
+200300008.md   Special-Effect
 200300007.md   Movie-Episode
 200300006.md   Movie-Season
 200300005.md   Drama
@@ -679,19 +700,21 @@
 
 200300000.md   Movie
 
-# Saying 
+## Sayings
 
 200100001.md   Better-Slow-than-Bad
 200100000.md   Saying
 
-# Other-Provider
+## Providers
+
+### Misc-Providers
 
 200020004.md   Ruhr-Park-Bochum
 200020003.md   Shopping-Center
 200020002.md   Petrol-Station
 200020001.md   Post-Office
 
-# Food-Provider
+### Food-Provider
 
 200010001.md   Station-Kiosk
 
@@ -705,7 +728,7 @@
 200000001.md   Snack-Bar
 200000000.md   Food-Provider
 
-# Exhibition
+### Exhibitions
 
 199000010.md   Computer-Museum
 199000009.md   Museum-für-Kommunikation-Bern
@@ -719,32 +742,32 @@
 199000001.md   Zoo
 610000.md      Exhibition
 
-# Web-Sites
+### Web-Sites
 
 192000003.md   Rechner-Lexikon-Web-Site
 192000002.md   Horst-Zuse-Web-Site
 192000001.md   Konrad-Zuse-Internet-Archive
 
-# Information-Provider
+### Information-Providers
 
 191000002.md   Kalliope-Verbund
 191000001.md   Wikidata
 190000006.md   Wikipedia
 191000000.md   Information-Provider
 
-# Content-Seller
+### Content-Seller
 
 190000008.md   Twitter
 190000007.md   SoundBible
 
-190000005.md   First-German-Television  
+190000005.md   First-German-Television
 190000004.md   German-Public-Broadcast
 190000003.md   You-Tube-Channel
 190000002.md   You-Tube-Channel-Holyheu
 190000001.md   YouTube
 190000000.md   Content-Seller
 
-# Grouping 
+## Grouping
 
 180001001.md   Schwabe
 180001000.md   Nordfriesländer
@@ -758,7 +781,7 @@
 
 180000000.md   Group
 
-# Identity
+## Identity
 
 170100006.md   Finger-Print
 170100005.md   User-Identifier
@@ -769,12 +792,12 @@
 170100000.md   Zacky-GG
 170000000.md   Identity
 
-# Strategy
+## Strategy
 
 160000001.md   Attack
 160000000.md   Strategy
 
-# Real-Human
+## Real-Human
 
 150000004.md   Marek
 150000003.md   Max
@@ -782,7 +805,7 @@
 150000001.md   Kevin
 150000000.md   Real-Humans
 
-# Politics
+## Politics
 
 141000006.md   National-Institute-of-Standards-and-Technology
 141000005.md   National-Security-Agency
@@ -792,9 +815,9 @@
 141000001.md   Erasmus-Program
 141000000.md   Politics
 
-# Geography
+## Geography
 
-140100001.md   Russian-Matrjoschka  
+140100001.md   Russian-Matrjoschka
 
 140000061.md   Düsseldorf
 140000060.md   Singapore
@@ -853,7 +876,7 @@
 140000001.md   Brașov
 140000000.md   Geography
 
-# Geology
+## Geology
 
 130100006.md   Waters
 130100005.md   River
@@ -863,7 +886,7 @@
 130100001.md   Geologic-System
 130100000.md   Geology
 
-# Economics 
+## Economics
 
 130020001.md   Trading-Company
 130020000.md   Trading-System
@@ -907,23 +930,25 @@
 
 130000000.md   Economics
 
-# Project-Management
+## Project-Management
 
 120000002.md   Work-Flow
 120000001.md   Work-Item
 120000000.md   Project-Management
 
-# Management
+## Management
 
-110010001.md   Real-Estate-Management 
+110010001.md   Real-Estate-Management
 
 110000000.md   Management
 
-# Poison
+## Stuff
+
+### Poison
 
 100400000.md   Toxin
 
-# Drugs
+### Drugs
 
 100300004.md   Winston
 100300003.md   Marlboro
@@ -938,23 +963,26 @@
 100100002.md   Cigarette
 100100001.md   Drug
 
-# Chemical
+### Chemical
 
 100000002.md   Nicotine
 100000001.md   Deoxy-Ribo-Nucleic-Acid
 100000000.md   Chemical
 
-# Raw-Material
+### Raw-Material
 
 91000001.md    Tabacco
 91000000.md    Raw-Material
 
-# Sound-Signals
+
+## Audio
+
+### Sound-Signals
 
 90500001.md    Telephone-Busy-Signal
 90500000.md    Sound-Signal
 
-# Songs
+### Famous-Songs
 
 90100006.md    Gemeinsam
 90100005.md    Gute-Nacht-Freunde
@@ -964,9 +992,17 @@
 90100001.md    Some-Times
 73000002.md    Dont-Start-Now
 73000001.md    Physical
+69.md          Summer-of-69
 90001004.md    Famous-Song
 
-# Music
+### Famous-Music-Pieces
+
+73000003.md    Dance-of-the-Sugar-Plum-Fairy
+73000002.md    Dont-Start-Now (Wrong-Number)
+73000001.md    Physical (Wrong-Number)
+73000000.md    Famous-Music-Piece
+
+### Music
 
 91001008.md    Sound-Collage
 91001007.md    Singing
@@ -976,8 +1012,6 @@
 90001002.md    Choir-Rehearsal
 90001001.md    Tenor
 90001000.md    Choir
-
-69.mp3         Summer-of-69
 
 90000034.md    Bell
 90000033.md    Guitar
@@ -1007,31 +1041,13 @@
 90000001.md    Music-System
 90000000.md    Music
 
-# Profession 
-
-80000007.md    Stunt-Performer
-80000006.md    Train-Conductor
-80000005.md    Manager
-80000004.md    Telephonist
-80000003.md    Taxi-Driver
-80000002.md    Mathematician
-80000001.md    Teacher
-80000000.md    Profession
-
-# Famous-Music-Piece
-
-73000003.md    Dance-of-the-Sugar-Plum-Fairy
-73000002.md    Dont-Start-Now (Wrong-Number)
-73000001.md    Physical (Wrong-Number)
-73000000.md    Famous-Music-Piece  
-
-# Famous-Problem
+## Famous-Problems
 
 72000001.md    Halting-Problem
 600084.md      Entscheidungs-Problem
 72000000.md    Famous-Problem
 
-# Famous Document or Book
+## Famous-Documents or Books
 
 71000011.md    Computerarchäologie
 71000010.md    Pali-Kanon
@@ -1045,12 +1061,12 @@
 71000002.md    On_Computable_Numbers
 71000000.md    Famous-Document
 
-# Famous-Thing
+## Famous-Things
 
 79999999.md    Famous-Thing
 79999998.md    The-Nut-Cracker
 
-# Personality
+## Personalities
 
 70000062.md    Stefan_Höltgen
 70000061.md    János_Lajos_Neumann
@@ -1086,7 +1102,7 @@
 70000031.md    Ansgar_Rettner
 70000030.md    Ralph_Christian_Möbius
 70000029.md    Pythagoras
-70000028.md    Niklaus_Emil_Wirth 
+70000028.md    Niklaus_Emil_Wirth
 50000028.md    Crispin_Hellion_Glover
 70000027.md    Huey_Lewis
 70000026.md    Christopher_Allen_Lloyd
@@ -1094,7 +1110,7 @@
 70000024.md    Vin_Diesel
 70000023.md    Tyrese_Darnell_Gibson
 70000022.md    Bud_Spencer
-70000021.md    Terence_Hill 
+70000021.md    Terence_Hill
 70000020.md    Paul_William_Walker_IV
 70000019.md    Douglas_Noël_Adams
 70000018.md    Kurt_Tepperwein
@@ -1106,7 +1122,7 @@
 70000012.md    Dua_Lipa
 70000011.md    David_Hilbert
 70000010.md    Alan_Mathison_Turing
-70000009.md    Stephen_Cole_Kleene 
+70000009.md    Stephen_Cole_Kleene
 70000008.md    Aristoteles
 70000007.md    Alonzo_Church
 70000006.md    Martin_Edward_Hellman
@@ -1117,30 +1133,30 @@
 70000001.md    Adam_Ries
 70000000.md    Famous-Human
 
-# Architecture
+## Architecture
 
 60100005.md    Cellar
 60100004.md    Internationales-Congress-Centrum-Berlin
 60100003.md    Kölner-Dom
 60100002.md    Building
-60100000.md    Architecture 
+60100000.md    Architecture
 
-# Fiction
+## Fiction
 
 60020005.md    Fictive-Character
 60020004.md    Bad-Guy
 60020003.md    Hero
 60020002.md    Zombie
 60020001.md    Monster
-60020000.md    Fiction    
+60020000.md    Fiction
 
-# Arts
+## Arts
 
 60010002.md    Theater
 60010001.md    Ballet
-60010000.md    Arts 
+60010000.md    Arts
 
-# Fine-Arts
+### Fine-Arts
 
 60000004.md    Image-Collage
 60000003.md    Collage
@@ -1148,9 +1164,7 @@
 60000001.md    Picture
 60000000.md    Fine-Arts
 
-# Screen-Shots
-
-# Photography
+### Photography
 
 50000061.jpg   Last-Cigarette-for-Today
 50000060.jpg   Connections-in-Progress
@@ -1163,29 +1177,31 @@
 50000001.md    Photo
 50000000.md    Photography
 
-# Habits
+## Habits
 
 41020000.md    Prank
 
-# Bad-Habits
+### Bad-Habits
 
 41010003.md    Double-Standard
 41010002.md    Fraud
 41010001.md    Self-Fraud
 41010000.md    Bad-Habit
 
-# Good-Habits
+### Good-Habits
 
 41000003.md    Diligence
 41000002.md    Compliment
 41000001.md    Punctuality
 41000000.md    Good-Habits
 
-# Injury
+## Bad-Things
+
+### Injuries
 
 40900000.md    Injury
 
-# Illness
+### Illnesses
 
 48000015.md    Corona
 48000014.md    Parkinson's-Disease
@@ -1204,12 +1220,12 @@
 40800001.md    Neuro-Dermatitis
 40800000.md    Illness
 
-# Genetics
+## Genetics
 
 40300001.md    Gene-Alalysis
 40300000.md    Genetics
 
-# Biology / Biologic
+## Biology / Biologic
 
 40201004.md    Humor
 40201003.md    Nicotine-Flash
@@ -1218,23 +1234,24 @@
 
 40200002.md    Taste
 40200001.md    Sound
-40200000.md    Biologic-Perception   
+40200000.md    Biologic-Perception
 
 40101032.md    Dermal-Papillae
 40101031.md    Human-Iris
 40101030.md    Human-Hand
 40101020.md    Human-Lips
 40101010.md    Human-Arm
-40101001.md    Human-Eye   
+40101001.md    Human-Eye
 
 40100003.md    Lung
 40100002.md    Body
-40100001.md    Urinary-Bladder    
+40100001.md    Urinary-Bladder
 40100000.md    Biologic-Organ
 
 40090001.md    Biological-Organ (DEAD)
 40090000.md    Biologic-Cell
 
+40080012.md    Human-Inteligence
 40080011.md    Human-Nasal-Cavity
 40080010.md    Human-Lower-Leg
 40080009.md    Human-Throat
@@ -1247,7 +1264,6 @@
 40080002.md    Back-Of-Head
 40080001.md    Human-Head
 40080000.md    Human-Body
-
 
 40080021.md    Secretive
 40080020.md    Spit
@@ -1283,7 +1299,7 @@
 40000013.md    Dettenhausen (Wrong-Number)
 40000012.md    Body-Part
 40000011.md    Human-Baby
-40000010.md    Woman 
+40000010.md    Woman
 40000009.md    Daughter
 40000008.md    Mother
 40000007.md    Father
@@ -1295,7 +1311,7 @@
 40000001.md    Human
 40000000.md    Biology
 
-# Media-Files
+## Media-Files
 
 30010015.md    Video-Format
 30010014.md    Sound-Format
@@ -1321,12 +1337,12 @@
 30000001.md    Screen-Shot
 30000000.md    Media-Files
 
-# Physical-Container
+## Physical-Containers
 
 20100002.md    Bottle
 20100001.md    Box
 
-# Device
+## Devices
 
 20000015.md    Calculating-Machine
 20000014.md    Electronic-Visual-Display
@@ -1345,12 +1361,12 @@
 20000001.md    Samsung-Galaxy-S22-Ultra
 20000000.md    Device
 
-# Technology
+## Technology
 
 16000002.md    Technology-Type
 16000001.md    Technology-System
 
-# Logics
+## Logics
 
 15000010.md    Nor-Function
 15000009.md    Nand-Function
@@ -1364,38 +1380,38 @@
 15000001.md    Logics-System
 15000000.md    Logics
 
-# Feminism
+## Feminism
 
 14400000.md    Feminism
 
-# Ethics
+## Ethics
 
 14400002.md    Ethics-System
 14400001.md    Ethics-Rule
 14400000.md    Ethics
 
-# Theology
+## Theology
 
 14300002.md    Divine-Command
 14300001.md    Sacret-Script
 14300000.md    Theology
 
-# Humoristics
+## Humoristics
 
 14200000.md    Humoristics
 
-# Spiritism
+## Spiritism
 
 14100001.md    Esotherics-Medium
 14100000.md    Spiritism
 
-# Psychology
+## Psychology
 
 14000002.md    Mood
 14000001.md    Encounter
 14000000.md    Psychology
 
-# Cryptologics / Crypto
+## Cryptologics
 
 13300005.md    Password
 13300004.md    Cryptologics-Passport
@@ -1404,7 +1420,7 @@
 13300001.md    Cryptologics-System
 13300000.md    Cryptologics
 
-# Mathematics
+## Mathematics
 
 13010002.md    Meaning-of-Life-Number
 13010001.md    Circle-Number
@@ -1444,24 +1460,24 @@
 13000001.md    Sum
 13000000.md    Mathematics
 
-# Expert
+## Experts
 
 12000001.md    Nerd
 12000000.md    Expert
 
-# Museology
+## Museology
 
 11700000.md    Museology
 
-# Didactics
+## Didactics
 
 11300000.md    Didactics
 
-# Archaeology
+## Archaeology
 
 11200000.md    Archaeology
 
-# History-Science
+## History-Science
 
 11000004.md    Contemporary-Witness
 11000003.md    Russo-Ukrainian-War
@@ -1469,7 +1485,7 @@
 11000001.md    Aristocracy
 11000000.md    History-Science
 
-# Astronomy / Astronomical
+## Astronomy / Astronomical
 
 10500004.md    Planet
 10500003.md    Sun
@@ -1477,7 +1493,7 @@
 10500001.md    Astronomy-System
 10500000.md    Astronomy
 
-# Electronics
+## Electronics
 
 10400004.md    Chip-Card
 10400003.md    Transistor
@@ -1485,11 +1501,11 @@
 10400001.md    Electronics-System
 10400000.md    Electronics
 
-# Chemistry
+## Chemistry
 
 10100000.md    Chemistry
 
-# Physics / Physical
+## Physics / Physical
 
 10010000.md    Experiment
 
@@ -1510,7 +1526,7 @@
 10000040.md    Energy
 10000039.md    Physical-Contact
 10000038.md    Physical-System
-10000037.md    Indicator   
+10000037.md    Indicator
 10000036.md    Observation
 10000035.md    Liquid
 10000034.md    Matter
@@ -1518,7 +1534,7 @@
 10000032.md    Height
 10000031.md    Width
 10000030.md    Height-Dimension
-10000029.md    Width-Dimension   
+10000029.md    Width-Dimension
 10000027.md    Space-Time-Continuum
 10000026.md    Length-Dimension
 10000025.md    Length
@@ -1548,7 +1564,7 @@
 10000001.md    Electricity
 10000000.md    Physics
 
-# Informatics
+## Informatics
 
 9999999.md     Informatics-System
 9999998.md     Informatics-Student
@@ -1562,6 +1578,10 @@
 9400001.md     Universal-Serial-Bus
 9400000.md     Hardware
 
+### Markup-Languages
+
+31.md          Markdown
+50001.md       Markdown-Footnote
 9300010.md     LaTeX
 9300009.md     TeX
 9300008.md     Mathematical-Markup-Language
@@ -1574,8 +1594,12 @@
 9300001.md     Hypertext-Markup-Language
 9300000.md     Markup-Language
 
+### Computer-Networks
+
 9000152.md     Internet
 9200000.md     Computer-Network
+
+### Operating-Systems
 
 9100007.md     Ubuntu-Operating-System
 9100006.md     MacOS
@@ -1585,6 +1609,8 @@
 9100002.md     Microsoft-Windows
 9100001.md     Unix-System
 9100000.md     Operating-System
+
+### Programming-Languages
 
 9010007.md     Java-Script-Programming-Language
 9010006.md     C-Programming-Language
@@ -1669,9 +1695,9 @@
 9000151.md     Chat-Bot
 9000150.md     Chat-GPT
 9000149.md     Git-Hub-System
-9000148.md     Program-Error  
+9000148.md     Program-Error
 9000147.md     Unicode
-9000146.md     Character-Encoding  
+9000146.md     Character-Encoding
 9000145.md     Micorosoft-File-Explorer
 9000144.md     Mac-Os-Finder
 9000143.md     Mac-Os (DUPLICATE: 9100006)
@@ -1816,16 +1842,17 @@
 9000001.md     Tree-Collection
 9000000.md     Informatics
 
-# German-Waste-Disposal-System
+## German-System
+
+### German-Waste-Disposal-System
 
 8030001.md     German-Waste-Disposal-System
 
-# German-Institutions
+### German-Institutions
 
 8020001.md     Bundes-Kartell-Amt
 
-
-# German-Federal-Railroad
+### German-Federal-Railroad
 
 8011004.md     Deutschland-Ticket
 8011003.md     Verspätung-aus-einer-vorherigen-Fahrt
@@ -1840,31 +1867,33 @@
 8010000.md     DB-Navigator
 8009999.md     German-Federal-Railroad
 
-# German-Medical-System
+### German-Medical-System
 
 8000999.md     German-Medical-System
 
-# Theory
+## Theory
 
 7000003.md     Discipline
 7000002.md     Document-Container
 7000001.md     Theory
 
-# Healing
+## Healing
 
 1000002.md     Healy-Device
 1000000.md     Healing
 
-# Medical-Drug
+# Medicine / Medical
+
+### Medical-Drugs
 
 810005.md      Metamizol-Natrium
 810004.md      Paracetamol
 810003.md      Analgesic
 810002.md      Lamotrigin
-810001.md      Levetiracetam  
+810001.md      Levetiracetam
 810000.md      Anti-Epilepticum
 
-# Medicine / Medical
+### General
 
 800016.md      Hospital
 800015.md      Medical-Practice
@@ -1878,22 +1907,26 @@
 800007.md      Medical-Drug
 800006.md      Hypnotic
 800005.md      Anti-Histamin
-800004.md      Doctor-Office    
+800004.md      Doctor-Office
 800003.md      Family-Doctor
-800002.md      Doctor     
+800002.md      Doctor
 800001.md      Dentist
 800000.md      Medicine
 
-# Literature
+## Literature
+
+### Fictional-Figures
 
 730003.md      James_Bond
 730002.md      Pinocchio
 730001.md      Tom_Sawyer
 
+### General
+
 720001.md      Joke
 720000.md      Literature
 
-# Writing 
+## Writing-System
 
 700054.md      Book
 700053.md      Question-Mark
@@ -1953,11 +1986,11 @@
 700001.md      Document
 700000.md      Writing
 
-# Criminalistics
+## Criminalistics
 
 690000.md      Criminalistics
 
-# Juristics
+## Juristics
 
 680003.md      Eingetragener-Verein
 680002.md      Land-Gericht
@@ -1995,7 +2028,7 @@
 670001.md      Juristics-System
 670000.md      Juristics
 
-# Linguistics 
+## Linguistics
 
 666002.md      Ukrainian-Language
 666001.md      Spanish
@@ -2050,23 +2083,23 @@
 650001.md      Term (Wrong-Number)
 650000.md      Linguistics
 
-# Religion
+## Religion
 
 647004.md      Devil
 647003.md      God
 647002.md      Jehovah's-Witnesses
 647000.md      Religion
 
-# Philosophics
+## Philosophics
 
 645005.md      Theory-of-Forms
 645004.md      Meta-Physics
 645003.md      Moral
 645002.md      Philosophics-Famous-Human
-645001.md      Philosophics-System   
+645001.md      Philosophics-System
 645000.md      Philosophics
 
-# Academics
+## Academics
 
 640016.md      Princeton-University
 640015.md      Harvard-University
@@ -2086,13 +2119,13 @@
 640001.md      Study
 640000.md      Academics
 
-# Location
+## Location
 
 620003.md      Location-Set
 620002.md      Location
 620001.md      Location-System
 
-# Time
+## Time
 
 610007.md      Sun-Day
 610006.md      Day
@@ -2100,9 +2133,9 @@
 610004.md      Time-Stamp-Set
 610003.md      Day-Set
 610002.md      Day-of-the-Week
-610001.md      Time-System   
+610001.md      Time-System
 
-# Concept
+## Concepts
 
 600142.md      False-Statement
 600141.md      True-Statement
@@ -2173,7 +2206,7 @@
 600075.md      Interpretation
 600074.md      Scope
 600073.md      Movement-Path
-600072.md      Path    
+600072.md      Path
 600071.md      Movement
 600070.md      Indicator
 600069.md      Compensation
@@ -2246,7 +2279,7 @@
 600001.md      Academics-Student
 600000.md      Academics-System
 
-# All
+## Deep-Concepts
 
 60137.md       Criteria
 60136.md       The-Better
@@ -2301,7 +2334,7 @@
 60087.md       Student
 60086.md       Program
 60085.md       Atomic-Property
-60084.md       Part    
+60084.md       Part
 60083.md       Task
 60082.md       Cost
 60081.md       Performance
@@ -2321,7 +2354,7 @@
 60066.md       Good-Life
 60065.md       Best
 60064.md       Life
-60063.md       Dimension   
+60063.md       Dimension
 60062.md       Process
 60061.md       Communication
 60060.md       Understandablility
@@ -2355,7 +2388,7 @@
 60032.md       Example
 60022.md       Original
 60021.md       Quantity
-60020.md       Life-Form      
+60020.md       Life-Form
 60019.md       Format
 60017.md       Output
 60016.md       Correctness (DEAD)
@@ -2376,6 +2409,9 @@
 60001.md       Data
 60000.md       Number
 
+40001.md       Eternity
+40000.md       Reality
+
 5555.md        Exchange-Medium
 99.md          Coincidence
 77.md          Secret
@@ -2383,24 +2419,15 @@
 
 7777.md        All
 
-50001.md       Markdown-Footnote
-
-40001.md       Eternity
-40000.md       Reality
-
-# Michael-Holzheu
+## The Beginnings
 
 11091971.md    My-Calendar
-2000002.md     My-Mac-Book
 773.md         Hailey
 88.md          My-Fellow-Occupant
-31.md          Markdown
 25.md          My-Topics
 21.md          About-Michael_Holzheu
 19.md          Michi
-11.md          Clash-of-Clans-Nordfriesländer
-8.jpg          Michael_Holzheu-LFS-Dead-1         
+8.jpg          Michael_Holzheu-LFS-Dead-1
 4.md           Holyheu
-3.md           Clash-of-Clans
 0.jpg          Michael_Holzheu-LFS-Dead-2
 0.md           Michael_Holzheu
