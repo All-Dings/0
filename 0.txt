@@ -196,6 +196,7 @@
 
 300000101.md   Dings-Overlay-Image-PDF
 
+300000028.md   Dings-Impressum
 300000027.md   Dings-Font-Awesome-4.7
 300000026.md   Dings-Local-Logout-Template
 300000025.md   Dings-Local-Login-Form
