@@ -12,22 +12,61 @@
 
 ### My Academic-Work
 
+#### Truth in a digital World
+
+333333336.md   Truth-in-a-digital-World-Team
+333333335.md   Notes-for-the-Thesis
+333333334.md   Steven-Wolfram-Relicts-of-the-Z1-2016-final
 333333333.md   Truth-in-a-digital-World
+
+#### Other Stuff
+
 1971092002.md  Regler-zur-Robotersteuerung
 1971091177.md  Doktor_Holzheu
 
+### My Projects
+
+#### Würfelwand
+
+303000010.md   Pic-Tool
+303000003.md   Lebendige-Technik
+303000002.md   Würfelwand-Team
+303000001.md   Würfelwand-Photo
+303000000.md   Projekt-Würfelwand
+
+#### My Programming-Study
+
+302030000.md   Programming-Study
+
+#### My Man-Machine-Study
+
+302020000.md   My-Man-Machine-Study
+
+#### My Smoking-Study
+
+302010000.md   My-Smoking-Study
+
+#### My Brezel-Study
+
+302000002.md   B2-Bio-Pur-Shop-Balingen
+302000001.md   My-Brezel-Study
+
+### My Hypothesis
+
+301000001.md   Body-Contact-Increases-Energy
+
 ### My Friends
 
-### My-Fellow-Occupant
+#### My-Fellow-Occupant
 
 88.md          My-Fellow-Occupant
 
-### Roxana_Stanciu
+#### Roxana_Stanciu
 
 1997080300.md  Roxana_Stanciu
 1997080300.jpg Roxana_Stanciu
 
-### Friends
+#### Other Friends
 
 1971091155.md  My-Artist-Friend
 1971091154.md  My-Banker-Friend
@@ -60,6 +99,69 @@
 1971091102.md  My-VW-California
 1971091101.md  Our-House-Im-Philosophenweg
 2000002.md     My-Mac-Book
+
+## Dings-System
+
+## Dings-Directories
+
+10000000001.md Blogs
+10000000000.md Dings-Root-Directory
+
+1000001.md     Blog-Chain-Time
+
+300040007.md   Dings_Quiz
+
+300040005.md   Dings_Pdf
+300040004.md   Dings_Video
+300040003.md   Dings_Sound
+300040002.md   Dings_Image
+300040001.md   Dings_Sip-Toggle
+300040000.md   Dings_Object
+
+300030006.md   Dings-Java-Script-File
+300030005.md   Dings-Favicon
+300030004.make Dings-Backup-Makefile
+300020002.pl   Dings-Tool-Perl
+300020001.py   Dings-Tool-Python
+300020000.md   Dings-Tool
+
+300010011.md   Dings-Lib-Perl
+300010010.md   Dings-Lib-Python
+300010010.py   Dings-Lib-Python
+300010000.md   Dings-Lib
+
+300000101.md   Dings-Overlay-Image-PDF
+
+300000028.md   Dings-Impressum
+300000027.md   Dings-Font-Awesome-4.7
+300000026.md   Dings-Local-Logout-Template
+300000025.md   Dings-Local-Login-Form
+300000024.md   Dings-Htaccess
+300000023.md   Dings-Php-Load
+300000022.md   Dings-Php-Login
+300000021.md   Dings-Warning-Under-Construction
+300000020.md   Dings-App
+300000019.md   Dings-File-Parent
+300000018.md   Dings-File-System
+300000017.md   Dings-File-Child
+300000016.make Dings-Generate-Make-File
+300000016.md   Dings-Name
+300000015.md   Dings-Number
+300000014.md   Dings-Css-File
+300000013.md   Dings-License
+300000012.md   Dings-Combined-Word-Separator
+300000011.md   Dings-Day
+300000010.md   Dings-File
+300000009.md   Dings-Work-Flow
+300000008.md   Dings-Abbreviation-Character
+300000007.md   Dings-System
+300000006.md   Dings-Project
+300000004.make Dings-HTML-Make-File
+300000003.md   Dings-HTML-Make-File
+300000002.html Dings-HTML-Template-File
+300000002.md   Dings-HTML-Template
+300000001.md   Dings
+300000000.md   Blog-Chain
 
 ## Media-Files
 
@@ -136,107 +238,6 @@
 400000003.md   Beurteilungs-Kriterien-before-Scan-2-Photo
 400000002.md   Beurteilungs-Kriterien-before-Scan-Photo
 400000001.md   Muffi-and-Schnuffi-Image
-
-## Truth in a digital World
-
-333333336.md   Truth-in-a-digital-World-Team
-333333335.md   Notes-for-the-Thesis
-333333334.md   Steven-Wolfram-Relicts-of-the-Z1-2016-final
-333333333.md   Truth-in-a-digital-World
-
-## Würfelwand
-
-303000010.md   Pic-Tool
-303000003.md   Lebendige-Technik
-303000002.md   Würfelwand-Team
-303000001.md   Würfelwand-Photo
-303000000.md   Projekt-Würfelwand
-
-## Studies
-
-### Programming-Study
-
-302030000.md   Programming-Study
-
-### My Man-Machine-Study
-
-302020000.md   My-Man-Machine-Study
-
-### My Smoking-Study
-
-302010000.md   My-Smoking-Study
-
-### My Brezel-Study
-
-302000002.md   B2-Bio-Pur-Shop-Balingen
-302000001.md   My-Brezel-Study
-
-## Hypothesis
-
-301000001.md   Body-Contact-Increases-Energy
-
-## Dings-System
-
-## Dings-Directories
-
-10000000001.md Blogs
-10000000000.md Dings-Root-Directory
-
-1000001.md     Blog-Chain-Time
-
-300040007.md   Dings_Quiz
-
-300040005.md   Dings_Pdf
-300040004.md   Dings_Video
-300040003.md   Dings_Sound
-300040002.md   Dings_Image
-300040001.md   Dings_Sip-Toggle
-300040000.md   Dings_Object
-
-300030006.md   Dings-Java-Script-File
-300030005.md   Dings-Favicon
-300030004.make Dings-Backup-Makefile
-300020002.pl   Dings-Tool-Perl
-300020001.py   Dings-Tool-Python
-300020000.md   Dings-Tool
-
-300010011.md   Dings-Lib-Perl
-300010010.md   Dings-Lib-Python
-300010010.py   Dings-Lib-Python
-300010000.md   Dings-Lib
-
-300000101.md   Dings-Overlay-Image-PDF
-
-300000028.md   Dings-Impressum
-300000027.md   Dings-Font-Awesome-4.7
-300000026.md   Dings-Local-Logout-Template
-300000025.md   Dings-Local-Login-Form
-300000024.md   Dings-Htaccess
-300000023.md   Dings-Php-Load
-300000022.md   Dings-Php-Login
-300000021.md   Dings-Warning-Under-Construction
-300000020.md   Dings-App
-300000019.md   Dings-File-Parent
-300000018.md   Dings-File-System
-300000017.md   Dings-File-Child
-300000016.make Dings-Generate-Make-File
-300000016.md   Dings-Name
-300000015.md   Dings-Number
-300000014.md   Dings-Css-File
-300000013.md   Dings-License
-300000012.md   Dings-Combined-Word-Separator
-300000011.md   Dings-Day
-300000010.md   Dings-File
-300000009.md   Dings-Work-Flow
-300000008.md   Dings-Abbreviation-Character
-300000007.md   Dings-System
-300000006.md   Dings-Project
-300000004.make Dings-HTML-Make-File
-300000003.md   Dings-HTML-Make-File
-300000002.html Dings-HTML-Template-File
-300000002.md   Dings-HTML-Template
-300000001.md   Dings
-300000000.md   Blog-Chain
 
 ## My-Fellow-Occupant-Illness
 
