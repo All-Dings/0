@@ -11,6 +11,7 @@
 1971099002.md  michael-holzheu@LinkedIn
 1971099001.md  michael-holzheu@Git-Hub
 190000002.md   Holyheu@YouTube
+4.md           Holyheu@Clash-Of-Clans
 
 ### Academic-Work
 
@@ -772,7 +773,7 @@
 190000005.md   First-German-Television
 190000004.md   German-Public-Broadcast
 190000003.md   You-Tube-Channel
-190000002.md   You-Tube-Channel-Holyheu
+
 190000001.md   YouTube
 190000000.md   Content-Seller
 
@@ -2436,5 +2437,4 @@
 21.md          About-Michael_Holzheu
 19.md          Michi
 8.jpg          Michael_Holzheu-LFS-Dead-1
-4.md           Holyheu
 0.jpg          Michael_Holzheu-LFS-Dead-2
