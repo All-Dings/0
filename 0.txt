@@ -2,7 +2,7 @@
 
 ## Michael_Holzheu
 
-### My Identities
+### Identities
 
 1971099004.md  michael.holzheu@Facebook
 1971099003.md  michael-holzheu@GitHub
@@ -10,7 +10,7 @@
 1971099001.md  michael-holzheu@Git-Hub
 190000002.md   Holyheu
 
-### My Academic-Work
+### Academic-Work
 
 #### Truth in a digital World
 
@@ -24,7 +24,7 @@
 1971092002.md  Regler-zur-Robotersteuerung
 1971091177.md  Doktor_Holzheu
 
-### My Projects
+### Projects
 
 #### Würfelwand
 
@@ -34,30 +34,30 @@
 303000001.md   Würfelwand-Photo
 303000000.md   Projekt-Würfelwand
 
-#### My Programming-Study
+#### Programming-Study
 
 302030000.md   Programming-Study
 
-#### My Man-Machine-Study
+#### Man-Machine-Study
 
 302020000.md   My-Man-Machine-Study
 
-#### My Smoking-Study
+#### Smoking-Study
 
 302010000.md   My-Smoking-Study
 
-#### My Brezel-Study
+#### Brezel-Study
 
 302000002.md   B2-Bio-Pur-Shop-Balingen
 302000001.md   My-Brezel-Study
 
-### My Hypothesis
+### Hypothesis
 
 301000001.md   Body-Contact-Increases-Energy
 
-### My Friends
+### Friends
 
-#### My Fellow-Occupant
+#### Fellow-Occupant
 
 88.md          My-Fellow-Occupant
 
@@ -79,17 +79,17 @@
 1971091141.md  My-Wimbledon-Win-Friend
 1971091140.md  My-Tennis-Win-Friend
 
-### My Movies
+### Movies
 
 1971099999.md  The-Turing-Machine
 1971099998.md  VW-California-für-Anfänger-Gas
 1111.md        Movie-from-Michael
 
-### My Blogs
+### Blogs
 
 1971092003.md  Holzheu-Zuse-Blogs
 
-### My Things
+### Things
 
 1971091107.md  My-Jose-Ribera
 1971091106.md  My-Peugeot
@@ -139,7 +139,7 @@
 300000019.md   Dings-File-Parent
 300000018.md   Dings-File-System
 300000017.md   Dings-File-Child
-300000016.make Dings-Generate-Make-File
+300000016.md   Dings-Generate-Make-File
 300000016.md   Dings-Name
 300000015.md   Dings-Number
 300000014.md   Dings-Css-File
@@ -151,9 +151,9 @@
 300000008.md   Dings-Abbreviation-Character
 300000007.md   Dings-System
 300000006.md   Dings-Project
-300000004.make Dings-HTML-Make-File
+300000004.md   Dings-HTML-Make-File
 300000003.md   Dings-HTML-Make-File
-300000002.htm  Dings-HTML-Template-File
+300000002.md   Dings-HTML-Template-File
 300000002.md   Dings-HTML-Template
 300000001.md   Dings
 300000000.md   Blog-Chain
@@ -283,6 +283,7 @@
 
 ## Tübingen
 
+140100003.md   Kunst-Halle-Tübingen-Coffee-House-Sculpture
 140100002.md   Landrats-Amt-Tübingen
 
 2010027.md     Kaufland-Tübingen
@@ -310,9 +311,6 @@
 2000002.md     Philosophen-Weg-Tübingen
 2000001.md     Tübingen
 
-### Wanne-Kunst-Halle-Tübingen
-
-140100001.jpg  Kunst-Halle-Tübingen-Coffee-House-Sculpture  
 140100000.md   Kunst-Halle-Tübingen
 
 ## Pollution
@@ -325,7 +323,7 @@
 ### Clash of Clans
 
 11.md          Clash-of-Clans-Nordfriesländer
-280100001.md   Coc-Games-Champion-Achievement 
+280100001.md   Coc-Games-Champion-Achievement
 3.md           Clash-of-Clans
 
 ### Other Games
@@ -826,7 +824,7 @@
 
 ## Geography
 
-140100001.md   Russian-Matrjoschka
+140100001.md   Russian-Matrjoschka (WRONG NUMBER)
 
 140000061.md   Düsseldorf
 140000060.md   Singapore
