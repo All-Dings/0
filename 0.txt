@@ -1,23 +1,6 @@
 # Naming-File
 
-## Dings-Directories
-
-10000000001.md Blogs
-10000000000.md Dings-Root-Directory
-
-## Roxana_Stanciu
-
-1997080300.md  Roxana_Stanciu
-1997080300.jpg Roxana_Stanciu
-
 ## Michael_Holzheu
-
-### My Movies
-
-1971099999.md  The-Turing-Machine
-1971099998.md  VW-California-für-Anfänger-Gas
-
-1111.md        Movie-from-Michael
 
 ### My Identities
 
@@ -35,6 +18,17 @@
 
 ### My Friends
 
+### My-Fellow-Occupant
+
+88.md          My-Fellow-Occupant
+
+### Roxana_Stanciu
+
+1997080300.md  Roxana_Stanciu
+1997080300.jpg Roxana_Stanciu
+
+### Friends
+
 1971091155.md  My-Artist-Friend
 1971091154.md  My-Banker-Friend
 1971091153.md  Bert-Pferd
@@ -46,9 +40,18 @@
 1971091141.md  My-Wimbledon-Win-Friend
 1971091140.md  My-Tennis-Win-Friend
 
-### My Things
+### My Movies
+
+1971099999.md  The-Turing-Machine
+1971099998.md  VW-California-für-Anfänger-Gas
+1111.md        Movie-from-Michael
+
+### My Blogs
 
 1971092003.md  Holzheu-Zuse-Blogs
+
+### My Things
+
 1971091107.md  My-Jose-Ribera
 1971091106.md  My-Peugeot
 1971091105.md  My-Bicycle
@@ -173,6 +176,11 @@
 301000001.md   Body-Contact-Increases-Energy
 
 ## Dings-System
+
+## Dings-Directories
+
+10000000001.md Blogs
+10000000000.md Dings-Root-Directory
 
 1000001.md     Blog-Chain-Time
 
@@ -2423,7 +2431,6 @@
 
 11091971.md    My-Calendar
 773.md         Hailey
-88.md          My-Fellow-Occupant
 25.md          My-Topics
 21.md          About-Michael_Holzheu
 19.md          Michi
