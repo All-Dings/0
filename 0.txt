@@ -17,6 +17,7 @@
 
 #### Truth in a digital World
 
+6.md           Truth-of-the-Nordfriesländer
 333333336.md   Truth-in-a-digital-World-Team
 333333335.md   Notes-for-the-Thesis
 333333334.md   Steven-Wolfram-Relicts-of-the-Z1-2016-final
