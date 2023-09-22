@@ -1664,7 +1664,7 @@
 9000155.md     Unix-Diff-Command
 9000154.md     Bug-Fix
 9000153.md     Computer-System
-9000152.md     Artificial-Intelligence-System
+9000152.md     Artificial-Inteligence-System
 9000151.md     Chat-Bot
 9000150.md     Chat-GPT
 9000149.md     Git-Hub-System
