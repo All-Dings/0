@@ -130,7 +130,6 @@
 
 300010011.md   Dings-Lib-Perl
 300010010.md   Dings-Lib-Python
-300010010.py   Dings-Lib-Python
 300010000.md   Dings-Lib
 
 300000101.md   Dings-Overlay-Image-PDF
@@ -159,8 +158,8 @@
 300000008.md   Dings-Abbreviation-Character
 300000007.md   Dings-System
 300000006.md   Dings-Project
-300000004.md   Dings-HTML-Make-File
-300000003.md   Dings-HTML-Make-File
+
+300000003.md   Dings-HTML-Makefile
 300000002.md   Dings-HTML-Template-File
 300000002.md   Dings-HTML-Template
 300000001.md   Dings
@@ -1699,7 +1698,7 @@
 9000162.md     Http-Passwd-File
 9000161.md     Http-Access-File
 9000160.md     Http-Config-File
-9000159.md     Make-File
+9000159.md     Makefile
 9000158.md     Magick-Tool
 9000157.md     Unix-Command
 9000156.md     Unix-Wc-Command
