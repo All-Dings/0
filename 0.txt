@@ -2,7 +2,7 @@
 
 ## Michael_Holzheu
 
-0.md           Michael_Holzheu
+0.md           Michael_Georg_Holzheu
 
 ### Identities
 
@@ -2054,12 +2054,12 @@
 
 ## Linguistics
 
+666003.md      French
 666002.md      Ukrainian-Language
 666001.md      Spanish
 
 660000.md      Germanistics
 
-600047.md      French
 640046.md      Syllable
 640045.md      Phonem
 640044.md      Latin
