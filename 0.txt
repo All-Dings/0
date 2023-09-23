@@ -2059,6 +2059,7 @@
 
 660000.md      Germanistics
 
+600047.md      French
 640046.md      Syllable
 640045.md      Phonem
 640044.md      Latin
