@@ -2322,7 +2322,7 @@
 	600005.md      (WRONG-NUMBER)
 	600004.md      (WRONG-NUMBER)
 	600003.md      (WRONG-NUMBER)
-600002.md      (WRONG-NUMBER)
+	600002.md      (WRONG-NUMBER)
 	600001.md      Academics-Student
 	600000.md      Academics-System
 
@@ -2421,7 +2421,7 @@
 	60046.md       Riddle
 	60045.md       Hobby
 	60044.md       Technology
-60043.md       Output (DEAD)
+	60043.md       Output (DEAD)
 	60042.md       Input
 	60041.md       Feeling
 	60040.md       Intuition
@@ -2438,7 +2438,7 @@
 	60020.md       Life-Form
 	60019.md       Format
 	60017.md       Output
-60016.md       Correctness (DEAD)
+	60016.md       Correctness (DEAD)
 	60015.md       Trust
 	60014.md       Explanation
 	60013.md       Complexity
@@ -2473,5 +2473,3 @@
 	25.md          My-Topics
 	21.md          About-Michael_Holzheu
 	19.md          Michi
-	8.jpg          Michael_Holzheu-LFS-Dead-1
-0.jpg          Michael_Holzheu-LFS-Dead-2
