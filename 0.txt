@@ -1040,1437 +1040,1438 @@
 
 ### Famous-Music-Pieces
 
-73000003.md    Dance-of-the-Sugar-Plum-Fairy
-73000002.md    Dont-Start-Now (Wrong-Number)
+	73000003.md    Dance-of-the-Sugar-Plum-Fairy
+	73000002.md    Dont-Start-Now (Wrong-Number)
 73000001.md    Physical (Wrong-Number)
-73000000.md    Famous-Music-Piece
+	73000000.md    Famous-Music-Piece
 
 ### Music
 
-91001008.md    Sound-Collage
-91001007.md    Singing
-91001006.md    Choral-Set
-90001005.md    SUSI-Chor
-90001003.md    Blue-Note
-90001002.md    Choir-Rehearsal
-90001001.md    Tenor
-90001000.md    Choir
+	91001008.md    Sound-Collage
+	91001007.md    Singing
+	91001006.md    Choral-Set
+	90001005.md    SUSI-Chor
+	90001003.md    Blue-Note
+	90001002.md    Choir-Rehearsal
+	90001001.md    Tenor
+	90001000.md    Choir
 
-90000034.md    Bell
-90000033.md    Guitar
-90000032.md    Trumpet
-90000031.md    Over-Tone
-90000030.md    Third
-90000029.md    Major-Scale
-90000028.md    Tone
-90000027.md    Root-Tone
-90000026.md    Solmization
-90000025.md    Cent
-90000024.md    Half-Tone
-90000023.md    Tuba
-90000022.md    Brass-Instrument
-90000021.md    Sousa-Phone
-90000020.md    Musical-Instrument
-90000019.md    Choir-Master
-90000018.md    Music-Score
-90000017.md    Music-Note
-90000016.md    Music-Scale
-90000015.md    Octave
-90000014.md    Fifth
-90000013.md    Pythagorean-Comma
-90000012.md    Composer
-90000011.md    Vocal-Piece
-90000010.md    Music-Piece
-90000001.md    Music-System
-90000000.md    Music
+	90000034.md    Bell
+	90000033.md    Guitar
+	90000032.md    Trumpet
+	90000031.md    Over-Tone
+	90000030.md    Third
+	90000029.md    Major-Scale
+	90000028.md    Tone
+	90000027.md    Root-Tone
+	90000026.md    Solmization
+	90000025.md    Cent
+	90000024.md    Half-Tone
+	90000023.md    Tuba
+	90000022.md    Brass-Instrument
+	90000021.md    Sousa-Phone
+	90000020.md    Musical-Instrument
+	90000019.md    Choir-Master
+	90000018.md    Music-Score
+	90000017.md    Music-Note
+	90000016.md    Music-Scale
+	90000015.md    Octave
+	90000014.md    Fifth
+	90000013.md    Pythagorean-Comma
+	90000012.md    Composer
+	90000011.md    Vocal-Piece
+	90000010.md    Music-Piece
+	90000001.md    Music-System
+	90000000.md    Music
 
 ## Famous-Problems
 
-72000001.md    Halting-Problem
-600084.md      Entscheidungs-Problem
-72000000.md    Famous-Problem
+	72000001.md    Halting-Problem
+	600084.md      Entscheidungs-Problem
+	72000000.md    Famous-Problem
 
 ## Famous-Documents or Books
 
-71000011.md    Computerarchäologie
-71000010.md    Pali-Kanon
-71000009.md    Koran
-71000008.md    Bible
-71000007.md    Mein-Weg-mit-Konrad_Zuse-und-Heinz_Nixdorf
-71000006.md    Die-Rechenmaschinen-von-Konrad_Zuse
-71000005.md    Der-Computer–Mein-Lebenswerk
-71000004.md    The_Adventures_of_Tom_Sawyer
-71000003.md    The_Hitchhiker's_Guide_to_the_Galaxy
-71000002.md    On_Computable_Numbers
-71000000.md    Famous-Document
+	71000011.md    Computerarchäologie
+	71000010.md    Pali-Kanon
+	71000009.md    Koran
+	71000008.md    Bible
+	71000007.md    Mein-Weg-mit-Konrad_Zuse-und-Heinz_Nixdorf
+	71000006.md    Die-Rechenmaschinen-von-Konrad_Zuse
+	71000005.md    Der-Computer–Mein-Lebenswerk
+	71000004.md    The_Adventures_of_Tom_Sawyer
+	71000003.md    The_Hitchhiker's_Guide_to_the_Galaxy
+	71000002.md    On_Computable_Numbers
+	71000000.md    Famous-Document
 
 ## Famous-Things
 
-79999999.md    Famous-Thing
-79999998.md    The-Nut-Cracker
+	79999999.md    Famous-Thing
+	79999998.md    The-Nut-Cracker
 
 ## Personalities
 
-70000062.md    Stefan_Höltgen
-70000061.md    János_Lajos_Neumann
-70000060.md    Howard_Hathaway_Aiken
-70000059.md    Ambros_Paul_Speiser
-70000058.md    Heinz_Rutishauser
-70000057.md    Eduard_Ludwig_Stiefel
-70000056.md    Liselotte_Zuse
-70000055.md    Mathias_Knauer
-70000054.md    Charles_Babbage
-70000053.md    Heinz_Nixdorf
-70000052.md    Raúl_Rojas-González
-70000051.md    Helmut_Theodor_Schreyer
-70000050.md    Lorenz_Hanewinkel
-70000049.md    Hannelore_Zuse-Stöcker
-70000048.md    Hadwig_Dorsch
-70000047.md    Stephen_Wolfram
-70000046.md    Horst-Konrad_Zuse
-70000045.md    Konrad_Zuse
-70000044.md    Samuel_Langhorne_Clemens
-70000043.md    Seth_Woodbury_MacFarlane
-70000042.md    Eugene_Wesley_Roddenberry
-70000041.md    Leslie_Lamport
-70000040.md    Donald_Ervin_Knuth
-70000039.md    Platon
-70000038.md    John-Philip_Sousa
-70000037.md    Baruch_de_Spinoza
-70000036.md    Philip_Miller
-70000035.md    Reinhard_Mey
-70000034.md    Mick_Deussen
-70000033.md    Gert_Möbius
-70000032.md    Hans-Otto_Hiestermann
-70000031.md    Ansgar_Rettner
-70000030.md    Ralph_Christian_Möbius
-70000029.md    Pythagoras
-70000028.md    Niklaus_Emil_Wirth
-50000028.md    Crispin_Hellion_Glover
-70000027.md    Huey_Lewis
-70000026.md    Christopher_Allen_Lloyd
-70000025.md    Michael_Andrew_Fox
-70000024.md    Vin_Diesel
-70000023.md    Tyrese_Darnell_Gibson
-70000022.md    Bud_Spencer
-70000021.md    Terence_Hill
-70000020.md    Paul_William_Walker_IV
-70000019.md    Douglas_Noël_Adams
-70000018.md    Kurt_Tepperwein
-70000017.md    Michael_Dorn
-70000016.md    Stephen_Cole_Kleene
-70000015.md    Theodor_Holm_Nelson
-70000014.md    Timothy_John_Berners-Lee
-70000013.md    Pjotr_Iljitsch_Tschaikowski
-70000012.md    Dua_Lipa
-70000011.md    David_Hilbert
-70000010.md    Alan_Mathison_Turing
-70000009.md    Stephen_Cole_Kleene
-70000008.md    Aristoteles
-70000007.md    Alonzo_Church
-70000006.md    Martin_Edward_Hellman
-70000005.md    Whitfield_Diffie
-70000004.md    Kyriakos_Mitsotakis
-70000003.md    James_Cameron
-70000002.md    Wladimir_Putin
-70000001.md    Adam_Ries
-70000000.md    Famous-Human
+	70000062.md    Stefan_Höltgen
+	70000061.md    János_Lajos_Neumann
+	70000060.md    Howard_Hathaway_Aiken
+	70000059.md    Ambros_Paul_Speiser
+	70000058.md    Heinz_Rutishauser
+	70000057.md    Eduard_Ludwig_Stiefel
+	70000056.md    Liselotte_Zuse
+	70000055.md    Mathias_Knauer
+	70000054.md    Charles_Babbage
+	70000053.md    Heinz_Nixdorf
+	70000052.md    Raúl_Rojas-González
+	70000051.md    Helmut_Theodor_Schreyer
+	70000050.md    Lorenz_Hanewinkel
+	70000049.md    Hannelore_Zuse-Stöcker
+	70000048.md    Hadwig_Dorsch
+	70000047.md    Stephen_Wolfram
+	70000046.md    Horst-Konrad_Zuse
+	70000045.md    Konrad_Zuse
+	70000044.md    Samuel_Langhorne_Clemens
+	70000043.md    Seth_Woodbury_MacFarlane
+	70000042.md    Eugene_Wesley_Roddenberry
+	70000041.md    Leslie_Lamport
+	70000040.md    Donald_Ervin_Knuth
+	70000039.md    Platon
+	70000038.md    John-Philip_Sousa
+	70000037.md    Baruch_de_Spinoza
+	70000036.md    Philip_Miller
+	70000035.md    Reinhard_Mey
+	70000034.md    Mick_Deussen
+	70000033.md    Gert_Möbius
+	70000032.md    Hans-Otto_Hiestermann
+	70000031.md    Ansgar_Rettner
+	70000030.md    Ralph_Christian_Möbius
+	70000029.md    Pythagoras
+	70000028.md    Niklaus_Emil_Wirth
+	50000028.md    Crispin_Hellion_Glover
+	70000027.md    Huey_Lewis
+	70000026.md    Christopher_Allen_Lloyd
+	70000025.md    Michael_Andrew_Fox
+	70000024.md    Vin_Diesel
+	70000023.md    Tyrese_Darnell_Gibson
+	70000022.md    Bud_Spencer
+	70000021.md    Terence_Hill
+	70000020.md    Paul_William_Walker_IV
+	70000019.md    Douglas_Noël_Adams
+	70000018.md    Kurt_Tepperwein
+	70000017.md    Michael_Dorn
+	70000016.md    Stephen_Cole_Kleene
+	70000015.md    Theodor_Holm_Nelson
+	70000014.md    Timothy_John_Berners-Lee
+	70000013.md    Pjotr_Iljitsch_Tschaikowski
+	70000012.md    Dua_Lipa
+	70000011.md    David_Hilbert
+	70000010.md    Alan_Mathison_Turing
+	70000009.md    Stephen_Cole_Kleene
+	70000008.md    Aristoteles
+	70000007.md    Alonzo_Church
+	70000006.md    Martin_Edward_Hellman
+	70000005.md    Whitfield_Diffie
+	70000004.md    Kyriakos_Mitsotakis
+	70000003.md    James_Cameron
+	70000002.md    Wladimir_Putin
+	70000001.md    Adam_Ries
+	70000000.md    Famous-Human
 
 ## Architecture
 
-60100005.md    Cellar
-60100004.md    Internationales-Congress-Centrum-Berlin
-60100003.md    Kölner-Dom
-60100002.md    Building
-60100000.md    Architecture
+	60100005.md    Cellar
+	60100004.md    Internationales-Congress-Centrum-Berlin
+	60100003.md    Kölner-Dom
+	60100002.md    Building
+	60100000.md    Architecture
 
 ## Fiction
 
-60020005.md    Fictive-Character
-60020004.md    Bad-Guy
-60020003.md    Hero
-60020002.md    Zombie
-60020001.md    Monster
-60020000.md    Fiction
+	60020005.md    Fictive-Character
+	60020004.md    Bad-Guy
+	60020003.md    Hero
+	60020002.md    Zombie
+	60020001.md    Monster
+	60020000.md    Fiction
 
 ## Arts
 
-60010002.md    Theater
-60010001.md    Ballet
-60010000.md    Arts
+	60010002.md    Theater
+	60010001.md    Ballet
+	60010000.md    Arts
 
 ### Fine-Arts
 
-60000004.md    Image-Collage
-60000003.md    Collage
-60000002.md    Ascii-Art
-60000001.md    Picture
-60000000.md    Fine-Arts
+	60000004.md    Image-Collage
+	60000003.md    Collage
+	60000002.md    Ascii-Art
+	60000001.md    Picture
+	60000000.md    Fine-Arts
 
 ### Photography
 
-50000061.jpg   Last-Cigarette-for-Today
-50000060.jpg   Connections-in-Progress
-50000059.jpg   Last-Smoking-Round
-50000058.jpg   Phishig-Error-Screen-Shot
-50000057.jpg   404-Error-Screen-Shot
-50000056.jpg   First-Sub-Module
-50000055.jpg   Picture-for-Nicole-with-JPG-Compression-Level-0
-50000050.md    Photo-from-Michael
-50000001.md    Photo
-50000000.md    Photography
+	50000061.jpg   Last-Cigarette-for-Today
+	50000060.jpg   Connections-in-Progress
+	50000059.jpg   Last-Smoking-Round
+	50000058.jpg   Phishig-Error-Screen-Shot
+	50000057.jpg   404-Error-Screen-Shot
+	50000056.jpg   First-Sub-Module
+	50000055.jpg   Picture-for-Nicole-with-JPG-Compression-Level-0
+	50000050.md    Photo-from-Michael
+	50000001.md    Photo
+	50000000.md    Photography
 
 ## Habits
 
-41020000.md    Prank
+	41020000.md    Prank
 
 ### Bad-Habits
 
-41010003.md    Double-Standard
-41010002.md    Fraud
-41010001.md    Self-Fraud
-41010000.md    Bad-Habit
+	41010003.md    Double-Standard
+	41010002.md    Fraud
+	41010001.md    Self-Fraud
+	41010000.md    Bad-Habit
 
 ### Good-Habits
 
-41000003.md    Diligence
-41000002.md    Compliment
-41000001.md    Punctuality
-41000000.md    Good-Habits
+	41000003.md    Diligence
+	41000002.md    Compliment
+	41000001.md    Punctuality
+	41000000.md    Good-Habits
 
 ## Bad-Things
 
 ### Injuries
 
-40900000.md    Injury
+	40900000.md    Injury
 
 ### Illnesses
 
-48000015.md    Corona
-48000014.md    Parkinson's-Disease
-48000013.md    Mental-Illness
-48000012.md    Depression
-48000011.md    Schizophrenia
-48000010.md    Tooth-Pain
-48000009.md    Cold
-48000008.md    Rage-Attack
-48000007.md    Epilepsy
-48000006.md    Coughing
+	48000015.md    Corona
+	48000014.md    Parkinson's-Disease
+	48000013.md    Mental-Illness
+	48000012.md    Depression
+	48000011.md    Schizophrenia
+	48000010.md    Tooth-Pain
+	48000009.md    Cold
+	48000008.md    Rage-Attack
+	48000007.md    Epilepsy
+	48000006.md    Coughing
 48000005.md    Head-Pain (Wrong-Number)
-40800004.md    Allergy
-40800003.md    Health
-40800002.md    Spinal-Curvature
-40800001.md    Neuro-Dermatitis
-40800000.md    Illness
+	40800004.md    Allergy
+	40800003.md    Health
+	40800002.md    Spinal-Curvature
+	40800001.md    Neuro-Dermatitis
+	40800000.md    Illness
 
 ## Genetics
 
-40300001.md    Gene-Alalysis
-40300000.md    Genetics
+	40300001.md    Gene-Alalysis
+	40300000.md    Genetics
 
 ## Biology / Biologic
 
-40201004.md    Humor
-40201003.md    Nicotine-Flash
-40201002.md    Biologic-Perception-Burning
-40201001.md    Tingling
+	40201004.md    Humor
+	40201003.md    Nicotine-Flash
+	40201002.md    Biologic-Perception-Burning
+	40201001.md    Tingling
 
-40200002.md    Taste
-40200001.md    Sound
-40200000.md    Biologic-Perception
+	40200002.md    Taste
+	40200001.md    Sound
+	40200000.md    Biologic-Perception
 
-40101032.md    Dermal-Papillae
-40101031.md    Human-Iris
-40101030.md    Human-Hand
-40101020.md    Human-Lips
-40101010.md    Human-Arm
-40101001.md    Human-Eye
+	40101032.md    Dermal-Papillae
+	40101031.md    Human-Iris
+	40101030.md    Human-Hand
+	40101020.md    Human-Lips
+	40101010.md    Human-Arm
+	40101001.md    Human-Eye
 
-40100003.md    Lung
-40100002.md    Body
-40100001.md    Urinary-Bladder
-40100000.md    Biologic-Organ
+	40100003.md    Lung
+	40100002.md    Body
+	40100001.md    Urinary-Bladder
+	40100000.md    Biologic-Organ
 
 40090001.md    Biological-Organ (DEAD)
-40090000.md    Biologic-Cell
+	40090000.md    Biologic-Cell
 
-40080012.md    Human-Inteligence
-40080011.md    Human-Nasal-Cavity
-40080010.md    Human-Lower-Leg
-40080009.md    Human-Throat
-40080008.md    Human-Leg
-40080007.md    Human-Torso
-40080006.md    Human-Neurologic-System
-40080005.md    Human-Respiration-System
-40080004.md    Human-Gastro-Intestinal-System
-40080003.md    Human-Back
-40080002.md    Back-Of-Head
-40080001.md    Human-Head
-40080000.md    Human-Body
+	40080012.md    Human-Inteligence
+	40080011.md    Human-Nasal-Cavity
+	40080010.md    Human-Lower-Leg
+	40080009.md    Human-Throat
+	40080008.md    Human-Leg
+	40080007.md    Human-Torso
+	40080006.md    Human-Neurologic-System
+	40080005.md    Human-Respiration-System
+	40080004.md    Human-Gastro-Intestinal-System
+	40080003.md    Human-Back
+	40080002.md    Back-Of-Head
+	40080001.md    Human-Head
+	40080000.md    Human-Body
 
-40080021.md    Secretive
-40080020.md    Spit
-40080019.md    Spitting
-40080018.md    Slime
-40080017.md    Respiration-System
-40080016.md    Throat
-40080015.md    Throat-Clearing
+	40080021.md    Secretive
+	40080020.md    Spit
+	40080019.md    Spitting
+	40080018.md    Slime
+	40080017.md    Respiration-System
+	40080016.md    Throat
+	40080015.md    Throat-Clearing
 
-40000036.md    Family-Tree
-40000035.md    Biologic-Siblings
-40000034.md    Biologic-Child
-40000033.md    Biologic-Relation
-40000032.md    Biologic-Relative
-40000031.md    Alien
-40000030.md    Biologic-State-Dead
-40000029.md    Biologic-State-Alive
-40000028.md    Biologic-State
-40000027.md    Face
-40000026.md    Animal
-40000025.md    Hair
-40000024.md    Biologic-Genus
-40000023.md    Tooth
-40000022.md    Biologic-Species
-40000021.md    Biology-System
-40000020.md    Teen-Ager
-40000019.md    Dance
-40000018.md    Thought-Set
-40000017.md    Thought
-40000016.md    Living-Thing
-40000015.md    Biologic-Body-Contact
-40000014.md    Body-Half
+	40000036.md    Family-Tree
+	40000035.md    Biologic-Siblings
+	40000034.md    Biologic-Child
+	40000033.md    Biologic-Relation
+	40000032.md    Biologic-Relative
+	40000031.md    Alien
+	40000030.md    Biologic-State-Dead
+	40000029.md    Biologic-State-Alive
+	40000028.md    Biologic-State
+	40000027.md    Face
+	40000026.md    Animal
+	40000025.md    Hair
+	40000024.md    Biologic-Genus
+	40000023.md    Tooth
+	40000022.md    Biologic-Species
+	40000021.md    Biology-System
+	40000020.md    Teen-Ager
+	40000019.md    Dance
+	40000018.md    Thought-Set
+	40000017.md    Thought
+	40000016.md    Living-Thing
+	40000015.md    Biologic-Body-Contact
+	40000014.md    Body-Half
 40000013.md    Dettenhausen (Wrong-Number)
-40000012.md    Body-Part
-40000011.md    Human-Baby
-40000010.md    Woman
-40000009.md    Daughter
-40000008.md    Mother
-40000007.md    Father
-40000006.md    Parents
-40000005.md    Problem-Child
-40000004.md    Man
-40000003.md    Dog
-40000002.md    Gemini
-40000001.md    Human
-40000000.md    Biology
+	40000012.md    Body-Part
+	40000011.md    Human-Baby
+	40000010.md    Woman
+	40000009.md    Daughter
+	40000008.md    Mother
+	40000007.md    Father
+	40000006.md    Parents
+	40000005.md    Problem-Child
+	40000004.md    Man
+	40000003.md    Dog
+	40000002.md    Gemini
+	40000001.md    Human
+	40000000.md    Biology
 
 ## Media-Files
 
-30010015.md    Video-Format
-30010014.md    Sound-Format
-30010013.md    Portable-Network-Graphics-Image-Format
-30010012.md    Portable-Document-Format
-30010011.md    Record
-30010010.md    Recording
-30010009.md    Mp4-Video-Format
-30010008.md    Mp3-Sound-Format
-30010007.md    Image-Size
-30010006.md    Image-Format
-30010005.md    RAW-Image-Format
-30010004.md    JPG-Image-Format
-30010003.md    Pixel
-30010002.md    Full-HD
-30010001.md    Resolution
-30010000.md    Media-Formats
+	30010015.md    Video-Format
+	30010014.md    Sound-Format
+	30010013.md    Portable-Network-Graphics-Image-Format
+	30010012.md    Portable-Document-Format
+	30010011.md    Record
+	30010010.md    Recording
+	30010009.md    Mp4-Video-Format
+	30010008.md    Mp3-Sound-Format
+	30010007.md    Image-Size
+	30010006.md    Image-Format
+	30010005.md    RAW-Image-Format
+	30010004.md    JPG-Image-Format
+	30010003.md    Pixel
+	30010002.md    Full-HD
+	30010001.md    Resolution
+	30010000.md    Media-Formats
 
-1000002.md     Media-Time
+	1000002.md     Media-Time
 
-30000003.md    Icon
-30000002.md    Image
-30000001.md    Screen-Shot
-30000000.md    Media-Files
+	30000003.md    Icon
+	30000002.md    Image
+	30000001.md    Screen-Shot
+	30000000.md    Media-Files
 
 ## Physical-Containers
 
-20100002.md    Bottle
-20100001.md    Box
+	20100002.md    Bottle
+	20100001.md    Box
 
 ## Devices
 
-20000015.md    Calculating-Machine
-20000014.md    Electronic-Visual-Display
-20000013.md    Laptop
-20000012.md    iPad
-20000011.md    Alcohol-Measuring-Device
-20000010.md    Measuring-Device
-20000009.md    Desktop-Computer
-20000008.md    Accumulator
-20000007.md    Tablet-Computer
-20000006.md    Auto-Bus
-20000005.md    Smart-Phone
-20000004.md    Car
-20000003.md    Computer
-20000002.md    Disk-Drive
-20000001.md    Samsung-Galaxy-S22-Ultra
-20000000.md    Device
+	20000015.md    Calculating-Machine
+	20000014.md    Electronic-Visual-Display
+	20000013.md    Laptop
+	20000012.md    iPad
+	20000011.md    Alcohol-Measuring-Device
+	20000010.md    Measuring-Device
+	20000009.md    Desktop-Computer
+	20000008.md    Accumulator
+	20000007.md    Tablet-Computer
+	20000006.md    Auto-Bus
+	20000005.md    Smart-Phone
+	20000004.md    Car
+	20000003.md    Computer
+	20000002.md    Disk-Drive
+	20000001.md    Samsung-Galaxy-S22-Ultra
+	20000000.md    Device
 
 ## Technology
 
-16000002.md    Technology-Type
-16000001.md    Technology-System
+	16000002.md    Technology-Type
+	16000001.md    Technology-System
 
 ## Logics
 
-15000010.md    Nor-Function
-15000009.md    Nand-Function
-15000008.md    Identity-Function
-15000007.md    Xor-Function
-15000006.md    Or-Function
-15000005.md    And-Function
-15000004.md    Logics-Function
-15000003.md    Formal-Language
-15000002.md    Logics-Famous-Human
-15000001.md    Logics-System
-15000000.md    Logics
+	15000010.md    Nor-Function
+	15000009.md    Nand-Function
+	15000008.md    Identity-Function
+	15000007.md    Xor-Function
+	15000006.md    Or-Function
+	15000005.md    And-Function
+	15000004.md    Logics-Function
+	15000003.md    Formal-Language
+	15000002.md    Logics-Famous-Human
+	15000001.md    Logics-System
+	15000000.md    Logics
 
 ## Feminism
 
-14400000.md    Feminism
+	14400000.md    Feminism
 
 ## Ethics
 
-14400002.md    Ethics-System
-14400001.md    Ethics-Rule
-14400000.md    Ethics
+	14400002.md    Ethics-System
+	14400001.md    Ethics-Rule
+	14400000.md    Ethics
 
 ## Theology
 
-14300002.md    Divine-Command
-14300001.md    Sacret-Script
-14300000.md    Theology
+	14300002.md    Divine-Command
+	14300001.md    Sacret-Script
+	14300000.md    Theology
 
 ## Humoristics
 
-14200000.md    Humoristics
+	14200000.md    Humoristics
 
 ## Spiritism
 
-14100001.md    Esotherics-Medium
-14100000.md    Spiritism
+	14100001.md    Esotherics-Medium
+	14100000.md    Spiritism
 
 ## Psychology
 
-14000002.md    Mood
-14000001.md    Encounter
-14000000.md    Psychology
+	14000002.md    Mood
+	14000001.md    Encounter
+	14000000.md    Psychology
 
 ## Cryptologics
 
-13300005.md    Password
-13300004.md    Cryptologics-Passport
-13300003.md    Cryptologics-Signature
-13300002.md    Cryptologics-Famous-Human
-13300001.md    Cryptologics-System
-13300000.md    Cryptologics
+	13300005.md    Password
+	13300004.md    Cryptologics-Passport
+	13300003.md    Cryptologics-Signature
+	13300002.md    Cryptologics-Famous-Human
+	13300001.md    Cryptologics-System
+	13300000.md    Cryptologics
 
 ## Mathematics
 
-13010002.md    Meaning-of-Life-Number
-13010001.md    Circle-Number
-13010000.md    Famous-Number
+	13010002.md    Meaning-of-Life-Number
+	13010001.md    Circle-Number
+	13010000.md    Famous-Number
 
-13005000.md    Statistics
+	13005000.md    Statistics
 
-13000030.md    Add-Function
-13000029.md    Mathematics-System
-13000028.md    Floating-Point-System
-13000027.md    Mathematics-Difference
-13000026.md    Mathematics-Equation
-13000025.md    Mathematics-Formula
-13000024.md    Quod-erat-demonstrandum
-13000023.md    Mathematics-Root
-13000022.md    Exponentiation
-13000021.md    Multiplication
-13000020.md    Digit-Sum
-13000019.md    Hash-Function
+	13000030.md    Add-Function
+	13000029.md    Mathematics-System
+	13000028.md    Floating-Point-System
+	13000027.md    Mathematics-Difference
+	13000026.md    Mathematics-Equation
+	13000025.md    Mathematics-Formula
+	13000024.md    Quod-erat-demonstrandum
+	13000023.md    Mathematics-Root
+	13000022.md    Exponentiation
+	13000021.md    Multiplication
+	13000020.md    Digit-Sum
+	13000019.md    Hash-Function
 13000018.md    One-Way-Function (13000012.md)
-13000017.md    Compare-Function
-13000016.md    Mathematics-System
-13000015.md    Mathematics-Famous-Human
-13000014.md    Greatest-Common-Divisor-Function
-13000013.md    Eulers-Totient-Function
-13000012.md    Mathematics-One-Way-Function
-13000011.md    Mathematics-Function
-13000010.md    Mathematics-Atomic-Number
-13000009.md    Mathematics-Atomic-Property
-13000008.md    Mathematics-Number-Set
-13000007.md    Mathematics-Fraction-Function
-13000006.md    Mathematics-Angle-Degree
-13000005.md    Arithmetic
-13000004.md    Floating-Point
-13000003.md    Calculation
-13000002.md    Definition
-13000001.md    Sum
-13000000.md    Mathematics
+	13000017.md    Compare-Function
+	13000016.md    Mathematics-System
+	13000015.md    Mathematics-Famous-Human
+	13000014.md    Greatest-Common-Divisor-Function
+	13000013.md    Eulers-Totient-Function
+	13000012.md    Mathematics-One-Way-Function
+	13000011.md    Mathematics-Function
+	13000010.md    Mathematics-Atomic-Number
+	13000009.md    Mathematics-Atomic-Property
+	13000008.md    Mathematics-Number-Set
+	13000007.md    Mathematics-Fraction-Function
+	13000006.md    Mathematics-Angle-Degree
+	13000005.md    Arithmetic
+	13000004.md    Floating-Point
+	13000003.md    Calculation
+	13000002.md    Definition
+	13000001.md    Sum
+	13000000.md    Mathematics
 
 ## Experts
 
-12000001.md    Nerd
-12000000.md    Expert
+	12000001.md    Nerd
+	12000000.md    Expert
 
 ## Museology
 
-11700000.md    Museology
+	11700000.md    Museology
 
 ## Didactics
 
-11300000.md    Didactics
+	11300000.md    Didactics
 
 ## Archaeology
 
-11200000.md    Archaeology
+	11200000.md    Archaeology
 
 ## History-Science
 
-11000004.md    Contemporary-Witness
-11000003.md    Russo-Ukrainian-War
-11000002.md    Second-World-War
-11000001.md    Aristocracy
-11000000.md    History-Science
+	11000004.md    Contemporary-Witness
+	11000003.md    Russo-Ukrainian-War
+	11000002.md    Second-World-War
+	11000001.md    Aristocracy
+	11000000.md    History-Science
 
 ## Astronomy / Astronomical
 
-10500004.md    Planet
-10500003.md    Sun
-10500002.md    Astronomical-Object
-10500001.md    Astronomy-System
-10500000.md    Astronomy
+	10500004.md    Planet
+	10500003.md    Sun
+	10500002.md    Astronomical-Object
+	10500001.md    Astronomy-System
+	10500000.md    Astronomy
 
 ## Electronics
 
-10400004.md    Chip-Card
-10400003.md    Transistor
-10400002.md    Electronic-Circuit
-10400001.md    Electronics-System
-10400000.md    Electronics
+	10400004.md    Chip-Card
+	10400003.md    Transistor
+	10400002.md    Electronic-Circuit
+	10400001.md    Electronics-System
+	10400000.md    Electronics
 
 ## Chemistry
 
-10100000.md    Chemistry
+	10100000.md    Chemistry
 
 ## Physics / Physical
 
-10010000.md    Experiment
+	10010000.md    Experiment
 
-10000054.md    Physical-Signal
-10000053.md    Frequency-Spectrum
-10000052.md    Interval
-10000051.md    Physical-Container
-10000050.md    Physical-Space
-10000049.md    Physical-Speed
-10000048.md    Physical-Movement-Path
-10000047.md    Physical-Path
-10000046.md    Physical-Periodic-Movement
-10000045.md    Physical-Thing
-10000044.md    Physical-Position
-10000043.md    Physical-Movement
-10000042.md    Physical-Process
-10000041.md    Trembling
-10000040.md    Energy
-10000039.md    Physical-Contact
-10000038.md    Physical-System
-10000037.md    Indicator
-10000036.md    Observation
-10000035.md    Liquid
-10000034.md    Matter
-10000033.md    Dimension-Interval
-10000032.md    Height
-10000031.md    Width
-10000030.md    Height-Dimension
-10000029.md    Width-Dimension
-10000027.md    Space-Time-Continuum
-10000026.md    Length-Dimension
-10000025.md    Length
-10000024.md    Time-Dimension
-10000023.md    Age
-10000022.md    Measurement
-10000021.md    Measure
-10000020.md    Unit-of-Measure
-10000019.md    Past
-10000018.md    Centi-Meter
-10000017.md    Energy-Conservation-Law
-10000016.md    Frequency
-10000015.md    Amplitude
-10000014.md    Magnetic-Field
-10000013.md    Electric-Field
-10000012.md    Electro-Magnetic-Wave
-10000011.md    Phase-Angle-Shift
-10000010.md    Phase-Angle
-10000009.md    Energy
-10000008.md    Pressure
-10000007.md    Precision
-10000006.md    Height
-10000005.md    Width
-10000004.md    Future
-10000003.md    Unit -> Unit-of-Measure
-10000002.md    Time
-10000001.md    Electricity
-10000000.md    Physics
+	10000054.md    Physical-Signal
+	10000053.md    Frequency-Spectrum
+	10000052.md    Interval
+	10000051.md    Physical-Container
+	10000050.md    Physical-Space
+	10000049.md    Physical-Speed
+	10000048.md    Physical-Movement-Path
+	10000047.md    Physical-Path
+	10000046.md    Physical-Periodic-Movement
+	10000045.md    Physical-Thing
+	10000044.md    Physical-Position
+	10000043.md    Physical-Movement
+	10000042.md    Physical-Process
+	10000041.md    Trembling
+	10000040.md    Energy
+	10000039.md    Physical-Contact
+	10000038.md    Physical-System
+	10000037.md    Indicator
+	10000036.md    Observation
+	10000035.md    Liquid
+	10000034.md    Matter
+	10000033.md    Dimension-Interval
+	10000032.md    Height
+	10000031.md    Width
+	10000030.md    Height-Dimension
+	10000029.md    Width-Dimension
+	10000027.md    Space-Time-Continuum
+	10000026.md    Length-Dimension
+	10000025.md    Length
+	10000024.md    Time-Dimension
+	10000023.md    Age
+	10000022.md    Measurement
+	10000021.md    Measure
+	10000020.md    Unit-of-Measure
+	10000019.md    Past
+	10000018.md    Centi-Meter
+	10000017.md    Energy-Conservation-Law
+	10000016.md    Frequency
+	10000015.md    Amplitude
+	10000014.md    Magnetic-Field
+	10000013.md    Electric-Field
+	10000012.md    Electro-Magnetic-Wave
+	10000011.md    Phase-Angle-Shift
+	10000010.md    Phase-Angle
+	10000009.md    Energy
+	10000008.md    Pressure
+	10000007.md    Precision
+	10000006.md    Height
+	10000005.md    Width
+	10000004.md    Future
+	10000003.md    Unit -> Unit-of-Measure
+	10000002.md    Time
+	10000001.md    Electricity
+	10000000.md    Physics
 
 ## Informatics
 
-9999999.md     Informatics-System
-9999998.md     Informatics-Student
-9999997.md     Informatics-Famous-Human
+	9999999.md     Informatics-System
+	9999998.md     Informatics-Student
+	9999997.md     Informatics-Famous-Human
 
-9400006.md     Adder-Unit
-9400005.md     Instruction-Pipelining
-9400004.md     Arithmethic-Unit
-9400003.md     Central-Processing-Unit
-9400002.md     Graphics-Processing-Unit
-9400001.md     Universal-Serial-Bus
-9400000.md     Hardware
+	9400006.md     Adder-Unit
+	9400005.md     Instruction-Pipelining
+	9400004.md     Arithmethic-Unit
+	9400003.md     Central-Processing-Unit
+	9400002.md     Graphics-Processing-Unit
+	9400001.md     Universal-Serial-Bus
+	9400000.md     Hardware
 
 ### Markup-Languages
 
-31.md          Markdown
-50001.md       Markdown-Footnote
-9300010.md     LaTeX
-9300009.md     TeX
-9300008.md     Mathematical-Markup-Language
-9300007.md     Re-Structured-Text
-9300006.md     Hyper-Link
-9300005.md     Xanadu
-9300004.md     World-Wide-Web
-9300003.md     Html-Hyper-Link
-9300002.md     Self-Closing-Tag
-9300001.md     Hypertext-Markup-Language
-9300000.md     Markup-Language
+	31.md          Markdown
+	50001.md       Markdown-Footnote
+	9300010.md     LaTeX
+	9300009.md     TeX
+	9300008.md     Mathematical-Markup-Language
+	9300007.md     Re-Structured-Text
+	9300006.md     Hyper-Link
+	9300005.md     Xanadu
+	9300004.md     World-Wide-Web
+	9300003.md     Html-Hyper-Link
+	9300002.md     Self-Closing-Tag
+	9300001.md     Hypertext-Markup-Language
+	9300000.md     Markup-Language
 
 ### Computer-Networks
 
-9000152.md     Internet
-9200000.md     Computer-Network
+	9000152.md     Internet
+	9200000.md     Computer-Network
 
 ### Operating-Systems
 
-9100007.md     Ubuntu-Operating-System
-9100006.md     MacOS
-9100005.md     Linux
-9100004.md     iOS
-9100003.md     Android
-9100002.md     Microsoft-Windows
-9100001.md     Unix-System
-9100000.md     Operating-System
+	9100007.md     Ubuntu-Operating-System
+	9100006.md     MacOS
+	9100005.md     Linux
+	9100004.md     iOS
+	9100003.md     Android
+	9100002.md     Microsoft-Windows
+	9100001.md     Unix-System
+	9100000.md     Operating-System
 
 ### Programming-Languages
 
-9010007.md     Java-Script-Programming-Language
-9010006.md     C-Programming-Language
-9010005.md     Lambda-Calculus
-9010004.md     Java-Programming-Language
-9010003.md     Python-Programming-Language
-9010002.md     G-Code
-9010001.md     Perl-Programming-Language
-9010000.md     Programming-Language
+	9010007.md     Java-Script-Programming-Language
+	9010006.md     C-Programming-Language
+	9010005.md     Lambda-Calculus
+	9010004.md     Java-Programming-Language
+	9010003.md     Python-Programming-Language
+	9010002.md     G-Code
+	9010001.md     Perl-Programming-Language
+	9010000.md     Programming-Language
 
-9000200.md     Git-Fetch-Command
+	9000200.md     Git-Fetch-Command
 
-2000220.md     Turing-Completeness
-2000219.md     Triple-Store
-2000218.md     Block-Chain
-2000217.md     Computer-Generated-Imagery
-2000216.md     Audacity
-2000215.md     Html-Table
-2000214.md     Favicon
-2000213.md     Top-Bar
-2000212.md     Side-Bar
-2000211.md     Http-Cookie
-2000210.md     Responsive-Web-Design
-2000209.md     Web-Design
-2000208.md     Message-Digest-Algorithm-5
-2000207.md     LibreSSL
-2000206.md     OpenSSL
-2000205.md     Windows-Subsystem-for-Linux
-2000204.md     Mebi-Byte
-2000203.md     Kibi-Byte
-2000202.md     Mat-Plot-Lib
-2000201.md     Collision-Resistance
-2000200.md     Hash-Collision
-2000199.md     Secure-Hash-Algorithm-256
-2000198.md     Secure-Hash-Algorithm-2
-9000197.md     Git
-9000196.md     Secure-Hash-Algorithm-1
-9000195.md     Hash-Function
-9000194.md     JavaScript-Object-Notation
-9000193.md     File-Format
-9000192.md     iXml-Meta-Data
-9000191.md     Mpeg-Meta-Data
-9000190.md     Id3-Meta-Data
-9000189.md     Mutagen-Library
-9000188.md     Py-Exif-Tool-Library
-9000187.md     Exchangeable-Image-File-Format
-9000186.md     Exif-Python-Library
-9000185.md     DeepFace
-9000184.md     TensorFlow
-9000183.md     Image-Processing
-9000182.md     OpenCV
-9000181.md     Flutter
-9000180.md     Unity
-9000179.md     Docker
-9000178.md     Cython
-9000177.md     Install-Package
-9000176.md     Android-Apk-Package
-9000175.md     Kivy-Buildozer-Spec-File
-9000174.md     Kivy-Buildozer
-9000173.md     Configuration-File
-9000172.md     Kv-File
-9000171.md     Gui-Layout
-9000170.md     Widget
-9000169.md     Graphical-User-Interface
-9000168.md     App
-9000167.md     Observer-Pattern
-9000166.md     Kivy
-9000165.md     Pip
-9000164.md     Http-Server
-9000163.md     Http-Groups-File
-9000162.md     Http-Passwd-File
-9000161.md     Http-Access-File
-9000160.md     Http-Config-File
-9000159.md     Makefile
-9000158.md     Magick-Tool
-9000157.md     Unix-Command
-9000156.md     Unix-Wc-Command
-9000155.md     Unix-Diff-Command
-9000154.md     Bug-Fix
-9000153.md     Computer-System
-9000152.md     Artificial-Inteligence-System
-9000151.md     Chat-Bot
-9000150.md     Chat-GPT
-9000149.md     Git-Hub-System
-9000148.md     Program-Error
-9000147.md     Unicode
-9000146.md     Character-Encoding
-9000145.md     Micorosoft-File-Explorer
-9000144.md     Mac-Os-Finder
+	2000220.md     Turing-Completeness
+	2000219.md     Triple-Store
+	2000218.md     Block-Chain
+	2000217.md     Computer-Generated-Imagery
+	2000216.md     Audacity
+	2000215.md     Html-Table
+	2000214.md     Favicon
+	2000213.md     Top-Bar
+	2000212.md     Side-Bar
+	2000211.md     Http-Cookie
+	2000210.md     Responsive-Web-Design
+	2000209.md     Web-Design
+	2000208.md     Message-Digest-Algorithm-5
+	2000207.md     LibreSSL
+	2000206.md     OpenSSL
+	2000205.md     Windows-Subsystem-for-Linux
+	2000204.md     Mebi-Byte
+	2000203.md     Kibi-Byte
+	2000202.md     Mat-Plot-Lib
+	2000201.md     Collision-Resistance
+	2000200.md     Hash-Collision
+	2000199.md     Secure-Hash-Algorithm-256
+	2000198.md     Secure-Hash-Algorithm-2
+	9000197.md     Git
+	9000196.md     Secure-Hash-Algorithm-1
+	9000195.md     Hash-Function
+	9000194.md     JavaScript-Object-Notation
+	9000193.md     File-Format
+	9000192.md     iXml-Meta-Data
+	9000191.md     Mpeg-Meta-Data
+	9000190.md     Id3-Meta-Data
+	9000189.md     Mutagen-Library
+	9000188.md     Py-Exif-Tool-Library
+	9000187.md     Exchangeable-Image-File-Format
+	9000186.md     Exif-Python-Library
+	9000185.md     DeepFace
+	9000184.md     TensorFlow
+	9000183.md     Image-Processing
+	9000182.md     OpenCV
+	9000181.md     Flutter
+	9000180.md     Unity
+	9000179.md     Docker
+	9000178.md     Cython
+	9000177.md     Install-Package
+	9000176.md     Android-Apk-Package
+	9000175.md     Kivy-Buildozer-Spec-File
+	9000174.md     Kivy-Buildozer
+	9000173.md     Configuration-File
+	9000172.md     Kv-File
+	9000171.md     Gui-Layout
+	9000170.md     Widget
+	9000169.md     Graphical-User-Interface
+	9000168.md     App
+	9000167.md     Observer-Pattern
+	9000166.md     Kivy
+	9000165.md     Pip
+	9000164.md     Http-Server
+	9000163.md     Http-Groups-File
+	9000162.md     Http-Passwd-File
+	9000161.md     Http-Access-File
+	9000160.md     Http-Config-File
+	9000159.md     Makefile
+	9000158.md     Magick-Tool
+	9000157.md     Unix-Command
+	9000156.md     Unix-Wc-Command
+	9000155.md     Unix-Diff-Command
+	9000154.md     Bug-Fix
+	9000153.md     Computer-System
+	9000152.md     Artificial-Inteligence-System
+	9000151.md     Chat-Bot
+	9000150.md     Chat-GPT
+	9000149.md     Git-Hub-System
+	9000148.md     Program-Error
+	9000147.md     Unicode
+	9000146.md     Character-Encoding
+	9000145.md     Micorosoft-File-Explorer
+	9000144.md     Mac-Os-Finder
 9000143.md     Mac-Os (DUPLICATE: 9100006)
-9000142.md     Bash-Shell
-9000141.md     User
-9000140.md     User-Profile
-9000139.md     E-Mail
-9000138.md     Air-Play
-9000137.md     Html-Tag
-9000136.md     Unix-Hard-Link
-9000135.md     Cascading-Style-Sheets
-9000134.md     HTML-File
-9000133.md     Web-Server-Directory-Index
-9000132.md     Sub-Routine
-9000131.md     Git-Revert-Command
-9000130.md     Safari-Web-Browser
-9000129.md     Chrome-Web-Browser
-9000128.md     Web-Browser
-9000127.md     Unix-Cut-Command
-9000126.md     Unix-Sort-Command
-9000125.md     Unix-Nl-Command
-9000124.md     Unix-Cp-Command
-9000123.md     Unix-Head-Command
-9000122.md     Git-Hash
-9000121.md     Git-Cherry-Pick-Command
-9000120.md     Git-History
-9000119.md     Git-Rebase-Command
-9000118.md     Git-Init-Command
-9000117.md     Git-Commit-Message
-9000116.md     Git-Index
-9000115.md     Unix-Cd-Command
-9000114.md     Git-Rm-Command
-9000113.md     Git-Push-Command
-9000112.md     Git-Commit-Command
-9000111.md     Git-Add-Command
-9000110.md     Long-Command-Option
-9000109.md     Readme-File
-9000108.md     Unix-Mv-Command
-9000107.md     Git-Mv-Command
-9000106.md     Git-Hub-Config-Directory
-9000105.md     String
-9000104.md     Unix-Sed-Tool
-9000103.md     Regular-Expression
-9000102.md     File-Suffix
-9000101.md     Make-File-Rule
-9000100.md     Make-Command
-9000099.md     Pandoc
-9000098.md     File-System-Path
-9000097.md     HTML-Page
-9000096.md     Git-Hub-Pages
-9000095.md     Git-Remote-Command
-9000094.md     Git-Pull-Command
-9000093.md     Archive-File
-9000092.md     Unix-Tar-Command
-9000091.md     Http-Protocol
-9000090.md     Http-Error-404
-9000089.md     Web-Site
-9000088.md     Unix-Find-Command
-9000087.md     Git-Sub-Module-Command
-9000086.md     Git-Clone
-9000085.md     Short-Command-Option
-9000084.md     Git-Diff-Command
-9000083.md     Sub-Directory
-9000082.md     Git-Status-Command
-9000081.md     Unix-Ls-Command
-9000080.md     Git-Force-Push
-9000079.md     Git-Hub-Organization
-9000078.md     Unix-Soft-Link
-9000077.md     Unix-Ln-Command
-9000076.md     Unix-Echo-Command
-9000075.md     Unix-Mkdir-Command
-9000074.md     Bash-Source-Command
-9000073.md     Bash-RC-File
-9000072.md     Bash-Prompt
-9000071.md     Git-Checkout-Command
-9000070.md     Git-Commit
-9000069.md     Git-Branch
-9000068.md     Git-Pull-Request
-9000067.md     Hash-Value
-9000066.md     Uniform-Resource-Locator
-9000065.md     Git-Remote
-9000064.md     Git-Fork
-9000063.md     Git-Sub-Module
-9000062.md     User-Interface
-9000061.md     Git-Hub
-9000060.md     Wireless-LAN
-9000059.md     Exif-Tool
-9000058.md     File-Name
-9000057.md     Compression-Level
-9000056.md     File-Size
-9000055.md     Application
-9000054.md     Image-Editing
-9000053.md     Gimp
-9000052.md     Rendering
-9000051.md     Compression
-9000050.md     GIT-Repository
-9000049.md     Big-Data
-9000048.md     Keyboard-Shortcut
-9000047.md     Whats-App
-9000046.md     MV-Command
-9000045.md     File-Type
-9000044.md     Debugging
-9000043.md     Comment
-9000042.md     Test-Case
-9000041.md     TAIL-Command
-9000040.md     Unix-Cat-Command
-9000039.md     Code
-9000038.bash   Du-Script
-9000037.md     STAT-Command
-9000036.md     GREP-Command
-9000035.md     Regular-Expression
-9000034.md     Work-Directory
-9000033.md     Pointer
-9000032.md     FIND-Command
-9000031.md     Unix (DUPLICATE: 9100001)
+	9000142.md     Bash-Shell
+	9000141.md     User
+	9000140.md     User-Profile
+	9000139.md     E-Mail
+	9000138.md     Air-Play
+	9000137.md     Html-Tag
+	9000136.md     Unix-Hard-Link
+	9000135.md     Cascading-Style-Sheets
+	9000134.md     HTML-File
+	9000133.md     Web-Server-Directory-Index
+	9000132.md     Sub-Routine
+	9000131.md     Git-Revert-Command
+	9000130.md     Safari-Web-Browser
+	9000129.md     Chrome-Web-Browser
+	9000128.md     Web-Browser
+	9000127.md     Unix-Cut-Command
+	9000126.md     Unix-Sort-Command
+	9000125.md     Unix-Nl-Command
+	9000124.md     Unix-Cp-Command
+	9000123.md     Unix-Head-Command
+	9000122.md     Git-Hash
+	9000121.md     Git-Cherry-Pick-Command
+	9000120.md     Git-History
+	9000119.md     Git-Rebase-Command
+	9000118.md     Git-Init-Command
+	9000117.md     Git-Commit-Message
+	9000116.md     Git-Index
+	9000115.md     Unix-Cd-Command
+	9000114.md     Git-Rm-Command
+	9000113.md     Git-Push-Command
+	9000112.md     Git-Commit-Command
+	9000111.md     Git-Add-Command
+	9000110.md     Long-Command-Option
+	9000109.md     Readme-File
+	9000108.md     Unix-Mv-Command
+	9000107.md     Git-Mv-Command
+	9000106.md     Git-Hub-Config-Directory
+	9000105.md     String
+	9000104.md     Unix-Sed-Tool
+	9000103.md     Regular-Expression
+	9000102.md     File-Suffix
+	9000101.md     Make-File-Rule
+	9000100.md     Make-Command
+	9000099.md     Pandoc
+	9000098.md     File-System-Path
+	9000097.md     HTML-Page
+	9000096.md     Git-Hub-Pages
+	9000095.md     Git-Remote-Command
+	9000094.md     Git-Pull-Command
+	9000093.md     Archive-File
+	9000092.md     Unix-Tar-Command
+	9000091.md     Http-Protocol
+	9000090.md     Http-Error-404
+	9000089.md     Web-Site
+	9000088.md     Unix-Find-Command
+	9000087.md     Git-Sub-Module-Command
+	9000086.md     Git-Clone
+	9000085.md     Short-Command-Option
+	9000084.md     Git-Diff-Command
+	9000083.md     Sub-Directory
+	9000082.md     Git-Status-Command
+	9000081.md     Unix-Ls-Command
+	9000080.md     Git-Force-Push
+	9000079.md     Git-Hub-Organization
+	9000078.md     Unix-Soft-Link
+	9000077.md     Unix-Ln-Command
+	9000076.md     Unix-Echo-Command
+	9000075.md     Unix-Mkdir-Command
+	9000074.md     Bash-Source-Command
+	9000073.md     Bash-RC-File
+	9000072.md     Bash-Prompt
+	9000071.md     Git-Checkout-Command
+	9000070.md     Git-Commit
+	9000069.md     Git-Branch
+	9000068.md     Git-Pull-Request
+	9000067.md     Hash-Value
+	9000066.md     Uniform-Resource-Locator
+	9000065.md     Git-Remote
+	9000064.md     Git-Fork
+	9000063.md     Git-Sub-Module
+	9000062.md     User-Interface
+	9000061.md     Git-Hub
+	9000060.md     Wireless-LAN
+	9000059.md     Exif-Tool
+	9000058.md     File-Name
+	9000057.md     Compression-Level
+	9000056.md     File-Size
+	9000055.md     Application
+	9000054.md     Image-Editing
+	9000053.md     Gimp
+	9000052.md     Rendering
+	9000051.md     Compression
+	9000050.md     GIT-Repository
+	9000049.md     Big-Data
+	9000048.md     Keyboard-Shortcut
+	9000047.md     Whats-App
+	9000046.md     MV-Command
+	9000045.md     File-Type
+	9000044.md     Debugging
+	9000043.md     Comment
+	9000042.md     Test-Case
+	9000041.md     TAIL-Command
+	9000040.md     Unix-Cat-Command
+	9000039.md     Code
+	9000038.bash   Du-Script
+	9000037.md     STAT-Command
+	9000036.md     GREP-Command
+	9000035.md     Regular-Expression
+	9000034.md     Work-Directory
+	9000033.md     Pointer
+	9000032.md     FIND-Command
+	9000031.md     Unix (DUPLICATE: 9100001)
 9000030.md     Operating-System (DUPLICATE: 9100000.md)
-9000029.md     Command-Option
-9000028.md     DU-Command
-9000027.md     Disk-Usage
-9000026.md     Hidden-File
-9000025.md     File-System
-9000024.md     Unix-Pipe
-9000023.md     Script
-9000022.md     Shell
-9000021.md     Byte-Size
-9000020.md     Storage
-9000019.md     Directory
-9000018.md     Block
-9000017.md     Block-Size
-9000016.md     Data-Size
-9000015.md     Mega-Byte
-9000014.md     Kilo-Byte
-9000013.md     Byte
-9000012.md     Commit
-9000011.md     Configuration
-9000010.md     Repository
-9000007.md     File
-9000006.md     Software
-9000005.md     Version-Control-System
-9000004.md     Path
-9000003.md     Sequence
-9000001.md     Tree-Collection
-9000000.md     Informatics
+	9000029.md     Command-Option
+	9000028.md     DU-Command
+	9000027.md     Disk-Usage
+	9000026.md     Hidden-File
+	9000025.md     File-System
+	9000024.md     Unix-Pipe
+	9000023.md     Script
+	9000022.md     Shell
+	9000021.md     Byte-Size
+	9000020.md     Storage
+	9000019.md     Directory
+	9000018.md     Block
+	9000017.md     Block-Size
+	9000016.md     Data-Size
+	9000015.md     Mega-Byte
+	9000014.md     Kilo-Byte
+	9000013.md     Byte
+	9000012.md     Commit
+	9000011.md     Configuration
+	9000010.md     Repository
+	9000007.md     File
+	9000006.md     Software
+	9000005.md     Version-Control-System
+	9000004.md     Path
+	9000003.md     Sequence
+	9000001.md     Tree-Collection
+	9000000.md     Informatics
 
 ## German-System
 
 ### German-Waste-Disposal-System
 
-8030001.md     German-Waste-Disposal-System
+	8030001.md     German-Waste-Disposal-System
 
 ### German-Institutions
 
-8020001.md     Bundes-Kartell-Amt
+	8020001.md     Bundes-Kartell-Amt
 
 ### German-Federal-Railroad
 
-8011004.md     Deutschland-Ticket
-8011003.md     Verspätung-aus-einer-vorherigen-Fahrt
-8011002.md     Reparatur-an-einem-Signal
-8011001.md     Reparatur-an-einer-Weiche
-8011000.md     GFR-Excuses
-8010005.md     GFR-Service-Number
-8010004.md     Train
-8010003.md     Regional-Bahn
-8010002.md     S-Bahn
-8010001.md     Train-Station
-8010000.md     DB-Navigator
-8009999.md     German-Federal-Railroad
+	8011004.md     Deutschland-Ticket
+	8011003.md     Verspätung-aus-einer-vorherigen-Fahrt
+	8011002.md     Reparatur-an-einem-Signal
+	8011001.md     Reparatur-an-einer-Weiche
+	8011000.md     GFR-Excuses
+	8010005.md     GFR-Service-Number
+	8010004.md     Train
+	8010003.md     Regional-Bahn
+	8010002.md     S-Bahn
+	8010001.md     Train-Station
+	8010000.md     DB-Navigator
+	8009999.md     German-Federal-Railroad
 
 ### German-Medical-System
 
-8000999.md     German-Medical-System
+	8000999.md     German-Medical-System
 
 ## Theory
 
-7000003.md     Discipline
-7000002.md     Document-Container
-7000001.md     Theory
+	7000003.md     Discipline
+	7000002.md     Document-Container
+	7000001.md     Theory
 
 ## Healing
 
-1000002.md     Healy-Device
-1000000.md     Healing
+	1000002.md     Healy-Device
+	1000000.md     Healing
 
 ## Medicine / Medical
 
 ### Medical-Drugs
 
-810005.md      Metamizol-Natrium
-810004.md      Paracetamol
-810003.md      Analgesic
-810002.md      Lamotrigin
-810001.md      Levetiracetam
-810000.md      Anti-Epilepticum
+	810005.md      Metamizol-Natrium
+	810004.md      Paracetamol
+	810003.md      Analgesic
+	810002.md      Lamotrigin
+	810001.md      Levetiracetam
+	810000.md      Anti-Epilepticum
 
 ### General
 
-800016.md      Hospital
-800015.md      Medical-Practice
-800014.md      Medical-System
-800013.md      Medical-Drug-Dosis
-800012.md      Therapy
-800011.md      Medical-Drug-Therapy
-800010.md      Patient
-800009.md      Medical-Findings
-800008.md      Triptan
-800007.md      Medical-Drug
-800006.md      Hypnotic
-800005.md      Anti-Histamin
-800004.md      Doctor-Office
-800003.md      Family-Doctor
-800002.md      Doctor
-800001.md      Dentist
-800000.md      Medicine
+	800016.md      Hospital
+	800015.md      Medical-Practice
+	800014.md      Medical-System
+	800013.md      Medical-Drug-Dosis
+	800012.md      Therapy
+	800011.md      Medical-Drug-Therapy
+	800010.md      Patient
+	800009.md      Medical-Findings
+	800008.md      Triptan
+	800007.md      Medical-Drug
+	800006.md      Hypnotic
+	800005.md      Anti-Histamin
+	800004.md      Doctor-Office
+	800003.md      Family-Doctor
+	800002.md      Doctor
+	800001.md      Dentist
+	800000.md      Medicine
 
 ## Literature
 
 ### Fictional-Figures
 
-730003.md      James_Bond
-730002.md      Pinocchio
-730001.md      Tom_Sawyer
+	730003.md      James_Bond
+	730002.md      Pinocchio
+	730001.md      Tom_Sawyer
 
 ### General
 
-720001.md      Joke
-720000.md      Literature
+	720001.md      Joke
+	720000.md      Literature
 
 ## Writing-System
 
-700054.md      Book
-700053.md      Question-Mark
-700052.md      Function-Graph
-700051.md      Table
-700050.md      Podcast
-700049.md      Document-Element
-700048.md      Caption
-700047.md      Data-Flow-Diagram
-700046.md      Bar-Diagram
-700045.md      International-Standard-Book-Number
-700044.md      Creative-Work-Title
-700043.md      Expert-Report
-700042.md      Written-Word
-700041.md      Pragraph
-700040.md      Blank-Character
-700039.md      Dot
-700038.md      Spread-Sheet
-700037.md      Typing-Error
-700036.md      Word-Separator
-700035.md      Bullet-List
-700034.md      Underscore
-700033.md      Writing-System
-700032.md      Character-Set
-700031.md      Set-Diagram (Venn-Diagram, Euler-Diagram)
-700030.md      Value (Wrong-Number)
+	700054.md      Book
+	700053.md      Question-Mark
+	700052.md      Function-Graph
+	700051.md      Table
+	700050.md      Podcast
+	700049.md      Document-Element
+	700048.md      Caption
+	700047.md      Data-Flow-Diagram
+	700046.md      Bar-Diagram
+	700045.md      International-Standard-Book-Number
+	700044.md      Creative-Work-Title
+	700043.md      Expert-Report
+	700042.md      Written-Word
+	700041.md      Pragraph
+	700040.md      Blank-Character
+	700039.md      Dot
+	700038.md      Spread-Sheet
+	700037.md      Typing-Error
+	700036.md      Word-Separator
+	700035.md      Bullet-List
+	700034.md      Underscore
+	700033.md      Writing-System
+	700032.md      Character-Set
+	700031.md      Set-Diagram (Venn-Diagram, Euler-Diagram)
+	700030.md      Value (Wrong-Number)
 700029.md      Clarity (Wrong-Number)
-700028.md      Illustration
-700027.md      Tree-Diagram
-700026.md      White-Space-Character
-700025.md      New-Line-Character
-700024.md      Blog-Entry
-700023.md      Table-Of-Contents
-700022.md      How-To
-700021.md      Diagram
-700020.md      Landing-Page
-700019.md      Blog
+	700028.md      Illustration
+	700027.md      Tree-Diagram
+	700026.md      White-Space-Character
+	700025.md      New-Line-Character
+	700024.md      Blog-Entry
+	700023.md      Table-Of-Contents
+	700022.md      How-To
+	700021.md      Diagram
+	700020.md      Landing-Page
+	700019.md      Blog
 700018.md      Movie (DEAD)
-700017.md      Layout
-700016.md      Indentation-Level
-700015.md      Indentation
-700014.md      Heading-Level
-700013.md      Bullet
-700012.md      One-Liner
-700011.md      Line
-700010.md      Character
-700009.md      Heading-Number
-50009.md       Heading
-700007.md      Creative-Work
-700006.md      Element
-70005.md       Anchor
-50003.md       Footnote
-700003.md      Paragraph
-700002.md      Page
+	700017.md      Layout
+	700016.md      Indentation-Level
+	700015.md      Indentation
+	700014.md      Heading-Level
+	700013.md      Bullet
+	700012.md      One-Liner
+	700011.md      Line
+	700010.md      Character
+	700009.md      Heading-Number
+	50009.md       Heading
+	700007.md      Creative-Work
+	700006.md      Element
+	70005.md       Anchor
+	50003.md       Footnote
+	700003.md      Paragraph
+	700002.md      Page
 
 50000.md       Document (DEAD)
-700001.md      Document
-700000.md      Writing
+	700001.md      Document
+	700000.md      Writing
 
 ## Criminalistics
 
-690000.md      Criminalistics
+	690000.md      Criminalistics
 
 ## Juristics
 
-680003.md      Eingetragener-Verein
-680002.md      Land-Gericht
-680001.md      Amts-Gericht
-680000.md      German-Juristics-System
+	680003.md      Eingetragener-Verein
+	680002.md      Land-Gericht
+	680001.md      Amts-Gericht
+	680000.md      German-Juristics-System
 
-670029.md      Impressum
-670028.md      Copy-Left-License
-670027.md      CC-BY-SA-4.0
-670026.md      Sabotage
-670025.md      Industrial-Espionage
-670024.md      Proof-Of-Identity
-670023.md      Signature
-670022.md      Patent
-670021.md      Pixabay-Content-License
-670020.md      SIL-Open-Font-License
-670019.md      MIT-License
-670018.md      Receipt
-670017.md      Public-Domain-License
-670016.md      CC-BY-License
-670015.md      Paragraph
-670014.md      Driving-License
-670013.md      Thievery
-670012.md      Criminal-Offense
-670011.md      Juristics-Process
-670010.md      Amount-in-Controversy
-670009.md      Court
-670008.md      Juristics-Privacy-Right
-670007.md      License
-670006.md      Juristics-Ownership-Right
-670005.md      Juristics-Usage-Right
-670004.md      Juristics-Right
-670003.md      Juristics-Statement
+	670029.md      Impressum
+	670028.md      Copy-Left-License
+	670027.md      CC-BY-SA-4.0
+	670026.md      Sabotage
+	670025.md      Industrial-Espionage
+	670024.md      Proof-Of-Identity
+	670023.md      Signature
+	670022.md      Patent
+	670021.md      Pixabay-Content-License
+	670020.md      SIL-Open-Font-License
+	670019.md      MIT-License
+	670018.md      Receipt
+	670017.md      Public-Domain-License
+	670016.md      CC-BY-License
+	670015.md      Paragraph
+	670014.md      Driving-License
+	670013.md      Thievery
+	670012.md      Criminal-Offense
+	670011.md      Juristics-Process
+	670010.md      Amount-in-Controversy
+	670009.md      Court
+	670008.md      Juristics-Privacy-Right
+	670007.md      License
+	670006.md      Juristics-Ownership-Right
+	670005.md      Juristics-Usage-Right
+	670004.md      Juristics-Right
+	670003.md      Juristics-Statement
 670002.md      Juristics-Rule (Law)
-670001.md      Juristics-System
-670000.md      Juristics
+	670001.md      Juristics-System
+	670000.md      Juristics
 
 ## Linguistics
 
-666005.md      Swabian-Language
-666004.md      Greek
-666003.md      French
-666002.md      Ukrainian-Language
-666001.md      Spanish
+	666005.md      Swabian-Language
+	666004.md      Greek
+	666003.md      French
+	666002.md      Ukrainian-Language
+	666001.md      Spanish
 
-660000.md      Germanistics
+	660000.md      Germanistics
 
-640046.md      Syllable
-640045.md      Phonem
-640044.md      Latin
-640043.md      British-English
-640042.md      American-English
-640041.md      Tempus-Praesens
-640040.md      Nominal-Form
-640039.md      Infinitivum
-640038.md      Preposition
-640037.md      Possessivus
-640036.md      Lexico-Graphic-Order
-650035.md      Colon
-650034.md      Punctuation-Character
-650033.md      Phonetics-System
-650032.md      Phonetics-Phone
-650031.md      Chinese
-650030.md      Human-Language
-650029.md      Phonetics
-650028.md      Spelling-Error
-650027.md      Linguistics-Student
-650026.md      Linguistics-System
-650025.md      Word-Set
-650024.md      Language-Encoding
-650023.md      Participium
-650022.md      Singular
-650021.md      Spelling
-650020.md      Tempus
-650019.md      Numerus
-650018.md      Word
-650017.md      Adjectivum
-650016.md      Verbum
-650015.md      Simple-Past
-650014.md      Present-Perfect
-650013.md      Lower-Case
-650012.md      Mixed-Case
-650011.md      Naming-Convention
-600010.md      Pro-Nomen (Wrong-Number)
-600009.md      Ad-Verbum (Wrong-Number)
-600008.md      Hyphen (Wrong-Number)
-600007.md      Comma (Wrong-Number)
-600006.md      English (Wrong-Number)
-600005.md      Pakistani (Wrong-Number)
-600004.md      German (Wrong-Number)
-600003.md      Indonesian (Wrong-Number)
-600002.md      Articulus (Wrong-Number)
+	640046.md      Syllable
+	640045.md      Phonem
+	640044.md      Latin
+	640043.md      British-English
+	640042.md      American-English
+	640041.md      Tempus-Praesens
+	640040.md      Nominal-Form
+	640039.md      Infinitivum
+	640038.md      Preposition
+	640037.md      Possessivus
+	640036.md      Lexico-Graphic-Order
+	650035.md      Colon
+	650034.md      Punctuation-Character
+	650033.md      Phonetics-System
+	650032.md      Phonetics-Phone
+	650031.md      Chinese
+	650030.md      Human-Language
+	650029.md      Phonetics
+	650028.md      Spelling-Error
+	650027.md      Linguistics-Student
+	650026.md      Linguistics-System
+	650025.md      Word-Set
+	650024.md      Language-Encoding
+	650023.md      Participium
+	650022.md      Singular
+	650021.md      Spelling
+	650020.md      Tempus
+	650019.md      Numerus
+	650018.md      Word
+	650017.md      Adjectivum
+	650016.md      Verbum
+	650015.md      Simple-Past
+	650014.md      Present-Perfect
+	650013.md      Lower-Case
+	650012.md      Mixed-Case
+	650011.md      Naming-Convention
+	600010.md      Pro-Nomen (Wrong-Number)
+	600009.md      Ad-Verbum (Wrong-Number)
+	600008.md      Hyphen (Wrong-Number)
+	600007.md      Comma (Wrong-Number)
+	600006.md      English (Wrong-Number)
+	600005.md      Pakistani (Wrong-Number)
+	600004.md      German (Wrong-Number)
+	600003.md      Indonesian (Wrong-Number)
+	600002.md      Articulus (Wrong-Number)
 650001.md      Term (Wrong-Number)
-650000.md      Linguistics
+	650000.md      Linguistics
 
 ## Religion
 
-647004.md      Devil
-647003.md      God
-647002.md      Jehovah's-Witnesses
-647000.md      Religion
+	647004.md      Devil
+	647003.md      God
+	647002.md      Jehovah's-Witnesses
+	647000.md      Religion
 
 ## Philosophics
 
-645005.md      Theory-of-Forms
-645004.md      Meta-Physics
-645003.md      Moral
-645002.md      Philosophics-Famous-Human
-645001.md      Philosophics-System
-645000.md      Philosophics
+	645005.md      Theory-of-Forms
+	645004.md      Meta-Physics
+	645003.md      Moral
+	645002.md      Philosophics-Famous-Human
+	645001.md      Philosophics-System
+	645000.md      Philosophics
 
 ## Academics
 
-640016.md      Princeton-University
-640015.md      Harvard-University
-640014.md      Eidgenössische-Technische-Hochschule-Zürich
-640013.md      Universität-Potsdam
-640012.md      Technische-Universität-Berlin
-640011.md      Humboldt-Universität-Berlin
-640010.md      Freie-Universität-Berlin
-640009.md      Survey-Method
-640008.md      Academics-Method
-640007.md      Doctorial-Thesis
-640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
-640005.md      University
-640004.md      Studien-Arbeit
-640003.md      Academic-Work
-640002.md      Probe
-640001.md      Study
-640000.md      Academics
+	640016.md      Princeton-University
+	640015.md      Harvard-University
+	640014.md      Eidgenössische-Technische-Hochschule-Zürich
+	640013.md      Universität-Potsdam
+	640012.md      Technische-Universität-Berlin
+	640011.md      Humboldt-Universität-Berlin
+	640010.md      Freie-Universität-Berlin
+	640009.md      Survey-Method
+	640008.md      Academics-Method
+	640007.md      Doctorial-Thesis
+	640006.md      Friedrich-Alexander-Universität-Erlangen-Nürnberg
+	640005.md      University
+	640004.md      Studien-Arbeit
+	640003.md      Academic-Work
+	640002.md      Probe
+	640001.md      Study
+	640000.md      Academics
 
 ## Location
 
-620003.md      Location-Set
-620002.md      Location
-620001.md      Location-System
+	620003.md      Location-Set
+	620002.md      Location
+	620001.md      Location-System
 
 ## Time
 
-610007.md      Sun-Day
-610006.md      Day
-610005.md      Time-Stamp
-610004.md      Time-Stamp-Set
-610003.md      Day-Set
-610002.md      Day-of-the-Week
-610001.md      Time-System
+	610007.md      Sun-Day
+	610006.md      Day
+	610005.md      Time-Stamp
+	610004.md      Time-Stamp-Set
+	610003.md      Day-Set
+	610002.md      Day-of-the-Week
+	610001.md      Time-System
 
 ## Concepts
 
-600142.md      False-Statement
-600141.md      True-Statement
-600140.md      The-Truth
-600139.md      Answer
-600138.md      Binary-Question
-600137.md      Complex-Thing
-600136.md      Simple-Thing
-600135.md      Basic
-600134.md      Ambiguity
-600133.md      Simplicity
-600132.md      Bottom-Up
-600131.md      Update
-600130.md      Source-Thing
-600129.md      Inteligence
-600128.md      Verification
-600127.md      Learning
-600126.md      Influence
-600125.md      Belief
-600124.md      Conformity
-600123.md      Similarity
-600122.md      Variant
-600121.md      Knowledge-Transfer
-600120.md      Quality
-600119.md      Integration
-600118.md      Coordination
-600117.md      Cooperation
-600116.md      Hope
-600114.md      Relevance
-600113.md      State
-600112.md      Contradiction
-600111.md      Unclarity
-600110.md      Combination
-600109.md      Proof-Of-Concept
-600108.md      Method
-600107.md      Question
-600106.md      Simulation
-600105.md      Ambiguity-Tolerance
-600104.md      Waste
-600103.md      Ability
-600102.md      Examination
-600101.md      Creation
-600100.md      Training
-600099.md      Serialization
-600098.md      Creator
-600097.md      Institution
-600096.md      Experience
-600095.md      Delay
-600094.md      Competition
-600093.md      Ritual
-600092.md      Compatibility
-600091.md      Search-Process
-600090.md      Sort-Process
-600089.md      Atomic-Process
-600088.md      Advertisement
-600087.md      Graph-Structure
-600086.md      Provider
-600085.md      Event
-600084.md      Vibration
-600083.md      System
-600082.md      Stress
-600081.md      Ownership-Right
-600080.md      Assignment-Process
-600079.md      Usage
-600078.md      Statement
-600077.md      Correctness
-600076.md      Consumer
-600075.md      Interpretation
-600074.md      Scope
-600073.md      Movement-Path
-600072.md      Path
-600071.md      Movement
-600070.md      Indicator
-600069.md      Compensation
-600068.md      Symmetry
-600067.md      Service
-600066.md      Tree-Structure
-600065.md      Nesting-Hierarchy
-600064.md      Nesting-Level
-600063.md      Container
-600062.md      Hierarchy
-600061.md      Nesting
-600060.md      Specification
-600059.md      Naming
-600058.md      Right
-600057.md      Implementation
-600056.md      Description
-600055.md      Persistency
-600054.md      Consistency
-600053.md      Addressing
-600052.md      Justice
-600051.md      Topic
-600050.md      Dream
-600049.md      Reasoning
-600048.md      Symptom
-600047.md      Warning
-600046.md      Phishing
-600045.md      Plan
-600044.md      Build-Process
-600043.md      Tool
-600042.md      Automation
-600041.md      Language
-600040.md      Content
-600039.md      Function
-600038.md      Logic
-600037.md      Conversion
-600036.md      Territory
-600035.md      Competence
-600034.md      Context
-600033.md      Realization
-600032.md      Memory
-600031.md      Likelihood
-600030.md      Reason
-600029.md      Problem
-600028.md      Hypothesis
-600027.md      Conclusion
-600026.md      Limit
-600025.md      Knowledge
-600024.md      Solution
-600023.md      Complexity
-600022.md      Proof
-600021.md      Truth
-600020.md      Freedom
-600019.md      Decision-Problem
-600018.md      Nothing
-600017.md      All
-600016.md      Uniqueness
-600015.md      Perfection
-600014.md      Completeness
-600012.md      Idea
-600011.md      Concept
-600010.md      (WRONG-NUMBER)
-600009.md      (WRONG-NUMBER)
-600008.md      (WRONG-NUMBER)
-600007.md      (WRONG-NUMBER)
-600006.md      (WRONG-NUMBER)
-600005.md      (WRONG-NUMBER)
-600004.md      (WRONG-NUMBER)
-600003.md      (WRONG-NUMBER)
+	600143.md      Agreement
+	600142.md      False-Statement
+	600141.md      True-Statement
+	600140.md      The-Truth
+	600139.md      Answer
+	600138.md      Binary-Question
+	600137.md      Complex-Thing
+	600136.md      Simple-Thing
+	600135.md      Basic
+	600134.md      Ambiguity
+	600133.md      Simplicity
+	600132.md      Bottom-Up
+	600131.md      Update
+	600130.md      Source-Thing
+	600129.md      Inteligence
+	600128.md      Verification
+	600127.md      Learning
+	600126.md      Influence
+	600125.md      Belief
+	600124.md      Conformity
+	600123.md      Similarity
+	600122.md      Variant
+	600121.md      Knowledge-Transfer
+	600120.md      Quality
+	600119.md      Integration
+	600118.md      Coordination
+	600117.md      Cooperation
+	600116.md      Hope
+	600114.md      Relevance
+	600113.md      State
+	600112.md      Contradiction
+	600111.md      Unclarity
+	600110.md      Combination
+	600109.md      Proof-Of-Concept
+	600108.md      Method
+	600107.md      Question
+	600106.md      Simulation
+	600105.md      Ambiguity-Tolerance
+	600104.md      Waste
+	600103.md      Ability
+	600102.md      Examination
+	600101.md      Creation
+	600100.md      Training
+	600099.md      Serialization
+	600098.md      Creator
+	600097.md      Institution
+	600096.md      Experience
+	600095.md      Delay
+	600094.md      Competition
+	600093.md      Ritual
+	600092.md      Compatibility
+	600091.md      Search-Process
+	600090.md      Sort-Process
+	600089.md      Atomic-Process
+	600088.md      Advertisement
+	600087.md      Graph-Structure
+	600086.md      Provider
+	600085.md      Event
+	600084.md      Vibration
+	600083.md      System
+	600082.md      Stress
+	600081.md      Ownership-Right
+	600080.md      Assignment-Process
+	600079.md      Usage
+	600078.md      Statement
+	600077.md      Correctness
+	600076.md      Consumer
+	600075.md      Interpretation
+	600074.md      Scope
+	600073.md      Movement-Path
+	600072.md      Path
+	600071.md      Movement
+	600070.md      Indicator
+	600069.md      Compensation
+	600068.md      Symmetry
+	600067.md      Service
+	600066.md      Tree-Structure
+	600065.md      Nesting-Hierarchy
+	600064.md      Nesting-Level
+	600063.md      Container
+	600062.md      Hierarchy
+	600061.md      Nesting
+	600060.md      Specification
+	600059.md      Naming
+	600058.md      Right
+	600057.md      Implementation
+	600056.md      Description
+	600055.md      Persistency
+	600054.md      Consistency
+	600053.md      Addressing
+	600052.md      Justice
+	600051.md      Topic
+	600050.md      Dream
+	600049.md      Reasoning
+	600048.md      Symptom
+	600047.md      Warning
+	600046.md      Phishing
+	600045.md      Plan
+	600044.md      Build-Process
+	600043.md      Tool
+	600042.md      Automation
+	600041.md      Language
+	600040.md      Content
+	600039.md      Function
+	600038.md      Logic
+	600037.md      Conversion
+	600036.md      Territory
+	600035.md      Competence
+	600034.md      Context
+	600033.md      Realization
+	600032.md      Memory
+	600031.md      Likelihood
+	600030.md      Reason
+	600029.md      Problem
+	600028.md      Hypothesis
+	600027.md      Conclusion
+	600026.md      Limit
+	600025.md      Knowledge
+	600024.md      Solution
+	600023.md      Complexity
+	600022.md      Proof
+	600021.md      Truth
+	600020.md      Freedom
+	600019.md      Decision-Problem
+	600018.md      Nothing
+	600017.md      All
+	600016.md      Uniqueness
+	600015.md      Perfection
+	600014.md      Completeness
+	600012.md      Idea
+	600011.md      Concept
+	600010.md      (WRONG-NUMBER)
+	600009.md      (WRONG-NUMBER)
+	600008.md      (WRONG-NUMBER)
+	600007.md      (WRONG-NUMBER)
+	600006.md      (WRONG-NUMBER)
+	600005.md      (WRONG-NUMBER)
+	600004.md      (WRONG-NUMBER)
+	600003.md      (WRONG-NUMBER)
 600002.md      (WRONG-NUMBER)
-600001.md      Academics-Student
-600000.md      Academics-System
+	600001.md      Academics-Student
+	600000.md      Academics-System
 
 ## Deep-Concepts
 
-60137.md       Criteria
-60136.md       The-Better
-60135.md       Improvement
-60134.md       The-First
-60133.md       Successor
-60132.md       Old-Thing
-60131.md       New-Thing
-60130,md       Responsiblity
-60129.md       Challange
-60128.md       Potential
-60127.md       Action
-60126.md       Translation
-60125.md       Data-Store
-60124.md       Invention
-60123.md       War
-60122.md       Capability
-60121.md       The-Bad
-60120.md       The-Good
-60119.md       Pattern-Recognition
-60118.md       Meta-Data
-60117.md       Bad-Luck
-60116.md       Luck
-60115.md       Recognition
-60114.md       Prize
-60113.md       Stress
-60112.md       Pattern
-60111.md       Sharing-Process
-60110.md       Root
-60109.md       Story
-60108.md       Achievement
-60107.md       Type
-60106.md       Creator
-60105.md       Sub-Set
-60104.md       Nature
-60103.md       Inverse
-60102.md       Separation
-60101.md       Atom
-60100.md       Harmony
-60099.md       Rythm
-60098.md       Vocal
-60097.md       Perception
-60096.md       Voice
-60095.md       Decision
-60094.md       Symbol
-60093.md       1N-Relation-Set
-60092.md       Directed-Relation-Set
-60091.md       Right-Relation-Thing
-60090.md       Left-Relation-Thing
-60089.md       Relation-Thing
-60088.md       Relation-Set
-60087.md       Student
-60086.md       Program
-60085.md       Atomic-Property
-60084.md       Part
-60083.md       Task
-60082.md       Cost
-60081.md       Performance
-60080.md       Generalisation
-60079.md       Encoding
-60078.md       Trainer
-60077.md       Teacher
-60076.md       Title
-60075.md       Violation
-60074.md       Error
-60072.md       Awareness
-60071.md       Pain
-60070.md       Activity
-60069.md       State
-60068.md       Sleep
-60067.md       Effect
-60066.md       Good-Life
-60065.md       Best
-60064.md       Life
-60063.md       Dimension
-60062.md       Process
-60061.md       Communication
-60060.md       Understandablility
-60059.md       Property
-60058.md       Goal
-60057.md       Gereralization
-60056.md       Abstraction
-60055.md       Analogy
-60054.md       Directed-Relation
-60053.md       Rule
-60052.md       System
-60051.md       Name-Binding
-60050.md       Binding
-60049.md       Usage-Right
-60048.md       Name
-60047.md       Standard
-60046.md       Riddle
-60045.md       Hobby
-60044.md       Technology
+	60137.md       Criteria
+	60136.md       The-Better
+	60135.md       Improvement
+	60134.md       The-First
+	60133.md       Successor
+	60132.md       Old-Thing
+	60131.md       New-Thing
+	60130,md       Responsiblity
+	60129.md       Challange
+	60128.md       Potential
+	60127.md       Action
+	60126.md       Translation
+	60125.md       Data-Store
+	60124.md       Invention
+	60123.md       War
+	60122.md       Capability
+	60121.md       The-Bad
+	60120.md       The-Good
+	60119.md       Pattern-Recognition
+	60118.md       Meta-Data
+	60117.md       Bad-Luck
+	60116.md       Luck
+	60115.md       Recognition
+	60114.md       Prize
+	60113.md       Stress
+	60112.md       Pattern
+	60111.md       Sharing-Process
+	60110.md       Root
+	60109.md       Story
+	60108.md       Achievement
+	60107.md       Type
+	60106.md       Creator
+	60105.md       Sub-Set
+	60104.md       Nature
+	60103.md       Inverse
+	60102.md       Separation
+	60101.md       Atom
+	60100.md       Harmony
+	60099.md       Rythm
+	60098.md       Vocal
+	60097.md       Perception
+	60096.md       Voice
+	60095.md       Decision
+	60094.md       Symbol
+	60093.md       1N-Relation-Set
+	60092.md       Directed-Relation-Set
+	60091.md       Right-Relation-Thing
+	60090.md       Left-Relation-Thing
+	60089.md       Relation-Thing
+	60088.md       Relation-Set
+	60087.md       Student
+	60086.md       Program
+	60085.md       Atomic-Property
+	60084.md       Part
+	60083.md       Task
+	60082.md       Cost
+	60081.md       Performance
+	60080.md       Generalisation
+	60079.md       Encoding
+	60078.md       Trainer
+	60077.md       Teacher
+	60076.md       Title
+	60075.md       Violation
+	60074.md       Error
+	60072.md       Awareness
+	60071.md       Pain
+	60070.md       Activity
+	60069.md       State
+	60068.md       Sleep
+	60067.md       Effect
+	60066.md       Good-Life
+	60065.md       Best
+	60064.md       Life
+	60063.md       Dimension
+	60062.md       Process
+	60061.md       Communication
+	60060.md       Understandablility
+	60059.md       Property
+	60058.md       Goal
+	60057.md       Gereralization
+	60056.md       Abstraction
+	60055.md       Analogy
+	60054.md       Directed-Relation
+	60053.md       Rule
+	60052.md       System
+	60051.md       Name-Binding
+	60050.md       Binding
+	60049.md       Usage-Right
+	60048.md       Name
+	60047.md       Standard
+	60046.md       Riddle
+	60045.md       Hobby
+	60044.md       Technology
 60043.md       Output (DEAD)
-60042.md       Input
-60041.md       Feeling
-60040.md       Intuition
-60039.md       Reference
-60038.md       Curiosity
-60037.md       Fun
-60036.md       Work
-60035.md       Beauty
-60034.md       Copy
-60033.md       Result
-60032.md       Example
-60022.md       Original
-60021.md       Quantity
-60020.md       Life-Form
-60019.md       Format
-60017.md       Output
+	60042.md       Input
+	60041.md       Feeling
+	60040.md       Intuition
+	60039.md       Reference
+	60038.md       Curiosity
+	60037.md       Fun
+	60036.md       Work
+	60035.md       Beauty
+	60034.md       Copy
+	60033.md       Result
+	60032.md       Example
+	60022.md       Original
+	60021.md       Quantity
+	60020.md       Life-Form
+	60019.md       Format
+	60017.md       Output
 60016.md       Correctness (DEAD)
-60015.md       Trust
-60014.md       Explanation
-60013.md       Complexity
-60012.md       Node
-60011.md       Structure
-60010.md       Order
-60009.md       Position
-60008.md       List
-60007.md       Information
-60006.md       Connection
-60005.md       Relation
-60004.md       Set
-60003.md       Thing
-60002.md       Meaning
-60001.md       Data
-60000.md       Number
+	60015.md       Trust
+	60014.md       Explanation
+	60013.md       Complexity
+	60012.md       Node
+	60011.md       Structure
+	60010.md       Order
+	60009.md       Position
+	60008.md       List
+	60007.md       Information
+	60006.md       Connection
+	60005.md       Relation
+	60004.md       Set
+	60003.md       Thing
+	60002.md       Meaning
+	60001.md       Data
+	60000.md       Number
 
-40001.md       Eternity
-40000.md       Reality
+	40001.md       Eternity
+	40000.md       Reality
 
-5555.md        Exchange-Medium
-99.md          Coincidence
-77.md          Secret
-75.md          Bit
+	5555.md        Exchange-Medium
+	99.md          Coincidence
+	77.md          Secret
+	75.md          Bit
 
-7777.md        All
+	7777.md        All
 
 ## The Beginnings
 
-11091971.md    My-Calendar
-773.md         Hailey
-25.md          My-Topics
-21.md          About-Michael_Holzheu
-19.md          Michi
-8.jpg          Michael_Holzheu-LFS-Dead-1
+	11091971.md    My-Calendar
+	773.md         Hailey
+	25.md          My-Topics
+	21.md          About-Michael_Holzheu
+	19.md          Michi
+	8.jpg          Michael_Holzheu-LFS-Dead-1
 0.jpg          Michael_Holzheu-LFS-Dead-2
