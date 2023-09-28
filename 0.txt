@@ -2070,6 +2070,7 @@
 
 ## Linguistics
 
+666005.md      Swabian-Language
 666004.md      Greek
 666003.md      French
 666002.md      Ukrainian-Language
