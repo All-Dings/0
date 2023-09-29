@@ -1111,6 +1111,7 @@
 
 ## Personalities
 
+	70000063.md    Akira_Kurosaw
 	70000062.md    Stefan_Höltgen
 	70000061.md    János_Lajos_Neumann
 	70000060.md    Howard_Hathaway_Aiken
