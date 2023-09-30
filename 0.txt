@@ -1205,6 +1205,7 @@
 
 ## Fiction
 
+60020006.md    Fictive-Thing
 60020005.md    Fictive-Character
 60020004.md    Bad-Guy
 60020003.md    Hero
@@ -1986,8 +1987,10 @@
 
 ## Literature
 
+
 ### Fictional-Figures
 
+730004.md      Super-Man
 730003.md      James_Bond
 730002.md      Pinocchio
 730001.md      Tom_Sawyer
