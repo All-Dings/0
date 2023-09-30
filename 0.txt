@@ -264,7 +264,7 @@
 
 ## Traffics
 
-1100000004.md     Citiy-Sign
+1100000004.md     City-Sign
 1100000003.md     Traffic-Sign
 1100000002.md     Driving-Exam
 1100000001.md     Traffics-System
