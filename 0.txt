@@ -1289,6 +1289,12 @@
 
 ## Biology / Biologic
 
+### Animals
+
+40000026.md    Animal
+
+### Human-Biology / General
+
 40201004.md    Humor
 40201003.md    Nicotine-Flash
 40201002.md    Biologic-Perception-Burning
@@ -1345,7 +1351,7 @@
 40000029.md    Biologic-State-Alive
 40000028.md    Biologic-State
 40000027.md    Face
-40000026.md    Animal
+
 40000025.md    Hair
 40000024.md    Biologic-Genus
 40000023.md    Tooth
