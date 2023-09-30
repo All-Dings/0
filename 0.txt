@@ -951,6 +951,7 @@
 
 130010000.md   Currency
 
+130000033.md   Capitalist-System
 130000032.md   Fair-Share
 130000031.md   Value-Chain
 130000030.md   Return-On-Investment
