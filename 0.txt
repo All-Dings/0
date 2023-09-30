@@ -2238,6 +2238,7 @@
 
 ## Concepts
 
+600144.md      Regulation
 600143.md      Agreement
 600142.md      False-Statement
 600141.md      True-Statement
