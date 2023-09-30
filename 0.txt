@@ -1520,6 +1520,7 @@
 
 13005000.md    Statistics
 
+13000031.md    Percentage
 13000030.md    Add-Function
 13000029.md    Mathematics-System
 13000028.md    Floating-Point-System
@@ -2389,6 +2390,7 @@
 
 ## Deep-Concepts
 
+60142.md       The-Important
 60141.md       Distraction
 9000141.md     User
 60140.md       Thinking
