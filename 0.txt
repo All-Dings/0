@@ -2237,6 +2237,10 @@
 640001.md      Study
 640000.md      Academics
 
+## School
+
+630000.md      School
+
 ## Location
 
 620003.md      Location-Set
