@@ -2242,6 +2242,7 @@
 
 ## Concepts
 
+600145.md      Concentration
 600144.md      Regulation
 600143.md      Agreement
 600142.md      False-Statement
