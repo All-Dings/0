@@ -264,6 +264,7 @@
 
 ## Traffics
 
+1100000012.md     Stop-Sign
 1100000011.md     Bicyclist
 1100000010.md     Traffic-Regulation
 1100000009.md     U-Turn
