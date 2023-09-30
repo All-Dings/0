@@ -1321,6 +1321,7 @@
 
 ### Animals
 
+40210002.md    Squirrel
 40210001.md    Wild-Boar
 
 40000026.md    Animal
