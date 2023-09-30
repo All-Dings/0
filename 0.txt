@@ -264,6 +264,7 @@
 
 ## Traffics
 
+1100000006.md     Traffic-Rule
 1100000005.md     30-Kilometers-per-Hour-Zone-Sign
 1100000004.md     City-Sign
 1100000003.md     Traffic-Sign
