@@ -2401,6 +2401,8 @@
 
 ## Deep-Concepts
 
+60145.md       Defeat
+60144.md       Victory
 60143.md       Focus
 60142.md       The-Important
 60141.md       Distraction
