@@ -264,6 +264,7 @@
 
 ## Traffics
 
+1100000005.md     30-Kilometers-per-Hour-Zone-Sign
 1100000004.md     City-Sign
 1100000003.md     Traffic-Sign
 1100000002.md     Driving-Exam
@@ -883,6 +884,7 @@
 
 140100001.md   Russian-Matrjoschka (WRONG NUMBER)
 
+140000062.md   Dußlingen
 140000061.md   Düsseldorf
 140000060.md   Singapore
 140000059.md   Potsdam
