@@ -258,6 +258,7 @@
 
 ## Militaristics
 
+1200000001.md     Militaristics-System
 1200000000.md     Militaristics
 
 ## Traffics
@@ -625,6 +626,7 @@
 
 ## Professions
 
+202000019.md   Lieutenant
 202000018.md   Driving-Tester
 202000017.md   Driving-Instructor
 202000016.md   Conductor
