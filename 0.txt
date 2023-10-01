@@ -271,6 +271,11 @@
 1200000001.md     Militaristics-System
 1200000000.md     Militaristics
 
+## Recycling
+
+1103000001.md     Recycling-System
+1103000000.md     Recycling
+
 ## Drainage
 
 1102000002.md     Man-Hole-Cover
