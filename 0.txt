@@ -178,6 +178,7 @@
 
 ## Media-Files
 
+400000101.md   Man-Hole-Cover-Erik
 400000100.md   Traffic-Rule-Right-before-Left-Example-Lost-Focus
 400000099.md   Missing-30-Kilometers-per-Hour-Zone-Sign-Dußlingen
 400000098.md   Traffic-Regulation-Dußlingen
