@@ -2160,6 +2160,12 @@
 
 ## Linguistics
 
+### Cose-Words
+
+667000.md      Cose-Word
+
+### Human-Languages
+
 666005.md      Swabian-Language
 666004.md      Greek
 666003.md      French
@@ -2167,6 +2173,8 @@
 666001.md      Spanish
 
 660000.md      Germanistics
+
+### Basics
 
 640046.md      Syllable
 640045.md      Phonem
