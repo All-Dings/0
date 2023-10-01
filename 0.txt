@@ -2160,6 +2160,10 @@
 
 ## Linguistics
 
+### Cuss-Words
+
+668000.md      Cuss-Word
+
 ### Cose-Words
 
 667000.md      Cose-Word
