@@ -1182,6 +1182,7 @@
 
 ## Personalities
 
+70000065.md    Augustine_of_Hippo
 70000064.md    Takashi_Shimura
 70000063.md    Akira_Kurosaw
 70000062.md    Stefan_Höltgen
