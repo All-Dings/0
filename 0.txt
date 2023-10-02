@@ -1471,6 +1471,7 @@
 
 ## Devices
 
+20000017.md    Helmet-Camera
 20000016.md    Camera
 20000015.md    Calculating-Machine
 20000014.md    Electronic-Visual-Display
