@@ -269,6 +269,7 @@
 
 ## Militaristics
 
+1200000002.md     Bundeswehr
 1200000001.md     Militaristics-System
 1200000000.md     Militaristics
 
@@ -875,6 +876,7 @@
 180001001.md   Schwabe
 180001000.md   Nordfriesländer
 
+180000011.md   Comrade
 180000010.md   Colleague
 180000009.md   Family-Name
 180000008.md   Family
