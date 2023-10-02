@@ -1308,6 +1308,7 @@
 
 ### Good-Habits
 
+41000005.md    Respect
 41000004.md    Discipline
 41000003.md    Diligence
 41000002.md    Compliment
@@ -2305,6 +2306,7 @@
 
 ## Concepts
 
+600147.md      Native
 600146.md      Audience
 600145.md      Concentration
 600144.md      Regulation
