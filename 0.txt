@@ -196,7 +196,7 @@
 400000087.md   Le-avventure-di-Pinocchio-pag164
 400000086.md   Black-Image
 400000085.md   Bell-Counter-A-Multiple
-400000081.md   Lupe-magnifer
+400000081.md   Lupe-Magnifer
 
 400000079.md   Bottle-Deposit-Euros
 400000077.md   Bottle-Deposit-Receipts-Kasten-Pfand-Loupe
