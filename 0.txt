@@ -804,7 +804,7 @@
 
 ## Sayings
 
-200100003.md   God-is-an-Ashole
+200100003.md   God-is-an-Ass-Hole
 200100002.md   Der-Teufel-ist-ein-Eichhörnchen
 200100001.md   Better-Slow-than-Bad
 200100000.md   Saying
@@ -1406,6 +1406,7 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
+40000037.md    Anus
 40000036.md    Family-Tree
 40000035.md    Biologic-Siblings
 40000034.md    Biologic-Child
@@ -1416,7 +1417,6 @@
 40000029.md    Biologic-State-Alive
 40000028.md    Biologic-State
 40000027.md    Face
-
 40000026.md    Brain
 40000025.md    Hair
 40000024.md    Biologic-Genus
