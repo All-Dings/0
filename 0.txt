@@ -1190,6 +1190,7 @@
 
 ## Personalities
 
+70000067.md    Klaus_Ferdinand_Hasselmann
 70000066.md    Hugo_Reinhard
 70000065.md    Augustine_of_Hippo
 70000064.md    Takashi_Shimura
