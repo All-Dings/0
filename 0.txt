@@ -1585,6 +1585,7 @@
 
 13005000.md    Statistics
 
+13000037.md    Distributive-Rule
 13000036.md    Positional-Number-System
 13000035.md    Associative-Rule
 13000034.md    Mathematics-Rule
