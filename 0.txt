@@ -1585,6 +1585,7 @@
 
 13005000.md    Statistics
 
+13000035.md    Associative-Rule
 13000034.md    Mathematics-Rule
 13000033.md    Mathematics-Symbol
 13000032.md    Mathematics-Term
