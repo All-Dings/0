@@ -2502,6 +2502,9 @@
 600001.md      Academics-Student
 600000.md      Academics-System
 
+300003.md      Better-save-than-sorry
+300002.md      Vorsicht-ist-die-Mutter-der-Porzelan-Kiste
+
 ## Deep-Concepts
 
 60151.md       The-Best
