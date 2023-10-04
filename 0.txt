@@ -1424,6 +1424,7 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
+40000038.md    Brain-Calculation
 40000037.md    Anus
 40000036.md    Family-Tree
 40000035.md    Biologic-Siblings
@@ -2502,7 +2503,7 @@
 600001.md      Academics-Student
 600000.md      Academics-System
 
-300003.md      Better-save-than-sorry
+300003.md      Better-save-than-Sorry
 300002.md      Vorsicht-ist-die-Mutter-der-Porzelan-Kiste
 
 ## Deep-Concepts
