@@ -2314,6 +2314,10 @@
 
 ## School
 
+### Schools
+
+639003.md      Johann-Michael-Sailer-Gymnasium
+
 ### General
 
 630003.md      High-School
