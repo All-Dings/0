@@ -1187,6 +1187,7 @@
 
 ## Personalities
 
+70000066.md    Hugo_Reinhard
 70000065.md    Augustine_of_Hippo
 70000064.md    Takashi_Shimura
 70000063.md    Akira_Kurosaw
