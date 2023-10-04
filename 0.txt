@@ -1138,8 +1138,8 @@
 90001000.md    Choir
 
 90000037.md    Equal-Temperament
-90000036.md    Pythagorean-Temprament
-90000035.md    Music-Temprament
+90000036.md    Pythagorean-Temperament
+90000035.md    Music-Temperament
 90000034.md    Bell
 90000033.md    Guitar
 90000032.md    Trumpet
