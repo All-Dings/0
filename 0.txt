@@ -1599,7 +1599,8 @@
 
 13005000.md    Statistics
 
-13000040.md    Exponentiation-Base
+13000041.md    Exponentiation-Parameter
+13000040.md    Exponentiation-Constant
 13000039.md    Real-Numbers
 13000038.md    Mathematics-Körper
 13000037.md    Distributive-Rule
