@@ -2510,7 +2510,7 @@
 600024.md      Solution
 600023.md      Complexity
 600022.md      Proof
-600021.md      The-Context-Truth
+600021.md      Truth
 600020.md      Freedom
 600019.md      Decision-Problem
 600018.md      Nothing
