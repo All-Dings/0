@@ -1599,6 +1599,7 @@
 
 13005000.md    Statistics
 
+12000045.md    Inverse-Function
 12000044.md    Mathematics-Division
 13000043.md    Exponentiation-Variable
 13000042.md    Mathematics-Variable
