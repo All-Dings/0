@@ -2368,6 +2368,7 @@
 
 ## Concepts
 
+600150.md      Advice
 600149.md      Version
 600148.md      Foreigner
 600147.md      Native
