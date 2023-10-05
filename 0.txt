@@ -378,6 +378,7 @@
 140100003.md   Kunst-Halle-Tübingen-Coffee-House-Sculpture
 140100002.md   Landrats-Amt-Tübingen
 
+2010030.md     Schimpf-Eck
 2010029.md     Schimpf-Schreibwaren
 2010028.md     Golden-Delhi-Palace-Cow
 2010027.md     Kaufland-Tübingen
