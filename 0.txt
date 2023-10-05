@@ -1689,6 +1689,7 @@
 
 10010000.md    Experiment
 
+10000063.md    Concern
 10000062.md    Frequency-Interval
 10000061.md    Zero-Thing
 10000060.md    Physics-Theory
@@ -2368,7 +2369,7 @@
 
 ## Concepts
 
-600150.md      Advice
+600150.md      Advise
 600149.md      Version
 600148.md      Foreigner
 600147.md      Native
