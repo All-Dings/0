@@ -1599,6 +1599,7 @@
 
 13005000.md    Statistics
 
+13000042.md    Mathematics-Variable
 13000041.md    Mathematics-Parameter
 13000040.md    Exponentiation-Constant
 13000039.md    Real-Numbers
