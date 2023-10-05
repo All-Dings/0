@@ -1610,6 +1610,7 @@
 
 13005000.md    Statistics
 
+12000055.md    Mathematics-Method
 12000054.md    Newton–Raphson-Method
 12000053.md    Pythagorean-Theorem
 12000052.md    Mathematics-Axiom
