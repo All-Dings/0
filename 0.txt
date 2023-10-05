@@ -1601,6 +1601,7 @@
 
 13005000.md    Statistics
 
+12000053.md    Pythagorean-Theorem
 12000052.md    Mathematics-Axiom
 12000051.md    Mathematics-Theorem
 12000050.md    Greatest-Common-Divisor
