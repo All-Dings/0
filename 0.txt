@@ -1353,7 +1353,7 @@
 41000003.md    Diligence
 41000002.md    Compliment
 41000001.md    Punctuality
-41000000.md    Good-Habits
+41000000.md    Good-Habit
 
 ## Bad-Things
 
