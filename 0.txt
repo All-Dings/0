@@ -1599,7 +1599,7 @@
 
 13005000.md    Statistics
 
-12000048.md    Multiplication-Multiplikator
+12000048.md    Multiplication-Multiplier
 12000047.md    Fraction-Dividend
 12000046.md    Fraction-Divisor
 12000045.md    Inverse-Function
