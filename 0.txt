@@ -1597,6 +1597,8 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13006000.md    Geometry
+
 13005000.md    Statistics
 
 12000052.md    Mathematics-Axiom
