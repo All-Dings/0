@@ -1599,7 +1599,7 @@
 
 13005000.md    Statistics
 
-13000041.md    Mathamatics-Parameter
+13000041.md    Mathematics-Parameter
 13000040.md    Exponentiation-Constant
 13000039.md    Real-Numbers
 13000038.md    Mathematics-Körper
