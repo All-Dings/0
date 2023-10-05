@@ -2381,6 +2381,7 @@
 
 ## Concepts
 
+600153.md      Truth-by-Proof
 600152.md      Truth-by-Definition
 600151.md      Argument
 600150.md      Advise
