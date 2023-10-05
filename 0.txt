@@ -1599,7 +1599,7 @@
 
 13005000.md    Statistics
 
-13000041.md    Exponentiation-Parameter
+13000041.md    Mathamatics-Parameter
 13000040.md    Exponentiation-Constant
 13000039.md    Real-Numbers
 13000038.md    Mathematics-Körper
@@ -2586,7 +2586,7 @@
 60096.md       Voice
 60095.md       Decision
 60094.md       Symbol
-60093.md       1N-Relation-Set
+60093.md       Many-X-can-have-Same-Y-Relation-Set
 60092.md       Directed-Relation-Set
 60091.md       Right-Relation-Thing
 60090.md       Left-Relation-Thing
