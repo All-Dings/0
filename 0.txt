@@ -1340,6 +1340,7 @@
 
 ### Bad-Habits
 
+41010004.md    Jealousy
 41010003.md    Double-Standard
 41010002.md    Fraud
 41010001.md    Self-Fraud
