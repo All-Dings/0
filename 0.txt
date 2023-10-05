@@ -941,6 +941,7 @@
 
 ## Politics
 
+141000007.md   Speakers-Corner
 141000006.md   National-Institute-of-Standards-and-Technology
 141000005.md   National-Security-Agency
 141000004.md   United-States-of-America
@@ -1305,6 +1306,7 @@
 
 ## Arts
 
+60010004.md    Speech
 60010003.md    Show
 60010002.md    Theater
 60010001.md    Ballet
