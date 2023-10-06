@@ -107,6 +107,7 @@
 
 ### Things
 
+1971091109.md  My-Good-Old-Latex-Book
 1971091108.md  My-Pocket-Calculator
 1971091107.md  My-Jose-Ribera
 1971091106.md  My-Peugeot
@@ -2566,6 +2567,7 @@
 
 ## Deep-Concepts
 
+60153.md       The-Worse
 60152.md       Variable
 60151.md       The-Best
 60150.md       Paradox
