@@ -1806,6 +1806,7 @@
 
 ### Markup-Languages
 
+9300011.md     LaTeX-Symbol
 31.md          Markdown
 50001.md       Markdown-Footnote
 9300010.md     LaTeX
@@ -2407,6 +2408,7 @@
 
 ## Concepts
 
+600162.md      Threat
 600161.md      White-Lie
 600160.md      Lie
 600159.md      Correction
