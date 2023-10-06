@@ -1354,6 +1354,7 @@
 
 ### Good-Habits
 
+41000007.md    Patience
 41000006.md    Appreciation
 41000005.md    Respect
 41000004.md    Discipline
