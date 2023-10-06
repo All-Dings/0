@@ -1788,6 +1788,7 @@
 9999998.md     Informatics-Student
 9999997.md     Informatics-Famous-Human
 
+9400007.md     Hardware-Bug
 9400006.md     Adder-Unit
 9400005.md     Instruction-Pipelining
 9400004.md     Arithmethic-Unit
@@ -2399,6 +2400,7 @@
 
 ## Concepts
 
+600157.md      Rumor
 600156.md      Approximation-Process
 600155.md      Truth-by-Belief
 600154.md      Truth-by-Experiment
