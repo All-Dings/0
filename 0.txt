@@ -2400,6 +2400,7 @@
 
 ## Concepts
 
+600158.md      Confession
 600157.md      Rumor
 600156.md      Approximation-Process
 600155.md      Truth-by-Belief
