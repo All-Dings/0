@@ -2400,6 +2400,7 @@
 
 ## Concepts
 
+600161.md      White-Lie
 600160.md      Lie
 600159.md      Correction
 600158.md      Confession
