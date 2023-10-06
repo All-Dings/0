@@ -2400,6 +2400,8 @@
 
 ## Concepts
 
+600160.md      Lie
+600159.md      Correction
 600158.md      Confession
 600157.md      Rumor
 600156.md      Approximation-Process
