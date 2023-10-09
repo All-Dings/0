@@ -68,7 +68,7 @@
 
 #### Fellow-Occupant
 
-88.md          My-Fellow-Occupant
+88.md          My-Fellow-Occupant Alena_Eckert Alena
 
 #### Roxana_Stanciu
 
@@ -77,15 +77,16 @@
 
 #### Other Friends
 
+1971091163.md  Bert_Sölzer
 1971091162.md  Asha
-1971091161.md  My-Tennis-Trainer
-1971091160.md  My-Female-Choir-Friend
+1971091161.md  My-Tennis-Trainer Walter_Betz
+1971091160.md  My-Female-Choir-Friend Annegret_Walz
 1971091159.md  My-Python-Neighbour
-1971091158.md  My-Professor-Friend
+1971091158.md  My-Professor-Friend Joachim_Kerner
 1971091157.md  Thomas
-1971091156.md  Giovanni
-1971091155.md  My-Artist-Friend
-1971091154.md  My-Banker-Friend
+1971091156.md  Giovanni Giovanni_Castros Giovanni
+1971091155.md  My-Artist-Friend Michael_Peters Micha
+1971091154.md  My-Banker-Friend Rudolf_Wellen Rudi
 1971091153.md  Bert-Pferd
 1971091152.md  Schnuffi
 1971091151.md  Muffi
