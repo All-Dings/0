@@ -1425,7 +1425,6 @@
 40201001.md    Tingling
 
 40200002.md    Taste
-40200001.md    Sound
 40200000.md    Biologic-Perception
 
 40101032.md    Dermal-Papillae
@@ -1737,6 +1736,8 @@
 ## Physics / Physical
 
 10010000.md    Experiment
+
+40200001.md    Sound (WRONG-NUMBER)
 
 10000065.md    Wave-Superposition
 10000064.md    Wave-Interference
