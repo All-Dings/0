@@ -766,7 +766,7 @@
 200600001.md   Space-Ship
 200600000.md   Air-Plane
 
-200400005.md   Truck
+200500005.md   Truck
 200500004.md   Tractor
 200500003.md   Motor-Bike
 200500002.md   Mountain-Bike
