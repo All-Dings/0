@@ -1739,7 +1739,7 @@
 
 40200001.md    Sound (WRONG-NUMBER)
 
-10000066.md    Anti-Sound
+10000066.md    Anti-Sound-Wave
 10000065.md    Wave-Superposition
 10000064.md    Wave-Interference
 10000063.md    Concern
