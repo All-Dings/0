@@ -319,6 +319,7 @@
 
 ## Traffics
 
+1100000018.md     Walk-Way
 1100000017.md     Wheel-Chair-User
 1100000016.md     Solid-Line
 1100000015.md     Road-Marking
