@@ -1210,6 +1210,7 @@
 
 ## Famous-Documents or Books
 
+71000013.md    Coran
 71000012.md    Talmud
 71000011.md    Computerarchäologie
 71000010.md    Pali-Kanon
@@ -1732,6 +1733,7 @@
 
 10010000.md    Experiment
 
+10000064.md    Wave-Interference
 10000063.md    Concern
 10000062.md    Frequency-Interval
 10000061.md    Zero-Thing
