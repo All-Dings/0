@@ -2436,6 +2436,7 @@
 
 ## Concepts
 
+600166.md      Excuse
 600165.md      Elimination
 600164.md      Transformation
 600163.md      Application
