@@ -2110,7 +2110,7 @@
 8011003.md     Verspätung-aus-einer-vorherigen-Fahrt
 8011002.md     Reparatur-an-einem-Signal
 8011001.md     Reparatur-an-einer-Weiche
-8011000.md     GFR-Excuses
+8011000.md     GFR-Excuse
 8010005.md     GFR-Service-Number
 8010004.md     Train
 8010003.md     Regional-Bahn
