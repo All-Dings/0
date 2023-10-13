@@ -1744,6 +1744,8 @@
 
 40200001.md    Sound (WRONG-NUMBER)
 
+10000073.md    Cooling-Process
+10000072.md    Heating-Process
 10000071.md    Zero-Energy
 10000070.md    Heat-Energy
 10000069.md    Physics-Excuse
