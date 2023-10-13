@@ -2381,7 +2381,8 @@
 
 ## Academics
 
-650019.md      Academics-Degree
+640020.md      Diploma
+640019.md      Academics-Degree
 640018.md      Nobel-Prize
 640017.md      Research
 640016.md      Princeton-University
