@@ -190,7 +190,7 @@
 
 ## Media-Files
 
-400000130.md   Sinus-Wave-Superposition
+400000130.md   Zero-Wave-In-Time-Space
 
 400000118.md   Working-Tier-in-Tübingen
 400000117.md   My-Good-Old-Latex-Book-In-Side
