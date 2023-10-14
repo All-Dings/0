@@ -125,6 +125,8 @@
 
 1000001.md     Blog-Chain-Time
 
+300050001.md   Zero-Wave-Device-Patent
+
 300040008.md   Dings_Image_Map
 300040007.md   Dings_Quiz
 
@@ -1747,6 +1749,7 @@
 
 40200001.md    Sound (WRONG-NUMBER)
 
+10000079.md    Wave-Phase-Shift
 10000078.md    Electric-Engery
 10000077.md    Dead-Universe
 10000076.md    Living-Universe
