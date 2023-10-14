@@ -64,6 +64,10 @@
 301000002.md   Zero-Wave-Theory
 301000001.md   Body-Contact-Increases-Energy
 
+### Topics
+
+25.md          My-Topics
+
 ### Friends
 
 #### Fellow-Occupant
@@ -2793,6 +2797,5 @@
 
 11091971.md    My-Calendar
 773.md         Hailey
-25.md          My-Topics
 21.md          About-Michael_Holzheu
 19.md          Michi
