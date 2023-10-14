@@ -148,6 +148,7 @@
 
 300000101.md   Dings-Overlay-Image-PDF
 
+300000030.md   Dings-Patent
 300000029.md   Dings-Generate-Makefile
 300000028.md   Dings-Impressum
 300000027.md   Dings-Font-Awesome-4.7
