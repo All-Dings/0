@@ -1747,6 +1747,7 @@
 
 ## Chemistry
 
+10100001.md    Chemistry-System
 10100000.md    Chemistry
 
 ## Physics / Physical
@@ -1755,6 +1756,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000082.md    Wind-Wave
 10000082.md    Original-Wave
 10000081.md    Anti-Wave
 10000080.md    Wave-Energy
