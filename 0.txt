@@ -1759,7 +1759,7 @@
 10000073.md    Cooling-Process
 10000072.md    Heating-Process
 10000071.md    Zero-Energy
-10000070.md    Heat-Energy
+10000070.md    Thermal-Energy
 10000069.md    Physics-Excuse
 10000068.md    Physics-System
 10000067.md    Sound-Cancellation
