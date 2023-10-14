@@ -1755,6 +1755,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000082.md    Original-Wave
 10000081.md    Anti-Wave
 10000080.md    Wave-Energy
 10000079.md    Wave-Phase-Shift
