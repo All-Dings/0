@@ -1747,7 +1747,7 @@
 
 10010000.md    Experiment
 
-40200001.md    Sound (WRONG-NUMBER)
+40200001.md    Sound-Wave (WRONG-NUMBER)
 
 10000079.md    Wave-Phase-Shift
 10000078.md    Electric-Engery
