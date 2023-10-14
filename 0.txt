@@ -1749,6 +1749,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000080.md    Wave-Energy
 10000079.md    Wave-Phase-Shift
 10000078.md    Electric-Engery
 10000077.md    Dead-Universe
