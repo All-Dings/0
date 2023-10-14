@@ -2629,6 +2629,7 @@
 
 ## Deep-Concepts
 
+60156.md       Wave
 60155.md       Ordered-System
 60154.md       Beginning
 60153.md       The-Worse
