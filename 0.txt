@@ -1840,7 +1840,7 @@
 10000007.md    Precision
 10000006.md    Height
 10000005.md    Width
-10000004.md    Future
+10000004.md    Future-Time
 10000003.md    Unit -> Unit-of-Measure
 10000002.md    Time-Interval
 10000001.md    Electricity
