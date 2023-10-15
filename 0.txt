@@ -436,11 +436,6 @@
 
 ## Pollution
 
-400000003.md   Light-Pollution
-400000002.md   Global-Warming
-400000001.md   Noise-Pollution
-400000000.md   Environment-Pollution
-
 290000003.md   Light-Pollution
 290000002.md   Global-Warming
 290000001.md   Noise-Pollution
