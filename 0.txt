@@ -1773,6 +1773,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000092.md    Wave-Phase-Modulation
 10000091.md    Wave-Phase
 10000090.md    Wave-Amplitude-Modulation
 10000089.md    Wave-Frequency-Modulation
