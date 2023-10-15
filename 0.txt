@@ -1650,6 +1650,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13006002.md    Geometric-Shape
 13006001.md    Rotation
 13006000.md    Geometry
 
@@ -2473,7 +2474,7 @@
 
 ## Location
 
-620008.md      Close-Location-Path
+620008.md      Closed-Location-Path
 620007.md      End-Location
 620006.md      Location-Environment
 620005.md      Location-Path
