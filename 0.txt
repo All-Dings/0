@@ -1653,7 +1653,7 @@
 13006004.md    Circle
 13006003.md    Geometric-System
 13006002.md    Geometric-Shape
-13006001.md    Rotation
+13006001.md    Rotation-Position
 13006000.md    Geometry
 
 13005000.md    Statistics
@@ -2476,6 +2476,7 @@
 
 ## Location
 
+620009.md      Circle-Path
 620008.md      Closed-Location-Path
 620007.md      End-Location
 620006.md      Location-Environment
