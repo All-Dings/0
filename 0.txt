@@ -1841,7 +1841,7 @@
 10000005.md    Width
 10000004.md    Future
 10000003.md    Unit -> Unit-of-Measure
-10000002.md    Time
+10000002.md    Time-Interval
 10000001.md    Electricity
 10000000.md    Physics
 
