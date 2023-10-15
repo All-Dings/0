@@ -1647,6 +1647,7 @@
 
 13005000.md    Statistics
 
+12000058.md    Hash
 12000057.md    Sinus-Function
 12000056.md    Trigonometric-Function
 12000055.md    Mathematics-Method
