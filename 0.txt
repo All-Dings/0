@@ -1773,6 +1773,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000094.md    Physics-Wave-Theory
 10000093.md    Sinus-Wave
 10000092.md    Wave-Phase-Modulation
 10000091.md    Wave-Start-Location
