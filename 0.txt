@@ -1480,6 +1480,7 @@
 40090001.md    Biological-Organ (DEAD)
 40090000.md    Biologic-Cell
 
+40080022.md    Man
 40080021.md    Secretive
 40080020.md    Spit
 40080019.md    Spitting
