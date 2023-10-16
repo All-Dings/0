@@ -1077,6 +1077,7 @@
 
 130010000.md   Currency
 
+130000034.md   Trade-Mark
 130000033.md   Capitalist-System
 130000032.md   Fair-Share
 130000031.md   Value-Chain
