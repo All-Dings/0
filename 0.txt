@@ -974,6 +974,10 @@
 160000001.md   Attack
 160000000.md   Strategy
 
+## Real-Woman
+
+151000000.md   Real-Woman
+
 ## Real-Man
 
 150000006.md   Heisam
@@ -1533,7 +1537,7 @@
 40000007.md    Father
 40000006.md    Parents
 40000005.md    Problem-Child
-40000004.md    Man
+40000004.md    Male
 40000003.md    Dog
 40000002.md    Gemini
 40000001.md    Human
