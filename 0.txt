@@ -974,7 +974,7 @@
 160000001.md   Attack
 160000000.md   Strategy
 
-## Real-Human
+## Real-Man
 
 150000006.md   Heisam
 150000005.md   Erik
@@ -982,7 +982,7 @@
 150000003.md   Max
 150000002.md   Piyush
 150000001.md   Kevin
-150000000.md   Real-Humans
+150000000.md   Real-Man
 
 ## Politics
 
