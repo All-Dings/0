@@ -1783,7 +1783,7 @@
 10000085.md    Current-Time
 10000084.md    Liquid-Wave
 10000083.md    Gas-Wave
-10000082.md    Original-Wave
+10000082.md    Pro-Wave
 10000081.md    Anti-Wave
 10000080.md    Wave-Energy
 10000079.md    Wave-Phase-Shift
