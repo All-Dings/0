@@ -1794,6 +1794,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000095.md    Quantum-Physics
 10000094.md    Physics-Wave-Theory
 10000093.md    Sinus-Wave
 10000092.md    Wave-Phase-Modulation
