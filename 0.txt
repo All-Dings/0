@@ -1677,6 +1677,7 @@
 
 13006000.md    Geometry
 
+13005001.md    Stochastics
 13005000.md    Statistics
 
 12000059.md    Mathematics-Angle
