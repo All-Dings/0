@@ -2764,7 +2764,7 @@
 60102.md       Separation
 60101.md       Atom
 60100.md       Harmony
-60099.md       Rythm
+60099.md       Rhythm
 60098.md       Vocal
 60097.md       Perception
 60096.md       Voice
