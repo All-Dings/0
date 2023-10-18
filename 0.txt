@@ -739,6 +739,7 @@
 
 ## Professions
 
+202000021.md   Patent-Lawyer
 202000020.md   Soldier
 202000019.md   Lieutenant
 202000018.md   Driving-Tester
