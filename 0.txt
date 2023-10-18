@@ -480,6 +480,7 @@
 280000001.md   Doppel-Kopf
 280000000.md   Game
 
+270300005.md   Waltz
 270300004.md   Flamenco
 270300003.md   Bachata
 270300001.md   Dancing-System
