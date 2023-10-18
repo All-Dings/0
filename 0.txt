@@ -1277,6 +1277,7 @@
 
 ## Personalities
 
+70000068.md    Sandra-Ann_Lauer
 70000067.md    Klaus_Ferdinand_Hasselmann
 70000066.md    Hugo_Reinhard
 70000065.md    Augustine_of_Hippo
