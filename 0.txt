@@ -2533,6 +2533,7 @@
 ## Location
 
 13006001.md    Circle-Path-Position
+620010.md      Direction
 620009.md      Circle-Path
 620008.md      Closed-Location-Path
 620007.md      End-Location
