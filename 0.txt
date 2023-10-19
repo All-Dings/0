@@ -812,6 +812,7 @@
 200500001.md   Bicycle
 200500000.md   Vehicle
 
+200400006.md   Wind-Turbine
 200400005.md   Metal-Detector
 200400004.md   Android
 200400003.md   Robot
