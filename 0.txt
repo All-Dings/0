@@ -900,10 +900,11 @@
 200020002.md   Petrol-Station
 200020001.md   Post-Office
 
-### Food-Provider
+### Food/Drink-Provider
 
 200010001.md   Station-Kiosk
 
+200000010.md   Drink-Provider
 200000009.md   Bar
 200000008.md   Baker-Shop
 200000007.md   Shop
