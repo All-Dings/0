@@ -904,6 +904,7 @@
 
 200010001.md   Station-Kiosk
 
+200000009.md   Bar
 200000008.md   Baker-Shop
 200000007.md   Shop
 200000006.md   Coffee-House
