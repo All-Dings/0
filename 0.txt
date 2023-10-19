@@ -419,6 +419,7 @@
 140100003.md   Kunst-Halle-Tübingen-Coffee-House-Sculpture
 140100002.md   Landrats-Amt-Tübingen
 
+2010033.md     Piccolo-Sole-d'Oro
 2010032.md     Bus-Line-17-Tübingen
 2010031.md     Morra-Imbiss
 2010030.md     Schimpf-Eck
