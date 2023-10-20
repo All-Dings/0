@@ -1617,6 +1617,7 @@
 
 ## Devices
 
+20000022.md    Beard-Trimmer
 20000021.md    Zero-Wave-Device
 20000020.md    Head-Phone
 20000019.md    Pocket-Calculator
