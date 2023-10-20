@@ -752,6 +752,7 @@
 
 ## Professions
 
+202000023.md   Voice-Teacher
 202000022.md   Florist
 202000021.md   Patent-Lawyer
 202000020.md   Soldier
