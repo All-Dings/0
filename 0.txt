@@ -1428,6 +1428,7 @@
 
 ### Bad-Habits
 
+41010006.md    Arrogance
 41010005.md    Impatience
 41010004.md    Jealousy
 41010003.md    Double-Standard
