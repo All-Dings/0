@@ -2743,6 +2743,7 @@
 
 ## Deep-Concepts
 
+60164.md       Opportunity
 60163.md       Dependency
 60162.md       Work-Sub-Set
 60161.md       Synchronicity
