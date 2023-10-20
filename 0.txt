@@ -1834,6 +1834,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000102.md    Parallel-Inteval-Pair
 10000101.md    Hertz-Unit
 10000100.md    Infra-Sound-Wave
 10000099.md    Gravity-Wave
