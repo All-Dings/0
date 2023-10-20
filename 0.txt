@@ -2738,6 +2738,7 @@
 
 ## Deep-Concepts
 
+60161.md       Synchronicity
 60160.md       The-Big
 60159.md       The-Little
 60158.md       Pattern-Start-Location
