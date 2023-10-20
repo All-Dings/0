@@ -2742,6 +2742,7 @@
 
 ## Deep-Concepts
 
+60163.md       Independance
 60162.md       Work-Sub-Set
 60161.md       Synchronicity
 60160.md       The-Big
