@@ -326,6 +326,7 @@
 
 ## Militaristics
 
+1200000003.md     Weapon
 1200000002.md     Bundeswehr
 1200000001.md     Militaristics-System
 1200000000.md     Militaristics
