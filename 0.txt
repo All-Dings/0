@@ -2280,6 +2280,7 @@
 
 ### Medical-Drugs
 
+810006.md      Throat-Lozenge
 810005.md      Metamizol-Natrium
 810004.md      Paracetamol
 810003.md      Analgesic
