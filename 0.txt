@@ -1802,6 +1802,7 @@
 
 ## Experts
 
+12000002.md    Geek
 12000001.md    Nerd
 12000000.md    Expert
 
@@ -2775,6 +2776,7 @@
 
 ## Deep-Concepts
 
+60166.md       Learning
 60165.md       Thing-Pair
 60164.md       Opportunity
 60163.md       Dependency
