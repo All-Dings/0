@@ -1254,6 +1254,7 @@
 
 ### Music
 
+91001009.md    Church-Choir
 91001008.md    Sound-Collage
 91001007.md    Singing
 91001006.md    Choral-Set
