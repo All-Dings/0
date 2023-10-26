@@ -1763,6 +1763,7 @@
 13005001.md    Stochastics
 13005000.md    Statistics
 
+12000060.md    Average-Function
 12000059.md    Mathematics-Angle
 12000058.md    Hash (DEAD)
 12000057.md    Sinus-Function
