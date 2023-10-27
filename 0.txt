@@ -209,6 +209,7 @@
 
 # Things
 
+20000000002.md Bed
 20000000001.md Backpack
 
 ### Dings-Directories
