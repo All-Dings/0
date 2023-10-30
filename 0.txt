@@ -2830,6 +2830,7 @@
 
 ## Deep-Concepts
 
+60173.md       Live-in-Simplicity
 60172.md       Advantage
 60171.md       Network
 60170.md       Sex-Process
