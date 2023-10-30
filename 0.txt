@@ -386,6 +386,7 @@
 
 ## Traffics
 
+1100000020.md     Traffic-Light
 1100000019.md     Street
 1100000018.md     Walk-Way
 1100000017.md     Wheel-Chair-User
