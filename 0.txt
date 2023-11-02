@@ -727,6 +727,7 @@
 
 ## Business
 
+240000025.md   Suzuki-Motor-Corporation
 240000024.md   Dr-Pfleger-Arzneimittel-GmbH
 240000023.md   International-Business-Machines-Corporation
 240000022.md   Worldcoin
