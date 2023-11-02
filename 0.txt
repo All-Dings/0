@@ -365,6 +365,7 @@
 
 ## Militaristics
 
+1200000008.md     Cease-Fire
 1200000007.md     Battle
 1200000006.md     Paragraph-Rider
 1200000005.md     Fighter
