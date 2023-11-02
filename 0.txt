@@ -364,6 +364,7 @@
 
 ## Militaristics
 
+1200000004.md     Radical-Islamist
 1200000003.md     Weapon
 1200000002.md     Bundeswehr
 1200000001.md     Militaristics-System
