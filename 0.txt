@@ -2443,6 +2443,7 @@
 
 ## Writing-System
 
+700058.md      Slogan
 700057.md      Round-Bracket
 700056.md      Bracket
 700055.md      Writing-Symbol
