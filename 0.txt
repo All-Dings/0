@@ -1000,6 +1000,7 @@
 
 ### Information-Providers
 
+191000004.md   Erstes-Deutsches-Fernsehen
 191000003.md   Public-Service-Broadcaster
 191000002.md   Kalliope-Verbund
 191000001.md   Wikidata
