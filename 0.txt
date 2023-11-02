@@ -1080,6 +1080,7 @@
 
 ## Politics
 
+141000013.md   Refugee
 141000012.md   National-Socialism
 141000011.md   Mayor
 141000010.md   Politics-Person
