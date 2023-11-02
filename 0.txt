@@ -1076,6 +1076,7 @@
 
 ## Politics
 
+141000011.md   Mayor
 141000010.md   Politics-Person
 141000009.md   Country-Flag
 141000008.md   Politics-System
