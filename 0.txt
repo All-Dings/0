@@ -844,6 +844,7 @@
 
 ## Machines
 
+201000019.md   Money-Deposit-Machine
 201000018.md   Electronic-Numerical-Integrator-and-Computer
 201000017.md   Mark-I
 201000016.md   Zuse-Z23
