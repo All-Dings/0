@@ -888,7 +888,7 @@
 200500001.md   Bicycle
 200500000.md   Vehicle
 
-200400009.md   Electro-Motor
+200400009.md   Electric-Motor
 200400008.md   Combustion-Motor
 200400007.md   Motor
 200400006.md   Wind-Turbine
