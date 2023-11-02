@@ -87,7 +87,7 @@
 
 #### Other Friends
 
-1971091169.md  My-Tenis-Smoking-Friend
+1971091169.md  My-Tennis-Smoking-Friend
 1971091168.md  My-Bass-Colleague
 1971091167.md  My-Singing-Teacher
 1971091166.md  My-IBM-Room-Mate-Friend
@@ -2693,6 +2693,7 @@
 
 ## Concepts
 
+600178.md      Justification
 600177.md      Overload
 600176.md      Argument-Network
 600175.md      Message
