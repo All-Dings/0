@@ -2703,6 +2703,7 @@
 
 ## Concepts
 
+600181.md      Fact
 600180.md      Insuniation
 600179.md      Disaster
 600178.md      Justification
