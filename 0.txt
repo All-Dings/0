@@ -2625,6 +2625,7 @@
 
 ## Religion
 
+647005.md      Islam
 647004.md      Devil
 647003.md      God
 647002.md      Jehovah's-Witnesses
