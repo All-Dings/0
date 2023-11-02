@@ -1008,6 +1008,7 @@
 
 ### Information-Providers
 
+191000006.md   News-Paper
 191000005.md   Zweites-Deutsches-Fernsehen
 191000004.md   Erstes-Deutsches-Fernsehen
 191000003.md   Public-Service-Broadcaster
