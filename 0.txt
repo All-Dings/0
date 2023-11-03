@@ -1039,6 +1039,7 @@
 
 ### Web-Sites
 
+192000005.md   Freepik-Web-Site
 192000004.md   Michael-Holzheu-Web-Site
 192000003.md   Rechner-Lexikon-Web-Site
 192000002.md   Horst-Zuse-Web-Site
@@ -2956,6 +2957,7 @@
 
 ## Deep-Concepts
 
+60177.md       Fifo-List
 60176.md       Control
 60175.md       Attention
 60174.md       Resource
