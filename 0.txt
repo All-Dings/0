@@ -660,10 +660,10 @@
 270000001.md   Gender-Separation
 270000000.md   Human-Culture
 
-## Agriscience
+## Agriculturs
 
 260100001.md   Agriscience-System
-260100000.md   Agriscience
+260100000.md   Agricultures
 
 ## Botanics
 
