@@ -2936,6 +2936,7 @@
 
 ## Deep-Concepts
 
+60176.md       Control
 60175.md       Attention
 60174.md       Resource
 60173.md       Live-in-Simplicity
