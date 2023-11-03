@@ -2726,6 +2726,7 @@
 
 ## Concepts
 
+600187.md      Trick
 600186.md      Ignorance
 600185.md      Dispute-with-Words
 600184.md      Possiblity
