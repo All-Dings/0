@@ -147,7 +147,7 @@
 
 300060003.md   Bike-Troop
 300060002.md   Bike-Troop-Area
-300060001.md   Bike-Troop-Area-Project
+300060001.md   Bike-Troop-Project
 
 300050003.md   Local-Web-App
 300050002.md   Local-Web-App-Patent
