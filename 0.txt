@@ -2901,204 +2901,204 @@
 600015.md      Perfection
 600014.md      Completeness
 600012.md      Idea
-	600011.md      Concept
-	600010.md      (WRONG-NUMBER)
-	600009.md      (WRONG-NUMBER)
-	600008.md      (WRONG-NUMBER)
-	600007.md      (WRONG-NUMBER)
-	600006.md      (WRONG-NUMBER)
-	600005.md      (WRONG-NUMBER)
-	600004.md      (WRONG-NUMBER)
-	600003.md      (WRONG-NUMBER)
+600011.md      Concept
+600010.md      (WRONG-NUMBER)
+600009.md      (WRONG-NUMBER)
+600008.md      (WRONG-NUMBER)
+600007.md      (WRONG-NUMBER)
+600006.md      (WRONG-NUMBER)
+600005.md      (WRONG-NUMBER)
+600004.md      (WRONG-NUMBER)
+600003.md      (WRONG-NUMBER)
 600002.md      (WRONG-NUMBER)
-	600001.md      Academics-Student
-	600000.md      Academics-System
+600001.md      Academics-Student
+600000.md      Academics-System
 
-	300003.md      Better-save-than-Sorry
-	300002.md      Vorsicht-ist-die-Mutter-der-Porzelan-Kiste
+300003.md      Better-save-than-Sorry
+300002.md      Vorsicht-ist-die-Mutter-der-Porzelan-Kiste
 
 ## Deep-Concepts
 
-	60175.md       Attention
-	60174.md       Resource
-	60173.md       Live-in-Simplicity
-	60172.md       Advantage
-	60171.md       Network
-	60170.md       Sex-Process
-	60169.md       Message-Receiver
-	60168.md       Message-Provider
-	60167.md       Peace
-	60166.md       Surprise
-	60165.md       Thing-Pair
-	60164.md       Opportunity
-	60163.md       Dependency
-	60162.md       Work-Sub-Set
-	60161.md       Synchronicity
-	60160.md       The-Big
-	60159.md       The-Little
-	60158.md       Pattern-Start-Location
-	60157.md       End
-	60156.md       Wave
-	60155.md       Ordered-System
-	60154.md       Beginning
-	60153.md       The-Worse
-	60152.md       Variable
-	60151.md       The-Best
-	60150.md       Paradox
-	60149.md       Bad-Feeling
-	60148.md       Good-Feeling
-	60147.md       Member
-	60146.md       Illusion
-	60145.md       Defeat
-	60144.md       Victory
-	60143.md       Focus
-	60142.md       The-Important
-	60141.md       Distraction
-	9000141.md     User
-	60140.md       Thinking
-	60139.md       Success
-	60138.md       Test
-	60137.md       Criteria
-	60136.md       The-Better
-	60135.md       Improvement
-	60134.md       The-First
-	60133.md       Successor
-	60132.md       Old-Thing
-	60131.md       New-Thing
-	60130,md       Responsiblity
-	60129.md       Challange
-	60128.md       Potential
-	60127.md       Action
-	60126.md       Translation
-	60125.md       Data-Store
-	60124.md       Invention
-	60123.md       War
-	60122.md       Capability
-	60121.md       The-Bad
-	60120.md       The-Good
-	60119.md       Pattern-Recognition
-	60118.md       Meta-Data
-	60117.md       Bad-Luck
-	60116.md       Luck
-	60115.md       Recognition
-	60114.md       Prize
-	60113.md       Stress
-	60112.md       Pattern
-	60111.md       Sharing-Process
-	60110.md       Root
-	60109.md       Story
-	60108.md       Achievement
-	60107.md       Type
-	60106.md       Creator
-	60105.md       Sub-Set
-	60104.md       Nature
-	60103.md       Inverse
-	60102.md       Separation
-	60101.md       Atom
-	60100.md       Harmony
-	60099.md       Rhythm
-	60098.md       Vocal
-	60097.md       Perception
-	60096.md       Voice
-	60095.md       Decision
-	60094.md       Symbol
-	60093.md       Many-X-can-have-Same-Y-Relation-Set
-	60092.md       Directed-Relation-Set
-	60091.md       Right-Relation-Thing
-	60090.md       Left-Relation-Thing
-	60089.md       Relation-Thing
-	60088.md       Relation-Set
-	60087.md       Student
-	60086.md       Program
-	60085.md       Atomic-Property
-	60084.md       Part
-	60083.md       Task
-	60082.md       Cost
-	60081.md       Performance
-	60080.md       Generalisation
-	60079.md       Encoding
-	60078.md       Trainer
-	60077.md       Teacher
-	60076.md       Title
-	60075.md       Violation
-	60074.md       Error
-	60072.md       Awareness
-	60071.md       Pain
-	60070.md       Activity
-	60069.md       State
-	60068.md       Sleep
-	60067.md       Effect
-	60066.md       Good-Life
-	60065.md       Best
-	60064.md       Life
-	60063.md       Dimension
-	60062.md       Process
-	60061.md       Communication
-	60060.md       Understandablility
-	60059.md       Property
-	60058.md       Goal
-	60057.md       Gereralization
-	60056.md       Abstraction
-	60055.md       Analogy
-	60054.md       Directed-Relation
-	60053.md       Rule
-	60052.md       System
-	60051.md       Name-Binding
-	60050.md       Binding
-	60049.md       Usage-Right
-	60048.md       Name
-	60047.md       Standard
-	60046.md       Riddle
-	60045.md       Hobby
-	60044.md       Technology
+60175.md       Attention
+60174.md       Resource
+60173.md       Live-in-Simplicity
+60172.md       Advantage
+60171.md       Network
+60170.md       Sex-Process
+60169.md       Message-Receiver
+60168.md       Message-Provider
+60167.md       Peace
+60166.md       Surprise
+60165.md       Thing-Pair
+60164.md       Opportunity
+60163.md       Dependency
+60162.md       Work-Sub-Set
+60161.md       Synchronicity
+60160.md       The-Big
+60159.md       The-Little
+60158.md       Pattern-Start-Location
+60157.md       End
+60156.md       Wave
+60155.md       Ordered-System
+60154.md       Beginning
+60153.md       The-Worse
+60152.md       Variable
+60151.md       The-Best
+60150.md       Paradox
+60149.md       Bad-Feeling
+60148.md       Good-Feeling
+60147.md       Member
+60146.md       Illusion
+60145.md       Defeat
+60144.md       Victory
+60143.md       Focus
+60142.md       The-Important
+60141.md       Distraction
+9000141.md     User
+60140.md       Thinking
+60139.md       Success
+60138.md       Test
+60137.md       Criteria
+60136.md       The-Better
+60135.md       Improvement
+60134.md       The-First
+60133.md       Successor
+60132.md       Old-Thing
+60131.md       New-Thing
+60130,md       Responsiblity
+60129.md       Challange
+60128.md       Potential
+60127.md       Action
+60126.md       Translation
+60125.md       Data-Store
+60124.md       Invention
+60123.md       War
+60122.md       Capability
+60121.md       The-Bad
+60120.md       The-Good
+60119.md       Pattern-Recognition
+60118.md       Meta-Data
+60117.md       Bad-Luck
+60116.md       Luck
+60115.md       Recognition
+60114.md       Prize
+60113.md       Stress
+60112.md       Pattern
+60111.md       Sharing-Process
+60110.md       Root
+60109.md       Story
+60108.md       Achievement
+60107.md       Type
+60106.md       Creator
+60105.md       Sub-Set
+60104.md       Nature
+60103.md       Inverse
+60102.md       Separation
+60101.md       Atom
+60100.md       Harmony
+60099.md       Rhythm
+60098.md       Vocal
+60097.md       Perception
+60096.md       Voice
+60095.md       Decision
+60094.md       Symbol
+60093.md       Many-X-can-have-Same-Y-Relation-Set
+60092.md       Directed-Relation-Set
+60091.md       Right-Relation-Thing
+60090.md       Left-Relation-Thing
+60089.md       Relation-Thing
+60088.md       Relation-Set
+60087.md       Student
+60086.md       Program
+60085.md       Atomic-Property
+60084.md       Part
+60083.md       Task
+60082.md       Cost
+60081.md       Performance
+60080.md       Generalisation
+60079.md       Encoding
+60078.md       Trainer
+60077.md       Teacher
+60076.md       Title
+60075.md       Violation
+60074.md       Error
+60072.md       Awareness
+60071.md       Pain
+60070.md       Activity
+60069.md       State
+60068.md       Sleep
+60067.md       Effect
+60066.md       Good-Life
+60065.md       Best
+60064.md       Life
+60063.md       Dimension
+60062.md       Process
+60061.md       Communication
+60060.md       Understandablility
+60059.md       Property
+60058.md       Goal
+60057.md       Gereralization
+60056.md       Abstraction
+60055.md       Analogy
+60054.md       Directed-Relation
+60053.md       Rule
+60052.md       System
+60051.md       Name-Binding
+60050.md       Binding
+60049.md       Usage-Right
+60048.md       Name
+60047.md       Standard
+60046.md       Riddle
+60045.md       Hobby
+60044.md       Technology
 60043.md       Output (DEAD)
-	60042.md       Input
-	60041.md       Feeling
-	60040.md       Intuition
-	60039.md       Reference
-	60038.md       Curiosity
-	60037.md       Fun
-	60036.md       Work
-	60035.md       Beauty
-	60034.md       Copy
-	60033.md       Result
-	60032.md       Example
-	60022.md       Original
-	60021.md       Quantity
-	60020.md       Life-Form
-	60019.md       Format
-	60017.md       Output
+60042.md       Input
+60041.md       Feeling
+60040.md       Intuition
+60039.md       Reference
+60038.md       Curiosity
+60037.md       Fun
+60036.md       Work
+60035.md       Beauty
+60034.md       Copy
+60033.md       Result
+60032.md       Example
+60022.md       Original
+60021.md       Quantity
+60020.md       Life-Form
+60019.md       Format
+60017.md       Output
 60016.md       Correctness (DEAD)
-	60015.md       Trust
-	60014.md       Explanation
-	60013.md       Complexity
-	60012.md       Node
-	60011.md       Structure
-	60010.md       Order
-	60009.md       Position
-	60008.md       List
-	60007.md       Information
-	60006.md       Connection
-	60005.md       Relation
-	60004.md       Set
-	60003.md       Thing
-	60002.md       Meaning
-	60001.md       Data
-	60000.md       Number
+60015.md       Trust
+60014.md       Explanation
+60013.md       Complexity
+60012.md       Node
+60011.md       Structure
+60010.md       Order
+60009.md       Position
+60008.md       List
+60007.md       Information
+60006.md       Connection
+60005.md       Relation
+60004.md       Set
+60003.md       Thing
+60002.md       Meaning
+60001.md       Data
+60000.md       Number
 
-	40001.md       Eternity
-	40000.md       Reality
+40001.md       Eternity
+40000.md       Reality
 
-	5555.md        Exchange-Medium
-	99.md          Coincidence
-	77.md          Secret
-	75.md          Bit
+5555.md        Exchange-Medium
+99.md          Coincidence
+77.md          Secret
+75.md          Bit
 
-	7777.md        All
+7777.md        All
 
 ## The Beginnings
 
-	11091971.md    My-Calendar
-	58.md          Git-System
-	21.md          About-Michael_Holzheu
+11091971.md    My-Calendar
+58.md          Git-System
+21.md          About-Michael_Holzheu
 19.md          Michi
