@@ -2983,6 +2983,7 @@
 
 ## Deep-Concepts
 
+60178.md       Acceptance
 60177.md       Fifo-List
 60176.md       Control
 60175.md       Attention
