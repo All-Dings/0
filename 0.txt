@@ -1005,6 +1005,7 @@
 
 ### Misc-Providers
 
+200020006.md   Tattoo-Studio
 200020005.md   Stationery-Store
 200020004.md   Ruhr-Park-Bochum
 200020003.md   Shopping-Center
