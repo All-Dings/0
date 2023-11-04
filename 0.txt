@@ -1733,6 +1733,7 @@
 
 ## Media-Files
 
+30010018.md    Xcf-Image-Format
 30010017.md    Sound-File
 30010016.md    Image-Map
 30010015.md    Video-Format
