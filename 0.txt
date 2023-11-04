@@ -2762,6 +2762,7 @@
 
 ## Concepts
 
+600196.md      Advertisement-Process
 600195.md      Learner
 600194.md      Monitoring-Process
 600193.md      Teaching-Process
