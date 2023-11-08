@@ -2740,6 +2740,7 @@
 
 ## Academics
 
+640022.md      Square-Academic-Cap
 640021.md      Academic
 640020.md      Diploma
 640019.md      Academics-Degree
