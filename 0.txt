@@ -1879,6 +1879,7 @@
 
 ## Spiritism
 
+14100002.md    Fortune-Telling
 14100001.md    Esotherics-Medium
 14100000.md    Spiritism
 
