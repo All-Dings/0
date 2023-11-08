@@ -828,6 +828,7 @@
 
 ## Cloths
 
+204000008.md   Hat
 204000007.md   Suspender-for-Pants
 204000006.md   Short-Pants
 204000005.md   Dress
