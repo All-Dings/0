@@ -574,6 +574,7 @@
 
 ### Other Games
 
+280000011.md   Puzzle
 280000010.md   Quiz
 280000009.md   Mephisto
 280000008.md   Lilith
