@@ -1259,6 +1259,7 @@
 
 130010000.md   Currency
 
+130000037.md   Expense
 130000036.md   Revenue
 130000035.md   Profit
 130000034.md   Trade-Mark
