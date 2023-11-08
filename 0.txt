@@ -1184,6 +1184,7 @@
 
 140100001.md   Russian-Matrjoschka (WRONG NUMBER)
 
+140000073.md   Palestinian
 140000072.md   Continent
 140000071.md   Israeli
 140000070.md   Varna
