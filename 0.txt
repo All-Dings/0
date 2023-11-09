@@ -1061,6 +1061,7 @@
 
 ### Exhibitions
 
+199000011.md   Heinz-Nixdorf-MuseumsForum
 199000010.md   Computer-Museum
 199000009.md   Museum-für-Kommunikation-Bern
 199000008.md   Technik-Museum-Berlin
