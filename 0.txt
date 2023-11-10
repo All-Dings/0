@@ -56,7 +56,7 @@
 
 #### Brezel-Study
 
-302000003.md   Brezel-Index
+302000003.md   Brezel-Price-Index
 302000002.md   B2-Bio-Pur-Shop-Balingen
 302000001.md   My-Brezel-Study
 
