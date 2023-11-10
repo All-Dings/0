@@ -796,6 +796,7 @@
 
 ## Business
 
+240000027.md   PayPal
 240000026.md   Shop-Window
 240000025.md   Suzuki-Motor-Corporation
 240000024.md   Dr-Pfleger-Arzneimittel-GmbH
