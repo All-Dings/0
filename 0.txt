@@ -2226,6 +2226,7 @@
 
 9000200.md     Git-Fetch-Command
 
+2000231.md     QR-Code
 2000230.md     Local-Data-Store
 2000229.md     Web-Data-Store
 2000228.md     Google-Drive
