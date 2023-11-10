@@ -1279,6 +1279,7 @@
 
 130010000.md   Currency
 
+130000040.md   Value-Claim
 130000039.md   Value-Liability
 130000038.md   Payment
 130000037.md   Expense
@@ -2830,6 +2831,7 @@
 
 ## Concepts
 
+600120.md      Claim
 600199.md      Alternative-Truth
 600198.md      Resident
 600197.md      Guest
