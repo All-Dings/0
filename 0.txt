@@ -181,7 +181,7 @@
 
 300000101.md   Dings-Overlay-Image-PDF
 
-300000036.md   Dings-PayPal-Link-Redirect
+300000036.md   Dings-PayPal-Link
 300000035.md   Dings-Payment
 300000034.md   Dings-Payment-Information
 300000033.md   Dings-Sub-Project
