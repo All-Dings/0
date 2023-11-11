@@ -1712,6 +1712,7 @@
 40101010.md    Human-Arm
 40101001.md    Human-Eye
 
+40100004.md    Body-System
 40100003.md    Lung
 40100002.md    Body
 40100001.md    Urinary-Bladder
@@ -2532,6 +2533,7 @@
 
 ### General
 
+800022.md      Medical-History
 800021.md      Blood-Count
 800020.md      Neurology
 800019.md      Allergology
