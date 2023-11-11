@@ -2527,6 +2527,7 @@
 
 ### General
 
+800019.md      Allergology
 800018.md      Medical-Test
 800017.md      Medical-Finding
 800016.md      Hospital
