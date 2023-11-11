@@ -2527,6 +2527,7 @@
 
 ### General
 
+800017.md      Medical-Finding
 800016.md      Hospital
 800015.md      Medical-Practice
 800014.md      Medical-System
