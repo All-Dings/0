@@ -88,6 +88,7 @@
 
 #### Other Friends
 
+1971091174.md  Dietmar_Saupe
 1971091173.md  My-Franconian-Friend
 1971091172.md  My-Mother (DUPLICATE)
 1971091171.md  My-Father
@@ -119,6 +120,7 @@
 
 ### Movies
 
+1971100000.md  Zuse-Z1-Arbeitspapier-321
 1971099999.md  The-Turing-Machine
 1971099998.md  VW-California-für-Anfänger-Gas
 1111.md        Movie-from-Michael
