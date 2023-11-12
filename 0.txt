@@ -1724,6 +1724,8 @@
 40090001.md    Biological-Organ (DEAD)
 40090000.md    Biologic-Cell
 
+40080025.md    Intestinal-System
+40080024.md    Diarrhea
 40080023.md    Vomiting
 40080022.md    Man
 40080021.md    Secretive
