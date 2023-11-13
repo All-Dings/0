@@ -1740,7 +1740,6 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
-40080015.md    Human-Awareness-System
 40080014.md    Human-Gastro-System
 40080013.md    Human-Dermatological-System
 40080012.md    Human-Inteligence
