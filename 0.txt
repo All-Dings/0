@@ -2880,6 +2880,7 @@
 
 ## Concepts
 
+600205.md      Transfer-Process
 600204.md      Analysis
 600203.md      Sleep-Time
 600202.md      Work-Time
@@ -3089,6 +3090,7 @@
 
 ## Deep-Concepts
 
+60180.md       Shielding-Process
 60179.md       Decision-Making-Process
 60178.md       Acceptance
 60177.md       Fifo-List
