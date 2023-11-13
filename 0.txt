@@ -1739,6 +1739,7 @@
 40080016.md    Throat
 40080015.md    Throat-Clearing
 
+40080014.md    Human-Gastro-System
 40080013.md    Human-Dermatological-System
 40080012.md    Human-Inteligence
 40080011.md    Human-Nasal-Cavity
@@ -1754,7 +1755,7 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
-40000050.md    Biologic-System
+40000050.md    Biologic-Gastro-System
 40000049.md    Nasal-Cavity
 40000048.md    Nerve
 40000047.md    Intestine
