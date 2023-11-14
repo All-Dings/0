@@ -2542,6 +2542,7 @@
 
 ### German-Medical-System
 
+8001004.md     Zentrum-für-Neurologie-und-Psychiatrie-Duisburg-West
 8001003.md     Universitätsklinikum-Hamburg-Eppendorf
 8001002.md     Universitätsklinikum-Essen
 8001001.md     Klinikum-der-Universität-München
