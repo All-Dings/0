@@ -2543,6 +2543,7 @@
 
 ### German-Medical-System
 
+8001005.md     Universitätsklinikum-CGC-Dresden
 8001004.md     Zentrum-für-Neurologie-und-Psychiatrie-Duisburg-West
 8001003.md     Universitätsklinikum-Hamburg-Eppendorf
 8001002.md     Universitätsklinikum-Essen
