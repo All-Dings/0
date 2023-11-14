@@ -2539,6 +2539,7 @@
 
 ### German-Medical-System
 
+8001002.md     Universitätsklinikum-Essen
 8001001.md     Klinikum-der-Universität-München
 8001000.md     Überweisungs-Schein
 8000999.md     German-Medical-System
