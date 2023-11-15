@@ -2920,6 +2920,7 @@
 
 ## Concepts
 
+600214.md      Good-Influence
 600213.md      Search-Information
 600212.md      Bad-Influence
 600211.md      Recorded-Past-Time-Event
