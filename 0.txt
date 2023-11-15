@@ -1660,6 +1660,7 @@
 
 ### Good-Habits
 
+41000010.md    Mindfulness
 41000009.md    Gratitude
 41000008.md    Proud
 41000007.md    Patience
