@@ -2295,6 +2295,7 @@
 
 9000200.md     Git-Fetch-Command
 
+2000232.md     Sub-Command
 2000231.md     QR-Code
 2000230.md     Local-Data-Store
 2000229.md     Web-Data-Store
@@ -2385,7 +2386,6 @@
 9000144.md     Mac-Os-Finder
 9000143.md     Mac-Os (DUPLICATE: 9100006)
 9000142.md     Bash-Shell
-
 9000141.md     Git-Log-Command
 9000140.md     User-Profile
 9000139.md     E-Mail
