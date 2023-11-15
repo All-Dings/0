@@ -531,6 +531,10 @@
 
 7777777.md     Private-Thing
 
+## Ernst-Bloch-Chor
+
+2020001.md     Viva-La-Vida-Bloch-Chor
+
 ## Tübingen and Surroundings
 
 140100004.md   Land-Kreis-Tübingen
