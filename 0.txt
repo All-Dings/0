@@ -2441,7 +2441,7 @@
 9000089.md     Web-Site
 9000088.md     Unix-Find-Command
 9000087.md     Git-Sub-Module-Command
-9000086.md     Git-Clone
+9000086.md     Git-Clone-Command
 9000085.md     Short-Command-Option
 9000084.md     Git-Diff-Command
 9000083.md     Sub-Directory
