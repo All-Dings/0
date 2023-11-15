@@ -2912,6 +2912,7 @@
 
 ## Concepts
 
+600209.md      Current-Time-Event
 600208.md      Inclusion-Process
 600207.md      Side-Effect
 600206.md      Sensitifity
@@ -3214,7 +3215,7 @@
 60095.md       Decision
 60094.md       Symbol
 60093.md       Many-X-can-have-Same-Y-Relation-Set
-60092.md       Directed-Relation-Set
+60092.md       Dzirected-Relation-Set
 60091.md       Right-Relation-Thing
 60090.md       Left-Relation-Thing
 60089.md       Relation-Thing
