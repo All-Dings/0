@@ -1893,6 +1893,7 @@
 
 ## Devices
 
+20000024.md    Recording-Device
 20000023.md    Telephone
 20000022.md    Beard-Trimmer
 20000021.md    Zero-Wave-Device
