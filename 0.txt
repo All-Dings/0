@@ -2912,6 +2912,7 @@
 
 ## Concepts
 
+600212.md      Bad-Influence
 600211.md      Recorded-Past-Time-Event
 600210.md      Past-Time-Event
 600209.md      Current-Time-Event
