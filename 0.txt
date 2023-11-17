@@ -255,6 +255,7 @@
 
 ## Media-Files
 
+400000185.md   Samsung-Galaxy-S22U-Brightness-Compare
 400000184.md   Viva-La-Vida-Audience-View
 
 400000182.md   IBM-D11-Open
