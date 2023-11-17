@@ -2128,7 +2128,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
-10000117.md    Brightness10000117.md
+10000117.md    Brightness
 10000116.md    Aggression
 10000115.md    Acceleration
 10000114.md    Love
