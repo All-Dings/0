@@ -1903,6 +1903,7 @@
 
 ## Devices
 
+20000028.md    Smart-Phone-Online-Mode
 20000027.md    Smart-Phone-Bright-Mode
 20000026.md    Smart-Phone-Offline-Mode
 20000025.md    Smart-Phone-Dark-Mode
