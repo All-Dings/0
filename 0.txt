@@ -1901,6 +1901,7 @@
 
 ## Devices
 
+20000025.md    Smartphone-Dark-Mode
 20000024.md    Recording-Device
 20000023.md    Telephone
 20000022.md    Beard-Trimmer
