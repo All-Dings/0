@@ -2551,8 +2551,6 @@
 9000001.md     Tree-Collection
 9000000.md     Informatics
 
-## German-System
-
 ### German-Waste-Disposal-System
 
 8030001.md     German-Waste-Disposal-System
@@ -2729,6 +2727,7 @@
 
 ## Juristics
 
+680004.md      Allgemeine-Geschäfts-Bedingungen
 680003.md      Eingetragener-Verein
 680002.md      Land-Gericht
 680001.md      Amts-Gericht
