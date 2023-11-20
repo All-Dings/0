@@ -914,6 +914,7 @@
 
 ## Professions
 
+202000024.md   Camera-Man
 202000023.md   Voice-Teacher
 202000022.md   Florist
 202000021.md   Patent-Lawyer
