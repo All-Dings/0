@@ -1693,6 +1693,7 @@
 
 ### Disasters
 
+40901001.md    Earth-Quake
 40901000.md    Tsunami
 
 ### Injuries
