@@ -1691,6 +1691,10 @@
 
 ## Bad-Things
 
+### Disasters
+
+40901000.md    Tsunami
+
 ### Injuries
 
 40900000.md    Injury
