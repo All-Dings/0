@@ -1145,6 +1145,7 @@
 
 ## Grouping
 
+180010001.md   Gentrification
 180010000.md   Society-Process
 
 180001001.md   Schwabe
