@@ -1513,6 +1513,7 @@
 
 ## Famous-Documents or Books
 
+71000014.md    Tanach
 71000013.md    Coran
 71000012.md    Talmud
 71000011.md    Computerarchäologie
