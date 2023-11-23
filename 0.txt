@@ -1151,6 +1151,7 @@
 180001001.md   Schwabe
 180001000.md   Nordfriesländer
 
+180000017.md   Amalek
 180000016.md   Nomadic-People
 180000015.md   Fellow-Occupant
 180000014.md   Outsider
