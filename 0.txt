@@ -1534,6 +1534,7 @@
 
 ## Personalities
 
+70000073.md    Benjamin_Netanjahu
 70000072.md    Louis_de-Funès
 70000071.md    Matías_Córdova
 70000070.md    Philipp_Ham-Kuman
