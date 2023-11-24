@@ -2760,6 +2760,10 @@
 700001.md      Document
 700000.md      Writing
 
+## Rhetorics
+
+695000.md      Rhetorics
+
 ## Criminalistics
 
 690000.md      Criminalistics
