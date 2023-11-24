@@ -1545,6 +1545,7 @@
 
 ## Personalities
 
+70000075.md    Katherine-Rose_Halper
 70000074.md    John_Kirby
 70000073.md    Benjamin_Netanjahu
 70000072.md    Louis_de-Funès
