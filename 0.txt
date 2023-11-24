@@ -1539,6 +1539,7 @@
 
 ## Personalities
 
+70000074.md    John_Kirby
 70000073.md    Benjamin_Netanjahu
 70000072.md    Louis_de-Funès
 70000071.md    Matías_Córdova
