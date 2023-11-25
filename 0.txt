@@ -1724,6 +1724,10 @@
 
 ## Bad-Things
 
+### General
+
+40902001.md    Genocide
+
 ### Disasters
 
 40901002.md    Typhoon
