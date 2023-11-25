@@ -1073,7 +1073,7 @@
 ## Sayings
 
 200100005.md   Speed-is-King
-200100004.md   The-Woman-is-alwas-right
+200100004.md   The-Woman-is-alwas-Right
 200100003.md   God-is-an-Ass-Hole
 200100002.md   Der-Teufel-ist-ein-Eichhörnchen
 200100001.md   Better-Slow-than-Bad
