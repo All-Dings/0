@@ -2151,6 +2151,7 @@
 
 ## Astronomy / Astronomical
 
+10500005.md    Earth
 10500004.md    Planet
 10500003.md    Sun
 10500002.md    Astronomical-Object
