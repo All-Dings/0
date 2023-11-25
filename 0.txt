@@ -1754,6 +1754,10 @@
 40800001.md    Neuro-Dermatitis
 40800000.md    Illness
 
+### General
+
+40700001.md    Concentration-Camp
+
 ## Genetics
 
 40300001.md    Gene-Alalysis
