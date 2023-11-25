@@ -1699,6 +1699,7 @@
 
 ### Bad-Habits
 
+41010012.md    Racism
 41010011.md    Bias
 41010010.md    Provocation
 41010009.md    Chauvinism
