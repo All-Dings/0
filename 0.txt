@@ -1693,11 +1693,11 @@
 50000001.md    Photo
 50000000.md    Photography
 
-## Habits
+## Habits and Role-Models
 
 41020000.md    Prank
 
-### Bad-Habits
+### Bad-Habits and Bad-Role-Models
 
 41010012.md    Racism
 41010011.md    Bias
@@ -1713,7 +1713,7 @@
 41010001.md    Self-Fraud
 41010000.md    Bad-Habit
 
-### Good-Habits
+### Good-Habits and Good-Role-Models
 
 41000010.md    Mindfulness
 41000009.md    Gratitude
