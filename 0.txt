@@ -1552,6 +1552,7 @@
 
 ## Personalities
 
+70000078.md    Gabor_Maté
 70000077.md    Baruch_Kimmerling
 70000076.md    Noura-Saleh_Erakat
 70000075.md    Katherine-Rose_Halper
