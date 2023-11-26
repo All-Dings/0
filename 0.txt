@@ -786,6 +786,10 @@
 250010001.md   Landrats-Amt
 250010000.md   Government-Institution
 
+## Media-Science
+
+250025000.md   Media-Science
+
 ## Programming
 
 250020001.md   Python-Sorted-Function
