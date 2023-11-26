@@ -61,6 +61,11 @@
 302000002.md   B2-Bio-Pur-Shop-Balingen
 302000001.md   My-Brezel-Study
 
+### Goals
+
+301100000.md   Good-Goal
+
+
 ### Hypothesis
 
 301000010.md   Good-Life-for-All-Hypothesis
