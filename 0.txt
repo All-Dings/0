@@ -575,7 +575,7 @@
 140100003.md   Kunst-Halle-Tübingen-Coffee-House-Sculpture
 140100002.md   Landrats-Amt-Tübingen
 
-2011000.md     Ausstellung-Next-Phase
+2011000.md     Next-Phase
 
 2010045.md     Westspitze
 2010044.md     Eberhard-Karls-Universität-Tübingen
