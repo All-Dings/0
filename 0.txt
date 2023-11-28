@@ -2833,8 +2833,11 @@
 
 690000.md      Criminalistics
 
+## German-Juristics
+
 ## Juristics
 
+680005.md      Grundgesetz
 680004.md      Allgemeine-Geschäfts-Bedingungen
 680003.md      Eingetragener-Verein
 680002.md      Land-Gericht
