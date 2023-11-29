@@ -1685,6 +1685,10 @@
 
 ## Architecture
 
+### Demolition
+
+60200000.md    Demolition-System
+
 ### General
 
 60100007.md    World-Trade-Center
