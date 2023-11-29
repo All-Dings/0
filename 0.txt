@@ -1685,6 +1685,7 @@
 
 ## Architecture
 
+60100007.md    World-Trade-Center
 60100006.md    Window
 60100005.md    Cellar
 60100004.md    Internationales-Congress-Centrum-Berlin
