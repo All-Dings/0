@@ -68,6 +68,7 @@
 
 ### Hypothesis
 
+301000012.md   Interest-2-Result-Hypothesis
 301000011.md   Need-4-Attention-2-Extremes-Hypothesis
 301000010.md   Good-Life-for-All-Hypothesis
 301000009.md   Michael-is-no-Racist-Hypothesis
