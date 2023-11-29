@@ -2113,6 +2113,7 @@
 13005001.md    Stochastics
 13005000.md    Statistics
 
+12000064.md    Minimum
 12000063.md    Maximum
 12000062.md    Maximum-Function
 12000061.md    Minimum-Function
