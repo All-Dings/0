@@ -2016,6 +2016,7 @@
 
 ## Devices
 
+20000029.md    Sony-Rx-10-IV
 20000028.md    Smart-Phone-Online-Mode
 20000027.md    Smart-Phone-Bright-Mode
 20000026.md    Smart-Phone-Offline-Mode
