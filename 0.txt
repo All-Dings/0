@@ -1770,6 +1770,7 @@
 
 ## Acoustics
 
+49100006.md    Dynamic-Microphone
 49100005.md    Lavalier-Microphone
 49100004.md    Rode-SmartLav+
 49100003.md    Shure-Sm-57
