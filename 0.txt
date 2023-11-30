@@ -1758,6 +1758,10 @@
 50000001.md    Photo
 50000000.md    Photography
 
+## Acoustics
+
+49100000.md    Acoustics
+
 ## Optics
 
 49000002.md    Optics-Objective
