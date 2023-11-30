@@ -2019,6 +2019,7 @@
 
 ## Devices
 
+20000030.md    Sony-Alpha-77
 20000029.md    Sony-Rx-10-IV
 20000028.md    Smart-Phone-Online-Mode
 20000027.md    Smart-Phone-Bright-Mode
