@@ -280,6 +280,7 @@
 
 ## Media-Files
 
+400000202.md   My-Sigma-50-500-Apo-Hsm-Top-Side
 400000201.md   My-Sony-Alpha-77-Product-Label
 400000200.md   My-Sony-Alpha-77-Front-Side
 400000199.md   My-Sony-Rx10-Product-Label
