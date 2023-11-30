@@ -279,6 +279,7 @@
 
 ## Media-Files
 
+400000201.md   My-Sony-Alpha-77-Product-Label
 400000200.md   My-Sony-Alpha-77-Front-Side
 400000199.md   My-Sony-Rx10-Product-Label
 400000198.md   My-Sony-Rx10-Front-Side
