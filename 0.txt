@@ -871,6 +871,7 @@
 
 ## Business
 
+240000032.md   Shure
 240000031.md   Sigma
 240000030.md   Samsung
 240000029.md   Sparkasse-Pforzheim-Calw
