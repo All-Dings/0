@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteBase /
-RewriteRule ^((?!300000023\.php$|300030006\.js$|300000022\.php$|index\.html$|300000014\.css$|font-awesome-4.7.0.*$).*)$ /300000023.php?File_To_Load=$1 [L]
