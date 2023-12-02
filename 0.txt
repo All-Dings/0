@@ -1215,7 +1215,8 @@
 180010000.md   Society-Process
 
 180001001.md   Schwabe
-180001000.md   Nordfriesländer
+180001000.md   Nordfriesländer (DEAD)
+11.md          Nordfriesländer
 
 180000019.md   Clan
 180000018.md   Interest-Group
