@@ -1216,7 +1216,6 @@
 
 180001001.md   Schwabe
 180001000.md   Nordfriesländer (DEAD)
-11.md          Clash-of-Clans-Nordfriesländer
 
 180000019.md   Clan
 180000018.md   Interest-Group
