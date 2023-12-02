@@ -1745,6 +1745,7 @@
 
 ### Fine-Arts
 
+60000005.md    Painting
 60000004.md    Image-Collage
 60000003.md    Collage
 60000002.md    Ascii-Art
