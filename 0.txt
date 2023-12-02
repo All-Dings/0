@@ -1217,6 +1217,7 @@
 180001001.md   Schwabe
 180001000.md   Nordfriesländer
 
+180000019.md   Clan
 180000018.md   Interest-Group
 180000017.md   Amalek
 180000016.md   Nomadic-People
