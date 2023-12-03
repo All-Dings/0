@@ -2433,6 +2433,8 @@
 9999998.md     Informatics-Student
 9999997.md     Informatics-Famous-Human
 
+### Hardware
+
 9400007.md     Hardware-Bug
 9400006.md     Adder-Unit
 9400005.md     Instruction-Pipelining
