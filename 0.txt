@@ -2496,6 +2496,7 @@
 
 9000200.md     Git-Fetch-Command
 
+2000238.md     Adobe-Premiere-Pro
 2000237.md     Video-Editing-Program
 2000236.md     E-Mail-System
 2000235.md     E-Mail-Address
