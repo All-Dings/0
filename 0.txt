@@ -2076,6 +2076,7 @@
 
 ## Devices
 
+20000033.md    Punch-Card-Reader
 20000032.md    Output-Device
 20000031.md    Input-Device
 20000030.md    Sony-Alpha-77
