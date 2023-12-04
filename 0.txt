@@ -2498,6 +2498,7 @@
 
 9000200.md     Git-Fetch-Command
 
+2000240.md     Magix-Video-Deluxe
 2000239.md     DaVinci-Resolve
 2000238.md     Adobe-Premiere-Pro
 2000237.md     Video-Editing-Program
