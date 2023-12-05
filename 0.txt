@@ -3144,6 +3144,7 @@
 
 ## Concepts
 
+600217.md      Change
 600216.md      Supporter
 600215.md      Objectivity
 600214.md      Good-Influence
