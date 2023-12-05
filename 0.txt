@@ -3143,6 +3143,7 @@
 
 ## Concepts
 
+600215.md      Objectivity
 600214.md      Good-Influence
 600213.md      Search-Information
 600212.md      Bad-Influence
