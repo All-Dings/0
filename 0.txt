@@ -182,9 +182,10 @@
 ## Dings-System
 
 1000001.md     Blog-Chain-Time
-
 300080002.md   Audience-Inclusion-Movie
 300080001.md   Audience-Inclusion-Project
+
+### Sub-Projects
 
 300070001.md   Data-Unbundling-Project
 
@@ -192,12 +193,16 @@
 300060002.md   Bike-Troop-Area
 300060001.md   Bike-Troop-Project
 
+### Patents
+
 300050003.md   Local-Web-App
 300050002.md   Local-Web-App-Patent
 300050001.md   Zero-Wave-Device-Patent
 
 300040008.md   Dings_Image_Map
 300040007.md   Dings_Quiz
+
+### Types
 
 300040005.md   Dings_Pdf
 300040004.md   Dings_Video
@@ -213,11 +218,15 @@
 300020001.py   Dings-Tool-Python
 300020000.md   Dings-Tool
 
+### Dings-Lib
+
 300010011.md   Dings-Lib-Perl
 300010010.md   Dings-Lib-Python
 300010000.md   Dings-Lib
 
 300000101.md   Dings-Overlay-Image-PDF
+
+### General
 
 300000039.md   Dings-User-Anonymous
 300000038.md   Dings-User-Group
@@ -262,18 +271,18 @@
 300000001.md   Dings
 300000000.md   Blog-Chain
 
-# Good-Things
+## Good-Things
 
 20000100003.md Good-Man
 20000100002.md Good-Woman
 20000100001.md Peugeot-308SW-PT130EAT-GTL80
 
-# Things
+## Things
 
 20000000002.md Bed
 20000000001.md Backpack
 
-### Dings-Directories
+## Dings-Directories
 
 10000000001.md Blogs
 10000000000.md Dings-Root-Directory
