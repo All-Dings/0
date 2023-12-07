@@ -183,6 +183,8 @@
 
 ### Devices
 
+300090008.md   Dings-Dev-8-Rode-SmartLav+
+300090007.md   Dings-Dev-7-LG-G2-Mini
 300090006.md   Dings-Dev-6-LG-G2-Mini
 300090005.md   Dings-Dev-5-Huawei-P30-Pro
 300090004.md   Dings-Dev-4-Huawei-P30-Pro
