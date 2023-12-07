@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090011.md   Dings-Dev-11-Rode-SmartLav+
 300090010.md   Dings-Dev-10-Rode-SmartLav+
 300090009.md   Dings-Dev-9-Rode-SmartLav+
 300090008.md   Dings-Dev-8-Rode-SmartLav+
