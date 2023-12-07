@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090003.md   Dings-Dev-3-Samsung-U22
 300090002.md   Dings-Dev-2-Samsung-U22
 300090001.md   Dings-Dev-1-Samsung-U22
 
