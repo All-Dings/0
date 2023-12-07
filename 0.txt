@@ -904,6 +904,7 @@
 
 ## Business
 
+240000039.md   LG-Electronics
 240000038.md   Huawei
 240000037.md   International-Business-Machines
 240000036.md   Magix
