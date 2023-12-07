@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090010.md   Dings-Dev-10-Rode-SmartLav+
 300090009.md   Dings-Dev-9-Rode-SmartLav+
 300090008.md   Dings-Dev-8-Rode-SmartLav+
 300090007.md   Dings-Dev-7-LG-G2-Mini
