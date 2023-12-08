@@ -183,7 +183,8 @@
 
 ### Devices
 
-300090014.md   Dings-Dev-13-Amazon-Tripod-127
+300090015.md   Dings-Dev-15-Amazon-Tripod-127
+300090014.md   Dings-Dev-14-Amazon-Tripod-127
 300090013.md   Dings-Dev-13-Rode-SmartLav+
 300090012.md   Dings-Dev-12-Rode-SmartLav+
 300090011.md   Dings-Dev-11-Rode-SmartLav+
