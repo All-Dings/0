@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090017.md   Dings-Dev-17-Amazon-Tripod-127
 300090016.md   Dings-Dev-16-Amazon-Tripod-127
 300090015.md   Dings-Dev-15-Amazon-Tripod-127
 300090014.md   Dings-Dev-14-Amazon-Tripod-127
