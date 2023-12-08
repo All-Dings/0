@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090024.md   Dings-Dev-24-Selfie-Tripod-125
 300090023.md   Dings-Dev-23-Selfie-Tripod-125
 300090022.md   Dings-Dev-22-Selfie-Tripod-125
 300090021.md   Dings-Dev-21-Selfie-Tripod-125
