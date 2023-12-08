@@ -183,6 +183,7 @@
 
 ### Devices
 
+300090021.md   Dings-Dev-21-Selfie-Tripod-125
 300090020.md   Dings-Dev-20-Selfie-Tripod-125
 300090019.md   Dings-Dev-19-Amazon-Tripod-127
 300090018.md   Dings-Dev-18-Amazon-Tripod-127
