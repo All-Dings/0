@@ -1680,6 +1680,7 @@
 
 ## Personalities
 
+70000082.md    Hji-Zerena
 70000081.md    Al_Kossow
 70000080.md    Michael-Carsten_Peters
 70000079.md    Hannah-Rose_Maté
@@ -2988,6 +2989,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670042.md      CC-BY-NC-ND-4.0
 670041.md      CC0-License
 670040.md      Code-of-Law
 670039.md      Juristics-Complaint
