@@ -1605,6 +1605,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000044.md    Music-Album
 90000043.md    Choir-Vocal-Group
 90000042.md    Saxophone
 90000041.md    Three-Quarter-Time
@@ -1680,7 +1681,7 @@
 
 ## Personalities
 
-70000082.md    Hji-Zerena
+70000082.md    Hji_Zerena
 70000081.md    Al_Kossow
 70000080.md    Michael-Carsten_Peters
 70000079.md    Hannah-Rose_Maté
