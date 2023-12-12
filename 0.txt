@@ -1555,6 +1555,7 @@
 
 ### Chemical
 
+100000003.md   Chemical-Element
 100000002.md   Nicotine
 100000001.md   Deoxy-Ribo-Nucleic-Acid
 100000000.md   Chemical
