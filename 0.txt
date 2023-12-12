@@ -2373,6 +2373,7 @@
 
 ## Chemistry
 
+10100005.md    Magnesium
 10100004.md    Aluminium
 10100003.md    Liquid (DEAD)
 10100002.md    Gas
