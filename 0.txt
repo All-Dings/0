@@ -2860,6 +2860,7 @@
 
 ### Medical-Drugs
 
+810010.md      Naproxen
 810009.md      Ibuprofen
 810008.md      Lacosamide
 810007.md      Olanzapine
