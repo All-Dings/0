@@ -2373,6 +2373,7 @@
 
 ## Chemistry
 
+10100004.md    Aluminium
 10100003.md    Liquid (DEAD)
 10100002.md    Gas
 10100001.md    Chemistry-System
