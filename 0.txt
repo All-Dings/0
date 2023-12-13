@@ -2386,6 +2386,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000120.md    Laser
 10000119.md    Wave-Source
 10000118.md    Solid-Matter-Wave
 10000117.md    Brightness
