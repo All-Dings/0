@@ -240,6 +240,7 @@
 300040001.md   Dings_Sip-Toggle
 300040000.md   Dings_Object
 
+300030007.md   Dings-Mac-Book-Install-Howto
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
 300030004.make Dings-Backup-Makefile
