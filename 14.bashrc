@@ -3,10 +3,16 @@
 # ## Bash Completion
 #
 # Prequisite: ```$ apt-get install git bash-completion```
-source /etc/profile.d/bash_completion.sh
+source /opt/homebrew/etc/bash_completion.d/hub.bash_completion.sh
 
 # ## Find Name in Number Files
 alias mms="head -n 1 *.md | grep -i -B 1 "
+
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+	__GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+	GIT_PROMPT_ONLY_IN_REPO=1
+	source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
 
 # ## Prompt Setup
 #
@@ -15,10 +21,10 @@ alias mms="head -n 1 *.md | grep -i -B 1 "
 # - \[\e[0;31m\]: red
 # - \[\e[0;32m\]: green
 # - \[\e[m]: End color mode
-PS1='\[\e[0;32m\]\u:\w$(__git_ps1 " \[\e[0;31m\](%s)")\[\e[0;32m\]\$ \[\e[m\]'
+# PS1='\[\e[0;32m\]\u:\w$(__git_ps1 " \[\e[0;31m\](%s)")\[\e[0;32m\]\$ \[\e[m\]'
+PS1='\[\e[0;32m\]\u:\w\[\e[0;32m\]\$ \[\e[m\]'
 
 # ## Enable Colors for Files and Directories
-eval "$(dircolors -b)"
 alias ls="ls --color=auto"
 
 # # Ask before overwriting
@@ -40,4 +46,7 @@ Dings_Completion()
 
 complete -F Dings_Completion dings
 
-export PATH=$PATH:.
+export Dings_Big_Data_Directory="/Users/michael-holzheu/pCloud Drive/Public Folder/All-Dings/Big-Data"
+export Dings_Big_Data_Url="https://filedn.eu/lGueqYVYAIQ8ghgx4j6F9nX/All-Dings/Big-Data"
+export Dings_Work_Directory="/Users/michael-holzheu/All-Dings/111/Work-Dir"
+export PATH=$PATH:.:$Dings_Work_Directory
