@@ -2102,6 +2102,7 @@
 
 ## Media-Files
 
+30010020.md    Pic-Image-Format
 30010019.md    Xcf-File
 30010018.md    Xcf-Image-Format
 30010017.md    Sound-File
