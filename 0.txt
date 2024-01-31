@@ -300,7 +300,7 @@
 300000003.md   Dings-HTML-Makefile
 300000002.md   Dings-HTML-Template-File
 300000002.md   Dings-HTML-Template
-300000001.md   Dings
+300000001.md   Dings-Object
 300000000.md   Blog-Chain
 
 ## Good-Things
