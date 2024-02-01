@@ -1487,6 +1487,7 @@
 
 130010000.md   Currency
 
+130000042.md   Ethereum
 130000041.md   Bank
 130000040.md   Value-Claim
 130000039.md   Value-Liability
