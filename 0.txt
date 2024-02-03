@@ -264,7 +264,7 @@
 
 ### General
 
-300000040.md   Digns-Coin
+300000040.md   Dings-Coin
 300000039.md   Dings-User-Anonymous
 300000038.md   Dings-User-Group
 300000037.md   Dings-User
