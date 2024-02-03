@@ -3531,7 +3531,7 @@
 60133.md       Successor
 60132.md       Old-Thing
 60131.md       New-Thing
-60130,md       Responsiblity
+60130.md       Responsiblity
 60129.md       Challange
 60128.md       Potential
 60127.md       Action
