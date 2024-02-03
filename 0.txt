@@ -3255,6 +3255,7 @@
 
 ## Concepts
 
+600222.md      Reward
 600221.md      Balance
 600220.md      Good-Thing-For-System
 600219.md      Credibility
