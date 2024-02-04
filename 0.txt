@@ -1233,6 +1233,10 @@
 200000001.md   Snack-Bar
 200000000.md   Food-Provider
 
+### Conferences
+
+199010000.md   Meeting
+
 ### Exhibitions
 
 199000012.md   Exhibition-of-Art
