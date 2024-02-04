@@ -3412,7 +3412,7 @@
 600072.md      Path
 600071.md      Movement
 600070.md      Indicator
-600069.md      Compensation
+600069.md      Compensation-Process
 600068.md      Symmetry
 600067.md      Service
 600066.md      Tree-Structure
