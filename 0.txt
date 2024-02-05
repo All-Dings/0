@@ -2146,6 +2146,7 @@
 
 ## Media-Files
 
+30010021.md    Txt-Format
 30010020.md    Pic-Image-Format
 30010019.md    Xcf-File
 30010018.md    Xcf-Image-Format
