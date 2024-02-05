@@ -1848,6 +1848,10 @@
 60010001.md    Ballet
 60010000.md    Arts
 
+### Poetry
+
+60005000.md    Poetry
+
 ### Fine-Arts
 
 60000005.md    Painting
