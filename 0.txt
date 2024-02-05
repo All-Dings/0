@@ -234,11 +234,11 @@
 300050002.md   Local-Web-App-Patent
 300050001.md   Zero-Wave-Device-Patent
 
+### Types
+
 300040009.md   Dings_Txt
 300040008.md   Dings_Image_Map
 300040007.md   Dings_Quiz
-
-### Types
 
 300040005.md   Dings_Pdf
 300040004.md   Dings_Video
