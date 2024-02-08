@@ -1259,6 +1259,7 @@
 
 ### Exhibitions
 
+199000013.md   Vernissage
 199000012.md   Exhibition-of-Art
 199000011.md   Heinz-Nixdorf-MuseumsForum
 199000010.md   Computer-Museum
