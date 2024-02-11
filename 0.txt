@@ -1831,7 +1831,7 @@
 70000013.md    Pjotr_Iljitsch_Tschaikowski
 70000012.md    Dua_Lipa
 70000011.md    David_Hilbert
-70000010.md    Alan_Mathison_Turing
+70000010.md    Alan-Mathison_Turing
 70000009.md    Stephen_Cole_Kleene
 70000008.md    Aristoteles
 70000007.md    Alonzo_Church
