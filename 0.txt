@@ -3141,6 +3141,7 @@
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
 
+670045.md      Juristics-Owner
 670044.md      Juristics-Seat
 670043.md      Juristics-Person
 670042.md      CC-BY-NC-ND-4.0
