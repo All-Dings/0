@@ -1773,6 +1773,7 @@
 
 ## Personalities
 
+70000087.md    Ryan_Dahl
 70000086.md    Wilhelm_Gundert
 70000085.md    Hermann-Karl_Hesse
 70000084.md    Heinrich-Theodor_Fontane
