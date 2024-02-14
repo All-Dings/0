@@ -44,9 +44,16 @@ Dings_Completion()
 	COMPREPLY=$(./dings completion ${COMP_WORDS[1]} ${COMP_WORDS[2]} ${COMP_WORDS[3]} -p ${COMP_CWORD})
 }
 
+# ## Node.js
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# ## Dings-System
 complete -F Dings_Completion dings
 
-export Dings_Big_Data_Directory="/Users/michael-holzheu/pCloud Drive/Public Folder/All-Dings/Big-Data"
-export Dings_Big_Data_Url="https://filedn.eu/lGueqYVYAIQ8ghgx4j6F9nX/All-Dings/Big-Data"
-export Dings_Work_Directory="/Users/michael-holzheu/All-Dings/111/Work-Dir"
+export Dings_Big_Data_Directory="Tbd"
+export Dings_Big_Data_Url="Tbd"
+export Dings_Work_Directory="Tbd"
+export PATH=$PATH:/opt/homebrew/bin/
 export PATH=$PATH:.:$Dings_Work_Directory
