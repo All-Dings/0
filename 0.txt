@@ -1781,6 +1781,7 @@
 
 ## Personalities
 
+70000089.md    Carl-Gustav_Jung
 70000088.md    Julia-Fiona_Roberts
 70000087.md    Ryan_Dahl
 70000086.md    Wilhelm_Gundert
