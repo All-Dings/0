@@ -2024,6 +2024,7 @@
 
 ### Illnesses
 
+48000017.md    Atherosclerosis
 48000016.md    Tuberculosis
 48000015.md    Corona
 48000014.md    Parkinson's-Disease
