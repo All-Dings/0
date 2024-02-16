@@ -1709,6 +1709,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000052.md    Clef-Symbol
 90000051.md    Score-Symbol
 90000050.md    Instrument-Keyboard
 90000049.md    Instrument-Position
