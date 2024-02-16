@@ -1709,6 +1709,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000047.md    Spinet
 90000046.md    Harpsichord
 90000045.md    Piano
 90000044.md    Music-Album
