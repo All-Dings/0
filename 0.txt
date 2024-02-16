@@ -1790,6 +1790,7 @@
 
 ## Personalities
 
+70000093.md    Bartolomeo_Cristofori
 70000092.md    Hermann_Pol
 70000091.md    Carl_Bechstein
 70000090.md    Alicia-Christian_Foster
