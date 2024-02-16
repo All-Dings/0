@@ -968,7 +968,7 @@
 
 ## Business
 
-240000041.md   C-Bechstein-Pianoforte-Ag
+240000041.md   C-Bechstein-Pianoforte
 240000040.md   eBay-Inc
 240000039.md   LG-Electronics
 240000038.md   Huawei
@@ -1784,6 +1784,7 @@
 
 ## Personalities
 
+70000091.md    Carl_Bechstein
 70000090.md    Alicia-Christian_Foster
 70000089.md    Carl-Gustav_Jung
 70000088.md    Julia-Fiona_Roberts
