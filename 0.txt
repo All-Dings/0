@@ -2264,6 +2264,7 @@
 
 ## Devices
 
+20000036.md    Key-Board
 20000035.md    LG-G2-Mini
 20000034.md    Huawei-P30-Pro
 20000033.md    Punch-Card-Reader
