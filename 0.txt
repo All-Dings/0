@@ -1706,6 +1706,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000046.md    Harpsichord
 90000045.md    Piano
 90000044.md    Music-Album
 90000043.md    Choir-Vocal-Group
