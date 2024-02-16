@@ -1709,14 +1709,14 @@
 90001001.md    Tenor
 90001000.md    Choir
 
-90000062.md    Hundred-Twenty-Eighth-Note-Symbol
-90000061.md    Sixty-Fourth-Note-Symbol
-90000060.md    Thirty-Second-Note-Symbol
-90000059.md    Sixteenth-Note-Symbol
-90000058.md    Eighth-Note-Symbol
-90000057.md    Quarter-Note-Symbol
-90000056.md    Half-Note-Symbol
-90000055.md    Whole-Note-Symbol
+90000062.md    128-Note-Symbol
+90000061.md    64-Note-Symbol
+90000060.md    32-Note-Symbol
+90000059.md    16-Note-Symbol
+90000058.md    8-Note-Symbol
+90000057.md    4-Note-Symbol
+90000056.md    2-Note-Symbol
+90000055.md    1-Note-Symbol
 90000054.md    Note-Symbol
 90000053.md    Tie-Symbol
 90000052.md    Clef-Symbol
