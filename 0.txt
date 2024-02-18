@@ -3004,6 +3004,7 @@
 
 ### German-Medical-System
 
+8001009.md     Private-Kranken-Kasse
 8001008.md     Gesetzliche-Kranken-Kasse
 8001007.md     Individuelle-Gesundheitsleistung
 8001006.md     Institut-für-Pharmakogenetik-und-genetische-Disposition
