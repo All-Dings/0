@@ -3002,6 +3002,7 @@
 
 ### German-Medical-System
 
+8001006.md     Institut-für-Pharmakogenetik-und-genetische-Disposition
 8001005.md     Universitätsklinikum-CGC-Dresden
 8001004.md     Zentrum-für-Neurologie-und-Psychiatrie-Duisburg-West
 8001003.md     Universitätsklinikum-Hamburg-Eppendorf
