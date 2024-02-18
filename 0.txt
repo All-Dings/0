@@ -1807,6 +1807,7 @@
 
 ## Personalities
 
+70000094.md    Herman-Heine_Goldstine
 70000093.md    Bartolomeo_Cristofori
 70000092.md    Hermann_Pol
 70000091.md    Carl_Bechstein
