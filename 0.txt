@@ -2512,6 +2512,7 @@
 
 ## Chemistry
 
+10100006.md    Molecule
 10100005.md    Magnesium
 10100004.md    Aluminium
 10100003.md    Liquid (DEAD)
