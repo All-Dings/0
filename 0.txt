@@ -1715,6 +1715,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000064.md    Privia-PX-S7000
 90000063.md    Electronic-Piano
 90000062.md    128-Note-Symbol
 90000061.md    64-Note-Symbol
