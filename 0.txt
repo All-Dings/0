@@ -3199,6 +3199,7 @@
 
 ### German-Juristics
 
+680006.md      Kauf-Vertrag
 680005.md      Grundgesetz
 680004.md      Allgemeine-Geschäfts-Bedingungen
 680003.md      Eingetragener-Verein
