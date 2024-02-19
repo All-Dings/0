@@ -3209,6 +3209,7 @@
 
 ### Basics
 
+670047.md      Juristics-Contract
 670046.md      Insurance-Contract
 670045.md      Juristics-Owner
 670044.md      Juristics-Seat
