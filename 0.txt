@@ -342,6 +342,7 @@
 
 ## Media-Files
 
+400000232.md   User-Guide-De-PX-S7000BK-Stand
 400000231.md   User-Guide-De-PX-S7000BK
 400000230.md   Kauf-Vertrag-PX-S7000BK
 400000229.md   My-Casio-PX-S7000BK-Side-View
