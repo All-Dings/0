@@ -3402,6 +3402,7 @@
 
 ## Addressing
 
+611004.md      Manufacturer-Serial-Number
 611003.md      Official-Name
 611002.md      Address
 611001.md      Addressing-System
