@@ -3195,9 +3195,9 @@
 
 690000.md      Criminalistics
 
-## German-Juristics
-
 ## Juristics
+
+### German-Juristics
 
 680005.md      Grundgesetz
 680004.md      Allgemeine-Geschäfts-Bedingungen
@@ -3205,6 +3205,8 @@
 680002.md      Land-Gericht
 680001.md      Amts-Gericht
 680000.md      German-Juristics-System
+
+### Basics
 
 670046.md      Insurance-Contract
 670045.md      Juristics-Owner
