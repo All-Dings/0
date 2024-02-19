@@ -970,6 +970,7 @@
 
 ## Business
 
+240000042.md   Casio
 240000041.md   C-Bechstein-Pianoforte
 240000040.md   eBay-Inc
 240000039.md   LG-Electronics
