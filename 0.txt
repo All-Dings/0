@@ -686,6 +686,7 @@
 
 2011000.md     Next-Phase
 
+2010047.md     Schönbuch-Apotheke-Tübingen
 2010046.md     Bechstein-Center-Tübingen
 2010045.md     Westspitze
 2010044.md     Eberhard-Karls-Universität-Tübingen
