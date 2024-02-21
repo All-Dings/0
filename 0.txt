@@ -3020,6 +3020,10 @@
 9000001.md     Tree-Collection
 9000000.md     Informatics
 
+### Miscellaneous
+
+8040001.md     German-Finance-System
+
 ### German-Waste-Disposal-System
 
 8030001.md     German-Waste-Disposal-System
