@@ -2766,6 +2766,7 @@
 
 ### Basics
 
+2000266.md     PyScript
 2000265.md     Computer-Framework
 2000264.md     Application-Programming-Interface
 2000263.md     WebAssembly
