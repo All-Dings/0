@@ -2766,6 +2766,7 @@
 
 ### Basics
 
+2000263.md     WebAssembly
 2000262.md     Byte-Code
 2000261.md     Virtual-Computer
 2000260.md     Machine-Code
