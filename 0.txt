@@ -3470,6 +3470,7 @@
 
 ## Concepts
 
+600223.md      Contract
 600222.md      Reward
 600221.md      Balance
 600220.md      Good-Thing-For-System
