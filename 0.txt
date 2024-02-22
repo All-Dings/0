@@ -2766,6 +2766,7 @@
 
 ### Basics
 
+2000260.md     Machine-Code
 2000259.md     Casio-Music-Space-App
 2000258.md     iOS-App-Store-Package
 2000257.md     File-Name-Extension
