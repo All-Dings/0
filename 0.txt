@@ -1184,7 +1184,7 @@
 
 ## Movies
 
-200040039.md   Vicings
+200040039.md   Vikings
 200040038.md   Warcraft-The-Beginning
 200040037.md   Contact
 200040036.md   Breaking-the-Code
