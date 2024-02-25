@@ -160,6 +160,7 @@
 
 ### Blogs / Howtos
 
+1971092008.md  Howto-Configure-Apache-on-Ubuntu
 1971092007.md  Howto-Configure-Apache-on-Mac
 1971092006.md  Howto-Install-iOs-Apps
 1971092005.md  Howto-Install-Android-Apps
