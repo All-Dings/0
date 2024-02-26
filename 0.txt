@@ -2801,6 +2801,7 @@
 
 ### Basics
 
+2000278.md     Root-Certificate
 2000277.md     Wildcard-Certificate
 2000276.md     Extended-Validation-SSL-Certificate
 2000275.md     Organization-Validated-SSL-Certificate
