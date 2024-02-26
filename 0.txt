@@ -2783,7 +2783,7 @@
 
 ### Basics
 
-2000276.md     Extended-Validation-SSL-Zertifikate
+2000276.md     Extended-Validation-SSL-Certificate
 2000275.md     Organization-Validated-SSL-Certificate
 2000274.md     Domain-Validated-SSL-Certificate
 2000273.md     Domain-Name
