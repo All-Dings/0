@@ -278,6 +278,7 @@
 
 ### General
 
+300000041.md   Dings.Site
 14.md          Dings-Bash-Rc
 300000040.md   Dings-Coin
 300000039.md   Dings-User-Anonymous
@@ -1851,6 +1852,7 @@
 
 ## Personalities
 
+70000096.md    Norbert_Blüm
 70000095.md    Travis_Fimmel
 70000094.md    Herman-Heine_Goldstine
 70000093.md    Bartolomeo_Cristofori
