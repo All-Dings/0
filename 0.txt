@@ -1447,6 +1447,10 @@
 142000001.md   Soey
 773.md         Hailey
 
+## Socialistics
+
+141100000.md   Socialistics
+
 ## Politics
 
 141000015.md   Israeli–Palestinian-Conflict
