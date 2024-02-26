@@ -2431,6 +2431,7 @@
 
 ## Cryptologics
 
+13300009.md    Cryptologics-Public-Key
 13300008.md    Cryptologics-Private-Key
 13300007.md    Asymmetric-Cryptologics-System
 13300006.md    Cryptologics-Key
@@ -2782,6 +2783,7 @@
 
 ### Basics
 
+2000274.md     Domain-Validated-SSL-Certificate
 2000273.md     Domain-Name
 2000272.md     Domain-Name-System
 2000271.md     Certificate-Signing-Request
