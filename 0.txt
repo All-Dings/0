@@ -2447,6 +2447,7 @@
 
 ## Cryptologics
 
+13300011.md    DigiCert
 13300010.md    Certificate-Authority
 13300009.md    Cryptologics-Public-Key
 13300008.md    Cryptologics-Private-Key
