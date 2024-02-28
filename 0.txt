@@ -176,6 +176,7 @@
 
 ### Things
 
+1971091118.md  My-Mac-Book
 1971091117.md  My-Casio-PX-S7000BK
 1971091116.md  My-Bi-Yän-Lu-Book
 1971091115.md  My-Shure-Sm-57
@@ -193,7 +194,6 @@
 1971091103.md  Bird-Quiz-App
 1971091102.md  My-VW-California
 1971091101.md  Our-House-Im-Philosophenweg
-2000002.md     My-Mac-Book
 
 
 1948102000.md  My-Mama
