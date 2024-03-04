@@ -3097,6 +3097,7 @@
 
 ### German-Institutions
 
+8020006.md     Minijob-Zentrale
 8020005.md     Ausweis-App
 8020004.md     Bund-Id
 8020003.md     Fahreignungs-Register
