@@ -2331,7 +2331,7 @@
 30010003.md    Pixel
 30010002.md    Full-HD
 30010001.md    Resolution
-30010000.md    Media-Formats
+30010000.md    Media-Format
 
 1000002.md     Media-Time
 
