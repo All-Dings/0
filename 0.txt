@@ -1880,6 +1880,7 @@
 
 ## Personalities
 
+70000100.md    Ada_Lovelace
 70000099.md    Gottfried-Wilhelm_Leibniz
 70000098.md    Kurt_Pannke
 70000097.md    Günter_Mußtopf
