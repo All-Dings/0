@@ -1844,6 +1844,7 @@
 
 ## Famous-Documents or Books
 
+71000028.md    De-Progressione-Dyadica
 71000027.md    Synchronoptische-Weltgeschichte
 71000026.md    Als-die-Computer-laufen-lernten
 71000025.md    Wirtschaftlichkeit-von-Software-Entwicklung-Projekten
