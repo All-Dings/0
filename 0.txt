@@ -1881,6 +1881,7 @@
 
 ## Personalities
 
+70000101.md    Raymond_Valtat
 70000100.md    Ada_Lovelace
 70000099.md    Gottfried-Wilhelm_Leibniz
 70000098.md    Kurt_Pannke
