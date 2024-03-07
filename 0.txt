@@ -1879,6 +1879,7 @@
 
 ## Personalities
 
+70000098.md    Kurt_Pannke
 70000097.md    Günter_Mußtopf
 70000096.md    Norbert_Blüm
 70000095.md    Travis_Fimmel
