@@ -1876,6 +1876,7 @@
 
 ## Personalities
 
+70000097.md    Günter_Mußtopf
 70000096.md    Norbert_Blüm
 70000095.md    Travis_Fimmel
 70000094.md    Herman-Heine_Goldstine
