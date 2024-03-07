@@ -1006,6 +1006,7 @@
 
 ## Business
 
+240000047.md   Dölling-und-Galitz-Verlag
 240000046.md   Apps.Holzheu.De
 240000045.md   Amazon-Web-Services
 240000044.md   Netscape
