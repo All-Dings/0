@@ -2825,6 +2825,7 @@
 
 ### Basics
 
+2000280.md     Automatic-Text-Recognition
 2000279.md     Intermediate-Certificate
 2000278.md     Root-Certificate
 2000277.md     Wildcard-Certificate
