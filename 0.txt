@@ -3240,6 +3240,7 @@
 
 ## Writing-System
 
+700067.md      Written-Text
 700066.md      Registration-Document
 700065.md      Certificate
 700064.md      User-Guide
