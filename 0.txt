@@ -2827,6 +2827,7 @@
 
 ### Basics
 
+2000282.md     OcrMyPdf
 2000281.md     Tesseract-OCR
 2000280.md     Automatic-Text-Recognition
 2000279.md     Intermediate-Certificate
