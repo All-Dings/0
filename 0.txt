@@ -31,7 +31,6 @@
 #### Other Stuff
 
 1971092002.md  Regler-zur-Robotersteuerung
-1971091177.md  Doktor_Holzheu
 
 ### Projects
 
@@ -122,7 +121,7 @@
 1971091180.md  Jay
 1971091179.md  My-Jehovah-Friends
 1971091178.md  My-Bible-Neighbour
-1971091177.md  My-Chor-Sprecherin
+1971091177.md  Doktor_Holzheu
 1971091176.md  My-Bass-Man-Choir-Friend
 1971091175.md  My-Ingenieur-Choir-Friend
 1971091174.md  Dietmar_Saupe
