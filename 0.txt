@@ -3467,6 +3467,7 @@
 
 ## Religion
 
+647007.md      Schahada
 647006.md      Five-Pillars-of-Islam
 647005.md      Islam
 647004.md      Devil
