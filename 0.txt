@@ -274,6 +274,7 @@
 
 ### Dings-Lib
 
+300010012.md   Dings-Lib-jQuery
 300010011.md   Dings-Lib-Perl
 300010010.md   Dings-Lib-Python
 300010000.md   Dings-Lib
