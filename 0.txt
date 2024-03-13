@@ -3500,6 +3500,7 @@
 
 ## Academics
 
+640026.md      Academic-Paper
 640025.md      Turing-Award
 640024.md      Doktor-Vater
 640023.md      Laboratory
