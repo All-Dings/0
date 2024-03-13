@@ -960,7 +960,7 @@
 250000041.md   Large-Language-Model
 250000040.md   Artificial-Neural-Network
 250000039.md   Approximation-Algorithm
-250000038.md   Artificial-Inteligence
+250000038.md   Artificial-Intelligence
 250000037.md   Hacking
 250000036.md   Class-Instance
 250000035.md   Class-Variable
@@ -2231,7 +2231,7 @@
 40080015.md    Throat-Clearing
 40080014.md    Human-Gastro-System
 40080013.md    Human-Dermatological-System
-40080012.md    Human-Inteligence
+40080012.md    Human-Intelligence
 40080011.md    Human-Nasal-Cavity
 40080010.md    Human-Lower-Leg
 40080009.md    Human-Throat
@@ -2967,7 +2967,7 @@
 9000155.md     Unix-Diff-Command
 9000154.md     Bug-Fix
 9000153.md     Computer-System
-9000152.md     Artificial-Inteligence-System
+9000152.md     Artificial-Intelligence-System
 9000151.md     Chat-Bot
 9000150.md     Chat-GPT
 9000149.md     Git-Hub-System
@@ -3680,7 +3680,7 @@
 600132.md      Bottom-Up
 600131.md      Update
 600130.md      Source-Thing
-600129.md      Inteligence
+600129.md      Intelligence
 600128.md      Verification
 600127.md      Learning
 600126.md      Influence
