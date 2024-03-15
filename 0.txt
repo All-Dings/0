@@ -1159,7 +1159,7 @@
 80000004.md    Telephonist
 80000003.md    Taxi-Driver
 80000002.md    Mathematician
-80000001.md    Teacher
+
 80000000.md    Profession (DEAD)
 
 ## Machines
