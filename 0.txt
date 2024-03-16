@@ -1617,6 +1617,7 @@
 
 130010000.md   Currency
 
+130000046.md   L-Bank
 130000045.md   Kreditanstalt-für-Wiederaufbau
 130000044.md   Finance-System
 130000043.md   Investment-Zertifikat
