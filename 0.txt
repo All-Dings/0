@@ -3129,6 +3129,7 @@
 
 ### Miscellaneous
 
+8040012.md     Gesellschaft-mit-beschränkter-Haftung
 8040011.md     Gesellschaft-bürgerlichen-Rechts
 8040010.md     Einzel-Unternehmen
 8040009.md     Steuer-Identifikations-Nummer
