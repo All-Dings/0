@@ -3129,6 +3129,7 @@
 
 ### Miscellaneous
 
+8040010.md     Einzel-Unternehmen
 8040009.md     Steuer-Identifikations-Nummer
 8040008.md     Steuer-Nummer
 8040007.md     Elster-Organisations-Zertifikat
