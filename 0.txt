@@ -3130,6 +3130,7 @@
 
 ### Miscellaneous
 
+8040014.md     Einkommen-Steuer
 8040013.md     Unternehmergesellschaft
 8040012.md     Gesellschaft-mit-beschränkter-Haftung
 8040011.md     Gesellschaft-bürgerlichen-Rechts
