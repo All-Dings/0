@@ -3130,6 +3130,7 @@
 
 ### Miscellaneous
 
+8040020.md     Gewerbe-Steuer
 8040019.md     German-Mietvertrag
 8040018.md     Industrie-und-Handelskammer
 8040017.md     Körperschaft-des-öffentlichen-Rechts
