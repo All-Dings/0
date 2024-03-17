@@ -3130,6 +3130,7 @@
 
 ### Miscellaneous
 
+8050018.md     Industrie-und-Handelskammer
 8040017.md     Körperschaft-des-öffentlichen-Rechts
 8040016.md     Handels-Register
 8040015.md     Mehrwert-Steuer
