@@ -3089,7 +3089,7 @@
 9000041.md     TAIL-Command
 9000040.md     Unix-Cat-Command
 9000039.md     Code
-9000038.bash   Du-Script
+9000038.md     Du-Script
 9000037.md     STAT-Command
 9000036.md     GREP-Command
 9000035.md     Regular-Expression
