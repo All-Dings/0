@@ -200,6 +200,8 @@
 
 ## Dings-System
 
+### Secrets (300200000)
+
 ### Documentation
 
 300100001.md   All-Dings-Overview
