@@ -351,6 +351,7 @@
 
 ## Things
 
+20000000005.md Pillow
 20000000004.md Couch
 20000000003.md Piece-of-Furniture
 20000000002.md Bed
