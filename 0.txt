@@ -2262,6 +2262,7 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
+40000078.md    Elk
 40000077.md    Polar-Bear
 40000076.md    Bear
 40000075.md    Biologic-Family
