@@ -3383,7 +3383,7 @@
 
 ## Rhetorics
 
-695002.md      Speach
+695002.md      Speech
 695001.md      Rhetorics-System
 695000.md      Rhetorics
 
