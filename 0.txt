@@ -3153,6 +3153,10 @@
 9000001.md     Tree-Collection
 9000000.md     Informatics
 
+## Typographics
+
+8100000.md     Typographics
+
 ## German-System
 
 ### Miscellaneous
