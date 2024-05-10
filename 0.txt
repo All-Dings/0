@@ -2870,6 +2870,7 @@
 
 9000198.md     Wordpress
 
+2000286.md     DALL-E
 2000285.md     Speech-Synthesis
 2000284.md     PKCS-12-File-Format
 2000283.md     Git-Log-Command
