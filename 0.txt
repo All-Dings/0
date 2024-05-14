@@ -3423,6 +3423,7 @@
 
 ### Basics
 
+670052.md      Pexels-License
 670051.md      1001Free-For-Commercial-Use-License
 670050.md      Rental-Contract
 670049.md      Apache-2-License
