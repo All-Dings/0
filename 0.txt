@@ -162,7 +162,7 @@
 
 ### Movies
 
-1971100003.md  Vogelexkursion-mit-Star
+1971100003.md  Vogel-Exkursion-mit-Star
 1971100002.md  JaMi-Kroatien
 1971100001.md  Konzert-vor-der-Stiftskirche
 1971100000.md  Zuse-Z1-Arbeitspapier-321
