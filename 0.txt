@@ -3430,6 +3430,7 @@
 
 ### Basics
 
+670053.md      Copyright
 670052.md      Pexels-License
 670051.md      1001Free-For-Commercial-Use-License
 670050.md      Rental-Contract
