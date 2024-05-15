@@ -2288,6 +2288,7 @@
 40080001.md    Human-Head
 40080000.md    Human-Body
 
+40000086.md    Biologic-Class
 40000085.md    Biologic-Phylum
 40000084.md    Biologic-Kingdom
 40000083.md    Biologic-Domain
