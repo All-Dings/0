@@ -1932,6 +1932,7 @@
 
 ## Personalities
 
+70000106.md    Berhard_Mohl
 70000105.md    Monika_Hunze
 70000104.md    Michael_Raffel
 70000103.md    Marlies_Mittler
