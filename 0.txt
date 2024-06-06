@@ -1829,6 +1829,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000066.md    Lyricist
 90000065.md    Midi-Standard
 90000064.md    Privia-PX-S7000
 90000063.md    Electronic-Piano
