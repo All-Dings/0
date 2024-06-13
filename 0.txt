@@ -380,6 +380,7 @@
 
 444444488.md   A-real-Star
 
+400000252.md   Manchmal-Besser-Manuell-Toc-De
 400000251.md   Manchmal-Besser-Manuell-Subtitles-En
 400000250.md   Manchmal-Besser-Manuell-Subtitles-De
 400000249.md   Manchmal-Besser-Manuell-German
@@ -2396,7 +2397,7 @@
 
 ## Media-Files
 
-30010026.md    Dings-Toc-Format
+30010026.md    Dings-Media-Toc-Format
 30010025.md    Web-Vtt-Format
 30010024.md    Pdf-A-Format
 30010023.md    Document-Format
