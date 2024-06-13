@@ -1,0 +1,20 @@
+{
+	"YouTube_Id": "ahepMt8588s",
+	"Dings_Video": "400000249.mp4",
+	"Audio_Video": "de",
+	"Aspect_Ratio": {
+		"Width": "16",
+		"Height": "9"
+	},
+	"Subtitle_File_List": [
+		["400000250.vtt", "de"],
+		["400000251.vtt", "en"]
+	],
+	"Media_Toc_File_List": [
+		["400000252.media_toc", "de"],
+		["400000253.media_toc", "en"]
+	],
+	"Audio_File_List": [
+		["400000254.mp3", "de"]
+	]
+}
