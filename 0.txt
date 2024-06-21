@@ -1942,6 +1942,7 @@
 
 ## Personalities
 
+70000109.md    Heinrich-Josef_Zemanek
 70000108.md    Gerhard_Vogel
 70000107.md    Uwe_Herms
 70000106.md    Bernhard_Mohl
