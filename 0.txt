@@ -1942,6 +1942,7 @@
 
 ## Personalities
 
+70000110.md    Erich-Otto_Häußer
 70000109.md    Heinrich-Josef_Zemanek
 70000108.md    Gerhard_Vogel
 70000107.md    Uwe_Herms
