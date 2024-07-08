@@ -1945,6 +1945,7 @@
 
 ## Personalities
 
+70000112.md    Morten-Johannes_Lauridsen
 70000111.md    John-Theurer_Diebold
 70000110.md    Erich-Otto_Häußer
 70000109.md    Heinrich-Josef_Zemanek
