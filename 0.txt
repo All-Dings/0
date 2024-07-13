@@ -3709,6 +3709,7 @@
 
 ## Concepts
 
+600229.md      Truth-by-Feeling
 600228.md      Duty
 600227.md      Command
 600226.md      Registration-Process
