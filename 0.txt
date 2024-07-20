@@ -1946,6 +1946,7 @@
 
 ## Personalities
 
+70000114.md    Stefan_Stein
 70000113.md    James-Rufus_Agee
 70000112.md    Morten-Johannes_Lauridsen
 70000111.md    John-Theurer_Diebold
