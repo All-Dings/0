@@ -116,13 +116,6 @@
 
 1945040100.md  Georg_Holzheu
 
-### Topics
-
-1971093002.md  Pythagorean-Comma-Topic
-1971093001.md  Zero-Wave-Device-Topic
-1971093000.md  Zero-Wave-Theory-Topic
-25.md          My-Topics
-
 ### Movies
 
 1971100006.md  Nürburgring-Nordschleife
@@ -135,6 +128,13 @@
 1971099999.md  The-Turing-Machine
 1971099998.md  VW-California-für-Anfänger-Gas
 1111.md        Movie-from-Michael
+
+### Topics
+
+1971093002.md  Pythagorean-Comma-Topic
+1971093001.md  Zero-Wave-Device-Topic
+1971093000.md  Zero-Wave-Theory-Topic
+25.md          My-Topics
 
 #### Other Friends
 
