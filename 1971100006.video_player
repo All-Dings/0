@@ -1,0 +1,20 @@
+{
+	"YouTube_Id": "Y517BEwH7xI",
+	"Dings_Video": "400000259.mp4",
+	"Audio_Video": "de",
+	"Aspect_Ratio": {
+		"Width": "16",
+		"Height": "9"
+	},
+	"Subtitle_File_List": [
+		["400000263.vtt", "de"],
+		["400000264.vtt", "en"]
+	],
+	"Media_Toc_File_List": [
+		["400000260.media_toc", "de"],
+		["400000261.media_toc", "en"],
+		["400000262.media_toc", "Sections"]
+	],
+	"Audio_File_List": [
+	]
+}
