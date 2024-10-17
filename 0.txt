@@ -118,6 +118,7 @@
 
 ### Movies
 
+1971100007.md  Marco's-Pumpe
 1971100006.md  Nürburgring-Nordschleife-Movie
 1971100005.md  Charles-Babbage's-Analytical-Engine-Extended
 1971100004.md  Manchmal-Besser-Manuell
@@ -1684,6 +1685,7 @@
 
 ## Geology
 
+130100010.md   Schlaube
 130100009.md   Schwäbische-Alb
 130100008.md   Mittel-Gebirge
 130100007.md   Mountain-Range
