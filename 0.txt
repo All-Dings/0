@@ -1251,6 +1251,7 @@
 
 ## Machines
 
+201000021.md   Suzuki-Swift
 201000020.md   Electronic-Discrete-Variable-Automatic-Computer
 201000019.md   Money-Deposit-Machine
 201000018.md   Electronic-Numerical-Integrator-and-Computer
