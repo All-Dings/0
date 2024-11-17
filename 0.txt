@@ -2130,6 +2130,7 @@
 
 ### General
 
+60100009.md    Church
 60100008.md    Frauenkirche-Dresden
 60100007.md    World-Trade-Center
 60100006.md    Window
