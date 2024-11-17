@@ -1847,6 +1847,10 @@
 91100002.md    Innenwelten
 91100001.md    Herr-von-Ribbeck-auf-Ribbeck-im-Havelland
 
+### Famous-Lyrics
+
+91010000.md    Ubi-Caritas-Lyrics
+
 ### Famous-Songs
 
 91000019.md    Ave-Maria-Bruckner
