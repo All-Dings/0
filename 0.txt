@@ -774,6 +774,7 @@
 
 2011000.md     Next-Phase
 
+2010049.md     Neuer-Chor-Dresden
 2010048.md     Semiseria-Chor
 2010047.md     Schönbuch-Apotheke-Tübingen
 2010046.md     Bechstein-Center-Tübingen
