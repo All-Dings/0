@@ -3679,6 +3679,7 @@
 
 ## Religion
 
+647013.md      Written-Prayer
 647012.md      Christianity
 647011.md      Hajj
 647010.md      Zakat
