@@ -1,0 +1,20 @@
+{
+	"YouTube_Id": "HIvIctUdr-U",
+	"Dings_Video": "400001020.mp4",
+	"Audio_Video": "lat",
+	"Aspect_Ratio": {
+		"Width": "16",
+		"Height": "9"
+	},
+	"Subtitle_File_List": [
+		["400001025.vtt", "rm"],
+		["400001023.vtt", "de"],
+		["400001024.vtt", "en"]
+	],
+	"Media_Toc_File_List": [
+		["400001021.media_toc", "de"],
+		["400001022.media_toc", "en"]
+	],
+	"Audio_File_List": [
+	]
+}
