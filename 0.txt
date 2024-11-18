@@ -2017,6 +2017,7 @@
 
 ## Personalities
 
+70000127.md    Frank_Schlichter
 70000126.md    Frank_Ticheli
 70000125.md    Galileo-di-Vincenzo-Bonaiuti-de-Galilei
 70000124.md    Grace-Brewster_Murray-Hopper
