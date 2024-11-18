@@ -283,6 +283,7 @@
 
 ### Types
 
+300040011.md   Dings_Navigator
 300040010.md   Dings_Video_Player
 300040009.md   Dings_Txt
 300040008.md   Dings_Image_Map
