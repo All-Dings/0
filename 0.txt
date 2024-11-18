@@ -2015,6 +2015,7 @@
 
 ## Personalities
 
+70000125.md    Galileo-di-Vincenzo-Bonaiuti-de-Galilei
 70000124.md    Grace-Brewster_Murray-Hopper
 70000123.md    Joseph-Anton_Bruckner
 70000122.md    Ola_Gjeilo
