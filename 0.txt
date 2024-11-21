@@ -2459,7 +2459,7 @@
 40000038.md    Brain-Calculation
 40000037.md    Anus
 40000036.md    Family-Tree
-40000035.md    Biologic-Siblings
+40000035.md    Biologic-Sibling-Set
 40000034.md    Biologic-Child
 40000033.md    Biologic-Relation
 40000032.md    Biologic-Relative
@@ -3542,7 +3542,7 @@
 50009.md       Heading
 700007.md      Creative-Work
 700006.md      Element
-70005.md       Anchor
+70005.md       Document-Anchor
 50003.md       Footnote
 700003.md      Paragraph
 700002.md      Page
