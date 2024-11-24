@@ -1173,10 +1173,10 @@
 
 ## Abbreviation
 
-210000004.md   IMHO = In-My-Homble-Opinion
-210000003.md   TBH = To-Be-Honest
-210000002.md   BMW = Bayerische-Motoren-Werke
-210000001.md   GFR = German-Federal-Railroad
+210000004.md   IMHO
+210000003.md   TBH
+210000002.md   BMW
+210000001.md   GFR
 210000000.md   Abbreviation
 
 205000001.md   Envelope
