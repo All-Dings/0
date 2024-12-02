@@ -288,6 +288,7 @@
 
 ### Types
 
+300040013.md   Dings_Tex_Equation
 300040012.md   Dings_Blog
 300040011.md   Dings_Navigator
 300040010.md   Dings_Video_Player
