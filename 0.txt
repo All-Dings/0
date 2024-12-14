@@ -4067,6 +4067,7 @@
 
 ## Deep-Concepts
 
+60188.md       Efficiency
 60187.md       Cognitive-Understanding
 60186.md       Emergence
 60185.md       Control-Thing
