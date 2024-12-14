@@ -2035,6 +2035,7 @@
 
 ## Personalities
 
+70000128.md    Mortal-Combater
 70000127.md    Frank_Schlichter
 70000126.md    Frank_Ticheli
 70000125.md    Galileo-di-Vincenzo-Bonaiuti-de-Galilei
