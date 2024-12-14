@@ -2035,6 +2035,7 @@
 
 ## Personalities
 
+70000129.md    Alexandra
 70000128.md    Mortal-Combater
 70000127.md    Frank_Schlichter
 70000126.md    Frank_Ticheli
@@ -4068,6 +4069,7 @@
 
 ## Deep-Concepts
 
+60190.md       Idea-Helper
 60189.md       Confusion
 60188.md       Efficiency
 60187.md       Cognitive-Understanding
