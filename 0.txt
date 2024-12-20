@@ -2825,7 +2825,7 @@
 10500006.md    Star
 10500005.md    Earth
 10500004.md    Planet
-10500003.md    Sun
+10500003.md    Our-Sun
 10500002.md    Astronomical-Object
 10500001.md    Astronomy-System
 10500000.md    Astronomy
