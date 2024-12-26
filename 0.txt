@@ -1122,6 +1122,7 @@
 
 ## Holiday
 
+242000002.md   Alb-Camping
 242000001.md   Camping-Site
 
 ## Social-Media
