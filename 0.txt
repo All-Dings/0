@@ -2072,6 +2072,7 @@
 
 ## Personalities
 
+70000135.md    Lance-Edward_Armstrong
 70000134.md    Florian-von-Lorch
 70000133.md    Ludwig-Josef-Johann_Wittgenstein
 70000132.md    Helmut-Josef-Michael_Kohl
