@@ -2677,6 +2677,7 @@
 
 ## Logics
 
+15000012.md    Not-Function
 15000011.md    Tautology-Function
 15000010.md    Nor-Function
 15000009.md    Nand-Function
