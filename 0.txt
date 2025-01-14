@@ -3490,6 +3490,10 @@
 
 ## Medicine / Medical
 
+### Machines
+
+820001.md      Magnetic-Resonance-Imaging
+
 ### Medical-Drugs
 
 810010.md      Naproxen
