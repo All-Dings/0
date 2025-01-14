@@ -3461,6 +3461,7 @@
 
 ### German-Medical-System
 
+8001011.md     Universitätsmedizin-Göttingen
 8001010.md     Praxis-Mahlow
 8001009.md     Private-Kranken-Kasse
 8001008.md     Gesetzliche-Kranken-Kasse
