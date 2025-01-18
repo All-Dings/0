@@ -2073,6 +2073,7 @@
 
 ## Personalities
 
+70000137.md    George_Boole
 70000136.md    Oprah-Gail_Winfrey
 70000135.md    Lance-Edward_Armstrong
 70000134.md    Florian-von-Lorch
