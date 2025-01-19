@@ -2081,6 +2081,7 @@
 
 ## Personalities
 
+70000143.md    Franz-Josef_Strauß
 70000142.md    Otto_Suppes
 70000141.md    Ernst_Leitz
 70000140.md    Alfred_Eckhard
