@@ -2075,6 +2075,7 @@
 
 ## Personalities
 
+70000138.md    Kurt_Panke
 70000137.md    George_Boole
 70000136.md    Oprah-Gail_Winfrey
 70000135.md    Lance-Edward_Armstrong
