@@ -3762,6 +3762,7 @@
 
 ### Basics
 
+640053.md      Esperanto
 640052.md      Old-High-German
 640051.md      Ordinary-Language-Philosophy
 640050.md      Verbum-Modus-Imperativus
