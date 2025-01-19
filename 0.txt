@@ -1299,6 +1299,7 @@
 
 ## Machines
 
+201000035.md   Zuse-43
 201000034.md   Zuse-Z5
 201000033.md   Zuse-Z31
 201000032.md   Zuse-Z64
