@@ -2077,6 +2077,7 @@
 
 ## Personalities
 
+70000142.md    Otto_Suppes
 70000141.md    Ernst_Leitz
 70000140.md    Alfred_Eckhard
 70000139.md    Harro_Stucken
