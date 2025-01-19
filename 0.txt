@@ -1298,6 +1298,7 @@
 
 ## Machines
 
+201000030.md   Zuse-Z22
 201000029.md   Zuse-S1
 201000028.md   Car-Trunk
 201000027.md   Fuel-Injection-System
