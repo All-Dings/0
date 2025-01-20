@@ -3674,6 +3674,7 @@
 
 ### Patents
 
+688002.md      Aus-mechanischen-Schaltgliedern-aufgebautes-Speicherwerk-Patent
 688001.md      Mechanisches-Schaltglied-Patent
 688000.md      Rechenvorrichtung-Patent
 
