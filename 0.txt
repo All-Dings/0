@@ -3675,6 +3675,7 @@
 ### Patents
 
 688001.md      Mechanisches-Schaltglied-Patent
+688000.md      Rechenvorrichtung-Patent
 
 ### German-Juristics
 
