@@ -3672,6 +3672,10 @@
 
 ## Juristics
 
+### Patents
+
+688001.md      Mechanisches-Schaltglied-Patent
+
 ### German-Juristics
 
 680007.md      Arbeits-Vertrag
