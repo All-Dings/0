@@ -3685,6 +3685,7 @@
 
 ### Patents
 
+688005.md      Rechenmaschine-zur-Durchführung-arithmetischer-Rechenoperationen-Patent
 688004.md      Kombinierte-numerische-und-nichtnumerische-Rechenmaschine-Patent
 688003.md      Mechanisches-Verteilerschaltglied-Patent
 688002.md      Aus-mechanischen-Schaltgliedern-aufgebautes-Speicherwerk-Patent
