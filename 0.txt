@@ -3685,6 +3685,7 @@
 
 ### Patents
 
+688006.md      Vorrichtung-zum-Ableiten-von-Resultatangaben-mittels-Grundoperationen-des-Aussagenkalküls-Patent
 688005.md      Rechenmaschine-zur-Durchführung-arithmetischer-Rechenoperationen-Patent
 688004.md      Kombinierte-numerische-und-nichtnumerische-Rechenmaschine-Patent
 688003.md      Mechanisches-Verteilerschaltglied-Patent
