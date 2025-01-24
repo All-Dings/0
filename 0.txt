@@ -86,6 +86,7 @@
 
 ### Hypothesis
 
+301000026.md   Our-World-could-be-simpler-Hyptothesis
 301000025.md   Corona-Management-could-be-better-Hyptothesis
 301000024.md   The-Euro-is-a-good-Idea-Hypothesis
 301000023.md   Romantic-Love-is-no-Solution
