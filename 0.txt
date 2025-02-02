@@ -895,6 +895,7 @@
 
 ### Other Games
 
+280000018.md   Mau-Mau
 280000017.md   Rummy
 280000016.md   Sechs-und-Sechzig
 280000015.md   Binokel
