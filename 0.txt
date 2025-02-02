@@ -895,6 +895,7 @@
 
 ### Other Games
 
+280000014.md   Schafkopf
 280000013.md   Skat
 280000012.md   Online-Computer-Game
 280000011.md   Puzzle
