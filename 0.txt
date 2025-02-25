@@ -2763,6 +2763,7 @@
 
 ## Psychology
 
+14000009.md    Narcissist
 14000008.md    Hedonist
 14000007.md    Character-Type
 14000006.md    Romantic-Love
