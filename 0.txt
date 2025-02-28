@@ -86,6 +86,7 @@
 
 ### Hypothesis
 
+301000027.md   Michael-is-a-Narcissist
 301000026.md   Our-World-could-be-simpler-Hyptothesis
 301000025.md   Corona-Management-could-be-better-Hyptothesis
 301000024.md   The-Euro-is-a-good-Idea-Hypothesis
@@ -1561,6 +1562,7 @@
 
 ### Content-Seller
 
+190000010.md   LWD-Play-List
 190000009.md   YouTube-Video
 190000008.md   Twitter
 190000007.md   SoundBible
@@ -1974,6 +1976,7 @@
 
 ### Famous-Music-Pieces
 
+73000004.md    The-Wall
 73000003.md    Dance-of-the-Sugar-Plum-Fairy
 73000002.md    Dont-Start-Now (Wrong-Number)
 73000001.md    Physical (Wrong-Number)
