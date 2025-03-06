@@ -2417,6 +2417,7 @@
 
 ### Biologic-Reflexes
 
+48010001.md    Yawning
 48010000.md    Biologic-Reflex
 
 ### Illnesses
