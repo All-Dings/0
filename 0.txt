@@ -1274,6 +1274,7 @@
 
 ## Professions
 
+202000031.md   Video-Cutter
 202000030.md   Singer
 202000029.md   Curator
 202000028.md   Politician
