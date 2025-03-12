@@ -4214,6 +4214,7 @@
 
 ## Deep-Concepts
 
+60191.md       Offer
 60190.md       Idea-Helper
 60189.md       Confusion
 60188.md       Efficiency
