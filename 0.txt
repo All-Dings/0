@@ -1572,7 +1572,7 @@
 
 ### Content-Seller
 
-190000010.md   LWD-Play-List
+190000010.md   Learning-While-Doing
 190000009.md   YouTube-Video
 190000008.md   Twitter
 190000007.md   SoundBible
