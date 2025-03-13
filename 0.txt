@@ -131,6 +131,7 @@
 
 ### Movies
 
+1971100011.md  LWD-Cutter-Gesucht-Movie
 1971100010.md  Ford-Mustang-GT
 1971100009.md  Chorprobe-Frauenkirche-Movie
 1971100008.md  Regips-Kamera
@@ -436,6 +437,11 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000293.md   Cutter-Gesucht-Media-Toc-En
+400000292.md   Cutter-Gesucht-Subtitles-En
+400000291.md   Cutter-Gesucht-Subtitles-De
+400000290.md   Cutter-Gesucht-Media-Toc-De
+400000289.md   Cutter-Gesucht-Video-Mp4
 400000288.md   Dings-Site-Workers
 
 400000282.md   First-Draft-of-a-Report-on-the-EDVAC-Pdf
