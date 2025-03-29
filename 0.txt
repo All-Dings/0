@@ -2125,6 +2125,7 @@
 
 ## Personalities
 
+70000148.md    William-Henry_Gates
 70000147.md    Michael_Faraday
 70000146.md    Marco_S
 70000145.md    Ursula_Walk
