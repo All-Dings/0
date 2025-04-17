@@ -2785,6 +2785,7 @@
 
 ## Spiritism
 
+14100006.md    Sahasrara-Chakra
 14100005.md    Chakra
 14100004.md    Fortune-Teller
 14100003.md    Spiritism-System
