@@ -2785,6 +2785,7 @@
 
 ## Spiritism
 
+14100012.md    Muladhara-Chakra
 14100011.md    Svadhishthana-Chakra
 14100010.md    Manipura-Chakra
 14100009.md    Anahata-Chakra
