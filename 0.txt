@@ -3966,6 +3966,7 @@
 
 ## Location
 
+620011.md      Center-Location
 13006001.md    Circle-Path-Position
 620010.md      Direction
 620009.md      Circle-Path
