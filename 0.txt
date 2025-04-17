@@ -2785,6 +2785,7 @@
 
 ## Spiritism
 
+14100009.md    Anahata-Chakra
 14100008.md    Vishuddha-Chakra
 14100007.md    Ajna-Chakra
 14100006.md    Sahasrara-Chakra
