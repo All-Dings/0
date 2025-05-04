@@ -295,6 +295,16 @@
 
 ### Patents
 
+300050012.md   Skirting-Board-Patent
+300050011.md   Skirting-Board-Solution-2-jpg
+300050010.md   Skirting-Board-Solution-1-jpg
+300050009.md   Skirting-Board-Template-4-jpg
+300050008.md   Skirting-Board-Template-3-jpg
+300050007.md   Skirting-Board-Template-2-jpg
+300050006.md   Skirting-Board-Template-1-jpg
+300050005.md   Skirting-Board-Think-Jpg
+300050004.md   Skirting-Board-Problem-Jpg
+
 300050003.md   Local-Web-App
 300050002.md   Local-Web-App-Patent
 300050001.md   Zero-Wave-Device-Patent
@@ -2735,6 +2745,11 @@
 20000002.md    Disk-Drive
 20000001.md    Samsung-Galaxy-S22-Ultra
 20000000.md    Device
+
+## Craft
+
+17000001.md    Skirting-Board
+17000000.md    Craft
 
 ## Technology
 
