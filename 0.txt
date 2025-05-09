@@ -1180,6 +1180,7 @@
 
 ## Business
 
+240000060.md   Wisent
 240000059.md   Letter-of-Recommendation
 240000058.md   Mitra
 240000057.md   Remington-Rand
@@ -2749,6 +2750,7 @@
 
 ## Craft
 
+17000002.md    Craft-Tool
 17000001.md    Skirting-Board
 17000000.md    Craft
 
