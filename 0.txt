@@ -1525,6 +1525,7 @@
 
 ### Misc-Providers
 
+200020008.md   Hardware-Store
 200020007.md   Pharmacy-Shop
 200020006.md   Tattoo-Studio
 200020005.md   Stationery-Store
