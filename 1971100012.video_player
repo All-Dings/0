@@ -1,0 +1,20 @@
+{
+	"YouTube_Id": "pGcZDS4QD-Q",
+	"Dings_Video": "400000295.mp4",
+	"Audio_Video": "de",
+	"Aspect_Ratio": {
+		"Width": "16",
+		"Height": "9"
+	},
+	"Subtitle_File_List": [
+		["400000298.vtt", "de"],
+		["400000299.vtt", "en"]
+	],
+	"Media_Toc_File_List": [
+		["400000296.media_toc", "de"],
+		["400000297.media_toc", "en"]
+	],
+	"Thumb_Nail": "400000300.jpg",
+	"Audio_File_List": [
+	]
+}
