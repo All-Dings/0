@@ -3585,7 +3585,6 @@
 
 ### German-Medical-System
 
-8001012.md     LMU-Klinikum-München
 8001011.md     Universitätsmedizin-Göttingen
 8001010.md     Praxis-Mahlow
 8001009.md     Private-Kranken-Kasse
@@ -3596,7 +3595,7 @@
 8001004.md     Zentrum-für-Neurologie-und-Psychiatrie-Duisburg-West
 8001003.md     Universitätsklinikum-Hamburg-Eppendorf
 8001002.md     Universitätsklinikum-Essen
-8001001.md     Klinikum-der-Universität-München
+8001001.md     LMU-Klinikum-München
 8001000.md     Überweisungs-Schein
 8000999.md     German-Medical-System
 
