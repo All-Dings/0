@@ -3585,6 +3585,7 @@
 
 ### German-Medical-System
 
+8001012.md     LMU-Klinikum-München
 8001011.md     Universitätsmedizin-Göttingen
 8001010.md     Praxis-Mahlow
 8001009.md     Private-Kranken-Kasse
