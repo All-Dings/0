@@ -3552,6 +3552,10 @@
 8040002.md     Betriebs-Nummer
 8040001.md     German-Finance-System
 
+### German-Tax-System
+
+8035001.md     Zweit-Wohnsitz-Steuer
+
 ### German-Waste-Disposal-System
 
 8030001.md     German-Waste-Disposal-System
