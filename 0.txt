@@ -2396,6 +2396,7 @@
 
 ## Acoustics
 
+49100008.md    Phone-Plug
 49100007.md    Moving-Coil-Microphone
 49100006.md    Dynamic-Microphone
 49100005.md    Lavalier-Microphone
