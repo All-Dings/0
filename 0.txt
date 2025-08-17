@@ -2731,6 +2731,7 @@
 
 ## Devices
 
+20000043.md    Hisense-Canvas-TV
 20000042.md    Television-Set
 20000041.md    Nikon-D5200-Christoph
 20000040.md    iPhone-12-Rebecca
