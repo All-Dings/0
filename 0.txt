@@ -1204,6 +1204,7 @@
 
 ## Business
 
+240000063.md   MiniMax
 240000062.md   Hisense
 240000061.md   BAUHAUS
 240000060.md   Wisent
