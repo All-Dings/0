@@ -2730,6 +2730,7 @@
 
 ## Devices
 
+20000042.md    Television
 20000041.md    Nikon-D5200-Christoph
 20000040.md    iPhone-12-Rebecca
 20000039.md    iPhone-12
