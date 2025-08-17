@@ -2413,6 +2413,7 @@
 
 ## Optics
 
+49000004.md    Hyperlapse-Mode
 49000003.md    Camera-Mode
 49000002.md    Optics-Objective
 49000001.md    Optics-System
