@@ -3813,6 +3813,7 @@
 
 ### Basics
 
+670055.md      CC-BY-4.0
 670054.md      Supercell-Fan-Content-Policy
 670053.md      Copyright
 670052.md      Pexels-License
