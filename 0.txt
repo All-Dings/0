@@ -1201,6 +1201,7 @@
 
 ## Business
 
+240000062.md   Hisense
 240000061.md   BAUHAUS
 240000060.md   Wisent
 240000059.md   Letter-of-Recommendation
@@ -2730,7 +2731,7 @@
 
 ## Devices
 
-20000042.md    Television
+20000042.md    Television-Set
 20000041.md    Nikon-D5200-Christoph
 20000040.md    iPhone-12-Rebecca
 20000039.md    iPhone-12
