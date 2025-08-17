@@ -3168,6 +3168,10 @@
 9999998.md     Informatics-Student
 9999997.md     Informatics-Famous-Human
 
+### Artificial-Intelligence
+
+9500001.md     MiniMax-Audio
+
 ### Hardware
 
 9400007.md     Hardware-Bug
