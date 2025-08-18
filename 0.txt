@@ -2332,6 +2332,7 @@
 
 ### General
 
+60100011.md    Door-Bell
 60100010.md    Martins-Kirche-Tübingen
 60100009.md    Church
 60100008.md    Frauenkirche-Dresden
