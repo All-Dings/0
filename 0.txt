@@ -3176,6 +3176,7 @@
 
 ### Artificial-Intelligence
 
+9500003.md     AI-Video
 9500002.md     HailuoAi-Video
 9500001.md     MiniMax-Audio
 
