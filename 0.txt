@@ -258,6 +258,7 @@
 
 ### Devices
 
+300090028.md   Dings-Dev-28-Hisense-Sound-Bar
 300090027.md   Dings-Dev-27-Canvas-TV
 300090026.md   Dings-Dev-26-Imou
 300090025.md   Dings-Dev-25-Rode-SmartLav+
