@@ -2857,6 +2857,7 @@
 
 ## Devices
 
+20000044.md    Hisensse-Sound-Bar-HS3100
 20000043.md    Hisense-Canvas-TV
 20000042.md    Television-Set
 20000041.md    Nikon-D5200-Christoph
