@@ -4439,6 +4439,7 @@
 
 ## Deep-Concepts
 
+60192.md       Predecessor
 60191.md       Offer
 60190.md       Idea-Helper
 60189.md       Confusion
