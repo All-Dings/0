@@ -35,6 +35,13 @@
 
 #### Juristics-Cases
 
+308000008.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20250605.pdf
+308000007.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20250520.pdf
+308000006.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20250409.pdf
+308000005.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20250319.pdf
+308000004.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20240807.pdf
+308000003.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20240703.pdf
+308000002.md   Direkt_Depot_Terminsache_GB00BDVZYZ77_20240701.pdf
 308000001.md   Direkt_Depot_Ertragsabrechnung_GB00BDVZYZ77_20241002.pdf
 308000000.md   My-Royal-Mail-Share-Case
 
