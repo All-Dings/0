@@ -3963,6 +3963,7 @@
 
 ### Basics
 
+670056.md      Compulsory-Acquisition
 670055.md      CC-BY-4.0
 670054.md      Supercell-Fan-Content-Policy
 670053.md      Copyright
