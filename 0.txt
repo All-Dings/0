@@ -35,6 +35,7 @@
 
 #### Juristics-Cases
 
+308000001.md   Direkt_Depot_Ertragsabrechnung_GB00BDVZYZ77_20241002.pdf
 308000000.md   My-Royal-Mail-Share-Case
 
 ### Projects
