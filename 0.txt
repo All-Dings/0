@@ -1148,6 +1148,7 @@
 
 ### Soccer
 
+270100003.md   Hertha-Berliner-Sport-Club
 270100001.md   Soccer-System
 270110000.md   Soccer
 
