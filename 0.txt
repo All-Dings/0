@@ -35,6 +35,7 @@
 
 #### Juristics-Cases
 
+308000012.md   Direkt_Depot_Terminsache_US3682872078_20250903.pdf
 308000011.md   Persoenliche_Nachricht_20250901.pdf
 308000010.md   Persoenliche_Nachricht_20250828.pdf
 308000009.md   Ids-Offer-Screen-Shot.pdf
