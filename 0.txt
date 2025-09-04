@@ -1762,6 +1762,7 @@
 
 ### Information-Providers
 
+191000009.md   Bundes-Anzeiger
 191000008.md   Märkische-Allgemeine-Zeitung
 191000007.md   Die-Tageszeitung
 191000006.md   News-Paper
