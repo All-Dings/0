@@ -481,7 +481,7 @@
 400000803.md   Affinity-Designer.mp4
 400000802.md   Affinity-Designer.prproj
 400000801.md   Affinity-Designer-Thumb-Nail.jpg
-400000800.md   Süße-Igel-Familie.jpg
+400000800.md   Süße-Igel-Familie.jpeg
 
 400000700.md   Squirrel-plays-Tetris-GPT.png
 
