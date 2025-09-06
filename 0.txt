@@ -483,6 +483,7 @@
 400000801.md   Affinity-Designer-Thumb-Nail.jpg
 400000800.md   Süße-Igel-Familie.jpeg
 
+400000701.md   Affinity-Photo-Thumb-Nail.jpg
 400000700.md   Squirrel-plays-Tetris-GPT.png
 
 400000602.md   Rumänische-Arbeiter.mov
