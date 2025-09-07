@@ -3460,6 +3460,7 @@
 
 9000198.md     Wordpress
 
+2000293.md     Affinity-Designer
 2000292.md     BlueStacks
 2000291.md     FireShot-Screen-Shot-Plugin
 2000290.md     Threema
