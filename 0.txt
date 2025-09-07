@@ -1381,6 +1381,7 @@
 
 ## Business
 
+240000069.md   Serif
 240000068.md   PJSC-Gazprom
 240000067.md   Ing-Diba
 240000066.md   Royal-Mail
