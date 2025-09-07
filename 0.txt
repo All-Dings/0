@@ -478,11 +478,18 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000900.md   Android-Studio-Le-GPT.png
+
+400000804.md   Affinity-Designer-Raw-Screen-Recorder.mov
 400000803.md   Affinity-Designer.mp4
 400000802.md   Affinity-Designer.prproj
 400000801.md   Affinity-Designer-Thumb-Nail.jpg
 400000800.md   Süße-Igel-Familie.jpeg
 
+
+400000704.md   Affinity-Photo.mp4
+400000703.md   Affinity-Photo.prproj
+400000702.md   Affinity-Photo-Raw-Screen-Recorder.mov
 400000701.md   Affinity-Photo-Thumb-Nail.jpg
 400000700.md   Squirrel-plays-Tetris-GPT.png
 
