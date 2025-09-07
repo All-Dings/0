@@ -479,6 +479,17 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000933.md   About-Beauty-LWD-Movie.mov
+400000932.md   About-Beauty-LWD-Thumb-Nail.jpg
+400000931.md   About-Beauty-LWD-Thumb-Nail.afpub
+400000930.md   About-Beauty-GTP.png
+
+400000923.md   Buy-Affinity-LWD-Movie.mov
+400000922.md   Buy-Affinity-LWD-Thumb-Nail.jpg
+400000921.md   Buy-Affinity-LWD-Thumb-Nail.afpub
+400000920.md   Buy-Affinity-GTP.png
+
+400000913.md   Thumb-Nail-LWD-Movie.mov
 400000912.md   Thumb-Nail-LWD-Thumb-Nail.jpg
 400000911.md   Thumb-Nail-LWD-Thumb-Nail.afpub
 400000910.md   Thumb-Nail-GPT.png
