@@ -479,8 +479,13 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000953.md   What-is-Love-LWD-Movie.mov
+400000952.md   What-is-Love-LWD-Thumb-Nail.jpg
+400000951.md   What-is-Love-LWD-Thumb-Nail.afdesign
+400000950.md   What-is-Love-by-Markus.png
+
 400000943.md   Mond-Finsternis-LWD-Movie.mov
-400000942.md   Mond-Finsternis-Thumb-Nail.jpg
+400000942.md   Mond-Finsternis-LWD-Thumb-Nail.jpg
 400000941.md   Mond-Finsternis-LWD-Thumb-Nail.afphoto
 400000940.md   Mond-Finsternis-von-Hachti.png
 
