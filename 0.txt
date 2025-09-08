@@ -479,6 +479,9 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000943.md   Mond-Finsternis-LWD-Movie.mov
+400000942.md   Mond-Finsternis-Thumb-Nail.jpg
+400000941.md   Mond-Finsternis-LWD-Thumb-Nail.afphoto
 400000940.md   Mond-Finsternis-von-Hachti.png
 
 400000933.md   About-Beauty-LWD-Movie.mov
@@ -3475,6 +3478,7 @@
 
 9000198.md     Wordpress
 
+2000295.md     Affinity-Photo
 2000294.md     Affinity-Publisher
 2000293.md     Affinity-Designer
 2000292.md     BlueStacks
