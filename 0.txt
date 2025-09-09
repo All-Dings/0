@@ -479,6 +479,16 @@
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
 
+400000983.md   Mein-Gott-Walter-LWD-Movie.mov
+400000982.md   Mein-Gott-Walter-LWD-Thumb-Nail.jpg
+400000981.md   Mein-Gott-Walter-LWD-Thumb-Nail.afdesign
+400000980.md   Mein-Gott-Walter-GPT.png
+
+400000973.md   About-Integration-LWD-Movie.mov
+400000972.md   About-Integration-LWD-Thumb-Nail.jpg
+400000971.md   About-Integration-LWD-Thumb-Nail.afdesign
+400000970.md   About-Integration-GPT.png
+
 400000963.md   Gute-Nacht-LWD-Movie.mov
 400000962.md   Gute-Nacht-LWD-Thumb-Nail.jpg
 400000961.md   Gute-Nacht-LWD-Thumb-Nail.afdesign
@@ -1809,6 +1819,7 @@
 
 ### YouTube-Videos
 
+193000002.md   Mein-Gott-Walter-YouTube
 193000001.md   Mecano-Hijo-de-la-Luna-YouTube
 193000000.md   Dr-Gabor_Maté-on-Israel-Palestine
 
