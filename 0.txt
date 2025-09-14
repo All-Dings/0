@@ -465,12 +465,21 @@
 
 444444448.md   A-real-Star
 
+400001053.md   Alles-ist-sicher-LWD-Movie.mov
+400001052.md   Alles-ist-sicher-LWD-Thumb-Nail.jpg
+400001051.md   Alles-ist-sicher-LWD-Thumb-Nail.afdesign
+400001050.md   Alles-ist-sicher-GPT.png
+
+400001043.md   Alugha-vs-Vimeo-LWD-Movie.mov
+400001042.md   Alugha-vs-Vimeo-LWD-Thumb-Nail.jpg
+400001041.md   Alugha-vs-Vimeo-LWD-Thumb-Nail.afdesign
+400001040.md   Alugha-vs-Vimeo-GPT.png
+
 400001034.md   Dings-User-No-Access-16-9-Video
 400001033.md   Dings-User-No-Access-4-3
 400001032.md   Dings-User-No-Access-16-9
 400001031.md   Buzzer-Sounds-Wrong-Answer-Error
 400001030.md   Earth-Song-Semiseria
-
 
 400001025.md   Chorprobe-Frauenkirche-Subtitles-Lat
 400001024.md   Chorprobe-Frauenkirche-Subtitles-En
@@ -478,6 +487,11 @@
 400001022.md   Chorprobe-Frauenkirche-Media-Toc-En
 400001021.md   Chorprobe-Frauenkirche-Media-Toc-De
 400001020.md   Chorprobe-Frauenkirche-Movie-Mp4
+
+400001003.md   YouTube-Options-LWD-Movie.mov
+400001002.md   YouTube-Options-LWD-Thumb-Nail.jpg
+400001001.md   YouTube-Options-LWD-Thumb-Nail.afdesign
+400001000.md   YouTube-Options-GPT.png
 
 400000993.md   Executive-Summary-II-LWD-Movie.mov
 400000992.md   Executive-Summary-II-LWD-Thumb-Nail.jpg
