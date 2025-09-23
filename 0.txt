@@ -465,6 +465,16 @@
 
 444444448.md   A-real-Star
 
+400001353.md   Wird-schon-werden-LWD-Movie.mov
+400001352.md   Wird-schon-werden-LWD-Thumb-Nail.jpg
+400001351.md   Wird-schon-werden-LWD-Thumb-Nail.afdesign
+400001350.md   Wird-schon-werden-GPT.png
+
+400001343.md   Fakten-Check-LWD-Movie.mov
+400001342.md   Fakten-Check-LWD-Thumb-Nail.jpg
+400001341.md   Fakten-Check-LWD-Thumb-Nail.afdesign
+400001340.md   Fakten-Check-GPT.png
+
 400001333.md   Klartext-Reden-LWD-Movie.mp4
 400001332.md   Klartext-Reden-LWD-Thumb-Nail.jpg
 400001331.md   Klartext-Reden-LWD-Thumb-Nail.afdesign
