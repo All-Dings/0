@@ -465,6 +465,11 @@
 
 444444448.md   A-real-Star
 
+400001333.md   Klartext-Reden-LWD-Movie.mp4
+400001332.md   Klartext-Reden-LWD-Thumb-Nail.jpg
+400001331.md   Klartext-Reden-LWD-Thumb-Nail.afdesign
+400001330.md   Klartext-Reden-GPT.png
+
 400001323.md   Sind-wir-zufrieden-LWD-Movie.mp4
 400001322.md   Sind-wir-zufrieden-LWD-Thumb-Nail.jpg
 400001321.md   Sind-wir-zufrieden-LWD-Thumb-Nail.afdesign
