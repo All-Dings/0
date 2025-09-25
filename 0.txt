@@ -465,6 +465,16 @@
 
 444444448.md   A-real-Star
 
+400001413.md   Sync-Command-XII-LWD-Movie.mov
+400001412.md   Sync-Command-XII-LWD-Thumb-Nail.jpg
+400001411.md   Sync-Command-XII-LWD-Thumb-Nail.afdesign
+400001410.md   Sync-Command-XII-GPT.png
+
+400001403.md   Investment-Check-LWD-Movie.mov
+400001402.md   Investment-Check-LWD-Thumb-Nail.jpg
+400001401.md   Investment-Check-LWD-Thumb-Nail.afdesign
+400001400.md   Investment-Check-GPT.png
+
 400001393.md   Kollateral-Schaden-LWD-Movie.mov
 400001392.md   Kollateral-Schaden-LWD-Thumb-Nail.jpg
 400001391.md   Kollateral-Schaden-LWD-Thumb-Nail.afdesign
