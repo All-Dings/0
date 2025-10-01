@@ -465,6 +465,12 @@
 
 444444448.md   A-real-Star
 
+400001634.md   Ein-Intelligenz-Test.pdf
+400001633.md   Ein-Intelligenz-Test-LWD-Movie.mov
+400001632.md   Ein-Intelligenz-Test-LWD-Thumb-Nail.jpg
+400001631.md   Ein-Intelligenz-Test-LWD-Thumb-Nail.afdesign
+400001630.md   Ein-Intelligenz-Test-GPT.png
+
 400001623.md   Besser-Zusammen-LWD-Movie.mov
 400001622.md   Besser-Zusammen-LWD-Thumb-Nail.jpg
 400001621.md   Besser-Zusammen-LWD-Thumb-Nail.afdesign
