@@ -4453,6 +4453,7 @@
 
 ### German-Juristics
 
+680008.md      Arbeits-Kündigung
 680007.md      Arbeits-Vertrag
 680006.md      Kauf-Vertrag
 680005.md      Grundgesetz
