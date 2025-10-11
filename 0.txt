@@ -181,6 +181,7 @@
 
 #### Other Friends
 
+1971091195.md  Konrad
 1971091194.md  Jasi
 1971091193.md  My-Berlin-Choir-Buddy
 1971091192.md  Alex
@@ -465,6 +466,11 @@
 ## Media-Files
 
 444444448.md   A-real-Star
+
+400002013.md   Bergmann-Kiez-LWD-Movie.mov
+400002012.md   Bergmann-Kiez-LWD-Thumb-Nail.jpg
+400002011.md   Bergmann-Kiez-LWD-Thumb-Nail.afdesign
+400002010.md   Bergmann-Kiez-GPT.png
 
 400002003.md   The-Good-Ones-LWD-Movie.mov
 400002002.md   The-Good-Ones-LWD-Thumb-Nail.jpg
