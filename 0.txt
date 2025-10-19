@@ -467,6 +467,16 @@
 
 444444448.md   A-real-Star
 
+400002143.md   Zur-Analysis-LWD-Movie.mov
+400002142.md   Zur-Analysis-LWD-Thumb-Nail.jpg
+400002141.md   Zur-Analysis-LWD-Thumb-Nail.afdesign
+400002140.md   Zur-Analysis-GPT.png
+
+400002133.md   Bering-Test-LWD-Movie.mov
+400002132.md   Bering-Test-LWD-Thumb-Nail.jpg
+400002131.md   Bering-Test-LWD-Thumb-Nail.afdesign
+400002130.md   Bering-Test-GPT.png
+
 400002123.md   Nur-Schwurbelei-LWD-Movie.mov
 400002122.md   Nur-Schwurbelei-LWD-Thumb-Nail.jpg
 400002121.md   Nur-Schwurbelei-LWD-Thumb-Nail.afdesign
