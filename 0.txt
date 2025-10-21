@@ -468,6 +468,11 @@
 
 444444448.md   A-real-Star
 
+400002203.md   Zuse-Z1-Speicher-LWD-Movie.mov
+400002202.md   Zuse-Z1-Speicher-LWD-Thumb-Nail.jpg
+400002201.md   Zuse-Z1-Speicher-LWD-Thumb-Nail.afdesign
+400002200.md   Zuse-Z1-Speicher-GPT.png
+
 400002193.md   Woher-kommen-wir-LWD-Movie.mov
 400002192.md   Woher-kommen-wir-LWD-Thumb-Nail.jpg
 400002191.md   Woher-kommen-wir-LWD-Thumb-Nail.afdesign
