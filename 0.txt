@@ -3493,6 +3493,7 @@
 
 ## Devices
 
+20000048.md    MemonizerWLAN
 20000047.md    MemonizerWATER
 20000046.md    MemonizerCOMBI-Stecker
 20000045.md    Sound-Bar
