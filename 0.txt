@@ -3493,6 +3493,7 @@
 
 ## Devices
 
+20000047.md    MemonizerWATER
 20000046.md    MemonizerCOMBI-Stecker
 20000045.md    Sound-Bar
 20000044.md    Hisense-Sound-Bar-HS3100
