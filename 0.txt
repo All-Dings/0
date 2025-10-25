@@ -478,11 +478,11 @@
 400002261.md   Install-Memon-LWD-Thumb-Nail.afdesign
 400002260.md   Install-Memon-GPT.png
 
-400002257.md   MemonizerWLAN-Installed-Close
-400002256.md   MemonizerWLAN-Unboxing.mp4
+400002257.md   MemonizerWLAN-Packaging.jpg
+400002256.md   MemonizerWLAN-Manual.jpg
 400002255.md   MemonizerWLAN-Adhesive-Plate.jpg
-400002254.md   MemonizerWLAN-Manual.jpg
-400002253.md   MemonizerWLAN-Packaging.jpg
+400002255.md   MemonizerWLAN-Unboxing.mp4
+400002253.md   MemonizerWLAN-Installed-Close.jpg
 
 400002252.md   MemonizerCOMBI-Manual-Link.jpg
 400002251.md   MemonizerCOMBI-QR-Code.jpg
