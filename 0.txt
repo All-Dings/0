@@ -3536,6 +3536,7 @@
 
 ## Devices
 
+20000049.md    GQ-EMF-390
 20000048.md    MemonizerWLAN
 20000047.md    MemonizerWATER
 20000046.md    MemonizerCOMBI-Stecker
