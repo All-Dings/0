@@ -280,6 +280,7 @@
 
 ### Devices
 
+300090029.md   Dings-Dev-29-GQ-EMF-390
 300090028.md   Dings-Dev-28-Hisense-Sound-Bar
 300090027.md   Dings-Dev-27-Canvas-TV
 300090026.md   Dings-Dev-26-Imou
@@ -467,6 +468,11 @@
 ## Media-Files
 
 444444448.md   A-real-Star
+
+400002293.md   Über-unseren-Strom-LWD-Movie.mov
+400002292.md   Über-unseren-Strom-LWD-Thumb-Nail.jpg
+400002291.md   Über-unseren-Strom-LWD-Thumb-Nail.afdesign
+400002290.md   Über-unseren-Strom-GPT.png
 
 400002284.md   My-EMF-390-Front.jpg
 400002283.md   Unboxing-EMF-390-LWD-Movie.mov
