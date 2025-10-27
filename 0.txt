@@ -469,6 +469,16 @@
 
 444444448.md   A-real-Star
 
+400002313.md   Glas-Faser-FTU-LWD-Movie.mov
+400002312.md   Glas-Faser-FTU-LWD-Thumb-Nail.jpg
+400002311.md   Glas-Faser-FTU-LWD-Thumb-Nail.afdesign
+400002310.md   Glas-Faser-FTU-GPT.png
+
+400002303.md   Elektrische-Felder-LWD-Movie.mov
+400002302.md   Elektrische-Felder-LWD-Thumb-Nail.jpg
+400002301.md   Elektrische-Felder-LWD-Thumb-Nail.afdesign
+400002300.md   Elektrische-Felder-GPT.png
+
 400002293.md   Über-unseren-Strom-LWD-Movie.mov
 400002292.md   Über-unseren-Strom-LWD-Thumb-Nail.jpg
 400002291.md   Über-unseren-Strom-LWD-Thumb-Nail.afdesign
@@ -3542,6 +3552,7 @@
 
 ## Devices
 
+20000050.md    Fiber-Termination-Unit
 20000049.md    GQ-EMF-390
 20000048.md    MemonizerWLAN
 20000047.md    MemonizerWATER
