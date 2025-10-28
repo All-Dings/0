@@ -3012,6 +3012,7 @@
 
 ## Personalities
 
+70000151.md    Samuel
 70000150.md    Daniel_Křetínský
 70000149.md    Sascha_Ende
 70000148.md    William-Henry_Gates
