@@ -1802,8 +1802,6 @@
 
 ### Tennis
 
-`2270200011.md Next Number`
-
 270200011.md   Tennis-Backpack
 
 270000022.md   Tennis-Top-Spin
@@ -3012,6 +3010,7 @@
 
 ## Personalities
 
+70000152.md    King-Saul
 70000151.md    Samuel
 70000150.md    Daniel_Křetínský
 70000149.md    Sascha_Ende
