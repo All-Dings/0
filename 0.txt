@@ -1890,6 +1890,7 @@
 
 ## Botanics
 
+260030008.md   Solidago-Canadensis
 260030007.md   Zea-Mays
 260030006.md   Tree
 260030005.md   Blow-Ball
