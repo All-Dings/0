@@ -4704,6 +4704,7 @@
 
 ### German-Juristics
 
+680009.md      Bußgeld-Verfahren
 680008.md      Arbeits-Kündigung
 680007.md      Arbeits-Vertrag
 680006.md      Kauf-Vertrag
