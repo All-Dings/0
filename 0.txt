@@ -4235,6 +4235,7 @@
 
 9000198.md     Wordpress
 
+2000300.md     Adobe-Acrobat-Reader
 2000299.md     FFmpeg-Tool
 2000298.md     Powerpoint
 2000297.md     Vogelquiz-App
