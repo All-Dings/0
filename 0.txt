@@ -702,7 +702,7 @@
 400002211.md   Menschliches-Gerhirn-LWD-Thumb-Nail.afdesign
 400002210.md   Menschliches-Gerhirn-GPT.png
 
-400002205.md   Deutsches-Museum-Teil-V-Zuse Z1-Speicher.mp4
+400002205.md   Deutsches-Museum-Teil-V-Zuse-Z1-Speicher.mp4
 400002204.md   Speicher-Modell-von-Konrad-Zuse.pptx
 400002203.md   Zuse-Z1-Speicher-LWD-Movie.mov
 400002202.md   Zuse-Z1-Speicher-LWD-Thumb-Nail.jpg
