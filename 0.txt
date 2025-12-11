@@ -3330,6 +3330,7 @@
 
 ### General
 
+60100012.md    Zeiss-Großplanetarium
 60100011.md    Door-Bell
 60100010.md    Martins-Kirche-Tübingen
 60100009.md    Church
