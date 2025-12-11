@@ -3157,6 +3157,7 @@
 
 ## Personalities
 
+70000154.md    Thomas_Naumann
 70000153.md    King-David
 70000152.md    King-Saul
 70000151.md    Prophet-Samuel
