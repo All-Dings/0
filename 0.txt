@@ -3161,6 +3161,7 @@
 
 ## Personalities
 
+70000155.md    Joseph-Louis-François_Bertrand
 70000154.md    Thomas_Naumann
 70000153.md    King-David
 70000152.md    King-Saul
