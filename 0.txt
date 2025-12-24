@@ -3907,6 +3907,7 @@
 13010001.md    Circle-Number
 13010000.md    Famous-Number
 
+13006008.md    Set-Square
 13006007.md    Ruler
 13006006.md    Pair-of-Compasses
 13006005.md    Sphere
