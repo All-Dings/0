@@ -480,6 +480,7 @@
 
 ### BL-Weihnachts-Konzert-2025
 
+400007003.md BL-WK-2025-04-Whisper-Whisper.mp4
 400007002.md BL-WK-2025-03-Lied-Tjo-Tjo.mp4
 400007001.md BL-WK-2025-02-Einlauf-Albhorn-Berlin.mp4
 400007000.md BL-WK-2025-01-Probe-Albhorn-Berlin.mp4
@@ -3073,6 +3074,7 @@
 
 ### Famous-Songs
 
+91000024.md    Stille-Nacht-Heilig-Nacht
 91000023.md    Whisper-Whisper-Althouse
 91000022.md    Wer-will-fleißige-Handwerker-sehn
 91000021.md    Earth-Song-Ticheli
