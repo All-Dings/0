@@ -478,6 +478,12 @@
 
 444444448.md   A-real-Star
 
+### BL-Weihnachts-Konzert-2025
+
+400007002.md BL-WK-2025-03-Lied-Tjo-Tjo.mp4
+400007001.md BL-WK-2025-02-Einlauf-Albhorn-Berlin.mp4
+400007000.md BL-WK-2025-01-Probe-Albhorn-Berlin.mp4
+
 ### Gott-wüfelt-nicht
 
 400006082.md My-Pocket-Calculator-Cut.png
