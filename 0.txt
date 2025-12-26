@@ -480,6 +480,8 @@
 
 ### BL-Weihnachts-Konzert-2025
 
+400007007.md BL-WK-2025-08-BL-Weihnachts-Konzert-2025.prproj
+400007006.md BL-WK-2025-07-Tollite-Hostias.mp4
 400007005.md BL-WK-2025-06-Vom-Himmel-hoch.mp4
 400007004.md BL-WK-2025-05-Still-Nacht.mp4
 400007003.md BL-WK-2025-04-Whisper-Whisper.mp4
@@ -3772,6 +3774,7 @@
 
 ## Media-Files
 
+30010029.md    Premiere-Pro-Format
 30010028.md    iCalendar-Format
 30010027.md    Wav-Sound-Format
 30010026.md    Dings-Media-Toc-Format
