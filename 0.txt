@@ -480,6 +480,7 @@
 
 ### BL-Weihnachts-Konzert-2025
 
+400007005.md BL-WK-2025-06-Vom-Himmel-hoch.mp4
 400007004.md BL-WK-2025-05-Still-Nacht.mp4
 400007003.md BL-WK-2025-04-Whisper-Whisper.mp4
 400007002.md BL-WK-2025-03-Lied-Tjo-Tjo.mp4
@@ -3125,6 +3126,7 @@
 90001001.md    Tenor
 90001000.md    Choir
 
+90000071.md    Oratorio
 90000070.md    Alb-Horn
 90000069.md    Intonation-Error
 90000068.md    Music-Intonation
