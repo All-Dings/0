@@ -3247,6 +3247,7 @@
 
 ## Personalities
 
+70000158.md    William-Bruce_Rose
 70000157.md    Martin_Luther
 70000156.md    Archimedes-of-Syracuse
 70000155.md    Joseph-Louis-François_Bertrand
