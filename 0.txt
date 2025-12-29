@@ -3251,6 +3251,7 @@
 
 ## Personalities
 
+70000160.md    John-Michael_Osbourne
 70000159.md    Kurt-Donald_Cobain
 70000158.md    William-Bruce_Rose
 70000157.md    Martin_Luther
