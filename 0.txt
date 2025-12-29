@@ -36,6 +36,8 @@
 
 #### Juristics-Cases
 
+308000014.md   Persoenliche_Nachricht_20251219.pdf
+308000013.md   ING_Nachfrage_SqueezeOut_IDS.pdf
 308000012.md   Direkt_Depot_Terminsache_US3682872078_20250903.pdf
 308000011.md   Persoenliche_Nachricht_20250901.pdf
 308000010.md   Persoenliche_Nachricht_20250828.pdf
