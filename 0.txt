@@ -501,6 +501,14 @@
 
 ### Gott-wüfelt-nicht
 
+400006094.md Gott-mit-Zucker-Watte-080-0D-Punkt-Urknall.png
+400006093.md Gott-mit-Zucker-Watte-070-0D-Punkt.png
+400006092.md Gott-mit-Zucker-Watte-060-1D-Linie-Fixed.png
+400006091.md Gott-mit-Zucker-Watte-050-1D-Linie.png
+400006090.md Gott-mit-Zucker-Watte-040-2D-Quadrat-Fixed.png
+400006089.md Gott-mit-Zucker-Watte-030-2D-Quadrat.png
+400006088.md Gott-mit-Zucker-Watte-020-3D-Würfel.png
+400006087.md Gott-mit-Zucker-Watte-010-3D-Kugel.png
 400006086.md Enlighted-Einstein-GPT-Cut.png
 400006085.md Enlighted-Einstein-GPT-Cut.psd
 400006084.md Enlighted-Einstein-GPT.png
