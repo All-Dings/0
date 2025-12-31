@@ -2269,7 +2269,7 @@
 
 ## Business
 
-240000076.md   Uber-Eats
+240000076.md   Uber
 240000075.md   Wolf-GmbH
 240000074.md   Robert-Bosch-GmbH
 240000073.md   Faber-Castell
