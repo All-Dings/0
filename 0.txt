@@ -4057,7 +4057,7 @@
 
 ## Mathematics
 
-13010004.md    Lucky-Number
+13010004.md    Good-Luck-Number
 13010003.md    On-Line-Encyclopedia-of-Integer-Sequences
 13010002.md    Meaning-of-Life-Number
 13010001.md    Circle-Number
