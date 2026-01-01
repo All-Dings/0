@@ -5587,7 +5587,7 @@
 60119.md       Pattern-Recognition
 60118.md       Meta-Data
 60117.md       Bad-Luck
-60116.md       Luck
+60116.md       Good-Luck
 60115.md       Recognition
 60114.md       Prize
 60113.md       Stress
