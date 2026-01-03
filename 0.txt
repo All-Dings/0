@@ -605,6 +605,7 @@
 400003551.md 24-Hour-Clock.py
 400003550.md Rain-Anger.mp3
 
+400003541.md LWD-Ein-Wunder-Map.xcf
 400003540.md LWD-Ein-Wunder-Map.kmz
 400003539.md Unknown-Spirit.mp4
 400003538.md Ein-Wunder-038.mp4
