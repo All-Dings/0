@@ -3350,6 +3350,7 @@
 
 ## Personalities
 
+70000176.md    Sylvester_Stallone
 70000175.md    Alice_Schwarzer
 70000174.md    Cristiano_Ronaldo
 70000173.md    Anton_Schmidinger
