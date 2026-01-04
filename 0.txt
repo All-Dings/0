@@ -5245,6 +5245,7 @@
 
 ## Religion
 
+647016.md      Scientology
 647015.md      Karma
 647014.md      Ave-Maria-Prayer
 647013.md      Written-Prayer
