@@ -359,6 +359,10 @@
 
 ### Types
 
+300040020.md   Dings_Pdf_Viewer_Chat
+300040018.md   Dings_Pdf_Viewer_Proofreader
+300040017.md   Dings_Pdf_Viewer
+
 300040013.md   Dings_Tex_Equation
 300040012.md   Dings_Blog
 300040011.md   Dings_Navigator
@@ -388,6 +392,7 @@
 
 ### Dings-Lib
 
+300010017.md   Dings_Lib_Rag
 300010016.md   Dings-Lib-Command
 300010015.md   Dings-Lib-Js
 300010014.md   Dings-Lib-FLEXsearch
@@ -483,6 +488,7 @@
 
 ### New Binary-Files
 
+401000003.md Rechenmaschine-Patent.pdf
 401000002.md Zahl-167-Fehler-001.jpg
 401000001.md Deutsche-Heldensage-Archive-Org.pdf
 401000000.md Grimms-Märchen-Archive-Org.pdf
@@ -2283,6 +2289,7 @@
 
 250020001.md   Python-Sorted-Function
 
+250000044.md   Retrieval-Augmented-Generation
 250000043.md   Diffusion-Model
 250000042.md   Machine-Learning-Transformer
 250000041.md   Large-Language-Model
@@ -4528,6 +4535,7 @@
 
 ### Program-Libraries
 
+9020005.md     hOCR-Proofreader.js
 9020004.md     FLEXsearch
 9020003.md     Arbor.js
 9020002.md     jQuery
