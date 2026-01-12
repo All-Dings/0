@@ -2505,6 +2505,7 @@
 
 ## Professions
 
+202000032.md   Software-Developer
 202000031.md   Video-Cutter
 202000030.md   Singer
 202000029.md   Curator
