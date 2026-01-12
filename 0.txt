@@ -3356,6 +3356,7 @@
 
 ## Famous-Documents or Books
 
+71000032.md    Die-Deutsche-Heldensage
 71000031.md    Grimms_Märchen
 71000030.md    The-Mathematical-Analysis-of-Logic
 71000029.md    Explication-de-l‘Arithmetique-Binaire
