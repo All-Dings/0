@@ -464,6 +464,7 @@
 
 ## Good-Things
 
+20000100007.md Top-10-Informatics-List
 20000100006.md Top-10-Mathematician-List
 20000100005.md Top-10-Physicist-List
 20000100004.md Good-Songs
