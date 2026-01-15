@@ -355,7 +355,7 @@
 
 ### Attributes
 
-300042000.md   Dings_Attr
+300042000.md   Dings_Attribute
 
 ### Test
 
