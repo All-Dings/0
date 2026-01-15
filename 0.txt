@@ -355,6 +355,7 @@
 
 ### Attributes
 
+300042001.md   Dings_Attr_Gps_Position
 300042000.md   Dings_Attribute
 
 ### Test
