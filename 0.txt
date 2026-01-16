@@ -499,6 +499,7 @@
 
 ### New Binary-Files
 
+401000004.md Programming-Competition.png
 401000003.md Rechenmaschine-Patent.pdf
 401000002.md Zahl-167-Fehler-001.jpg
 401000001.md Deutsche-Heldensage-Archive-Org.pdf
