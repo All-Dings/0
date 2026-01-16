@@ -3406,6 +3406,7 @@
 
 ## Personalities
 
+70000189.md    Carl-Friedrich_Gauß
 70000188.md    Herbert_Grönemeyer
 70000187.md    Diego_Maradona
 70000186.md    Lionel_Messi
