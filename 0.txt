@@ -3422,7 +3422,7 @@
 
 ## Personalities
 
-70000190.md    Stefe_Jobs
+70000190.md    Steve_Jobs
 70000189.md    Carl-Friedrich_Gauß
 70000188.md    Herbert_Grönemeyer
 70000187.md    Diego_Maradona
