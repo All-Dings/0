@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000194.md    Wilhelm_Schickard
 70000193.md    Linus_Torvalds
 70000192.md    Paul_Allen
 70000191.md    Steve_Wozniak
