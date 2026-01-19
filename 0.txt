@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000207.md    Johannes_Kepler
 70000206.md    Marie_Curie
 70000205.md    Max_Planck
 70000204.md    Galileo_Galilei
