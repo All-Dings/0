@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000203.md    Richard_Feynman
 70000202.md    James_Maxwell
 70000201.md    Paul_Dirac
 70000200.md    Emmy_Noether
