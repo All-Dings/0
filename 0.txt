@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000191.md    Steve_Wozniak
 70000190.md    Steve_Jobs
 70000189.md    Carl-Friedrich_Gauß
 70000188.md    Herbert_Grönemeyer
