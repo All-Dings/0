@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000199.md    Bernhard_Riemann
 70000198.md    Augustin_Cauchy
 70000197.md    René_Descartes
 70000196.md    Euklid
