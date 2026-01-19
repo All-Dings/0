@@ -3422,6 +3422,7 @@
 
 ## Personalities
 
+70000198.md    Augustin_Cauchy
 70000197.md    René_Descartes
 70000196.md    Euklid
 70000195.md    Leonhard_Euler
