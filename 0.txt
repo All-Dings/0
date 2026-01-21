@@ -4170,8 +4170,8 @@
 ### Possible Miracles
 
 14301005.md    Zuse-Meeting-Wunder
-14301004.md    Michaels-Timing-Wunder
-14301003.md    Johnnies-Timing-Wunder
+14301004.md    Michaels-Time-Wunder
+14301003.md    Johnnies-Time-Wunder
 14301002.md    Alenas-Zahlen-Wunder
 14301001.md    Uber-Time-Wunder
 14301000.md    Orbit-Wunder
