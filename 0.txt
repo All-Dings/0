@@ -513,6 +513,7 @@
 
 ### New Binary-Files
 
+401000005.md Horst-Zuse-in-Warnemünde.jpg
 401000004.md Programming-Competition.png
 401000003.md Rechenmaschine-Patent.pdf
 401000002.md Zahl-167-Fehler-001.jpg
