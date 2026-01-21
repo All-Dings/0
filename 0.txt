@@ -3427,6 +3427,7 @@
 
 ## Personalities
 
+70000208.md    Michael_Schneider
 70000207.md    Johannes_Kepler
 70000206.md    Marie_Curie
 70000205.md    Max_Planck
@@ -4169,7 +4170,7 @@
 
 ### Possible Miracles
 
-14301005.md    Zuse-Meeting-Wunder
+14301005.md    Zuses-Meeting-Wunder
 14301004.md    Michaels-Time-Wunder
 14301003.md    Johnnies-Time-Wunder
 14301002.md    Alenas-Zahlen-Wunder
