@@ -3428,6 +3428,7 @@
 
 ## Personalities
 
+70000209.md    Friedelchen
 70000208.md    Michael_Schneider
 70000207.md    Johannes_Kepler
 70000206.md    Marie_Curie
