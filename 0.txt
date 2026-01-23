@@ -2666,6 +2666,7 @@
 
 ## Business
 
+240000082.md   Bitcoin.De
 240000081.md   Meta-Platforms
 240000080.md   Porsche
 240000079.md   SC-Sportwagen-Vermietung
