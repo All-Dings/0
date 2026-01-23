@@ -3384,6 +3384,7 @@
 
 130010000.md   Currency
 
+130000052.md   International-Bank-Account-Number
 130000051.md   Clearstream
 130000050.md   American-Depositary-Receipt
 130000049.md   Stock-Exchange
