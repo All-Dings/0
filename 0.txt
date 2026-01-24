@@ -5395,6 +5395,7 @@
 
 ## Writing-System
 
+700070.md      Manual
 700069.md      Subtitle
 700068.md      Typeface
 700067.md      Written-Text
