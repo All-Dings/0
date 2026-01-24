@@ -515,6 +515,7 @@
 
 ### New Binary-Files
 
+401000007.md BE19000-Tri-Band-Wi-Fi-7-ONT-Handbuch.pdf
 401000006.md Muckelchen-from-Michael.jpg
 401000005.md Horst-Zuse-in-Warnemünde.jpg
 401000004.md Programming-Competition.png
