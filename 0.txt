@@ -4351,6 +4351,7 @@
 
 ## Devices
 
+20000052.md    BE19000-Tri-Band-Wi-Fi-7-ONT
 20000051.md    Chipper
 20000050.md    Fiber-Termination-Unit
 20000049.md    GQ-EMF-390
