@@ -4354,6 +4354,7 @@
 
 ## Devices
 
+20000053.md    Clock
 20000052.md    BE19000-Tri-Band-Wi-Fi-7-ONT
 20000051.md    Chipper
 20000050.md    Fiber-Termination-Unit
