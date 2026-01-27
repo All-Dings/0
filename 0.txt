@@ -4354,6 +4354,7 @@
 
 ## Devices
 
+20000055.md    Casio-Pro-Trek-PRW-35
 20000054.md    Radio-Clock
 20000053.md    Clock
 20000052.md    BE19000-Tri-Band-Wi-Fi-7-ONT
