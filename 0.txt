@@ -516,6 +516,7 @@
 
 ### New Binary-Files
 
+401000009.md Casio-PRW-35-User-Manual.pdf
 401000008.md Casio-PRW-35-in-Box.jpg
 401000007.md BE19000-Tri-Band-Wi-Fi-7-ONT-Handbuch.pdf
 401000006.md Muckelchen-from-Michael.jpg
