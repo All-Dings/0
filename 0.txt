@@ -531,6 +531,12 @@
 
 ### 10-Gbit-Ethernet
 
+400007164.md 10-Gbit-Ethernet-LWD-Thumb-Nail.jpg
+400007163.md 10-Gbit-Ethernet-LWD-Thumb-Nail.afdesign
+400007162.md 10-Gbit-Ethernet-LWD-GPT.png
+400007161.md 10-Gbit-Ethernet-LWD-Movie.mp4
+400007160.md 10-Gbit-Ethernet-LWD-Movie.prproj
+
 400007154.md 10-Gbit-Ethernet-20260125_171304.jpg
 400007153.md 10-Gbit-Ethernet-20260125_171217.jpg
 400007152.md 10-Gbit-Ethernet-20260125_171200.jpg
@@ -4464,6 +4470,7 @@
 
 ## Devices
 
+20000058.md    Sonnet-Solo-10G
 20000057.md    Socket
 20000056.md    Plug
 20000055.md    Casio-Pro-Trek-PRW-35
