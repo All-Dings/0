@@ -4399,6 +4399,7 @@
 
 ## Devices
 
+20000057.md    Socket
 20000056.md    Plug
 20000055.md    Casio-Pro-Trek-PRW-35
 20000054.md    Radio-Clock
