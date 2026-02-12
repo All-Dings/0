@@ -370,6 +370,41 @@
 
 ### Ontology (300043000.md - 300045000.md)
 
+300043033.md  Dings_Field_Altitud
+300043032.md  Dings_Field_Longitude
+300043031.md  Dings_Field_Latitude
+300043030.md  Dings_Type_Geo_Point_WGS84
+300043029.md  Dings_Type_Duration
+300043028.md  Dings_Type_BCST_Timestamp
+300043027.md  Dings_Type_Url
+300043026.md  Dings_Type_Bool
+300043025.md  Dings_Type_Float
+300043024.md  Dings_Type_Int
+300043023.md  Dings_Type_String
+300043022.md  Dings_Representation_JSON_Boolean
+300043021.md  Dings_Representation_JSON_Number
+300043020.md  Dings_Representation_Unicode_String
+300043019.md  Dings_Representation_JSON_String
+300043018.md  Dings_Format_JSON
+300043017.md  Dings_Encoding_UTF_8
+300043016.md  Dings_Type_Value_Representation
+300043015.md  Dings_Type_Serialization_Format
+300043014.md  Dings_Type_Encoding
+300043013.md  Dings_Type_Value_Type
+300043012.md  Dings_Type_Attribute_Predicate
+300043011.md  Dings_Type_Relation_Predicate
+300043010.md  Dings_Type_Predicate
+300043009.md  Dings_Predicate_Has_Constraint
+300043008.md  Dings_Predicate_Has_Unit
+300043007.md  Dings_Predicate_Has_Field
+300043006.md  Dings_Predicate_Uses_Format
+300043005.md  Dings_Predicate_Serialized_As
+300043004.md  Dings_Predicate_Encoded_As
+300043003.md  Dings_Predicate_Is_A
+300043002.md  Dings_Side_Attributes
+300043001.md  Dings_Side_Relations
+300043000.md  Dings_Side_Schema_Version
+
 ### Attributes
 
 300042001.md   Dings_Attr_Gps_Position
