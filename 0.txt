@@ -370,7 +370,7 @@
 
 ### Ontology (300043000.md - 300045000.md)
 
-300043033.md  Dings_Field_Altitud
+300043033.md  Dings_Field_Altitude
 300043032.md  Dings_Field_Longitude
 300043031.md  Dings_Field_Latitude
 300043030.md  Dings_Type_Geo_Point_WGS84
