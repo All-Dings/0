@@ -373,6 +373,8 @@
 ### Ontology (300043000.md - 300045000.md)
 
 300000048.md  Dings_Reference
+300000016.md  Dings_Name
+300000015.md  Dings_Number
 
 300043033.md  Dings_Field_Altitude
 300043032.md  Dings_Field_Longitude
@@ -501,8 +503,8 @@
 300000018.md   Dings-File-System
 300000017.md   Dings-File-Child
 300000016.md   Dings-Generate-Make-File
-300000016.md   Dings-Name
-300000015.md   Dings-Number
+#### Moved 300000016.md   Dings-Name
+#### Moved 300000015.md   Dings-Number
 300000014.md   Dings-Css-File
 300000013.md   Dings-License
 300000012.md   Dings-Combined-Word-Separator
