@@ -376,6 +376,7 @@
 300000016.md  Dings_Name
 300000015.md  Dings_Number
 300000010.md  Dings_File
+300043034.md  Dings
 
 300043033.md  Dings_Field_Altitude
 300043032.md  Dings_Field_Longitude
