@@ -5844,9 +5844,9 @@
 
 ### Basics
 
-640058.md      Grammer_Object
-640057.md      Grammer_Predicate
-640056.md      Grammer_Subject
+640058.md      Grammar_Object
+640057.md      Grammar_Predicate
+640056.md      Grammar_Subject
 640055.md      Function-Word
 640054.md      Morpheme
 640053.md      Esperanto
