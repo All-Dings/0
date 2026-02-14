@@ -6256,7 +6256,7 @@
 
 ## Deep-Concepts
 
-60193.md       Ontologi
+60193.md       Ontology
 60192.md       Predecessor
 60191.md       Offer
 60190.md       Idea-Helper
