@@ -377,7 +377,7 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
-300043037.md  Dings_Predicate_Instance_Of
+300043037.md  Dings_Predicate_Is_Instance_Of
 300043036.md  Dings_Reference_Name
 300043035.md  Dings_Definition
 300043034.md  Dings
