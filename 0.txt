@@ -376,6 +376,8 @@
 300000016.md  Dings_Name
 300000015.md  Dings_Number
 300000010.md  Dings_File
+
+300043037.md  Dings_Predicate_Instance_Of
 300043036.md  Dings_Reference_Name
 300043035.md  Dings_Definition
 300043034.md  Dings
@@ -5842,6 +5844,9 @@
 
 ### Basics
 
+640058.md      Grammer_Object
+640057.md      Grammer_Predicate
+640056.md      Grammer_Subject
 640055.md      Function-Word
 640054.md      Morpheme
 640053.md      Esperanto
