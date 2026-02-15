@@ -6268,6 +6268,7 @@
 
 ## Deep-Concepts
 
+60195.md       Constraint
 60194.md       Condition
 60193.md       Ontology
 60192.md       Predecessor
