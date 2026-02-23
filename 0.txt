@@ -4370,6 +4370,7 @@
 
 ### Illnesses
 
+48000020.md    Paranoia-Disorder
 48000019.md    Bipolar-Disorder
 48000018.md    Multiple-Chemical-Sensitivity
 48000017.md    Atherosclerosis
