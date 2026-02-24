@@ -3307,6 +3307,7 @@
 
 ## Sayings
 
+200100006.md   Mein-Vater-erklärt-mir
 200100005.md   Speed-is-King
 200100004.md   The-Woman-is-alwas-Right
 200100003.md   God-is-an-Ass-Hole
