@@ -203,6 +203,7 @@
 
 #### Other Friends
 
+1971091201.md  Mia
 1971091200.md  Markus-BL
 1971091199.md  Markus
 1971091198.md  Mike
@@ -379,6 +380,17 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
+#### Version 9 (Time)
+
+300043059.md  Dings_Predicate_Max_Subject_Count
+300043058.md  Dings_Predicate_Max_Object_Count
+300043057.md  Dings_Event_Segment
+300043056.md  Dings_Event
+300043055.md  Dings_Fact
+300043054.md  Dings_Type_BCST_Range
+
+#### Version 8
+
 300043053.md  Dings_Predicate_Negates
 300043052.md  Dings_Predicate_Functional
 300043051.md  Dings_Predicate_Inverse_Of
@@ -400,6 +412,7 @@
 300043035.md  Dings_Definition
 300043034.md  Dings
 
+300043033.md  Dings_Field_Altitude
 300043033.md  Dings_Field_Altitude
 300043032.md  Dings_Field_Longitude
 300043031.md  Dings_Field_Latitude
@@ -2063,6 +2076,32 @@
 400000500.md   First-Co-Cut-Thumb-Nail
 
 ### Hisense-Canvas-TV
+
+400000483.md   Canvas-TV-Configure-Device-LWD-Movie-Subtitles-De.vtt
+400000482.md   Canvas-TV-Configure-Device-LWD-Movie.mp4
+400000481.md   Canvas-TV-Configure-Device-LWD-Movie.prproj
+400000480.md   Canvas-TV-Configure-Device-LWD-Thumb-Nail.jpg
+
+400000473.md   Canvas-TV-Install-Foot-Stand-LWD-Movie-Subtitles-De.vtt
+400000472.md   Canvas-TV-Install-Foot-Stand-LWD-Movie.mp4
+400000471.md   Canvas-TV-Install-Foot-Stand-LWD-Movie.prproj
+400000470.md   Canvas-TV-Install-Foot-Stand-LWD-Thumb-Nail.jpg
+
+400000463.md   Canvas-TV-Install-Wall-Mount-LWD-Movie-Subtitles-De.vtt
+400000462.md   Canvas-TV-Install-Wall-Mount-LWD-Movie.mp4
+400000461.md   Canvas-TV-Install-Wall-Mount-LWD-Movie.prproj
+400000460.md   Canvas-TV-Install-Wall-Mount-LWD-Thumb-Nail.jpg
+
+400000453.md   Canvas-TV-Unboxing-Parts-LWD-Movie-Subtitles-De.vtt
+400000452.md   Canvas-TV-Unboxing-Parts-LWD-Movie.mp4
+400000451.md   Canvas-TV-Unboxing-Parts-LWD-Movie.prproj
+400000450.md   Canvas-TV-Unboxing-Parts-LWD-Thumb-Nail.jpg
+
+400000442.md   Canvas-TV-Quick-Impression-LWD-Movie.mp4
+400000441.md   Canvas-TV-Quick-Impression-LWD-Movie.prproj
+400000440.md   Canvas-TV-Quick-Impression-LWD-Thumb-Nail.jpg
+
+400000430.md   Canvas-TV-LWD-Thumb-Nail.xcf
 
 400000422.md   Hisense-Canvas-TV-Raw-110-Wall-Mount-Finish-5
 400000421.md   Hisense-Canvas-TV-Raw-100-Wall-Mount-Finish-4
