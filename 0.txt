@@ -310,6 +310,7 @@
 
 ### Devices
 
+300090032.md   Dings-Dev-32-SEG-AF-219
 300090031.md   Dings-Dev-31-PRW-35
 300090030.md   Dings-Dev-30-Fiber-Channel-FTU
 300090029.md   Dings-Dev-29-GQ-EMF-390
