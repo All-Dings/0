@@ -6099,6 +6099,7 @@
 
 ## Addressing
 
+611007.md      Global-Trade-Item-Number
 611006.md      Original-Name
 611005.md      Alternative-Name
 611004.md      Manufacturer-Serial-Number
