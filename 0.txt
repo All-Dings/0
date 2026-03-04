@@ -619,6 +619,28 @@
 401000001.md Deutsche-Heldensage-Archive-Org.pdf
 401000000.md Grimms-Märchen-Archive-Org.pdf
 
+### Berliner-Gourmet
+
+400007285.md Berliner-Gourmet-LWD-Cut.mp4
+400007284.md From::Berliner-Gourmet-LWD.prproj
+400007283.md Berliner-Gourmet-LWD.prproj
+400007282.md Berliner-Gourmet-LWD-Thumb-Nail.jpg
+400007281.md Berliner-Gourmet-LWD-Thumb-Nail.afdesign
+400007280.md Berliner-Gourmet-LWD-GPT.png
+
+400007271.md Berliner-Gourmet-20260303_171110.jpg
+400007270.md Berliner-Gourmet-20260303_171105.jpg
+400007269.md Berliner-Gourmet-20260303_163700.mp4
+400007268.md Berliner-Gourmet-20260303_162927.jpg
+400007267.md Berliner-Gourmet-20260303_153517.jpg
+400007266.md Berliner-Gourmet-20260303_152106.mp4
+400007265.md Berliner-Gourmet-20260303_151108.mp4
+400007264.md Berliner-Gourmet-20260303_150916.mp4
+400007263.md Berliner-Gourmet-20260303_150604.mp4
+400007262.md Berliner-Gourmet-20260303_150420.mp4
+400007261.md Berliner-Gourmet-20260303_150256.mp4
+400007260.md Berliner-Gourmet-20260303_145726.mp4
+
 ### Arbeit-für-Berlin
 
 400007257.md Arbeit-für-Berlin-LWD-Movie-Cut.mp4
