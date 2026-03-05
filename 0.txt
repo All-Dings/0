@@ -602,6 +602,7 @@
 
 ### New Binary-Files
 
+401000016.md STKS-800-B1-Bedienungs-Anleitung.pdf
 401000015.md SEG-AF-219-Bedienungs-Anleitung.pdf
 401000014.md Miet-Vertrag-Philosophenweg.pdf
 401000013.md Carrot-for-Michael.jpg
