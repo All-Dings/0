@@ -4716,6 +4716,7 @@
 
 ## Devices
 
+20000060.md    SilverCrest-Toaster-STKS-800-B1
 20000059.md    SEG-AF-219-Heiss-Luft-Fritteuse
 20000058.md    Sonnet-Solo-10G
 20000057.md    Socket
