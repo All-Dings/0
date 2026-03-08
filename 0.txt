@@ -1389,6 +1389,9 @@
 
 ### Was-gut-tut
 
+400002076.md   Was-gut-tut-LWD-Movie-Cut.mp4
+
+400002074.md   Was-gut-tut-LWD-Movie-Cut.prproj
 400002073.md   Was-gut-tut-LWD-Movie.mov
 400002072.md   Was-gut-tut-LWD-Thumb-Nail.jpg
 400002071.md   Was-gut-tut-LWD-Thumb-Nail.afdesign
@@ -4064,6 +4067,7 @@
 
 ## Personalities
 
+70000214.md    Marilyn_Monroe
 70000213.md    Georg_Cantor
 70000212.md    Mr_Diem
 70000211.md    Jeffrey_Epstein
