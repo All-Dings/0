@@ -310,6 +310,7 @@
 
 ### Devices
 
+300090034.md   Dings-Dev-34-InoxStar-4720-Ni
 300090033.md   Dings-Dev-33-Toaster-STKS-800-B1
 300090032.md   Dings-Dev-32-SEG-AF-219
 300090031.md   Dings-Dev-31-PRW-35
