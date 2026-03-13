@@ -4938,6 +4938,7 @@
 13005001.md    Stochastics
 13005000.md    Statistics
 
+12000070.md    Polynomial
 12000069.md    Algebraic-Numbers
 12000068.md    Cantors-First-Diagonal-Argument
 12000067.md    Cantors-Second-Diagonal-Argument
