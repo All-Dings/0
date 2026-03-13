@@ -4074,6 +4074,7 @@
 
 ## Personalities
 
+70000217.md    Évariste_Galois
 70000216.md    Kim_Kardashian
 70000215.md    Ramana_Maharshi
 70000214.md    Marilyn_Monroe
