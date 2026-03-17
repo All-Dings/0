@@ -4094,6 +4094,7 @@
 
 ## Personalities
 
+70000218.md    John_Sculley
 70000217.md    Évariste_Galois
 70000216.md    Kim_Kardashian
 70000215.md    Ramana_Maharshi
