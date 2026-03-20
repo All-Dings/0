@@ -4758,6 +4758,7 @@
 
 ## Devices
 
+20000062.md    Pump
 20000061.md    Brief-Kasten-InoxStar-4720-Ni
 20000060.md    SilverCrest-Toaster-STKS-800-B1
 20000059.md    SEG-AF-219-Heiss-Luft-Fritteuse
