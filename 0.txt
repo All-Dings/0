@@ -606,6 +606,8 @@
 
 ### New Binary-Files
 
+401000020.md My-Samsung-Galaxy-S26-Ultra-Serial.jpg
+401000019.md My-Samsung-Galaxy-S26-Ultra-Package.jpg
 401000018.md My-Samsung-Galaxy-S26-Ultra-Invoice.pdf
 401000017.md My-Mac-Book-M5-Invoice.pdf
 401000016.md STKS-800-B1-Bedienungs-Anleitung.pdf
