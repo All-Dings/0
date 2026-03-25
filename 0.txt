@@ -606,6 +606,7 @@
 
 ### New Binary-Files
 
+401000018.md My-Samsung-Galaxy-S26-Ultra-Invoice.pdf
 401000017.md My-Mac-Book-M5-Invoice.pdf
 401000016.md STKS-800-B1-Bedienungs-Anleitung.pdf
 401000015.md SEG-AF-219-Bedienungs-Anleitung.pdf
