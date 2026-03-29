@@ -4175,6 +4175,7 @@
 
 ## Personalities
 
+70000220.md    James_Stewart
 70000219.md    Alfred_Hitchcock
 70000218.md    John_Sculley
 70000217.md    Évariste_Galois
