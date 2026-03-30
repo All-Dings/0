@@ -6183,6 +6183,7 @@
 
 ## Religion
 
+647017.md      Dalai-Lama
 647016.md      Scientology
 647015.md      Karma
 647014.md      Ave-Maria-Prayer
