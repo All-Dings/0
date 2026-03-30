@@ -4185,6 +4185,7 @@
 
 ## Personalities
 
+70000222.md    Tenzin_Gyatso
 70000221.md    Doris_Day
 70000220.md    James_Stewart
 70000219.md    Alfred_Hitchcock
