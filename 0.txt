@@ -2844,6 +2844,7 @@
 
 ### Clash of Clans
 
+24.md          The-Good-Ones
 11.md          Clash-of-Clans-Nordfriesländer
 280100001.md   Coc-Games-Champion-Achievement
 3.md           Clash-of-Clans
