@@ -3621,6 +3621,7 @@
 180001001.md   Schwabe
 180001000.md   Nordfriesländer
 
+180000024.md   Social-Party
 180000023.md   Social-Event
 180000022.md   Music-Band
 180000021.md   Team-Lead
