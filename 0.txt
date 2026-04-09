@@ -5232,9 +5232,9 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
-10000132.md    Electrics-Current
-10000131.md    Electrics-Voltage
-10000130.md    Electrics-Resistance
+10000132.md    Electric-Current
+10000131.md    Electric-Voltage
+10000130.md    Electric-Resistance
 10000129.md    Ohm's-Law
 10000128.md    Manhatten-Project
 10000127.md    Big-Bang
