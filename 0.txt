@@ -5235,6 +5235,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000140.md    Physics-Up-Quark
 10000139.md    Physics-Quark
 10000138.md    Physics-Compound-Particle
 10000137.md    Physics-Electron
