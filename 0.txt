@@ -5240,7 +5240,7 @@
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
 10000154.md    Unit-Meter
-10000153.md    Electric-Current-Density
+10000153.md    Electric-Field-Density
 10000152.md    Magnetic-Field
 10000151.md    Unit-Newton
 10000150.md    Physics-Force
@@ -5261,8 +5261,8 @@
 10000135.md    Electric-Charge
 10000134.md    Electric-Elementary-Charge
 10000133.md    Unit-Coulomb
-10000132.md    Electric-Current
-10000131.md    Electric-Voltage
+10000132.md    Electric-Flow
+10000131.md    Electric-Field-Pressure
 10000130.md    Electric-Resistance
 10000129.md    Ohm's-Law
 10000128.md    Manhatten-Project
