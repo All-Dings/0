@@ -6340,6 +6340,7 @@
 
 ## Addressing
 
+611008.md      Old-World-Synonym
 611007.md      Global-Trade-Item-Number
 611006.md      Original-Name
 611005.md      Alternative-Name
