@@ -5239,6 +5239,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000171.md    Electro-Magnethic-Field-Strength
 10000170.md    Unit-Gauss
 10000169.md    Unit-Tesla
 10000168.md    Hopkinson-Law
