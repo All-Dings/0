@@ -110,6 +110,7 @@
 
 ### Hypothesis
 
+301000040.md   There-are-no-Coincidences-Hyopthesis
 301000039.md   Balance-is-Solution-Hyopthesis
 301000038.md   Life-requires-Structure-Hyopthesis
 301000037.md   Freedom-requires-Competence-Hyopthesis
@@ -710,7 +711,7 @@
 ### Berliner-Gourmet
 
 400007285.md Berliner-Gourmet-LWD-Cut.mp4
-400007284.md From::Berliner-Gourmet-LWD.prproj
+
 400007283.md Berliner-Gourmet-LWD.prproj
 400007282.md Berliner-Gourmet-LWD-Thumb-Nail.jpg
 400007281.md Berliner-Gourmet-LWD-Thumb-Nail.afdesign
@@ -2983,7 +2984,6 @@
 
 ### General
 
-270000034.md   DEAD
 270000033.md   Employer
 270000032.md   Employee
 270000031.md   Employment
@@ -6260,7 +6260,7 @@
 600004.md      German (Wrong-Number)
 600003.md      Indonesian (Wrong-Number)
 600002.md      Articulus (Wrong-Number)
-650001.md      Term (Wrong-Number)
+
 650000.md      Linguistics
 
 ## Religion
