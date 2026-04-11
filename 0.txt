@@ -64,7 +64,7 @@
 
 #### History@IBM
 
-33333.md       Hollerith-Elecric-Tabulating-System
+3333.md       Hollerith-Elecric-Tabulating-System
 
 304000000.md   History@IBM
 
@@ -955,7 +955,7 @@
 
 ### Gott-wüfelt-nicht
 
-400006124.md Orbit-Wunder-040.jpg
+400006123.md Orbit-Wunder-040.jpg
 400006122.md Orbit-Wunder-030.jpg
 400006121.md Orbit-Wunder-020.jpg
 400006120.md Orbit-Wunder-010.jpg
@@ -3635,7 +3635,7 @@
 190000007.md   SoundBible
 
 190000005.md   First-German-Television
-190000004.md   German-Public-Broadcast
+8020000.md     German-Public-Broadcast
 190000003.md   You-Tube-Channel
 
 190000001.md   YouTube
@@ -6252,7 +6252,7 @@
 650012.md      Mixed-Case
 650011.md      Naming-Convention
 600010.md      Pro-Nomen (Wrong-Number)
-600009.md      Ad-Verbum (Wrong-Number)
+650017.md      Ad-Verbum (Wrong-Number)
 600008.md      Hyphen (Wrong-Number)
 600007.md      Comma (Wrong-Number)
 600006.md      English (Wrong-Number)
@@ -6417,7 +6417,7 @@
 600198.md      Resident
 600197.md      Guest
 600196.md      Advertisement-Process
-600195.md      Learner
+
 600194.md      Monitoring-Process
 600193.md      Teaching-Process
 600192.md      Idle-Time
@@ -6450,7 +6450,7 @@
 600165.md      Elimination
 600164.md      Transformation
 600163.md      Application
-600162.md      Threat
+
 600161.md      White-Lie
 600160.md      Lie
 600159.md      Correction
@@ -6513,7 +6513,7 @@
 600101.md      Creation
 600100.md      Training
 600099.md      Serialization
-600098.md      DUPLICATE-60106
+
 600097.md      Institution
 600096.md      Experience
 600095.md      Delay
@@ -6541,7 +6541,8 @@
 600073.md      Movement-Path
 600072.md      Path
 600071.md      Movement
-600070.md      Indicator
+10000037.md    Indicator
+
 600069.md      Compensation-Process
 600068.md      Symmetry
 600067.md      Service
@@ -6556,7 +6557,7 @@
 600058.md      Right
 600057.md      Implementation
 600056.md      Description
-600055.md      Persistency
+
 600054.md      Consistency
 600053.md      Addressing
 600052.md      Justice
@@ -6601,7 +6602,7 @@
 600012.md      Idea
 600011.md      Concept
 600010.md      (WRONG-NUMBER)
-600009.md      (WRONG-NUMBER)
+
 600008.md      (WRONG-NUMBER)
 600007.md      (WRONG-NUMBER)
 600006.md      (WRONG-NUMBER)
@@ -6627,7 +6628,7 @@
 60193.md       Ontology
 60192.md       Predecessor
 60191.md       Offer
-60190.md       Idea-Helper
+
 60189.md       Confusion
 60188.md       Efficiency
 60187.md       Cognitive-Understanding
@@ -6640,7 +6641,7 @@
 60180.md       Shielding-Process
 60179.md       Decision-Making-Process
 60178.md       Acceptance
-60177.md       Fifo-List
+
 60176.md       Control
 60175.md       Attention
 60174.md       Resource
