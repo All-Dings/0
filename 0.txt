@@ -5245,7 +5245,7 @@
 10000164.md    Unit-Henry
 10000163.md    Unit-Weber
 10000162.md    Magnetic-Field-Pressure
-10000161.md    Magnetic-Resitance
+10000161.md    Magnetic-Resistance
 10000160.md    Magnetic-Flow
 10000159.md    Magnetic-Field-Density
 10000158.md    Physics-Volume
