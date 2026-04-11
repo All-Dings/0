@@ -5239,6 +5239,7 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000175.md    Physics-Power
 10000174.md    Unit-Watt
 10000173.md    Energy-Flow-Density
 10000172.md    Physics-Photon
