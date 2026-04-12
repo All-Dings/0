@@ -522,6 +522,7 @@
 
 ### General
 
+300000050.md   Dings-Coding-Style
 300000049.md   Dings-English
 ##### Moved: 300000048.md   Dings-Reference
 ##### Moved: 300000047.md   Dings-Side-Car
