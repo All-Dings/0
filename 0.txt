@@ -464,11 +464,6 @@
 300043001.md  Dings_Side_Relations
 300043000.md  Dings_Side_Schema_Version
 
-### Attributes
-
-300042001.md   Dings_Attr_Gps_Position
-300042000.md   Dings_Attribute
-
 ### Test
 
 300041000.md   Dings-Test-Page
@@ -479,7 +474,6 @@
 300040018.md   Dings_Pdf_Viewer_Proofreader
 300040017.md   Dings_Pdf_Viewer
 
-300040013.md   Dings_Tex_Equation
 300040012.md   Dings_Blog
 300040011.md   Dings_Navigator
 300040010.md   Dings_Video_Player
@@ -526,10 +520,10 @@
 300000049.md   Dings-English
 ##### Moved: 300000048.md   Dings-Reference
 ##### Moved: 300000047.md   Dings-Side-Car
-300000046.md   Dings-Big-Data-File
+
 300000045.md   Dings-Usage-Right-Internal
 300000044.md   Dings-Robots-Txt-File
-300000043.md   Dings-Server
+
 300000042.md   Dings-Howto-Setup-AWS-EC2
 300000041.md   Dings.Site
 14.md          Dings-Bash-Rc
@@ -6215,6 +6209,7 @@
 
 ### Basics
 
+640059.md      Letter_Case
 640058.md      Grammar_Object
 640057.md      Grammar_Predicate
 640056.md      Grammar_Subject
