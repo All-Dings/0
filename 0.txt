@@ -5868,6 +5868,10 @@
 8040002.md     Betriebs-Nummer
 8040001.md     German-Finance-System
 
+### German-Renting-System
+
+8036001.md     Landloard
+
 ### German-Tax-System
 
 8035001.md     Zweit-Wohnsitz-Steuer
