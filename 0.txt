@@ -3954,7 +3954,7 @@
 130000012.md   Economics-Price
 130000011.md   Currency-Set
 130000010.md   Currency-Penny
-130000009.md   Dollar
+130000009.md   US-Dollar
 130000008.md   Federal-Reserve-Bank
 130000007.md   Federal-Reserve-System
 130000006.md   European-Central-Bank
