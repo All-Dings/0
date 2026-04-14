@@ -3908,6 +3908,7 @@
 
 130010000.md   Currency
 
+130000056.md   Japa-Yen
 130000055.md   Euro-Zone
 130000054.md   Central-Bank
 130000053.md   Dept-Money
