@@ -3925,7 +3925,7 @@
 130000056.md   Japan-Yen
 130000055.md   Euro-Zone
 130000054.md   Central-Bank
-130000053.md   Dept-Money
+130000053.md   Credit-Money
 130000052.md   International-Bank-Account-Number
 130000051.md   Clearstream
 130000050.md   American-Depositary-Receipt
