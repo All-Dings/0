@@ -3439,14 +3439,14 @@
 
 ## Movies
 
-200040064.md   Alien-2
+200040064.md   Alien-2-Movie
 200040063.md   Alien-Movie-Series
-200040062.md   Alien-Resurrektion
-200040061.md   Alien-3
-200040060.md   Alien-Romulus
+200040062.md   Alien-Resurrektion-Movie
+200040061.md   Alien-3-Movie
+200040060.md   Alien-Romulus-Movie
 200040059.md   Alien-Movie
-200040058.md   Alien-Covenant
-200040057.md   Alien-Prometheus
+200040058.md   Alien-Covenant-Movie
+200040057.md   Alien-Prometheus-Movie
 200040056.md   Spectre
 200040055.md   James_Bond-Series
 200040054.md   Strangers-on-a-Train
