@@ -4253,6 +4253,7 @@
 
 ## Personalities
 
+70000225.md    Ridley_Scott
 70000224.md    Charles-Augustin-de-Coulomb
 70000223.md    Georg_Ohm
 70000222.md    Tenzin_Gyatso
