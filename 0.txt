@@ -163,8 +163,7 @@
 #### Roxana_Stanciu
 
 
-1997080300.md  Roxana_Stanciu
-1997080300.jpg Roxana_Stanciu
+1997080300.md  Roxana_Stanciu.jpg
 
 1945040100.md  Georg_Holzheu
 
@@ -524,9 +523,9 @@
 300030007.md   Dings-Mac-Book-Install-Howto
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
-300030004.make Dings-Backup-Makefile
-300020002.pl   Dings-Tool-Perl
-300020001.py   Dings-Tool-Python
+300030004.md   Dings-Backup-Makefile
+300020002.md   Dings-Tool-Perl
+300020001.md   Dings-Tool-Python
 300020000.md   Dings-Tool
 
 ### Dings-Lib
@@ -570,8 +569,8 @@
 300000029.md   Dings-Generate-Makefile
 300000028.md   Dings-Impressum
 300000027.md   Dings-Font-Awesome-4.7
-300000026.md   Dings-Local-Logout-Template
-300000025.md   Dings-Local-Login-Form
+##### 300000026.md   Dings-Local-Logout-Template
+##### 300000025.md   Dings-Local-Login-Form
 300000024.md   Dings-Htaccess
 300000023.md   Dings-Php-Load
 300000022.md   Dings-Php-Login
@@ -2472,7 +2471,7 @@
 400000258.md   Meiser-Rent-Me-Photo
 400000257.md   Swollan-Lip-of-Alena
 400000256.md   User-Guide-Rode-SmartLav
-400000255.mc   Reddened-Ear-Alena
+400000255.md   Reddened-Ear-Alena
 400000254.md   Heimat-Programm-Meine-Heimat-ist-das-Netz
 400000253.md   Manchmal-Besser-Manuell-Media-Toc-En
 400000252.md   Manchmal-Besser-Manuell-Media-Toc-De
@@ -2812,7 +2811,7 @@
 
 ## Metzingen-with-Nicole
 
-1000000000.jpg Nicole-and-Michael-in-Metzingen
+1000000000.md Nicole-and-Michael-in-Metzingen
 888.md         Metzingen-with-Nicole
 
 ## About-Rendering-Repository
@@ -2820,7 +2819,7 @@
 5.md           Dings-Rules
 23.md          About-Dings-Project
 
-300001000.make Rendering-Makefile
+300001000.md   Rendering-Makefile
 
 17.md          Dings_Index_File
 111.md         About-Rendering-Repository
@@ -4601,13 +4600,13 @@
 
 50000063.md    Sigma-50-500-Dg-Os-Apo-Hsm
 50000062.md    Camera-Objective
-50000061.jpg   Last-Cigarette-for-Today
-50000060.jpg   Connections-in-Progress
-50000059.jpg   Last-Smoking-Round
-50000058.jpg   Phishig-Error-Screen-Shot
-50000057.jpg   404-Error-Screen-Shot
-50000056.jpg   First-Sub-Module
-50000055.jpg   Picture-for-Nicole-with-JPG-Compression-Level-0
+50000061.md    Last-Cigarette-for-Today
+50000060.md    Connections-in-Progress
+50000059.md    Last-Smoking-Round
+50000058.md    Phishig-Error-Screen-Shot
+50000057.md    404-Error-Screen-Shot
+50000056.md    First-Sub-Module
+50000055.md    Picture-for-Nicole-with-JPG-Compression-Level-0
 50000050.md    Photo-from-Michael
 50000001.md    Photo
 50000000.md    Photography
