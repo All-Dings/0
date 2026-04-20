@@ -523,7 +523,7 @@
 300030007.md   Dings-Mac-Book-Install-Howto
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
-300030004.md   Dings-Backup-Makefile
+
 300020002.md   Dings-Tool-Perl
 300020001.md   Dings-Tool-Python
 300020000.md   Dings-Tool
@@ -2819,7 +2819,7 @@
 5.md           Dings-Rules
 23.md          About-Dings-Project
 
-300001000.md   Rendering-Makefile
+300001000.md   Dings-Rendering-Makefile
 
 17.md          Dings_Index_File
 111.md         About-Rendering-Repository
