@@ -6728,6 +6728,7 @@
 
 ## Deep-Concepts
 
+60202.md       Thinking-Thing
 60201.md       System-Crisis
 60200.md       Consciousness
 60199.md       Security
