@@ -5992,6 +5992,7 @@
 
 ### German-Renting-System
 
+8036002.md     Renter
 8036001.md     Landloard
 
 ### German-Tax-System
