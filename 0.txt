@@ -5594,6 +5594,15 @@
 9020002.md     jQuery
 9020001.md     WebGL
 
+### Graph-Ontology (9015000 - 9015200)
+
+9015005.md     Graph_Fn_Get_Shortest_Path_Length
+9015004.md     Graph_Fn_Get_Shortest_Path
+9015003.md     Graph_Path
+9015002.md     Graph_Edge
+9015001.md     Graph_Node
+600087.md      Graph
+
 ### Programming-Languages
 
 9010017.md     C-Plus-Plus-Programming-Language
@@ -6637,7 +6646,7 @@
 600090.md      Sort-Process
 600089.md      Atomic-Process
 600088.md      Advertisement
-600087.md      Graph-Structure
+
 600086.md      Provider
 600085.md      Event
 600084.md      Vibration
