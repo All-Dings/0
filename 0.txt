@@ -4317,6 +4317,7 @@
 
 ## Personalities
 
+70000228.md    Daniel_Craig
 70000227.md    Michael_Fassbender
 70000226.md    Sigourney_Weaver
 70000225.md    Ridley_Scott
