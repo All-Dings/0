@@ -316,6 +316,7 @@
 
 ### Documentation
 
+300100003.md   Dings_System_Version_Number
 300100002.md   All-Dings-Ideas
 300100001.md   All-Dings-Overview
 
@@ -397,6 +398,16 @@
 
 300043900.md  Dings_Markdown_Format
 
+### SM-Ontology
+
+300043406.md  Dings_SM_Base_Class_About
+300043405.md  Dings_SM_Base_Class_Also
+300043404.md  Dings_SM_Base_Class_Definition
+300043403.md  Dings_SM_Base_Class
+300043402.md  Dings_SM_Predicate
+300043401.md  Dings_SM
+300043400.md  Dings_SM_Languag
+
 ### IR-Ontology
 
 300043316.md  Dings_IR_Node_Inline_File_Link
@@ -424,6 +435,10 @@
 300000016.md  Dings_Name
 300000015.md  Dings_Number
 300000010.md  Dings_File
+
+300043062.md  Dings_Object
+300043061.md  Dings_Predicate
+300043060.md  Dings_Subject
 
 #### Version 9 (Time)
 
