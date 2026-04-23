@@ -407,7 +407,7 @@
 300043403.md  Dings_SM_Base_Class
 300043402.md  Dings_SM_Predicate
 300043401.md  Dings_SM
-300043400.md  Dings_SM_Languag
+300043400.md  Dings_SM_Language
 
 ### IR-Ontology
 
