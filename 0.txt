@@ -1086,6 +1086,10 @@
 
 ### Zuse-Z1-Wählwerk
 
+400006026.md Zuse-Z1-Wählwerk-LWD-Movie-Cut.mp4 (326078070110f737e043d9453deb6190b8268811)
+
+400006024.md Zuse-Z1-Wählwerk-LWD-Movie.prproj (bdfa5d95f4f7ecfc8eb66bcbea3dc8ef5279540b)
+
 400006022.md Michael-Wuffp-Sound.wav
 400006021.md Michael-Hmm-Sound.wav
 400006020.md Klick-Kupfer-Platten-Sound.wav
