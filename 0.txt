@@ -31,7 +31,7 @@
 
 #### Other Stuff
 
-1971092011.md  Speicher-Modell-von-Konrad-Zuse.pdf
+1971092011.md  Speicher-Modell-von-Konrad-Zuse.pdf (9b90c0b0a69da621d55010bc89281b9cc9a69c9f)
 1971092002.md  Regler-zur-Robotersteuerung
 
 #### Juristics-Cases
@@ -1097,7 +1097,7 @@
 400006018.md Klock-Sound.wav
 400006017.md Push-Paper-Sound.mp3
 400006016.md Klock-Sound.mp3
-400006015.md Zuse-Z1-Wählwerk.pdf
+400006015.md Zuse-Z1-Wählwerk.pdf (8bfcbf5bb20a164cb5a584d18b37fefafcffc919)
 400006014.md Zuse-Z1-Wählwerk.pptx
 400006013.md Zuse-Z1-Wählwerk-LWD-Movie.mov
 400006012.md Zuse-Z1-Wählwerk-LWD-Thumb-Nail.jpg
