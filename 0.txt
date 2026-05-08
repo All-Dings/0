@@ -6063,6 +6063,7 @@
 
 ### German-Medical-System
 
+8001013.md     Alexianer-St-Gertrauden-Krankenhaus
 8001012.md     Gesundheits-Karte
 8001011.md     Universitätsmedizin-Göttingen
 8001010.md     Praxis-Mahlow
