@@ -703,6 +703,16 @@
 
 400001000.md LWD-Blog-Chain-Time.prproj
 
+### Doch-Gold-Geld?
+
+400007376.md Doch-Gold-Geld-LWD-Movie-Cut.mp4 (89bf878a9130bb74595f2f5d80932c62f2c0855c)
+
+400007374.md Doch-Gold-Geld-LWD-Movie.prproj (4960f001353b3c053ff2b83172ebd68bea221ee5)
+400007373.md Doch-Gold-Geld-LWD-Movie.mov (a5fb433cfba1321405151c939677421a523d1d04)
+400007372.md Doch-Gold-Geld-Thumb-Nail.jpg (07e7ccef765e41c12aa0d34d2de5d22f5bc66583)
+400007371.md Doch-Gold-Geld-Thumb-Nail.afdesign (6c1b94a43ec473730c90db119be7a586d4f75f7a)
+400007370.md Doch-Gold-Geld-LWD-GPT.png (ef0431196745576562afedf4abcb5be1eb8476e5)
+
 ### Erbe-für-die-Welt
 
 400007367.md Erbe-für-die-Welt-Gemini-Chat.pdf (f1983317016e7c617dbf6e3619137de23c6c8c21)
