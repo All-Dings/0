@@ -4400,6 +4400,7 @@
 
 ## Personalities
 
+70000229.md    Richard_Cantillon
 70000228.md    Daniel_Craig
 70000227.md    Michael_Fassbender
 70000226.md    Sigourney_Weaver
