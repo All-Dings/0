@@ -704,6 +704,17 @@
 
 400001000.md LWD-Blog-Chain-Time.prproj
 
+### Cantillon-Effekt
+
+400007398.md Cantillon-Effekt-LWD-Movie-Chat-V0.pdf (7492efa7b95ae01b5a1dce408e4353308392cc6d)
+400007396.md Cantillon-Effekt-LWD-Movie-Cut-V0.mp4 (85d486940c40e297d3a58295794c0e6fda268b21)
+
+400007394.md Cantillon-Effekt-LWD-Movie-V0.prproj (84063034bf090d0c5c97eade1568466c29d407bb)
+400007393.md Cantillon-Effekt-LWD-Movie.mov (3b2d0365488042e7aad0354fae18e562b16734a0.)
+400007392.md Cantillon-Effekt-Thumb-Nail.jpg (38a74ef8b03f91d7dc32f250ee17cba1d5767b2b)
+400007391.md Cantillon-Effekt-Thumb-Nail.afdesign (41f7b7f0c42be27754cc21d52f0467963c27f1ef)
+400007390.md Cantillon-Effekt-LWD-GPT.png (f229a6733edde36fd84a1ecfea2502ae7654e001)
+
 ### Das-Target-System
 
 400007386.md Das-Target-System-LWD-Movie-Cut-V1.mp4 (7750bc263dd5a89abdfba0c4e07d0133a1c590ec)
