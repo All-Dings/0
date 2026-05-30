@@ -704,6 +704,17 @@
 
 400001000.md LWD-Blog-Chain-Time.prproj
 
+### Geld-und-Werte
+
+400007418.md Geld-und-Werte-LWD-Movie-Presentation-V0.pdf (92988b97b5967deabcb69a6584d110b4ebc36f10)
+400007416.md Geld-und-Werte-LWD-Movie-Cut-V0.mp4 (c774182f4e226aab86382a553d63987d9247c0d2)
+
+400007414.md Geld-und-Werte-LWD-Movie-V0.prproj (7bab73ddd792b918b538957adc0aaa1133c94847)
+400007413.md Geld-und-Werte-LWD-Movie.mov (9a9bd7b202bb6d837e7a55ddea9c9124b0425331)
+400007412.md Geld-und-Werte-Thumb-Nail.jpg (4d3c70b542c34d9cd9e77ee8172ba075d100cdb6)
+400007411.md Geld-und-Werte-Thumb-Nail.afdesign (0dd5df48c6177becdc3068cdc437a90ec1d74b9b)
+400007410.md Geld-und-Werte-LWD-GPT.png (3dc1588da4f7065269e307a093881b2279c477ef)
+
 ### Fristen-Kongruenz
 
 400007407.md Fristen-Kongruenz-LWD-Movie-Chat-V0.pdf (881cb3444d79d0cc6dbf53358bb934867e442fbd)
