@@ -2975,6 +2975,7 @@
 
 2011000.md     Next-Phase
 
+2010051.md     Cäsilia-Berlin
 2010050.md     Berliner-Liedertafel
 2010049.md     Neuer-Chor-Dresden
 2010048.md     Semiseria-Chor
