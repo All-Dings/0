@@ -56,6 +56,7 @@
 
 #### KI-Chats
 
+307100004.md Gemini-ETF-Investment-Entscheidungen-V0.pdf
 307100003.md Gemini-Das-Target-System-V1.pdf
 307100002.md Gemini-Gold-Geld-vs-Kredit-Geld.pdf
 307100001.md Gemini-Ein-wirklich-schönes-Konzert.pdf
