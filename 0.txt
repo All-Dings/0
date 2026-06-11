@@ -4368,6 +4368,7 @@
 
 ### Chemical
 
+100000006.md   Gold
 100000005.md   Polyvinyl-Chloride
 100000004.md   E-Fuel
 100000003.md   Chemical-Element
