@@ -325,6 +325,7 @@
 
 ### Features
 
+300101008.md   Dings-Feature-Git-Workflow
 300101007.md   Dings-Feature-App-Caption-as-Alias
 300101006.md   Dings-Feature-Render-Ir-Html
 300101005.md   Dings-Feature-Design
