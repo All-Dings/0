@@ -4254,6 +4254,7 @@
 
 ### Stocks
 
+130030001.md   AP7-Såfa-Fund
 130030000.md   Royal-Mail-Share
 
 ### General
