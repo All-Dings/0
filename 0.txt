@@ -422,10 +422,19 @@
 
 ### Dings-Markdown
 
+300043901.md  Dings_Format
 300043900.md  Dings_Markdown_Format
 
 ### SM-Ontology
 
+300043946.md  Dings_SM_Patch_Operation
+300043945.md  Dings_SM_Source_Roundtrip_Payload
+300043944.md  Dings_SM_Patch_Line
+300043943.md  Dings_SM_Patch_Hunk
+300043942.md  Dings_SM_Patch_File
+300043941.md  Dings_SM_Binary_Patch
+300043940.md  Dings_SM_Text_Patch
+300043939.md  Dings_SM_Patch
 300043406.md  Dings_SM_Base_Class_About
 300043405.md  Dings_SM_Base_Class_Also
 300043404.md  Dings_SM_Base_Class_Definition
@@ -538,6 +547,19 @@
 
 300041000.md   Dings-Test-Page
 
+### New Dings-Apps
+
+300042011.dmd  Dings_App_Unified_Diff
+300042010.dmd  Dings_App_SM_Patch
+300042009.dmd  Dings_App_Patch
+300042006.dmd  Dings_App_Html
+300042005.dmd  Dings_App_Md_Code
+300042004.dmd  Dings_App_Csv
+300042003.dmd  Dings_App_Tex
+300042002.md   Dings_App_DFM
+300042001.md   Dings_App_DMD
+300042000.md   Dings_App
+
 ### Types
 
 300040020.md   Dings_Pdf_Viewer_Chat
@@ -587,6 +609,8 @@
 
 ### General
 
+300000052.dmd   Dings-Key-Board-MacOs.keylayout
+300000051.dmd   Dings-Key-Board
 300000050.md   Dings-Coding-Style
 300000049.md   Dings-English
 ##### Moved: 300000048.md   Dings-Reference
@@ -5944,6 +5968,7 @@
 
 9000198.md     Wordpress
 
+2000319.md     Unified-Diff-File
 2000318.md     Microsoft-Word
 2000317.md     Word-Processor
 2000316.md     Google-Calendar
