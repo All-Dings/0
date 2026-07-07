@@ -5704,6 +5704,14 @@
 
 40200001.md    Sound-Wave (WRONG-NUMBER)
 
+10000184.md    Color_White
+10000183.md    Color_Cyan
+10000182.md    Color_Magenta
+10000181.md    Color_Blue
+10000180.md    Color_Yellow
+10000179.md    Color_Green
+10000178.md    Color_Red
+10000177.md    Color_Black
 10000176.md    Color
 10000175.md    Physics-Power
 10000174.md    Unit-Watt
