@@ -427,6 +427,22 @@
 
 ### SM-Ontology
 
+300043962.md  Dings_SM_CLI_Allowed_Value
+300043961.md  Dings_SM_CLI_Value_Mode
+300043960.md  Dings_SM_CLI_Value_Type
+300043959.md  Dings_SM_CLI_Exit_Code
+300043958.md  Dings_SM_CLI_Stderr
+300043957.md  Dings_SM_CLI_Stdout
+300043956.md  Dings_SM_CLI_Stdin
+300043955.md  Dings_SM_CLI_Stream
+300043954.md  Dings_SM_CLI_Argument
+300043953.md  Dings_SM_CLI_Long_Option
+300043952.md  Dings_SM_CLI_Short_Option
+300043951.md  Dings_SM_CLI_Option
+300043950.md  Dings_SM_CLI_Result
+300043949.md  Dings_SM_CLI_Invocation
+300043948.md  Dings_SM_CLI_Command
+300043947.md  Dings_SM_CLI
 300043946.md  Dings_SM_Patch_Operation
 300043945.md  Dings_SM_Source_Roundtrip_Payload
 300043944.md  Dings_SM_Patch_Line
@@ -471,6 +487,15 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
+300043071.md  Dings_Fmt_SM_JSON
+300043070.md  Dings_Fmt_CLI_Text
+300043069.md  Dings_Type_CLI_Command_Line
+300043068.md  Dings_Type_CLI_Token
+300043067.md  Dings_Type_Selection
+300043066.md  Dings_Type_Dings_Reference
+300043065.md  Dings_Type_Path
+300043064.md  Dings_Type_Enum
+300043063.md  Dings_Type_None
 300043062.md  Dings_Object
 300043061.md  Dings_Predicate
 300043060.md  Dings_Subject
@@ -549,6 +574,9 @@
 
 ### New Dings-Apps
 
+300042014.dmd  Dings_App_CLI
+300042013.dmd  Dings_App_Terminal
+300042012.dmd  Dings_App_Git
 300042011.dmd  Dings_App_Unified_Diff
 300042010.dmd  Dings_App_SM_Patch
 300042009.dmd  Dings_App_Patch
