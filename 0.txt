@@ -423,7 +423,7 @@
 ### Dings-Markdown
 
 300043901.md  Dings_Format
-300043900.md  Dings_Markdown_Format
+300043900.dmd Dings_Markdown_Format
 
 ### SM-Ontology
 
