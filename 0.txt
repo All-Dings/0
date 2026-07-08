@@ -427,6 +427,14 @@
 
 ### SM-Ontology
 
+300043970.md  Dings_SM_Terminal_Delimiter_Color
+300043969.md  Dings_Fmt_Terminal_Table
+300043968.md  Dings_Fmt_Csv
+300043967.md  Dings_SM_CLI_App_Name
+300043966.md  Dings_SM_Terminal_Color
+300043965.md  Dings_SM_Terminal
+300043964.md  Dings_SM_CLI_Expression
+300043963.md  Dings_SM_CLI_Clause
 300043962.md  Dings_SM_CLI_Allowed_Value
 300043961.md  Dings_SM_CLI_Value_Mode
 300043960.md  Dings_SM_CLI_Value_Type
@@ -574,6 +582,7 @@
 
 ### New Dings-Apps
 
+300042015.dmd  Dings_App_Table
 300042014.dmd  Dings_App_CLI
 300042013.dmd  Dings_App_Terminal
 300042012.dmd  Dings_App_Git
