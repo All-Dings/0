@@ -502,6 +502,12 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
+300043100.md  Dings_Type_List
+300043099.md  Dings_Type_Set
+300043098.md  Dings_Type_Range
+300043097.md  Dings_SM_BCST_Range
+300043096.md  Dings_Type_Bct_Time_Range
+300043095.md  Dings_Type_Bct_Duration
 300043072.md  Dings_Type_Bct_Time
 300043071.md  Dings_Fmt_SM_JSON
 300043070.md  Dings_Fmt_CLI_Text
