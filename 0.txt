@@ -559,7 +559,7 @@
 300043032.md  Dings_Field_Longitude
 300043031.md  Dings_Field_Latitude
 300043030.md  Dings_Type_Geo_Point_WGS84
-300043029.md  Dings_Type_Duration
+300043029.md  Dings_Type_BCST_Duration
 300043028.md  Dings_Type_BCST_Timestamp
 300043027.md  Dings_Type_Url
 300043026.md  Dings_Type_Bool
