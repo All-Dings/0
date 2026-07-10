@@ -502,6 +502,7 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
+300043072.md  Dings_Type_Bct_Time
 300043071.md  Dings_Fmt_SM_JSON
 300043070.md  Dings_Fmt_CLI_Text
 300043069.md  Dings_Type_CLI_Command_Line
@@ -6023,6 +6024,7 @@
 
 9000198.md     Wordpress
 
+2000321.md     ISO-8601-Time-Standard
 2000320.md     Codex-AI
 2000319.md     Unified-Diff-File
 2000318.md     Microsoft-Word
