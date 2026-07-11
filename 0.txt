@@ -432,9 +432,11 @@
 300045006.md  Dings_Channel_Range
 300045005.md  Dings_Channel_Address
 300045004.md  Dings_Channel_Address_Space
-300045003.md  Dings_Channel_Mapping
-300045002.md  Dings_Channel_Pipe
-300045001.md  Dings_Channel
+300045003.md  Dings_SM_Channel_Mapping
+300045002.md  Dings_SM_Channel_Pipe
+300045001.md  Dings_SM_Channel
+300043111.md  Dings_SM_Program_Run
+300043110.md  Dings_SM_Program_Port
 300043970.md  Dings_SM_Terminal_Delimiter_Color
 300043969.md  Dings_Fmt_Terminal_Table
 300043968.md  Dings_Fmt_Csv
