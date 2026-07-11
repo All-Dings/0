@@ -503,14 +503,22 @@
 300000015.md  Dings_Number
 300000010.md  Dings_File
 
+300043109.md  Dings_Type_BCS_Earth_Point
+300043108.md  Dings_Fmt_BCS
+300043107.md  Dings_SM_Space
+300043106.md  Dings_SM_Space_Volume
+300043105.md  Dings_SM_Space_Area
+300043104.md  Dings_SM_Space_Curve
+300043103.md  Dings_SM_Space_Point
+300043102.md  Dings_SM_Space_Geometry
 300043101.md  Dings_SM_Set
 300043100.md  Dings_Type_List
 300043099.md  Dings_Type_Set
 300043098.md  Dings_Type_Range
 300043097.md  Dings_SM_BCST_Range
-300043096.md  Dings_Type_Bct_Time_Range
-300043095.md  Dings_Type_Bct_Duration
-300043072.md  Dings_Type_Bct_Time
+300043096.md  Dings_Type_BCT_Time_Range
+300043095.md  Dings_Type_BCT_Duration
+300043072.md  Dings_Type_BCT_Time
 300043071.md  Dings_Fmt_SM_JSON
 300043070.md  Dings_Fmt_CLI_Text
 300043069.md  Dings_Type_CLI_Command_Line
@@ -598,6 +606,7 @@
 
 ### New Dings-Apps
 
+300042021.md   Dings_App_BCS
 300042015.dmd  Dings_App_Table
 300042014.dmd  Dings_App_CLI
 300042013.dmd  Dings_App_Terminal
