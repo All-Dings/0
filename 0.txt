@@ -768,6 +768,13 @@
 
 ### New Binary-Files
 
+401000048.md Point-on-DIN-A4-Berlin-Standards.jpg
+401000047.md Point-on-DIN-A4-Good-in-Berlin.jpg
+401000046.md Point-on-DIN-A4-Orientation.jpg
+401000045.md Point-on-DIN-A4-Dimension-Y.jpg
+401000044.md Point-on-DIN-A4-Dimension-X.jpg
+401000043.md Point-on-DIN-A4-Dimensions.jpg
+401000042.md Point-on-DIN-A4.jpg
 401000041.md 20260709-181345-Garten-Feier-BL-2026.gpx
 401000040.md Das-Warf-Wunder.pdf
 401000039.md Commercial-Jet-Flies-Overhead.mp3
@@ -5383,6 +5390,7 @@
 
 ## Devices
 
+20000065.md    Measuring-Device
 20000064.md    AC-To-DC-Converter
 20000063.md    DC-To-AC-Converter
 20000062.md    Pump
