@@ -14,3 +14,7 @@
 .lesshst
 # Bash Profile (?)
 .profile
+
+# Local temporary work files
+/tmp/*
+!/tmp/.gitkeep
