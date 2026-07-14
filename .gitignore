@@ -5,7 +5,9 @@
 # Optional local gitconfig file
 .gitconfig
 # Vim Swap files
-.swp
+*.swp
+*.swo
+*.swx
 # Vim Info File
 .viminfo
 # Bash Config File
