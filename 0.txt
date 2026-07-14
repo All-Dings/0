@@ -5391,7 +5391,6 @@
 
 ## Devices
 
-20000065.md    Measuring-Device
 20000064.md    AC-To-DC-Converter
 20000063.md    DC-To-AC-Converter
 20000062.md    Pump
