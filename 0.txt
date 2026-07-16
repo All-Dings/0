@@ -648,7 +648,7 @@
 300030100.md   dings-gpt.py
 
 300030009.md   Dings-Tool-Host
-300030008.md   Dings-Mac-Win-Germany-Keyboard
+300030008.md   Dings-Mac-Win-Germany.keylayout
 300030007.md   Dings-Mac-Book-Install-Howto
 300030006.md   Dings-Java-Script-File
 300030005.md   Dings-Favicon
@@ -825,6 +825,13 @@
 
 ### Jonnies-Runde
 
+400007578.md Cool-Parking.jpg
+400007577.md Proper-Parking.jpg
+400007576.md Front-Camera.jpg
+400007575.md 20260609-093251-Nürburgring-Bundle
+400007574.md 20260609-093251-Nürburgring.txt
+400007573.md 20260609-093251-Nürburgring.kml
+400007572.md 20260609-093251-Nürburgring.gpx
 400007571.md Johnnys-Runde-Suzuki-Swift.jpg (7b851a71ebed625f940deafcfa258f31f0d166e0)
 400007570.md Johnnys-Runde-Tanken.jpg (e94d007c708bf9ed09f4efa97805287bfd0827eb)
 400007569.md Johnnys-Runde-Reifen-Druck.jpg (4f60e41f0cb8948a207895908f8e493db820067a)
