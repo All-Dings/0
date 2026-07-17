@@ -4717,6 +4717,7 @@
 
 ## Personalities
 
+70000231.md    Liselotte_Zuse
 70000230.md    Otto_Hübner
 70000229.md    Richard_Cantillon
 70000228.md    Daniel_Craig
