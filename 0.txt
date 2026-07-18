@@ -6030,11 +6030,14 @@
 
 ### Graph-Ontology (9015000 - 9015200)
 
+9015007.md     Graph_Tree
+9015006.md     Directed_Graph_Edge
 9015005.md     Graph_Fn_Get_Shortest_Path_Length
 9015004.md     Graph_Fn_Get_Shortest_Path
 9015003.md     Graph_Path
 9015002.md     Graph_Edge
 9015001.md     Graph_Node
+9015000.md     Directed_Graph
 600087.md      Graph
 
 ### Programming-Languages
