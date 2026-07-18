@@ -441,6 +441,7 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044094.md  Dings_SM_Blog
 300044093.md  Dings_SM_Manifest
 300044092.md  Dings_Fmt_Md
 300044091.md  Dings_Fmt_Terminal_Graph_Human
