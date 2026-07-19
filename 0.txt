@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100028.md   CLI-Short-Option-Dog-Food
 300100027.md   CLI-Option-Help-Bool-Correction
 300100026.md   CLI-Option-Verbose-Bool-Correction
 300100025.md   CLI-Option-Name-Dog-Food-Widened
