@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100072.md   Better-take-some-Out-Time
+300100071.md   Let-v15-fail-honestly
+300100070.md   Make-it-ready-for-v15
+300100069.md   Learn-From-Textual-Render-Diffs
+300100068.md   All-Good
 300100067.md   Somehow-Disappointed
 300100066.md   Test-MD-SM1-Diff-Option
 300100065.md   Discover-Dings-Bundle-Addressing
