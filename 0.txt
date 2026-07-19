@@ -343,6 +343,9 @@
 
 ### Documentation
 
+300100100.md   Graph-Ways-and-Origin-Dog-Food
+300100099.md   Message-to-Codex-in-the-Next-V18-Chat
+300100098.md   V17-Achievements
 300100097.md   V18-Follow-Ups
 300100096.md   SM-Special-Dings-Inventory
 300100095.md   Two-Encodings-for-Truth
