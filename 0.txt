@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100020.md   Keep-Blog-Entries-Focused
 300100019.md   Typed-Literal-Validation-Design
 300100018.md   Clarify-Codex-Git-Commit-Semantics
 300100017.md   Follow-Up-Chat-Orientation
