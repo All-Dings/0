@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100062.md   Preserve-SM-Quote-Content
+300100061.md   Preserve-SM-App-Block-Content
+300100060.md   Preserve-SM-Statement-Content
+300100059.md   Preserve-SM-Table-Cell-Inline-Content
+300100058.md   Preserve-SM-Block-Content
 300100057.md   Preserve-SM-Inline-Meaning
 300100056.md   Preserve-SM-Inline-Content
 300100055.md   Base-Classes-Interfaces-and-Companion-Classes
