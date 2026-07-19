@@ -343,6 +343,8 @@
 
 ### Documentation
 
+300100045.md   The-Cuddly-Toy-Image-Map-Dog-Food
+300100044.md   Geometry-and-Reference-Frames
 300100043.md   Channel-Program-Model-Sharpening
 300100042.md   Space-V1-Executable-Shape
 300100041.md   Time-V1-Knowledge-Model-Clarification
