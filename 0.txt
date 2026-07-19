@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100016.md   Typed-Literal-Dog-Food-Handoff
 300100015.md   Configure-Codex-Git-Author
 300100014.md   Dings-Blog-as-Decision-Memory
 300100013.md   Typed-Literals-and-Dings-Channels
