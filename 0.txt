@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100023.md   Dings-Wide-CLI-Option-Dog-Food-V1
 300100022.md   Separate-Meaning-Text-and-Encoding
 300100021.md   Typed-Literal-Validation-V1
 300100020.md   Keep-Blog-Entries-Focused
