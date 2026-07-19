@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100010.md   Prepare-Dings-App-Assets
 300100009.md   Gute-N8
 300100008.md   Add-Bundle-Composition-Graph
 300100007.md   Prepare-Dings-Blog
@@ -708,6 +709,8 @@
 ### Test
 
 300041000.md   Dings-Test-Page
+
+### Dings-App-Assets (300041010 - 300041999)
 
 ### New Dings-Apps
 
