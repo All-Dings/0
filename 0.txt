@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100067.md   Somehow-Disappointed
+300100066.md   Test-MD-SM1-Diff-Option
+300100065.md   Discover-Dings-Bundle-Addressing
+300100064.md   Test-IR-to-SM-Transformation
+300100063.md   Add-SM2-Html-Render-Path
 300100062.md   Preserve-SM-Quote-Content
 300100061.md   Preserve-SM-App-Block-Content
 300100060.md   Preserve-SM-Statement-Content
