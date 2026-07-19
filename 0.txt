@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100019.md   Typed-Literal-Validation-Design
 300100018.md   Clarify-Codex-Git-Commit-Semantics
 300100017.md   Follow-Up-Chat-Orientation
 300100016.md   Typed-Literal-Dog-Food-Handoff
