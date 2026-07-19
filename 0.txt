@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100057.md   Preserve-SM-Inline-Meaning
+300100056.md   Preserve-SM-Inline-Content
+300100055.md   Base-Classes-Interfaces-and-Companion-Classes
+300100054.md   Pause-SM-Companion-Classes
+300100053.md   SM-Companion-Classes
 300100052.md   Table-Specific-SM-Cells
 300100051.md   SM-Contract-and-IR-Retirement
 300100050.md   Semantic-CLI-Documents
