@@ -343,6 +343,7 @@
 
 ### Documentation
 
+300100012.md   Create-All-Dings-Blog
 300100010.md   Prepare-Dings-App-Assets
 300100009.md   Gute-N8
 300100008.md   Add-Bundle-Composition-Graph
