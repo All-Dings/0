@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100082.md   Decide-Dings-Bundle-Addressing-Payloads-And-Johnnys-Runde-Dog-Food
+300100081.md   More-for-v17
+300100080.md   Close-v16-And-Start-v17
+300100079.md   Keep-Index-Count-And-Ordinal-Separate
+300100078.md   Keep-Shell-Prompts-Outside-Dings-Gpt
 300100077.md   Learn-From-The-Channel-Stream-PoC
 300100076.md   Keep-Dings-Names-as-Semantic-Snapshots-in-Code
 300100075.md   Keep-the-111-Bootstrap-Question-Visible
