@@ -1,0 +1,10 @@
+▪ Docker
+
+▪▪ Prompts
+
+▪▪▪ Prune Build-Cache
+
+⌜⌜⌜bash
+$ docker system prune -af
+$ docker builder prune -a
+⌟⌟⌟

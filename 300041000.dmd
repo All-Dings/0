@@ -1,0 +1,202 @@
+▪ Dings-Test-Page
+
+▪▪ Paragraph and Links
+
+At the latest since ❲Corona❳❪48000015.md❫, the ❲Ukraine-War❳❪11000003.md❫ and the ❲Israel-Conflict❳❪141000015.md❫, a deep Division and ❲Uncertainty❳❪600111.md❫ has arisen in our ❲Society❳❪180000007.md❫, where even highly endowed ❲Experts❳❪12000000.md❫ contradict each other publicly and unfiltered via digital Channels, such as ❲YouTube❳❪190000001.md❫ or ❲Twitter❳❪190000008.md❫.
+
+We never had more ❲Information❳❪60007.md❫ available than Today, which makes it even for ❲Experts❳❪12000000.md❫ hard to filter the ❲Truth❳❪600021.md❫ out of the Mass of digital ❲Data❳❪60001.md❫.
+
+▪▪▪ Test Bold, Italics, Code
+
+This is ❙bold❙, ⁄italics⁄, and ‵code‵. Second Try: This is ❙bold❙, ⁄italics⁄, and ‵code‵.
+
+▪▪ Test Heading-Anchor
+
+▪▪▪ Heading-Anchor html
+
+This is a ❲Reference❳❪<#Heading-Anchor html>❫ with Style ‵<a id=4711>‵.
+
+▪▪▪ Heading-Anchor Pandoc
+
+This is a ❲Reference❳❪<#Heading-Anchor Pandoc>❫ with Style ‵{#4712}‵.
+
+▪▪ Test Formulas
+
+▪▪▪ Test Formula
+
+❗❲❳❪.tex❫ ❴
+	F^12 = O^7
+❵
+
+▪▪▪ Test Formula with Anchor
+
+▫▫▫▫▫▫ 0
+
+❗❲❳❪.tex❫ ❴
+	PWT = \frac{100.000\;\mathrm{Euro}}{10.000\;\mathrm{\frac{Euro}{Year}}} = 10\;\mathrm{Years}
+❵
+
+▪▪▪ Test Formula 2
+
+❗❲❳❪.tex❫ ❴
+	10.000\;\frac{\mathrm{Euro}}{\mathrm{Year * Friend}} * 5\;\mathrm{Years} * 2\;\mathrm{Friends}
+	= 100.000\;\mathrm{Euro}
+❵
+
+▪▪▪ Test Formula in one
+
+▫▫▫▫▫▫ 1
+
+❗❲❳❪.tex❫ ❴
+	10.000\;\frac{\mathrm{Euro}}{\mathrm{Year * Friend}} * 5\;\mathrm{Years} * 2\;\mathrm{Friends}
+	= 100.000\;\mathrm{Euro}
+❵
+
+▪▪▪ Test inline Formula
+
+In this Text we have ❗❲❳❪.tex❫❴E = m * c^2❵, which was the Idea from Einstein and again: ❗❲❳❪.tex❫❴E = m * c^2❵. What about 5❗❲❳❪.tex❫❴ vs. 10❵? Is that Math?
+
+▪▪▪ Test Reference
+
+In ❲Germany❳❪140000025.md❫ there is an old ❲Joke❳❪720001.md❫ about the ❲Swabians❳❪180001001.md❫: What is the first Word, that a Swabian ❲Baby❳❪40000011.md❫ is able to say?
+
+❗❲❳❪.tex❫ ❴
+	Answer = \mathrm{Bauuuspaaarvertrag!}
+❵
+
+And besides other interesting Stuff, that was the Topic of a Meeting with my ❲Banker-Friend❳❪1971091154.md❫, who is also am Member of our ❲Doppel-Kopf-Team❳❪2010026.md❫. He explained me the Concept of this ❲Bauspar-Vertrag❳❪130000028.md❫ with a simple Example:
+
+If I want to buy a Tiny-House for 100.000 Euro and can save for this ❲Goal❳❪60058.md❫ 10.000 Euro each Year, we can simply calculate my Personal-Wait-Time ⁄PWT⁄, until I can put the required Money on the Table:
+
+▫▫▫▫▫▫ 0
+
+❗❲❳❪.tex❫ ❴
+	PWT = \frac{100.000\;\mathrm{Euro}}{10.000\;\mathrm{\frac{Euro}{Year}}} = 10\;\mathrm{Years}
+❵
+
+But if I have a ❲Friend❳❪180000002.md❫, who wants to do the same Thing, we can join our Efforts and pool the Money: After 5 Years we have together 100.000 Euro and the frist one can buy his House:
+
+❗❲❳❪.tex❫ ❴
+	10.000\;\frac{\mathrm{Euro}}{\mathrm{Year * Friend}} * 5\;\mathrm{Years} * 2\;\mathrm{Friends}
+	= 100.000\;\mathrm{Euro}
+❵
+
+After another 5 Years also the second one gets his House. So interstingly by this "Financial-Trick" compared to my Personal-Wait-Time ❲(0)❳❪<#Test Reference#0>❫ the Average-Wait-Time ❲(1)❳❪<#Test Reference#1>❫ has been reduced from 10 Years to 7,5 Years:
+
+▫▫▫▫▫▫ 1
+
+❗❲❳❪.tex❫ ❴
+	AWT = \frac{5 + 10\;\mathrm{Years}}{2} = 7,5\;\mathrm{Years}
+❵
+
+▪▪ Test Lists
+
+This is a List:
+
+◦ Item 1
+◦ Item 2
+◦ Item 3
+
+This is a List with one Item:
+
+◦ Item 1
+
+This is a nested List:
+◦ Item 1
+◦ Item 2
+  ◦ Item 2.1
+    ◦ Item 2.1.1
+    ◦ Item 2.1.2
+  ◦ Item 2.2
+◦ Item 3
+  ◦ Item 3.1
+
+▪▪ Test Code
+
+▪▪▪ Bash
+
+One-Liner:
+
+⌜⌜⌜bash
+$ touch 4711.txt
+⌟⌟⌟
+
+Multi-Liner:
+
+⌜⌜⌜bash
+$ ls 4711.txt
+4711.txt
+$ rm 4711.txt
+⌟⌟⌟
+
+▪▪▪ C
+
+⌜⌜⌜c
+#include <stdio.h>
+
+int main() {
+	int n, sum = 0;
+
+	printf("Enter a number: ");
+	scanf("%d", &n);
+
+	for (int i = 1; i <= n; i++) {
+		sum += i;
+	}
+
+	printf("The sum of numbers from 1 to %d is %d\n", n, sum);
+	return 0;
+}
+⌟⌟⌟
+
+▪▪ Test Objects
+
+▪▪▪ Image_Map:
+
+❗❲Image-Map❳❪300040008.image_map❫
+
+▪▪▪ Video
+
+❗❲Video❳❪400000031.mp4❫
+
+▪▪▪ Video_Player
+
+❗❲Video_Player❳❪1971100009.video_player❫
+
+▪▪▪ Sound
+
+❗❲Sound❳❪400000254.mp3❫
+
+▪▪▪ Image
+
+❗❲Image❳❪400000258.jpg❫
+
+▪▪▪ Pdf
+
+❗❲Pdf❳❪1971092002.pdf❫
+
+▪▪▪ Quiz
+
+❗❲Quiz❳❪400000050.quiz❫
+
+▪▪▪ Sip-Toggle
+
+❗❲Sip_Toggle❳❪400000041.sip_toggle❫
+
+▪▪▪ Text
+
+❗❲Txt❳❪400000226.txt❫
+
+▪▪▪ Navigator
+
+❗❲Navigator❳❪300040011.navigator❫
+
+▪▪ Internal Links
+
+▪▪▪ Test Heading-Link Html
+
+This is a ❲Reference❳❪<#Test Heading-Anchor#Heading-Anchor html>❫.
+
+▪▪▪ Test Heading-Link Pandoc
+
+This is a ❲Reference❳❪<#Heading-Anchor Pandoc>❫.

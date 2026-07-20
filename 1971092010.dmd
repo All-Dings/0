@@ -1,0 +1,19 @@
+▪ Howto-Enable-Root-Login-on-AWS
+
+▪▪ Steps
+
+⌜⌜⌜bash
+$ ssh -i /path/my-key-pair.pem ubuntu@ec2-remote-server.amazonaws.com
+$ sudo -i bash
+$ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+$ vi /etc/ssh/sshd_config
+-> PermitRootLogin yes
+$ vi ~/.ssh/authorized_keys
+-> Remove Line: no-port-forwarding ...
+$ passwd root
+$ systemctl restart ssh
+⌟⌟⌟
+
+▪▪ Source
+
+◦ ❲Https://TecAdmin.Net❳❪https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance❫

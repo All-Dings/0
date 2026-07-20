@@ -1,0 +1,57 @@
+▪ Dings-Howto-Setup-AWS-EC2
+
+▪▪ Login
+
+◦ Link: ❲Https://Us-east-1.Console.Aws.Amazon.Com❳❪https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:❫
+◦ User: michael@holzheu.de
+◦ Authentificator-App
+
+▪▪ Define Instance-Type
+
+◦ t2.micro: Basic
+◦ g4dn.xlarge: With GPU-Support for Ollama
+
+▪▪ Add Security-Group
+
+◦ Sicherheits-Gruppe for Https: ❲Https://Docs.Aws.Amazon.Com❳❪https://docs.aws.amazon.com/de_de/cloudhsm/latest/userguide/ssl-offload-enable-traffic-and-verify-certificate.html❫
+
+▪▪ Enable Root Login
+
+◦ ❲Enable-Root-Login❳❪1971092010.md❫
+
+▪▪ Install Docker
+
+⌜⌜⌜bash
+$ apt update
+$ apt install -y apt-transport-https ca-certificates curl software-properties-common
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+$ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+$ apt update
+$ apt-cache policy docker-ce
+$ apt install -y docker-ce
+$ systemctl status docker
+⌟⌟⌟
+
+◦ Source: ❲Https://Digitalocean.Com❳❪https://digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04❫
+
+Add User to Docker-Group:
+
+⌜⌜⌜text
+$ sudo usermod -aG docker $USER
+⌟⌟⌟
+
+▪▪ Install Ollama
+
+◦ See: ❲Llama-LLM❳❪2000305.md❫
+
+▪▪ Update Packages and Kernel
+
+⌜⌜⌜bash
+$ sudo apt update
+$ sudo apt full-upgrade -y
+$ uname -a
+Linux ip-172-31-17-133 6.5.0-1014-aws #14~22.04.1-Ubuntu SMP Thu Feb 15 15:27:06 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+$ reboot
+$ uname -a
+Linux ip-172-31-17-133 6.8.0-1019-aws #21~22.04.1-Ubuntu SMP Thu Nov  7 17:33:30 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+⌟⌟⌟

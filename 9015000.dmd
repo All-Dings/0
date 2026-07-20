@@ -1,0 +1,5 @@
+▪ Directed_Graph
+
+Each directed Edge connects one Source Node to one Target Node. Traversal may
+
+follow the Direction or inspect it in reverse without changing the Edge.

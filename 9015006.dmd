@@ -1,0 +1,5 @@
+▪ Directed_Graph_Edge
+
+I connect one Source Node to one Target Node. I may carry a Name or another
+
+Relation Predicate that explains the Meaning of the Direction.

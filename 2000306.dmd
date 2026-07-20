@@ -1,0 +1,123 @@
+▪ Tailscale-VPN
+
+▪▪ Install
+
+▪▪▪ Ubuntu
+
+⌜⌜⌜bash
+$ curl -fsSL https://tailscale.com/install.sh | sh
+$ sudo tailscale up --ssh
+
+⌟⌟⌟
+
+▪▪▪ Mac
+
+Unter "Privacy & Security → Full Disk Access": Add Terminal-Application
+
+⌜⌜⌜bash
+$ sudo systemsetup -setremotelogin on
+$ brew install tailscale
+$ sudo /opt/homebrew/opt/tailscale/bin/tailscaled
+$ tailscale up --ssh
+⌟⌟⌟
+
+▪▪▪ SSH-Tunnel
+
+⌜⌜⌜bash
+$ ssh -N \
+  -L 11434:localhost:11434 \
+  michaelholzheu@100.64.150.6
+⌟⌟⌟
+
+⌜⌜⌜bash
+$ ssh -N \
+  -L 0.0.0.0:11434:localhost:11434 \
+  michaelholzheu@100.64.150.6
+⌟⌟⌟
+
+Bridge-I:
+
+⌜⌜⌜bash
+ssh -N \
+  -L 172.17.0.1:11434:localhost:11434 \
+  michaelholzheu@100.64.150.6
+⌟⌟⌟
+
+Auto-SSH:
+
+⌜⌜⌜bash
+$ sudo apt-get update
+$ sudo apt-get install -y autossh
+$ autossh -M 0 -N \
+  -o "ServerAliveInterval 30" \
+  -o "ServerAliveCountMax 3" \
+  -L 172.17.0.1:11434:localhost:11434 \
+  michaelholzheu@100.64.150.6
+⌟⌟⌟
+
+▪▪ Systemd
+
+⌜⌜⌜text
+#
+# Tunnel-Service that should run on Dings-Host
+#
+# Allows SSH-Tunnel to Mac-OS Laptop
+#
+# AWS-Setup:
+#   sudo cp ollama-tunnel.service /etc/systemd/system/ollama-tunnel.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now tailscaled
+#   sudo systemctl enable --now ollama-tunnel
+#   sudo tailscale up --ssh=false
+#
+# Mac-OS-Setup:
+#
+#   sudo systemsetup -setremotelogin on
+#   rew install tailscale
+#   sudo /opt/homebrew/opt/tailscale/bin/tailscaled
+#   sudo tailscale up
+#
+
+[Unit]
+Description=Ollama SSH Tunnel (AWS → Mac)
+After=network-online.target tailscaled.service
+Wants=network-online.target tailscaled.service
+
+[Service]
+User=ubuntu
+ExecStart=/usr/bin/autossh -M 0 -N \
+  -o IdentityFile=/home/ubuntu/.ssh/id_ed25519 \
+  -o BatchMode=yes \
+  -o StrictHostKeyChecking=accept-new \
+  -o ServerAliveInterval=30 \
+  -o ServerAliveCountMax=3 \
+  -o ExitOnForwardFailure=yes \
+  -L 172.17.0.1:11434:localhost:11434 \
+  michaelholzheu@100.64.150.6
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+⌟⌟⌟
+
+▪▪▪ Check
+
+⌜⌜⌜bash
+$ sudo systemctl status ollama-tunnel --no-pager
+⌟⌟⌟
+
+▪▪ Test
+
+In Container:
+
+⌜⌜⌜bash
+root@dings:/111 $ curl -sS http://host.docker.internal:11434/api/tags
+⌟⌟⌟
+
+On Dings-Host:
+
+⌜⌜⌜bash
+$ curl -sS http://172.17.0.1:11434/api/tags
+{"models":[{"name":"nomic-embed-text:latest","model":"nomic-embed-text:latest","modified_at":"2026-01-10T14:31:24.498698689+01:00","size":274302450,"digest":"0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f","details":{"parent_model":"","format":"gguf","family":"nomic-bert","families":["nomic-bert"],"parameter_size":"137M","quantization_level":"F16"}},{"name":"qwen2.5:7b","model":"qwen2.5:7b","modified_at":"2026-01-10T13:28:33.122252418+01:00","size":4683087332,"digest":"845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e","details":{"parent_model":"","format":"gguf","family":"qwen2","families":["qwen2"],"parameter_size":"7.6B","quantization_level":"Q4_K_M"}}]}
+⌟⌟⌟
