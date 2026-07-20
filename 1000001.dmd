@@ -1,20 +1,8 @@
 ▪ Blog-Chain-Time
 
-I am a ❲Time-Stamp❳❪610005.md❫.
-
-▪▪ About
-
-◦ My ❲System❳❪60052.md❫ is ❲Dings-System❳❪300000007.md❫.
-◦ My ❲Update-Time❳❪300089002.md❫ is ❲❛BCT+2026.07.09-16:02❜❳❪300043072.md❫.
-
-▪▪ Description
-
-Example:
-`
 Blog-Chain-Time BCT+2023.03.28-22:35 in Tübingen, After Micha and I ...
-`
 
-▪▪▪ Timestamp Format
+▪▪ Timestamp Format
 
 Concrete BCT Literals are represented by ❲Dings_Type_BCT_Time❳❪300043072.md❫.
 
@@ -59,7 +47,7 @@ BCT+2021.04.??
 BCT+2021.04.04-12:??
 ⌟⌟⌟
 
-▪▪▪ Standard Time Zone
+▪▪ Standard Time Zone
 
 Specify BCT Date and Time in Europe/Berlin Time.
 
