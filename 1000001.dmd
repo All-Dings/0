@@ -1,0 +1,75 @@
+▪ Blog-Chain-Time
+
+I am a ❲Time-Stamp❳❪610005.md❫.
+
+▪▪ About
+
+◦ My ❲System❳❪60052.md❫ is ❲Dings-System❳❪300000007.md❫.
+◦ My ❲Update-Time❳❪300089002.md❫ is ❲❛BCT+2026.07.09-16:02❜❳❪300043072.md❫.
+
+▪▪ Description
+
+Example:
+`
+Blog-Chain-Time BCT+2023.03.28-22:35 in Tübingen, After Micha and I ...
+`
+
+▪▪▪ Timestamp Format
+
+Concrete BCT Literals are represented by ❲Dings_Type_BCT_Time❳❪300043072.md❫.
+
+Timestamps are specified as follows:
+
+⌜⌜⌜text
+BCT[+-]YYYY.MM.DD-HH:MM:SS,F
+⌟⌟⌟
+
+◦ YYYY: Year
+◦ MM: Month
+◦ DD: Day
+◦ HH: Hour
+◦ MM: Minute
+◦ SS: Second
+◦ F: Decimal Fraction of a Second
+
+For Example the 4th of April 2021 at 11pm, 4 Minutes, 10 Seconds and 91 Milliseconds is written as:
+
+⌜⌜⌜text
+BCT+2021.04.04
+BCT+2021.04.04-23:04
+BCT+2021.04.04-23:04:10
+BCT+2021.04.04-23:04:10,091
+⌟⌟⌟
+
+Time-only Forms are contextual Shorthands and are not standalone ❲Dings_Type_BCT_Time❳❪300043072.md❫ Literals:
+
+⌜⌜⌜text
+23:04
+23:04:10
+23:04:10,091
+⌟⌟⌟
+
+If a positional Digit of the TimeStamp is not known, the Character '?' marks that
+unknown Digit. This is distinct from a statement about measurement uncertainty.
+
+⌜⌜⌜text
+BCT+????.04.??
+BCT+20??.04.??
+BCT+2021.04.??
+BCT+2021.04.04-12:??
+⌟⌟⌟
+
+▪▪▪ Standard Time Zone
+
+Specify BCT Date and Time in Europe/Berlin Time.
+
+For Example let's say Something happens in Germany at 2023.03.26 at 1:58 in Winter-Time:
+
+⌜⌜⌜text
+BCT+2023.03.26-01:58 Something interesting happened
+⌟⌟⌟
+
+If three Minutes later another Thing happens in Summer-Time, you have to write:
+`
+BCT+2023.03.26-03:01 More interesting Things happened
+`
