@@ -343,6 +343,11 @@
 
 ### Documentation
 
+300100108.md   Minimal-Bit-ISA-Dog-Food
+300100107.md   Minimal-ISA-V1
+300100106.md   Turing-Complete-Tape-Follow-Up
+300100105.md   ISA-Minimal-Bit-V21-Working-Notes
+300100104.md   BCN-V21-Working-Notes
 300100100.md   Graph-Ways-and-Origin-Dog-Food
 300100099.md   Message-to-Codex-in-the-Next-V18-Chat
 300100098.md   V17-Achievements
@@ -627,6 +632,40 @@
 300044001.md  Dings_SM_Document_Path_Segment
 300044000.md  Dings_SM_Document_Path_Address
 
+300043157.md  Dings_SM_ISA_Program_Image
+300043156.md  Dings_SM_ISA_Assembly_Profile_Minimal_Bit
+300043155.md  Dings_SM_ISA_Assembly_Profile
+300043154.md  Dings_SM_Harvard_Execution
+300043153.md  Dings_SM_Harvard_Execution_State
+300043152.md  Dings_SM_Instruction_Storage
+300043151.md  Dings_Fmt_Assembly
+300043150.md  Dings_SM_ISA_Encoding_Minimal_Bit_Fixed_Width
+300043149.md  Dings_SM_Machine_Architecture_Minimal_Bit_Harvard
+300043148.md  Dings_SM_Instruction_Address
+300043147.md  Dings_SM_Minimal_Bit_Machine
+300043146.md  Dings_SM_Abstract_Machine
+300043145.md  Dings_SM_ISA
+300043144.md  Dings_SM_ISA_Instruction
+300043141.md  Dings_SM_ISA_Branch_Instruction
+300043140.md  Dings_Fmt_ISA_Minimal_Bit
+300043139.md  Dings_SM_Execution_State
+300043138.md  Dings_SM_ISA_Program
+300043137.md  Dings_SM_ISA_Not_Instruction
+300043135.md  Dings_SM_Memory_Address
+300043134.md  Dings_SM_Memory
+300043133.md  Dings_SM_Bit_Storage
+300043132.md  Dings_SM_ISA_Minimal_Bit
+300043131.md  Dings_SM_Dings_Number
+300043130.md  Dings_SM_JSON_Number
+300043129.md  Dings_SM_JSON
+300043128.md  Dings_Fmt_JSON
+300043127.md  Dings_Type_Dings_Number
+300043126.md  Dings_SM_Number_Range
+300043125.md  Dings_SM_Number
+300043124.md  Dings_Fmt_BCN
+300043123.md  Dings_Type_Exact_Number_Range
+300043122.md  Dings_Type_Rational
+300043121.md  Dings_Type_Exact_Number
 300043120.md  Dings_Fmt_MacOS_Key_Layout
 300043111.md  Dings_SM_Program_Run
 300043110.md  Dings_SM_Program_Port
@@ -803,6 +842,11 @@
 
 ### New Dings-Apps
 
+300042031.md   Dings_App_Machine_Minimal_Bit_Harvard
+300042030.md   Dings_App_Assembler
+300042029.md   Dings_App_ISA_Minimal_Bit
+300042028.md   Dings_App_JSON
+300042027.md   Dings_App_BCN
 300042026.md   Dings_App_Md
 300042025.md   Dings_App_Blog
 300042024.md   Dings_App_Manifest
