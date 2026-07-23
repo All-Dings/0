@@ -1,7 +1,7 @@
-# Dings-Lib-Perl
+# Dings_Lib_Perl
 =for comment
 
-The Dings-Lib-Perl is a [Dings-Lib](300010000.md) in [Perl](9010001.md).
+The Dings_Lib_Perl is a [Dings_Lib](300010000.md) in [Perl](9010001.md).
 =cut
 
 package Dings_Lib;
