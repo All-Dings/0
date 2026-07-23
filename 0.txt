@@ -343,6 +343,9 @@
 
 ### Documentation
 
+300100111.md   V24-Cleanup-Apps
+300100110.md   V23-Source-Expressions-and-Canonical-SM
+300100109.md   BCN-To-SM-Transformation-Dog-Food
 300100108.md   Minimal-Bit-ISA-Dog-Food
 300100107.md   Minimal-ISA-V1
 300100106.md   Turing-Complete-Tape-Follow-Up
