@@ -563,6 +563,12 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044136.md  Dings_Earth_MSL_Reference_Frame
+300044135.md  EXIF-GPS-To-Reported-Capture-Position-Mapping
+300044134.md  EXIF-OffsetTimeOriginal-To-Reported-UTC-Offset-Mapping
+300044133.md  Reported-Capture-Position
+300044132.md  Reported-UTC-Offset
+300044131.md  Dings_Type_UTC_Offset
 300044130.md  Dings_SM_Program_Media_Metadata_To_Manifest
 300044129.md  Dings_SM_Program_Apply_Local_Date_Time_Correction
 300044128.md  Local-Date-Time-Correction
