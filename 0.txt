@@ -563,6 +563,7 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044130.md  Dings_SM_Program_Media_Metadata_To_Manifest
 300044129.md  Dings_SM_Program_Apply_Local_Date_Time_Correction
 300044128.md  Local-Date-Time-Correction
 300044127.md  Dings_Type_BCST_Time_Delta
