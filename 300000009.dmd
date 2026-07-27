@@ -23,7 +23,7 @@ The Bootstrap provides at least:
 ◦ ‵Dings_Dir‵: All-Dings Root
 ◦ ‵Dings_Work_Directory‵: ‵$Dings_Dir/Work-Dir‵
 ◦ ‵PATH‵ access to Programs materialized in ‵Work-Dir‵
-◦ portable optional Bash-Completion loading
+◦ Portable optional Bash-Completion loading
 
 An explicitly supplied Environment Value remains authoritative.
 
@@ -86,11 +86,11 @@ md/dmd -> ir -> sm1 -> sm2 -> html
 
 Before committing:
 
-◦ inspect the owning Repository Status and Diff
-◦ preserve unrelated User Changes
-◦ run proportionate focused Tests and the complete Suite for shared Runtime Changes
-◦ verify the full Build and its repeated Current Result
-◦ do not record generated Runtime Paths or machine-local Cache Paths in SM
+◦ Inspect the owning Repository Status and Diff
+◦ Preserve unrelated User Changes
+◦ Run proportionate focused Tests and the complete Suite for shared Runtime Changes
+◦ Verify the full Build and its repeated Current Result
+◦ Do not record generated Runtime Paths or machine-local Cache Paths in SM
 
 Commit each changed Repository separately on the active Development Branch.
 The Commit Message describes the semantic Result. Generated Work-Dir and Day
