@@ -563,6 +563,9 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044124.md  Dings_SM_Program_Media_Metadata_To_Claim
+300044123.md  Dings_SM_Program_JPG_To_Media_Metadata
+300044122.md  Dings_Fmt_JPG
 300044121.md  Dings_SM_Media_Metadata_Occurrence_Address
 300044120.md  Dings_SM_Media_Metadata_Occurrence
 300044119.md  Dings_SM_Media_Metadata_Projection
