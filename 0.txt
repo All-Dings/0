@@ -563,6 +563,11 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044121.md  Dings_SM_Media_Metadata_Occurrence_Address
+300044120.md  Dings_SM_Media_Metadata_Occurrence
+300044119.md  Dings_SM_Media_Metadata_Projection
+300044118.md  Reported-Local-Date-Time
+300044117.md  Dings_Type_Local_Date_Time
 300044113.md  Dings_App_Family_Boundary
 300044112.md  Dings_App_Render_Backend_Boundary
 300044111.md  Dings_App_Html_Runtime_Boundary
@@ -891,6 +896,7 @@
 
 ### New Dings-Apps
 
+300042032.md   Dings_App_Media_Metadata
 300042031.md   Dings_App_Machine_Minimal_Bit_Harvard
 300042030.md   Dings_App_Assembler
 300042029.md   Dings_App_ISA_Minimal_Bit
