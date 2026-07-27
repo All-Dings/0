@@ -563,6 +563,10 @@
 300045002.md  Dings_SM_Channel_Pipe
 300045001.md  Dings_SM_Channel
 
+300044129.md  Dings_SM_Program_Apply_Local_Date_Time_Correction
+300044128.md  Local-Date-Time-Correction
+300044127.md  Dings_Type_BCST_Time_Delta
+300044126.md  Dings_Type_BCT_Time_Delta
 300044125.md  EXIF-DateTimeOriginal-To-Reported-Local-Date-Time-Mapping
 300044124.md  Dings_SM_Program_Media_Metadata_To_Claim
 300044123.md  Dings_SM_Program_JPG_To_Media_Metadata
