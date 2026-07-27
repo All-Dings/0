@@ -40,8 +40,14 @@ $ git clone git@github.com:All-Dings/111.git
 ▪▪ Configure Bash
 
 ⌜⌜⌜bash
-$ cp 14.bashrc  ~/.bashrc
+$ vi ~/.bashrc
+source /path/to/All-Dings/111/14.bashrc
+$ source ~/.bashrc
 ⌟⌟⌟
+
+Keep the versioned ❲Dings-Bash-Rc❳❪14.md❫ in the checkout and source it. Do not
+copy it into the Home Directory, because a copied File no longer follows the
+active All-Dings Revision.
 
 ▪▪ Configure Vim
 
