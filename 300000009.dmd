@@ -23,9 +23,21 @@ The Bootstrap provides at least:
 ◦ ‵Dings_Dir‵: All-Dings Root
 ◦ ‵Dings_Work_Directory‵: ‵$Dings_Dir/Work-Dir‵
 ◦ ‵PATH‵ access to Programs materialized in ‵Work-Dir‵
+◦ ‵Dings_Bash_Executable‵: Preferred Bash, using ‵/opt/homebrew/bin/bash‵ when available
 ◦ Portable optional Bash-Completion loading
 
 An explicitly supplied Environment Value remains authoritative.
+
+‵Work-Dir‵ remains first so the materialized Dings Programs are authoritative.
+On Apple Silicon, the interactive ‵bash‵ Alias and
+‵Dings_Bash_Executable‵ prefer ‵/opt/homebrew/bin/bash‵ over macOS
+‵/bin/bash‵. Automated Commands use ‵$Dings_Bash_Executable‵ explicitly.
+Other Platforms fall back to the Bash already resolved through ‵PATH‵.
+
+The complete ‵/opt/homebrew/bin‵ Directory remains available at the end of
+‵PATH‵. It is not placed before the verified Project Python because doing so
+would silently replace macOS Python 3.9 and its installed Runtime Dependencies
+with a different Homebrew Python.
 
 ▪▪ Source And Materialization Boundary
 
