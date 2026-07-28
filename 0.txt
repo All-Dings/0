@@ -343,6 +343,7 @@
 
 ### Work-Items
 
+300101014.md   Implement-General-State-Machine
 300101013.md   Try-New-Soldering-Station
 
 ### Documentation
@@ -931,6 +932,7 @@
 
 ### New Dings-Apps
 
+300042033.md   Dings_App_State_Machine
 300042032.md   Dings_App_Media_Metadata
 300042031.md   Dings_App_Machine_Minimal_Bit_Harvard
 300042030.md   Dings_App_Assembler
@@ -7379,7 +7381,7 @@
 600165.md      Elimination
 600164.md      Transformation
 600163.md      Application
-
+600162.md      State-Machine
 600161.md      White-Lie
 600160.md      Lie
 600159.md      Correction
