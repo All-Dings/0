@@ -343,6 +343,7 @@
 
 ### Work-Items
 
+300101015.md   Use-General-State-Machine-for-ISA-Execution
 300101014.md   Implement-General-State-Machine
 300101013.md   Try-New-Soldering-Station
 
@@ -7311,6 +7312,10 @@
 
 ## Concepts
 
+600236.md      State_Error
+600235.md      State_Halted
+600234.md      State_Running
+600233.md      State_Ready
 600232.md      Owner
 600231.md      Truth-by-Theory
 600230.md      Mightiness
