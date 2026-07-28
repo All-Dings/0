@@ -341,6 +341,10 @@
 300101002.md   Dings-Feature-Sm-Todo-List
 300101001.md   Dings-Feature-Md-Embedding
 
+### Work-Items
+
+300101013.md   Try-New-Soldering-Station
+
 ### Documentation
 
 300100149.md   V30
@@ -5744,6 +5748,7 @@
 
 ## Devices
 
+20000066.md    Soldering-Station
 20000065.md    Measuring-Device
 20000064.md    AC-To-DC-Converter
 20000063.md    DC-To-AC-Converter
