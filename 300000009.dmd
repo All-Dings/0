@@ -112,7 +112,7 @@ introduced only when real Query Requirements justify it.
 
 ▪▪ Work Command Boundary
 
-A future ‵dings-gpt work‵ Command is a transparent Compiler from Workflow
+‵dings-gpt work‵ is a transparent Compiler from Workflow
 Convenience Syntax to general Dings Operations. It has no private Store,
 Index, State, Query Language, Manifest Mutation, Number Allocation or File
 Creation Logic.
@@ -133,10 +133,22 @@ Resolve
     -> Project
 ⌟⌟⌟
 
-‵-explain‵ or ‵-verbose‵ exposes this generic Plan. Missing generic
-Capabilities are added before the corresponding ‵work‵ Subcommand. The
-implementation Order is read-only ‵work list‵, then ‵work start‵ and
-‵work done‵, and finally ‵work new‵ after all general Create Primitives exist.
+‵-explain‵ exposes this generic Plan. The implemented V30 Surface is:
+
+⌜⌜⌜text
+work list                    Query open Work globally or in one Blog Scope
+work graph                   Project the Work-Item State Machine
+work start WORK_ITEM         State_New     -> State_Started
+work done WORK_ITEM          State_Started -> State_Done
+work reopen WORK_ITEM        State_Done    -> State_Started
+⌟⌟⌟
+
+❲Dings_App_State_Machine❳❪300042033.md❫ validates each requested Transition
+against a ❲Dings_SM_Graph❳❪300044087.md❫. A separate general Manifest
+Primitive atomically replaces the one expected authored State Object. A Start
+or Reopen additionally rejects a second direct Started Work-Item in the same
+Version Blog. ‵work new‵ remains deferred until all general Create Primitives
+exist.
 
 ▪▪ Git Branch Context
 
