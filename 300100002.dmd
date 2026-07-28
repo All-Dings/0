@@ -8,6 +8,34 @@
 ◦ Allow Anchors in ❲Image_Maps❳❪300040008.md❫ and Videos
 ◦ Automatically generate Timelines.
 
+▪▪▪ Media Content Addressing And Claims
+
+◦ Address observable Media Content not only through spatial Image Regions,
+  but also through a local Movie or Audio Playback Position and Time Range.
+◦ Keep Source Asset, Address Space, Position or Range, observed Content,
+  Observer, Evidence and provenance separate from the interpreted Claim.
+◦ Distinguish a Song that is playing at one Position from a Song that begins
+  there or occupies one complete Interval.
+◦ Use an explicit ❲Dings_Channel_Address❳❪300045005.md❫ or
+  ❲Dings_Channel_Range❳❪300045006.md❫ in the Playback-Time Address Space
+  instead of treating a local Position such as ‵01:44:53‵ as absolute BCT.
+◦ Later derive mapping-controlled Claims without adding an unsupported ‵@‵
+  Suffix to the current MD Manifest Grammar.
+
+▪▪▪▪ Dog Food
+
+❲Masters-of-the-Universe-2026-Movie❳❪200040071.md❫ records
+❲Princess-of-the-Universe-Song❳❪91000031.md❫ as a global Song Relation.
+Its authored DMD Observation states that the Song is playing at local Movie
+Playback Position ‵01:44:53‵. The Position is measured from the beginning of
+the Movie Playback Timeline and does not yet claim that the Song begins there
+or identify its complete Time Range.
+
+Until context-bound Statement and Observation Semantics are executable, the
+valid MD Relation and parser-safe DMD Observation preserve both Pieces without
+inventing a typed Meaning. This is temporal Media-Content Dog Food for
+❲V30-Media-Content-vs-Claims❳❪300100143.md❫.
+
 ▪▪▪ Video-Player
 
 ◦ Add References to Subtitles and Media-Toc
