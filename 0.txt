@@ -343,6 +343,12 @@
 
 ### Documentation
 
+300100143.md   V30-Media-Content-vs-Claims
+300100144.md     V30-Media-Content-vs-Claims-Requirements
+300100145.md     V30-Media-Content-vs-Claims-Inventory
+300100148.md     V30-Media-Content-vs-Claims-Dog-Food
+300100146.md     V30-Media-Content-vs-Claims-Achievements
+300100147.md     V30-Media-Content-vs-Claims-Follow-Ups
 300100137.md   V29-Media-Time-Claims-and-Timelines
 300100138.md     V29-Media-Time-Claims-and-Timelines-Requirements
 300100139.md     V29-Media-Time-Claims-and-Timelines-Inventory
