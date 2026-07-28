@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101020.md   Add-Sub-Command-Infrastructure-for-Dings-Gpt
 300101019.md   Establish-Dings-Universe-Revisions-and-Wayback
 300101018.md   Establish-Chunked-Big-Data-Storage
 300101017.md   Establish-Dings-Version-and-Manifestation-Model
