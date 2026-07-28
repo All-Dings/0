@@ -4877,7 +4877,7 @@
 
 ### Famous-Songs
 
-91000031.md    Princess-of-the-Universe-Song
+91000031.md    Princes-of-the-Universe-Song
 91000030.md    Das-Morgenrot
 91000029.md    Männer-Song
 91000028.md    Schools-Out-Song
