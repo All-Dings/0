@@ -136,7 +136,7 @@ Resolve
 ‵-explain‵ exposes this generic Plan. The implemented V30 Surface is:
 
 ⌜⌜⌜text
-work list                    Query open Work globally or in one Blog Scope
+work list [BLOG]             Query open Work globally or in one Blog Scope
 work graph                   Project the Work-Item State Machine
 work new NAME                Create a public system Work-Item in State_New
 work new -kind=todo NAME     Create a private personal Todo in State_New
@@ -173,6 +173,18 @@ Creation does not add Blog Membership, update Work-Dir, build derived Views or
 create a Git Commit. Those remain explicit later Operations. In particular,
 ordered Blog Membership belongs to the Blog Domain rather than to
 ‵work new‵.
+
+‵work list‵ accepts the optional Blog Scope as a positional Dings. Resolution
+validates the authored ‵Dings-Blog‵ Role, so no separate Type Flag is required:
+
+⌜⌜⌜bash
+dings-gpt work list 300100149
+⌟⌟⌟
+
+The older ‵-blog BLOG‵ form remains an equivalent explicit spelling. If both
+forms are supplied, they must resolve to the same stable Dings Identity.
+Transition Commands retain ‵-blog‵ because their positional Dings is already
+the Work-Item.
 
 ▪▪ Git Branch Context
 
