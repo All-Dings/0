@@ -1,5 +1,85 @@
 ▪ All-Dings-Ideas
 
+▪▪ Identity, History And Historical Universes
+
+These Ideas preserve a long-term Direction without extending the executable
+V30 Scope. A Dings keeps one stable Identity across Files, Representations,
+Backends and historical States.
+
+▪▪▪ Native Dings History
+
+Every successfully materialized Commit may later become an immutable normal
+Dings with its own Dings Number. Parent Relations and
+❲Dings_SM_Patch❳❪300043939.md❫ describe History without making a Git Hash the
+public Identity. Amend, Rebase, Cherry-Pick or another Content or Parent Change
+creates a new Commit-Dings. Git remains a possible Adapter rather than a
+required Backend.
+
+The detailed future Work is recorded in
+❲Establish-Native-Dings-Commit-and-History-Model❳❪300101016.md❫.
+
+▪▪▪ Dings Versions And Manifestations
+
+A normal historical View is one stable Dings Identity resolved inside one
+immutable Universe Revision. It is not automatically a new Dings. A selected
+View becomes an independently numbered ‵Dings_Version‵ only when it is
+explicitly materialized for Citation, Publication, Signing, Archiving,
+Embedding or independent Claims.
+
+Authored Source, canonical SM, semantic Media Composition, byte-exact Source
+and rendered Output remain distinct Projections with distinct Integrity and
+Equality Contracts.
+
+The detailed future Work is recorded in
+❲Establish-Dings-Version-and-Manifestation-Model❳❪300101017.md❫.
+
+▪▪▪ Chunked Big-Data
+
+The existing ‵.Big-Data‵ Direction may later store large immutable Payloads as
+content-addressed Chunks. Dings_SM describes Structure, Meaning, Order and
+Composition while multiple Dings Versions reuse unchanged Chunks.
+
+Media Chunking should understand Container, Track, Fragment and GOP Structure,
+use content-defined Chunking inside large opaque Regions and preserve a
+byte-oriented Fallback. Canonical semantic Media, byte-exact Source Assembly
+and rendered Manifestations remain separate. A technical Chunk becomes a
+normal Dings only when it needs independent Meaning or Claims.
+
+Publication verifies the complete required Payload Closure before a new Head
+becomes visible. Reachability and Retention protect every Chunk needed by a
+published Version or Universe Snapshot.
+
+The detailed future Work is recorded in
+❲Establish-Chunked-Big-Data-Storage❳❪300101018.md❫.
+
+▪▪▪ Dings Universe Revisions And Wayback
+
+Wayback enters a consistent historical State of the complete Dings Universe,
+not merely an old View of one Dings. Every published World State is an
+immutable Universe Revision. Every Resolve, Query, Build, Render, Link,
+Embedding, Name, Claim, Media and Payload Lookup inherits that ambient Context.
+
+If a referenced Dings did not yet exist, the historical Resolver reports that
+Fact instead of falling back to its current View. A Time Expression selects a
+Universe Revision; the Revision is the stable Context. A materialized, named,
+pinned or citable Revision may become a numbered ‵Dings_Universe_Snapshot‵.
+
+A Universe Revision pins the participating Repository, Configuration, Build
+and ‵.Big-Data‵ States as one verified Vector. This prevents a synthetic
+Combination of independently selected Repository States that never existed as
+one published Dings World.
+
+The detailed future Work is recorded in
+❲Establish-Dings-Universe-Revisions-and-Wayback❳❪300101019.md❫.
+
+▪▪▪ V30 Boundary
+
+V30 implements none of these future Runtime Models. It introduces no native
+Commit-Dings, Version Engine, chunked Big-Data Store, Universe Revision,
+Wayback Surface, Retention Runtime or private Git Workflow Store. The active
+V30 Work remains focused on general Work Query, State-Machine and Manifest
+Mutation Primitives.
+
 ▪▪ Apps
 
 ▪▪▪ General

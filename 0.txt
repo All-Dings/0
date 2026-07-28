@@ -343,6 +343,10 @@
 
 ### Work-Items
 
+300101019.md   Establish-Dings-Universe-Revisions-and-Wayback
+300101018.md   Establish-Chunked-Big-Data-Storage
+300101017.md   Establish-Dings-Version-and-Manifestation-Model
+300101016.md   Establish-Native-Dings-Commit-and-History-Model
 300101015.md   Use-General-State-Machine-for-ISA-Execution
 300101014.md   Implement-General-State-Machine
 300101013.md   Try-New-Soldering-Station
