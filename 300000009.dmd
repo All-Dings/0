@@ -39,6 +39,27 @@ The complete ‵/opt/homebrew/bin‵ Directory remains available at the end of
 would silently replace macOS Python 3.9 and its installed Runtime Dependencies
 with a different Homebrew Python.
 
+▪▪ Collaboration References
+
+In Chat, use the Dings-canonical Markdown Shape with an extensionless Dings
+Number:
+
+⌜⌜⌜markdown
+[Dings-Feature-Ensure-Consistency](300101012)
+⌟⌟⌟
+
+This keeps the Reference clickable in the rendered Conversation. When Chat UI
+Presentation hides the Target Number, copying the Conversation into a plain
+Text Editor such as Vim recovers the complete Markdown Reference. Vim may be
+used as a lossless Intermediate for inspecting, editing and copying the Source
+Text. If a Composer converts the pasted Reference into a structured Link
+Element, edit it in Vim before pasting the finished Text.
+
+Use a Code Block only when the Reference Syntax itself is the Subject. In
+canonical Dings Markdown Sources, use the real ‵.md‵ Target. In DMD Sources,
+use the corresponding DMD Reference Syntax. Do not introduce a parallel
+‵Label#Number‵ Notation merely for Chat.
+
 ▪▪ Source And Materialization Boundary
 
 Edit canonical Files in their owning Git Repository below
