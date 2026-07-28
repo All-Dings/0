@@ -26,10 +26,10 @@
 
 ❲Masters-of-the-Universe-2026-Movie❳❪200040071.md❫ records
 ❲Princes-of-the-Universe-Song❳❪91000031.md❫ as a global Song Relation.
-Its authored DMD Observation states that the Song is playing at local Movie
-Playback Position ‵01:44:53‵. The Position is measured from the beginning of
-the Movie Playback Timeline and does not yet claim that the Song begins there
-or identify its complete Time Range.
+Its authored DMD Observation states that the Song is playing in the local Movie
+Playback Range ‵01:44:53-01:46:48‵. The Range is measured from the beginning
+of the Movie Playback Timeline and does not yet identify corresponding
+Positions within the Song's own Timeline.
 
 Until context-bound Statement and Observation Semantics are executable, the
 valid MD Relation and parser-safe DMD Observation preserve both Pieces without
