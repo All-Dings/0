@@ -345,6 +345,11 @@
 
 ### Work-Items (300101013-300101999)
 
+300101038.md   Consolidate-Dings-Tool-Surface
+300101037.md   Establish-Persistent-Dings-Command-Runtime
+300101036.md   Establish-General-Source-Dependency-Graph
+300101035.md   Establish-Dings-Python-Format-And-App
+300101034.md   Establish-All-Dings-Environment-Installer
 300101033.md   Align-Blog-Contract-with-General-Blog-Type
 300101032.md   Establish-Work-Lifecycle-Event-History
 300101031.md   Establish-Dings-Access-Publication-Replication-and-Witness-Model
