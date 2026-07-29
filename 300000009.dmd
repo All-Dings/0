@@ -182,7 +182,8 @@ work list [BLOG]             Query open Work globally or in one Blog Scope
 work check [WORK_ITEM]       Check one or all Work-Items through the general Contract Program
 work graph                   Project the Work-Item State Machine
 work new NAME                Create a public system Work-Item in State_New
-work new -kind=todo NAME     Create a private personal Work-Item in State_New
+work new -repo REPOSITORY NAME
+                             Select the owning Repository; default 300000007
 work start WORK_ITEM         State_New     -> State_Started
 work done WORK_ITEM          State_Started -> State_Done
 work reopen WORK_ITEM        State_Done    -> State_Started
@@ -207,14 +208,14 @@ Target it checks every current Instance of the Contract's target Class.
 Program; ‵dings-gpt work check‵ fixes the Contract binding to ‵Work-Item‵.
 Work creation and transitions use the same general evaluator before mutation.
 
-‵work new‵ compiles two Creation Profiles into the general
-‵dings-gpt dings new‵ Operation. A public ‵work-item‵ is owned by Repository
+‵work new‵ resolves the selected owning Repository into one of two current
+Creation Profiles and invokes the general ‵dings-gpt dings new‵ Operation.
+The default Profile is owned by Repository
 ‵300000007‵ and allocates monotonically in the authored ‵Work-Items‵ Range
-‵300101013-300101999‵. The compatibility Profile name ‵todo‵ creates the same
-semantic Work-Item in Repository
-‵0-secrets-local‵, allocates in the authored ‵TODOS‵ Range
+‵300101013-300101999‵. Selecting Repository
+‵0-secrets-local‵ allocates in the authored ‵TODOS‵ Range
 ‵1971200000-1971209000‵ and creates a sibling Access Source containing User
-‵0‵. Both Profiles author exactly one ‵State_New‵ Statement and a Create Time.
+‵0‵. Both Repository Profiles author exactly one ‵State_New‵ Statement and a Create Time.
 Public Work defaults Scope to ❲Dings-System❳❪300000007.md❫; personal Work does
 not invent a Local Scope Statement.
 
