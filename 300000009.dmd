@@ -10,8 +10,7 @@ Start in the All-Dings Root and load the versioned
 ❲Dings-Bash-Rc❳❪14.md❫:
 
 ⌜⌜⌜bash
-cd /path/to/All-Dings/111
-source ./14.bashrc
+cd /path/to/All-Dings/111 && source ./14.bashrc
 ⌟⌟⌟
 
 Do this before running Tests, Builds or Dings Commands in a fresh interactive
@@ -38,6 +37,41 @@ The complete ‵/opt/homebrew/bin‵ Directory remains available at the end of
 ‵PATH‵. It is not placed before the verified Project Python because doing so
 would silently replace macOS Python 3.9 and its installed Runtime Dependencies
 with a different Homebrew Python.
+
+▪▪ Automated Shell Safety
+
+Every independent automated Shell Invocation starts with the All-Dings Root as
+its actual Working Directory and executes this Prelude before any Dings, Build,
+Test or Git Command:
+
+⌜⌜⌜bash
+set -e
+source ./14.bashrc
+Dings_Require_Development_Root
+⌟⌟⌟
+
+The Error Mode is enabled before sourcing. A missing or unreadable Bootstrap
+therefore terminates the Invocation instead of allowing later Commands to run
+with an incomplete Environment. ‵Dings_Require_Development_Root‵ also rejects
+an Invocation that loaded ‵14.bashrc‵ through another Path while its current
+Directory is not ‵$Dings_Dir‵.
+
+Do not rely on a ‵cd‵ performed by an earlier Tool Call or Shell Process. Each
+independent Invocation establishes and validates its own Context. Do not hide a
+Bootstrap or Root-Validation Failure with ‵|| true‵, a command separator or an
+unconditional later Command.
+
+Repository-specific Git Operations do not change the Shell Working Directory.
+They address the owning Repository explicitly from the All-Dings Root:
+
+⌜⌜⌜bash
+git -C "$Dings_Dir/.Dings/Repositories/300000007" status --short --branch
+git -C "$Dings_Dir/.Dings/Repositories/300000007" diff --check
+⌟⌟⌟
+
+The Root-only Rule applies to automated Development Commands. Normal users may
+still run read-only Dings Queries from Repository Subdirectories after loading
+the Environment; the CLI derives or accepts the All-Dings Root independently.
 
 ▪▪ Collaboration References
 
