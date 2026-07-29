@@ -186,6 +186,43 @@ forms are supplied, they must resolve to the same stable Dings Identity.
 Transition Commands retain ‵-blog‵ because their positional Dings is already
 the Work-Item.
 
+▪▪ Blog Command Boundary
+
+‵dings-gpt blog‵ is the Blog-Domain Wrapper over the same general Dings
+Primitives. Its implemented Surface is:
+
+⌜⌜⌜text
+blog list [BLOG]              List all Blog identities or one recursive Member Tree
+blog new NAME                 Create one Dings-Blog in the authored Blogs Range
+blog add BLOG MEMBER          Append one direct ordered Membership
+blog add BLOG MEMBER -before EXISTING
+blog add BLOG MEMBER -after EXISTING
+blog remove BLOG MEMBER       Remove exactly one direct Membership
+⌟⌟⌟
+
+‵blog list‵ maps to the ordinary ‵show sm list Dings-Blog‵ and
+‵dings-gpt dings members‵ Queries. ‵blog new‵ compiles a Blog Profile into
+the general authored Dings Creation Operation and allocates in
+‵Blogs (300102000-300102999)‵. It does not add the new Blog to another Blog.
+
+Add and Remove target the direct Member Sequence of the explicitly addressed
+Blog identity. Add appends by default; ‵-before‵ and ‵-after‵ name one existing
+direct Member as the placement Anchor. Remove requires exactly one direct
+Member identity. Neither Command guesses a recursive occurrence. A future
+Mutation of one contextual recursive Occurrence requires an explicit
+Bundle-Occurrence Address rather than a Dings-identity heuristic.
+
+The shared ordered Bundle Mutation preserves unrelated Manifest Text, rejects
+duplicate direct Membership and invalid Anchors, compares the exact expected
+Source and performs a same-directory atomic replacement under a Root-local
+Bundle Lock. Blog adds additionally validate Blog and Member Roles, reject
+Blog-to-Blog cycles and validate the hypothetical direct Started Work-Item
+count when the target is a Version Blog.
+
+Blog commands do not change Work State, build or commit. ‵-explain‵ names the
+general Query, Creation or Membership Operations and prints equivalent public
+‵show sm‵ and ‵dings members‵ Queries where available.
+
 ▪▪ Git Branch Context
 
 The active Git Branch is a Resolver Input and Safety Context for Workflow
