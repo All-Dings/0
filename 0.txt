@@ -345,6 +345,8 @@
 
 ### Work-Items (300101013-300101999)
 
+300101030.md   Dings-System-Metrics
+300101029.md   Ensure-Slim-Code-Base
 300101028.md   Automatic-Dings-English-Check
 300101027.md   Dings-Programming-Language
 300101026.md   Establish-Work-Item-Contract-and-Validation
