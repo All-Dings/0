@@ -175,7 +175,7 @@ ordered Blog Membership belongs to the Blog Domain rather than to
 ‵work new‵.
 
 ‵work list‵ accepts the optional Blog Scope as a positional Dings. Resolution
-validates the authored ‵Dings-Blog‵ Role, so no separate Type Flag is required:
+validates the general authored ‵Blog‵ Role, so no separate Type Flag is required:
 
 ⌜⌜⌜bash
 dings-gpt work list 300100149
@@ -192,18 +192,26 @@ the Work-Item.
 Primitives. Its implemented Surface is:
 
 ⌜⌜⌜text
-blog list [BLOG]              List all Blog identities or one recursive Member Tree
-blog new NAME                 Create one Dings-Blog in the authored Blogs Range
+blog list [BLOG]              List Blogs and Entries or one recursive Member Tree
+blog new NAME                 Create one Bundle-capable Blog in the authored Blogs Range
 blog add BLOG MEMBER          Append one direct ordered Membership
 blog add BLOG MEMBER -before EXISTING
 blog add BLOG MEMBER -after EXISTING
 blog remove BLOG MEMBER       Remove exactly one direct Membership
 ⌟⌟⌟
 
-‵blog list‵ maps to the ordinary ‵show sm list Dings-Blog‵ and
+‵blog list‵ maps to the ordinary ‵show sm list Blog‵ and
 ‵dings-gpt dings members‵ Queries. ‵blog new‵ compiles a Blog Profile into
 the general authored Dings Creation Operation and allocates in
-‵Blogs (300102000-300102999)‵. It does not add the new Blog to another Blog.
+‵Blogs (300102000-300102999)‵. The Profile authors the general ‵Blog‵ Role
+plus the separate ‵Dings_Bundle‵ capability. It does not add the new Blog to
+another Blog.
+
+The global Tree uses ‵Blog‵ as its conceptual Root and preserves direct
+Member order below every Blog. It includes leaf Entries and recursively
+expands Member Dings that also resolve as Blogs. The historical
+‵Dings_Blog‵ Role remains a compatible specialization, not the public filter
+of the Command.
 
 Add and Remove target the direct Member Sequence of the explicitly addressed
 Blog identity. Add appends by default; ‵-before‵ and ‵-after‵ name one existing
