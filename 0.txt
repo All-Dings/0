@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101028.md   Automatic-Dings-English-Check
 300101027.md   Dings-Programming-Language
 300101026.md   Establish-Work-Item-Contract-and-Validation
 300101025.md   Consolidate-Duplicate-Repository-111-Checkouts
