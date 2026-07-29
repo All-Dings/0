@@ -115,12 +115,19 @@ State
     Global Lifecycle of the Work-Item
 ⌟⌟⌟
 
-A small Work-Item is a ❲Dings_Blog_Entry❳❪300040013.md❫ with the additional
-❲Todo❳❪60203.md❫ and ❲Work-Item❳❪120000001.md❫ Roles. It may additionally be
-a ❲Feature❳❪60204.md❫. A structured Work-Item is instead a recursive
-❲Dings_Blog❳❪300040012.md❫ with the same Work Roles and may contain
-Requirements, Inventory, Dog-Food, Achievements and Follow-Ups Entries. Blog
-and Blog-Entry remain mutually exclusive main Roles.
+❲Work-Item❳❪120000001.md❫ is a specialization of ❲Todo❳❪60203.md❫. A Todo
+names something that may be done; a Work-Item is a Todo that has entered the
+executable Workflow Contract. Therefore every Work-Item resolves as a Todo,
+while a Todo-only Reminder remains outside the Work-Item Lifecycle until it is
+explicitly upgraded. Concrete Work-Items declare only the Work-Item Role;
+declaring both Roles remains compatible but redundant.
+
+Blog shape is an independent Axis. A Work-Item may additionally be a
+❲Dings_Blog_Entry❳❪300040013.md❫, a recursive ❲Dings_Blog❳❪300040012.md❫ or
+neither. A structured Work-Item Blog may contain Requirements, Inventory,
+Dog-Food, Achievements and Follow-Ups Entries. Blog and Blog-Entry remain
+mutually exclusive Roles. Optional kinds such as ❲Feature❳❪60204.md❫ likewise
+do not define Work-Item storage, visibility or Lifecycle.
 
 The V1 Lifecycle uses:
 
@@ -128,7 +135,8 @@ The V1 Lifecycle uses:
 ◦ ❲State_Started❳❪60207.md❫: Begun and not done
 ◦ ❲State_Done❳❪60205.md❫: Completed
 
-‵Todo‵ is a durable Work Role and is not removed when its State becomes Done.
+The inherited ‵Todo‵ meaning is durable and is not removed when a Work-Item's
+State becomes Done.
 A Version-Neutral ‵State_New‵ Work-Item may exist without Membership in a
 Version Blog. Selecting it for one Version adds the same Work-Item Identity as
 an ordered direct Member; it does not copy or rename the Work-Item.
@@ -171,9 +179,10 @@ Resolve
 
 ⌜⌜⌜text
 work list [BLOG]             Query open Work globally or in one Blog Scope
+work check [WORK_ITEM]       Check one or all Work-Items through the general Contract Program
 work graph                   Project the Work-Item State Machine
 work new NAME                Create a public system Work-Item in State_New
-work new -kind=todo NAME     Create a private personal Todo in State_New
+work new -kind=todo NAME     Create a private personal Work-Item in State_New
 work start WORK_ITEM         State_New     -> State_Started
 work done WORK_ITEM          State_Started -> State_Done
 work reopen WORK_ITEM        State_Done    -> State_Started
@@ -185,14 +194,28 @@ Primitive atomically replaces the one expected authored State Object. A Start
 or Reopen additionally rejects a second direct Started Work-Item in the same
 Version Blog.
 
-‵work new‵ compiles two Workflow Profiles into the general
+The general read-only Contract execution is:
+
+⌜⌜⌜text
+dings-gpt show sm check CONTRACT [TARGET]
+⌟⌟⌟
+
+It binds ❲Dings_SM_Program_Dings_Contract_Check❳❪300044140.md❫ to the current
+semantic Resolve Context, one Contract and an optional Target. Without a
+Target it checks every current Instance of the Contract's target Class.
+‵dings-gpt check contract‵ is a thin findings-oriented Wrapper over that
+Program; ‵dings-gpt work check‵ fixes the Contract binding to ‵Work-Item‵.
+Work creation and transitions use the same general evaluator before mutation.
+
+‵work new‵ compiles two Creation Profiles into the general
 ‵dings-gpt dings new‵ Operation. A public ‵work-item‵ is owned by Repository
 ‵300000007‵ and allocates monotonically in the authored ‵Work-Items‵ Range
-‵300101013-300101999‵. A private personal ‵todo‵ is owned by Repository
+‵300101013-300101999‵. The compatibility Profile name ‵todo‵ creates the same
+semantic Work-Item in Repository
 ‵0-secrets-local‵, allocates in the authored ‵TODOS‵ Range
 ‵1971200000-1971209000‵ and creates a sibling Access Source containing User
 ‵0‵. Both Profiles author exactly one ‵State_New‵ Statement and a Create Time.
-Public Work defaults Scope to ❲Dings-System❳❪300000007.md❫; personal Todos do
+Public Work defaults Scope to ❲Dings-System❳❪300000007.md❫; personal Work does
 not invent a Local Scope Statement.
 
 The general Create Primitive reads the authored Ranges from ‵0.txt‵, checks

@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101026.md   Establish-Work-Item-Contract-and-Validation
 300101025.md   Consolidate-Duplicate-Repository-111-Checkouts
 300101024.md   Define-Hardened-Dings-Environment
 300101023.md   Establish-General-Dings-Graph-Primitives
@@ -836,6 +837,7 @@
 
 ### Ontology (300043000-300045000)
 
+300044140.md   Dings_SM_Program_Dings_Contract_Check
 300044139.md   Dings_SM_Program_Dings_Relation_To_Graph
 300000048.md  Dings_Ref
 300000047.md  Dings_Side_Car
