@@ -345,7 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
-300101022.md   Migrate-Legacy-Blogs-to-Dings-Blog
+300101022.md   Research-Legacy-Blog-Tooling-and-Inter-Blog-Links
 300101021.md   Add-Dings-Gpt-Blog-Membership
 300101020.md   Add-Sub-Command-Infrastructure-for-Dings-Gpt
 300101019.md   Establish-Dings-Universe-Revisions-and-Wayback
