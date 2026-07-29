@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101033.md   Align-Blog-Contract-with-General-Blog-Type
 300101032.md   Establish-Work-Lifecycle-Event-History
 300101031.md   Establish-Dings-Access-Publication-Replication-and-Witness-Model
 300101030.md   Dings-System-Metrics
@@ -368,6 +369,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102000.md   V31-Hardened-Feedback-and-Code-Health
 ### Documentation
 
 300100149.md   V30-Workflow-Graphs-and-Contracts
