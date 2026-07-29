@@ -326,10 +326,12 @@ python3 .Dings/Repositories/300000007/300100005.test.py \
   Dings_Lld_Format_Tests.test_v29_datetimeoriginal_becomes_one_zone_less_source_near_claim
 ⌟⌟⌟
 
-The Runner imports ‵Dings_Gpt_Runtime.py‵ and uses the repository-local Python,
-Matplotlib and XDG Cache Contract. Standalone Python Tools that do not import
-the Dings Runtime must set an explicit cache Location or perform a cache-free
-Check as described by ❲All-Dings-LLD❳❪300100005.md❫.
+The sourced ‵14.bashrc‵ establishes the repository-local Python, Matplotlib and
+XDG Cache Contract before any Tool starts. It therefore also protects
+standalone Python Tools such as ‵python3 -m py_compile‵ that cannot first import
+‵Dings_Gpt_Runtime.py‵. Explicit User Values remain authoritative. The Runtime
+module retains the same defaults as a fallback for Apps started without the
+development-shell bootstrap.
 
 ▪▪ Build Verification
 
