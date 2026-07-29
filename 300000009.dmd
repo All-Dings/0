@@ -174,6 +174,13 @@ create a Git Commit. Those remain explicit later Operations. In particular,
 ordered Blog Membership belongs to the Blog Domain rather than to
 ‵work new‵.
 
+The global Backlog is the Query projection of Work-Items in ‵State_New‵, not
+an authored Blog and not an implicit Membership in the Development Blog.
+‵work list -state=State_New‵ therefore finds both assigned and unassigned Work
+by stable identity. A Version-Blog Membership means explicit Version planning;
+another Blog Membership means an independently authored context. Neither is
+inferred merely because an Item is new.
+
 ‵work list‵ accepts the optional Blog Scope as a positional Dings. Resolution
 validates the general authored ‵Blog‵ Role, so no separate Type Flag is required:
 
