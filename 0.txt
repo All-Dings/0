@@ -852,6 +852,8 @@
 
 ### Ontology (300043000-300045000)
 
+300044146.md   Dings_SM_Source_Identity_Resolution
+300044145.md   Dings_SM_Source_Manifestation
 300044144.md   Dings_Fmt_Python
 300044143.md   Dings_SM_Source_Dependency_Projection
 300044142.md   Dings_SM_Source_Dependency_Occurrence
