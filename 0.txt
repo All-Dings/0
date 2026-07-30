@@ -345,6 +345,8 @@
 
 ### Work-Items (300101013-300101999)
 
+300101040.md   Establish-End-to-End-Semantic-Code-and-ISA-Model
+300101039.md   Align-Version-Blog-Member-Roles
 300101038.md   Consolidate-Dings-Tool-Surface
 300101037.md   Establish-Persistent-Dings-Command-Runtime
 300101036.md   Establish-General-Source-Dependency-Graph
@@ -374,6 +376,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102001.md   V31-Achievements
 300102000.md   V31-Hardened-Feedback-and-Code-Health
 ### Documentation
 
