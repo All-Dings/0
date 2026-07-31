@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101044.md   Add-Repo-Move-to-Dings-Gpt-Git
 300101043.md   Monitor-and-Control-Network
 300101042.md   Establish-Three-Stage-Dings-Deployment
 300101041.md   Establish-Dings-Key-Board-MacOS-Layout
@@ -860,6 +861,9 @@
 
 ### Ontology (300043000-300045000)
 
+300044150.md   Target_Repository
+300044149.md   Source_Repository
+300044148.md   Dings_Repository_Move
 300044147.md   Work_Item
 300044146.md   Dings_SM_Source_Identity_Resolution
 300044145.md   Dings_SM_Source_Manifestation
