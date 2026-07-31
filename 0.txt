@@ -376,6 +376,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102002.md   V32-Reproducible-Dings-Environment
 300102001.md   V31-Achievements
 300102000.md   V31-Hardened-Feedback-and-Code-Health
 ### Documentation (300100000-300100999)
