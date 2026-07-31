@@ -1,5 +1,51 @@
 ▪ Dings-Howto-Setup-AWS-EC2
 
+This Howto preserves the current AWS Host Setup as historical
+Public-Dings-Server Deployment Evidence. It is not the provider-neutral
+Deployment Contract.
+❲Establish-Three-Stage-Dings-Deployment❳❪300101042.md❫ proposes the Profile
+Names ‵Local-Dings-Server‵, ‵Intra-Dings-Server‵ and
+‵Public-Dings-Server‵. They are not yet three new Ontology Dings.
+
+The current External Manifestation uses ‵make prod‵ and ‵make prod-restart‵,
+which delegate to ‵dings-host server rsync‵ and
+‵dings-host server rsync -restart‵. ‵Dings-Config-Server‵ binds the current AWS
+Host, remote User and Path and references Certificate, Key and PEM Dings. These
+Values are Manifestation Configuration; Secret Payloads are not portable
+public Configuration.
+
+The Commands below must not be executed blindly on a new Host. In particular,
+the target Deployment does not require Root SSH Login. It uses explicit
+least-privilege Service ownership, observable Planning and verified
+restart/rollback behavior.
+
+▪▪ Big-Data Server Profiles
+
+The current AWS Deployment can run without a large local Big-Data Disk.
+‵dings-host big init‵ builds ‵Big-Data-Combined‵ from available real Payloads
+and zero-Byte Stubs. The PHP Delivery Program serves a non-empty local Payload
+directly. When a requested Big-Data Link resolves to a zero-Byte Stub, it
+redirects the Browser to the configured pCloud ‵filedn.eu‵ Big-Data Endpoint.
+
+The alternative ‵Local Big-Data‵ Profile materializes the Payload Bytes on the
+Server and serves them locally. The selected Profile and remote Endpoint are
+Deployment Configuration owned by
+❲Establish-Three-Stage-Dings-Deployment❳❪300101042.md❫.
+
+▪▪ Private Dings Projection
+
+After the current rsync, ‵make prod‵ invokes
+‵dings-host access delete -scope Local‵ on AWS. The Command reads projected
+‵*.access‵ Files and removes the matching equal-basename Files from remote
+‵Work-Dir‵ and ‵Day‵ when their Scope is ‵Local‵.
+
+The intended Policy retains private Dings on Local-Dings-Server and
+Intra-Dings-Server and excludes them from Public-Dings-Server. The current
+transfer-then-delete Mechanism is historical operational Evidence. The target
+Deployment derives an explicit Stage Access Projection, excludes forbidden
+Manifestations before transfer where practical and verifies their absence
+before restarting the public Service.
+
 ▪▪ Login
 
 ◦ Link: ❲Https://Us-east-1.Console.Aws.Amazon.Com❳❪https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:❫
@@ -17,7 +63,9 @@
 
 ▪▪ Enable Root Login
 
-◦ ❲Enable-Root-Login❳❪1971092010.md❫
+The historical Experiment is preserved by
+❲Howto-Enable-Root-Login-on-AWS❳❪1971092010.md❫. It is not a Requirement of
+the current or target Deployment.
 
 ▪▪ Install Docker
 

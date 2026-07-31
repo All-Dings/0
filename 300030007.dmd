@@ -1,5 +1,29 @@
 ▪ Dings-Mac-Book-Install-Howto
 
+This Howto preserves the historically used Mac-Book Installation Checklist. It
+is an Inventory and Migration Input for
+❲Establish-All-Dings-Environment-Installer❳❪300101034.md❫, not the current
+portable Environment Contract.
+
+The commands below must not be executed blindly on a new Host. V32 replaces
+implicit Host Mutation with a read-only Check, explained Plan, selected
+Features and verified Result. In particular, the current Installer Contract
+does not silently run ‵curl | shell‵, copy private SSH Keys, use global
+‵pip install‵ or apply host-specific Apache Paths.
+
+▪▪ V32 Bootstrap Direction
+
+Clone Repository ‵111‵ first as the All-Dings Root. The Root Checkout satisfies
+the Repository-111 Role and must not be cloned again below
+‵.Dings/Repositories/111‵. A minimal Shell and Git Bootstrap then obtains
+Repository ‵300000007‵, which provides ‵dings-gpt‵. The general Installer takes
+control only after that Handoff.
+
+This two-stage Path is owned by
+❲Consolidate-Duplicate-Repository-111-Checkouts❳❪300101025.md❫ and the Installer
+Work-Item. The current Repository-111 ‵clone_dings_system‵ Makefile Rule is
+transitional Dog-Food rather than the final verified Bootstrap.
+
 ▪▪ Install Bash
 
 ⌜⌜⌜bash
@@ -8,9 +32,22 @@ $ chsh -s /bin/bash
 
 ▪▪ Windows-Keyboard
 
-Install Windows-Keyboard-Layout with ❲Mac-Win-Germany-Keyboard❳❪300030008.md❫, then go to "Sondertasten" and exchange "Control" with "Command".
+The historical Installation used
+❲Dings-Mac-Win-Germany-Keyboard❳❪300030008.md❫. V32 instead selects the current
+❲Dings_Key_Board-MacOs.keylayout❳❪300000052.md❫ Materialization through
+❲Establish-Dings-Key-Board-MacOS-Layout❳❪300101041.md❫. The two Layout Files
+must not be installed together while they expose the same internal macOS Layout
+Name and Identifier.
+
+The Installer uses the selected User's ‵~/Library/Keyboard Layouts/‵ Directory,
+preserves conflicting existing Files and guides the required Login Refresh and
+activation in macOS System Settings.
 
 ▪▪ Homebrew
+
+The following Command records the historical manual Installation. The V32
+Installer treats Homebrew as an explicit guided external Prerequisite and does
+not execute this network Bootstrap silently:
 
 Install ❲Homebrew❳❪2000243.md❫ to ‵/opt/homebrew/bin‵.
 
@@ -25,6 +62,10 @@ $ brew install pandoc imagemagick exiftool vim php poppler
 ⌟⌟⌟
 
 ▪▪ Install SSH-Keys
+
+The following direct Copy is historical and is not an Installer Operation.
+V32 verifies Git Authentication as a Precondition and does not copy, generate
+or persist private Credentials:
 
 ⌜⌜⌜text
 $ cp id_rsa* ~/.ssh
@@ -60,6 +101,12 @@ $ cp 13.vimrc ~/.vimrc
 ◦ Download-Link: ❲Https://PCloud.Com❳❪https://pcloud.com/de/download-free-online-cloud-file-storage.html❫
 
 ▪▪ Python-Packages
+
+The following mixed ‵apt-get‵ and global ‵pip3 install‵ Commands are historical
+Environment Evidence, not the V32 macOS Installation Contract. V32 derives
+external Import Candidates from the Python Source-Dependency Graph, maps them
+to locked Distribution Packages and installs the selected Feature Set into a
+project-local Virtual Environment.
 
 ⌜⌜⌜bash
 $ sudo apt-get install ffmpeg libsm6 libxext6  -y

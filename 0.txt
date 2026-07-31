@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101042.md   Establish-Three-Stage-Dings-Deployment
 300101041.md   Establish-Dings-Key-Board-MacOS-Layout
 300101040.md   Establish-End-to-End-Semantic-Code-and-ISA-Model
 300101039.md   Align-Version-Blog-Member-Roles
