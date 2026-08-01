@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101048.md   Reduce-Environment-Dependencies
 300101047.md   Establish-Dings-Ownership-Succession-and-Rights-Model
 300101046.md   Cleanup-Test-Suite
 300101045.md   Improve-Dings_App_Git
