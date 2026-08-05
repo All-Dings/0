@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101050.md   Implement-Read-Only-Dings-Version-Slice
 300101049.md   Establish-All-Dings-Personal-Data-Importer
 300101048.md   Reduce-Environment-Dependencies
 300101047.md   Establish-Dings-Ownership-Succession-and-Rights-Model
@@ -385,6 +386,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102003.md   V33-Dings-Revisions-and-Universes
 300102002.md   V32-Reproducible-Dings-Environment
 300102001.md   V31-Achievements
 300102000.md   V31-Hardened-Feedback-and-Code-Health
@@ -4625,6 +4627,7 @@
 
 140001000.md   Bergmann-Kiez
 
+140000124.md   Rewal
 140000123.md   United-Kingdom
 140000122.md   Croatia
 140000121.md   Lithuania
