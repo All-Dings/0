@@ -869,6 +869,15 @@
 
 ### Ontology (300043000-300045000)
 
+300044159.md   Dings_SM_Version_Closure
+300044158.md   Dings_SM_Version_Impact
+300044157.md   Dings_SM_Version_Diff
+300044156.md   Dings_SM_Version_History
+300044155.md   Dings_SM_Version_Result
+300044154.md   Dings_SM_Current_Version_Reference
+300044153.md   Dings_SM_Exact_Version_Reference
+300044152.md   Dings_SM_Version_Manifestation_Binding
+300044151.md   Dings_SM_Dings_Version
 300044150.md   Target_Repository
 300044149.md   Source_Repository
 300044148.md   Dings_Repository_Move
