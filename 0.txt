@@ -345,6 +345,8 @@
 
 ### Work-Items (300101013-300101999)
 
+300101052.md   Establish-Single-Source-CLI-Option-Metadata
+300101051.md   Standardize-Empty-CLI-Results
 300101050.md   Implement-Read-Only-Dings-Version-Slice
 300101049.md   Establish-All-Dings-Personal-Data-Importer
 300101048.md   Reduce-Environment-Dependencies
