@@ -4805,6 +4805,7 @@
 
 130010000.md   Currency
 
+130000064.md   Börse-Stuttgart
 130000063.md   Exchange-Traded-Fund
 130000062.md   Legacy
 130000061.md   Credit-Rating-Agency
