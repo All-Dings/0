@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101053.md   Harden-Dings-Gpt-Against-Ctrl-C-and-Other-Signals
 300101052.md   Establish-Single-Source-CLI-Option-Metadata
 300101051.md   Standardize-Empty-CLI-Results
 300101050.md   Implement-Read-Only-Dings-Version-Slice
