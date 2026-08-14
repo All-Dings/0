@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101055.md   Establish-Dings-System-Docker-Image-and-Runtime-Provider
 300101054.md   Harden-Dings-Gpt-Against-Concurrency
 300101053.md   Harden-Dings-Gpt-Against-Ctrl-C-and-Other-Signals
 300101052.md   Establish-Single-Source-CLI-Option-Metadata
