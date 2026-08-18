@@ -345,6 +345,19 @@
 
 ### Work-Items (300101013-300101999)
 
+300101068.md   Establish-External-Link-Consistency-Check
+300101067.md   Migrate-Legacy-Raw-Html-to-Semantic-Dings-Content
+300101066.md   Establish-Remote-Access-for-Dings-Gpt
+300101065.md   Investigate-Python-to-Mojo-Port
+300101064.md   Establish-Dings-System-Management
+300101063.md   Establish-Dings-Store-Contract-and-Event-History
+300101062.md   Debug-and-Clarify-Dings-Ontology
+300101061.md   Establish-All-Dings-Backup-Archive-and-Recovery
+300101060.md   Establish-Dings-Publication-Replication-and-Witness-Authority
+300101059.md   Establish-Access-Aware-Dings-Composition
+300101058.md   Establish-Dings-Access-Policy-and-Authorization
+300101057.md   Separate-Dings-Credentials-and-Sessions-from-History
+300101056.md   Formalize-Dings-File-Contracts
 300101055.md   Establish-Dings-System-Docker-Image-and-Runtime-Provider
 300101054.md   Harden-Dings-Gpt-Against-Concurrency
 300101053.md   Harden-Dings-Gpt-Against-Ctrl-C-and-Other-Signals
@@ -383,7 +396,7 @@
 300101020.md   Add-Sub-Command-Infrastructure-for-Dings-Gpt
 300101019.md   Establish-Dings-Universe-Revisions-and-Wayback
 300101018.md   Establish-Chunked-Big-Data-Storage
-300101017.md   Establish-Dings-Version-and-Manifestation-Model
+300101017.md   Establish-Dings-Version-and-File-Model
 300101016.md   Establish-Native-Dings-Commit-and-History-Model
 300101015.md   Use-General-State-Machine-for-ISA-Execution
 300101014.md   Implement-General-State-Machine
@@ -391,6 +404,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102004.md   V33-Versioned-Dings-Reference-Test-Cases
 300102003.md   V33-Dings-Revisions-and-Universes
 300102002.md   V32-Reproducible-Dings-Environment
 300102001.md   V31-Achievements
@@ -632,6 +646,24 @@
 300045102.md  Docker_Platform
 300045101.md  Docker_Container
 300045100.md  Docker_OCI_Image
+
+### Docker-Image-Lifecycle
+
+300045115.md  Docker_Image_State_Publication_Ready
+300045114.md  Docker_Image_State_Verified
+300045113.md  Docker_Image_State_Saved
+300045112.md  Docker_Image_State_Built
+300045111.md  Docker_Image_State_Resolved
+300045110.md  Docker_Image_State_Authored
+
+### Docker-Projection-Lifecycle
+
+300045125.md  Docker_Projection_State_Stopped
+300045124.md  Docker_Projection_State_Serving
+300045123.md  Docker_Projection_State_Activated
+300045122.md  Docker_Projection_State_Validated
+300045121.md  Docker_Projection_State_Rendering
+300045120.md  Docker_Projection_State_Created
 
 ### SM-Ontology
 
@@ -881,6 +913,13 @@
 
 ### Ontology (300043000-300045000)
 
+300044166.md   Dings_Version_Number
+300044165.md   Dings_File_Address
+300044164.md   Dings_Address
+300044163.md   Dings_Ref_Address
+300044162.md   Dings_File_Selector
+300044161.md   Dings_File_Requirement
+300044160.md   Dings_File_Role
 300044159.md   Dings_SM_Version_Closure
 300044158.md   Dings_SM_Version_Impact
 300044157.md   Dings_SM_Version_Diff
@@ -888,7 +927,7 @@
 300044155.md   Dings_SM_Version_Result
 300044154.md   Dings_SM_Current_Version_Reference
 300044153.md   Dings_SM_Exact_Version_Reference
-300044152.md   Dings_SM_Version_Manifestation_Binding
+300044152.md   Dings_SM_Version_File_Binding
 300044151.md   Dings_SM_Dings_Version
 300044150.md   Target_Repository
 300044149.md   Source_Repository
@@ -1012,6 +1051,7 @@
 
 ### New Dings-Apps (300042000-300042999)
 
+300042036.md   Dings_App_Access
 300042034.md   Dings_App_Python
 300042033.md   Dings_App_State_Machine
 300042032.md   Dings_App_Media_Metadata
@@ -1193,6 +1233,8 @@
 444444445.md   Good-and-Bad-Guy-in-Europe
 
 ## Docker_Images
+
+300046000.md  Docker_OCI_Image_Dings_System
 
 ## Media-Files
 
@@ -7110,6 +7152,7 @@
 
 ### German-Juristics
 
+680011.md      25-TDDDG
 680010.md      Anhörung-im-Bußgeld-Verfahren
 680009.md      Bußgeld-Verfahren
 680008.md      Arbeits-Kündigung
