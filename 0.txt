@@ -7053,6 +7053,7 @@
 
 ### Fictional-Figures
 
+730005.md      Bat-Man
 730004.md      Super-Man
 730003.md      James_Bond
 730002.md      Pinocchio
