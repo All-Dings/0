@@ -345,6 +345,9 @@
 
 ### Work-Items (300101013-300101999)
 
+300101071.md   Find-Better-Solution-for-0.txt
+300101070.md   Keep-Codebase-Small-Readable-and-KISS
+300101069.md   Evaluate-In-Process-Git-Library-Providers
 300101068.md   Establish-External-Link-Consistency-Check
 300101067.md   Migrate-Legacy-Raw-Html-to-Semantic-Dings-Content
 300101066.md   Establish-Remote-Access-for-Dings-Gpt
