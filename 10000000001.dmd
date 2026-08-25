@@ -1,0 +1,5 @@
+▪ Blogs
+
+I mount selected Blog Dings below the Dings Bundle Namespace Root. Leaf Members
+need not themselves be Bundles; Bundle Members may expose further authored
+Members during recursive Traversal.
