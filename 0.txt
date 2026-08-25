@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101073.md   Build-Versioned-World-Contracts
 300101072.md   Build-Reproducible-Dings-Derivation-Chains
 300101071.md   Find-Better-Solution-for-0.txt
 300101070.md   Keep-Codebase-Small-Readable-and-KISS
