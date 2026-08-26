@@ -345,6 +345,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101075.md   Establish-Dings-Event-Log
 300101074.md   Record-Historical-Command-Benchmarks-as-Dings
 300101073.md   Build-Versioned-World-Contracts
 300101072.md   Build-Reproducible-Dings-Derivation-Chains
