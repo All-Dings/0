@@ -343,6 +343,11 @@
 300101002.md   Dings-Feature-Sm-Todo-List
 300101001.md   Dings-Feature-Md-Embedding
 
+### Ideas (300103000-300103999)
+
+300103001.md   Dings-Events-App-Idea
+300103000.md   Dings_Idea
+
 ### Work-Items (300101013-300101999)
 
 300101075.md   Establish-Dings-Event-Log
