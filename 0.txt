@@ -933,6 +933,12 @@
 
 ### Ontology (300043000-300045000)
 
+300044176.md   Dings_SM_Run_State_Failed
+300044175.md   Dings_SM_Run_State_Completed
+300044174.md   Dings_SM_Run_State_Active
+300044173.md   Dings_SM_Run_State
+300044172.md   Dings_Gpt_Run_Event
+300044171.md   Dings_System_Event
 300044170.md   Dings_Sequence_Number
 300044169.md   Virtual_Dings
 300044168.md   Real_Dings
@@ -1075,6 +1081,7 @@
 
 ### New Dings-Apps (300042000-300042999)
 
+300042038.md   Dings_App_SM
 300042037.md   Dings_App_Tar
 300042036.md   Dings_App_Access
 300042034.md   Dings_App_Python
