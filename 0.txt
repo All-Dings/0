@@ -354,6 +354,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101079.md   Clarify-Dings-Channels-And-Addressing
 300101078.md   Build-Dings-Vogelquiz-App
 300101077.md   Establish-File-Export-for-All-Dings
 300101076.md   Find-Final-Solution-for-Addressing
