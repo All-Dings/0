@@ -328,6 +328,10 @@
 
 ### Secrets (300200000)
 
+### Event-Channels
+
+300110000.md   V33.5-Event-Channel
+
 ### Features
 
 300101012.md   Dings-Feature-Ensure-Consistency
@@ -929,6 +933,7 @@
 
 ### Ontology (300043000-300045000)
 
+300044170.md   Dings_Sequence_Number
 300044169.md   Virtual_Dings
 300044168.md   Real_Dings
 300044167.md   Dings_Fmt_Tar
