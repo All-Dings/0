@@ -354,6 +354,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101080.md   Make-dings-gpt-Fully-Dings-Ontology-Aware
 300101079.md   Clarify-Dings-Channels-And-Addressing
 300101078.md   Build-Dings-Vogelquiz-App
 300101077.md   Establish-File-Export-for-All-Dings
@@ -1159,6 +1160,7 @@
 
 ### Dings_Lib (300010000-300019999)
 
+300010021.md   Dings_Lib_Virtual_Dings_Registry
 300010020.md   Dings_Lib_Document_Carrier
 300010019.md   Dings_Lib_Build
 300010018.md   Dings_Lib_CLI
