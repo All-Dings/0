@@ -332,6 +332,10 @@
 
 300110000.md   V33.5-Event-Channel
 
+### Dings-Gpt-Virtual-Dings-Channels (300120000-300129999)
+
+300120000.md   V33.7-Dings-Gpt-Virtual-Dings-Channel
+
 ### Features
 
 300101012.md   Dings-Feature-Ensure-Consistency
@@ -935,6 +939,9 @@
 
 ### Ontology (300043000-300045000)
 
+300044184.md   Dings_CLI_Option_View
+300044183.md   State_Rejected
+300044182.md   Dings_SM_Document_Layout
 300044181.md   Dings_Fmt_Word
 300044180.md   Dings_Fmt_LaTeX
 300044179.md   Dings_Fmt_ODF
@@ -1160,6 +1167,7 @@
 
 ### Dings_Lib (300010000-300019999)
 
+300010022.md   Dings_Lib_Virtual_Dings_Channel
 300010021.md   Dings_Lib_Virtual_Dings_Registry
 300010020.md   Dings_Lib_Document_Carrier
 300010019.md   Dings_Lib_Build
