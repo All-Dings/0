@@ -934,6 +934,10 @@
 
 ### Ontology (300043000-300045000)
 
+300044181.md   Dings_Fmt_Word
+300044180.md   Dings_Fmt_LaTeX
+300044179.md   Dings_Fmt_ODF
+300044178.md   Dings_Fmt_RTF
 300044177.md   Dings_Fmt_PDF
 300044176.md   Dings_SM_Run_State_Failed
 300044175.md   Dings_SM_Run_State_Completed
@@ -1083,6 +1087,10 @@
 
 ### New Dings-Apps (300042000-300042999)
 
+300042043.md   Dings_App_Word
+300042042.md   Dings_App_LaTeX
+300042041.md   Dings_App_ODF
+300042040.md   Dings_App_RTF
 300042039.md   Dings_App_PDF
 300042038.md   Dings_App_SM
 300042037.md   Dings_App_Tar
@@ -1151,6 +1159,7 @@
 
 ### Dings_Lib (300010000-300019999)
 
+300010020.md   Dings_Lib_Document_Carrier
 300010019.md   Dings_Lib_Build
 300010018.md   Dings_Lib_CLI
 300010017.md   Dings_Lib_RAG
