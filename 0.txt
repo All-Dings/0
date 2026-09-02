@@ -335,6 +335,7 @@
 
 ### Dings-Gpt-Virtual-Dings-Channels (300120000-300129999)
 
+300120001.md   Dings-Gpt-Virtual-Dings-Channel
 300120000.md   V33.7-Dings-Gpt-Virtual-Dings-Channel
 
 ### Features
@@ -1170,6 +1171,7 @@
 
 ### Dings_Lib (300010000-300019999)
 
+300010023.md   Dings_Lib_Virtual_Dings_Git_Registry
 300010022.md   Dings_Lib_Virtual_Dings_Channel
 300010021.md   Dings_Lib_Virtual_Dings_Registry
 300010020.md   Dings_Lib_Document_Carrier
