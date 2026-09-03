@@ -2,11 +2,15 @@
 
 ▪▪ Formula
 
-A Maximum ❗❲❳❪.tex❫❴x_{Max}❵ of a ❲Set❳❪60004.md❫ ❗❲❳❪.tex❫❴[x_1..x_n]❵ for a Function ❗❲❳❪.tex❫❴f❵ is defined as:
+A Maximum ❗❲❳❪.tex❫❴x_{Max}❵ of a nonempty finite Collection
+❗❲❳❪.tex❫❴[x_1..x_n]❵ in a totally ordered Value Domain is defined as:
 
 ❗❲❳❪.tex❫ ❴
-	f(x_{Max}) \ge f(x_i) \forall x_i \in x_1..x_n
+	x_{Max} \ge x_i \quad \forall x_i \in [x_1..x_n]
 ❵
+
+This Dings denotes the greatest Value, not the separate Arg-Max Operation that
+returns an Input Element maximizing another Function.
 
 ▪▪ Python
 
@@ -14,9 +18,10 @@ A Maximum ❗❲❳❪.tex❫❴x_{Max}❵ of a ❲Set❳❪60004.md❫ ❗❲�
 
 ⌜⌜⌜python
 def Maximum(X1_X2_Xn_List):
-	List_Count = len(X1_X2_Xn_List)
-	X_Max = float('-inf')
-	for Xi in X1_X2_Xn_List:
+	if not X1_X2_Xn_List:
+		raise ValueError("Maximum requires a nonempty List")
+	X_Max = X1_X2_Xn_List[0]
+	for Xi in X1_X2_Xn_List[1:]:
 		if Xi > X_Max:
 			X_Max = Xi
 	return X_Max
