@@ -360,6 +360,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101082.md   Domain-Apps-Channels-and-Views
 300101081.md   Implement-Dings_App_RaceChrono
 300101080.md   Make-dings-gpt-Fully-Dings-Ontology-Aware
 300101079.md   Clarify-Dings-Channels-And-Addressing
