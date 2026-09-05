@@ -944,6 +944,14 @@
 
 ### Ontology (300043000-300045000)
 
+300044197.md   Dings_SM_Text_Decoration_Line_Through
+300044196.md   Dings_SM_Text_Decoration_Value
+300044195.md   Dings_SM_Text_Decoration
+300044194.md   Dings_SM_Font_Spacing_Monospace
+300044193.md   Dings_SM_Font_Spacing_Value
+300044192.md   Dings_SM_Font_Spacing
+300044191.md   Dings_SM_Inline_Style_Span
+300044190.md   Dings_SM_Inline_Quote
 300044189.md   Dings_SM_Program_Maximum_Int_List
 300044188.md   Dings_SM_Program_Single_Column_Table_To_Int_List
 300044187.md   Dings_Fmt_RCZ
