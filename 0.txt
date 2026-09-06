@@ -946,6 +946,11 @@
 
 ### Ontology (300043000-300045000)
 
+300044202.md   Dings_SM_Value_Transformation_Binding
+300044201.md   Dings_SM_Value_Transformation_Contract
+300044200.md   Dings_SM_Comparison_Domain
+300044199.md   Dings_SM_Typed_Value
+300044198.md   Dings_SM_Literal_Occurrence
 300044197.md   Dings_SM_Text_Decoration_Line_Through
 300044196.md   Dings_SM_Text_Decoration_Value
 300044195.md   Dings_SM_Text_Decoration
