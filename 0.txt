@@ -360,6 +360,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101084.md   Complete-All-Dings-Literal-and-Value-Type-System
 300101083.md   Establish-Dings-Lifecycle-Contract
 300101082.md   Domain-Apps-Channels-and-Views
 300101081.md   Implement-Dings_App_RaceChrono
