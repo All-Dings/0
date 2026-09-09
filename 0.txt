@@ -335,6 +335,7 @@
 
 ### Dings-Gpt-Virtual-Dings-Channels (300120000-300129999)
 
+300120002.md   World-Versions-Dings-Channel
 300120001.md   Dings-Gpt-Virtual-Dings-Channel
 300120000.md   V33.7-Dings-Gpt-Virtual-Dings-Channel
 
@@ -948,6 +949,8 @@
 
 ### Ontology (300043000-300045000)
 
+300044204.md   Dings_Type_World_Address
+300044203.md   World_Commit
 300044202.md   Dings_SM_Value_Transformation_Binding
 300044201.md   Dings_SM_Value_Transformation_Contract
 300044200.md   Dings_SM_Comparison_Domain
