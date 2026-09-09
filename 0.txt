@@ -360,6 +360,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101086.md   Integrate-Dings-Channels-with-SM-and-World-History
 300101085.md   Establish-Addressing-and-Channels-for-Git
 300101084.md   Complete-All-Dings-Literal-and-Value-Type-System
 300101083.md   Establish-Dings-Lifecycle-Contract
