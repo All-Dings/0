@@ -4806,7 +4806,7 @@ index 8314f41..032bbdb 100644
 
 ▪▪▪▪ Create Web-Server-Directory-Index-Rule
 
-Then I create a Makefile-Rule to create the ❲Web-Server-Directory-Index❳❪9000133.md❫-File, Today I am brave and try first ❲Mixed-Case❳❪❫ ‵Index.html‵:
+Then I create a Makefile-Rule to create the ❲Web-Server-Directory-Index❳❪9000133.md❫-File, Today I am brave and try first ␛❲Mixed-Case␛❳␛❪␛❫ ‵Index.html‵:
 
 ⌜⌜⌜console
 11:35 $ git diff
@@ -5323,7 +5323,7 @@ Blog-Chain-Time 2023.04.08-18:11 in Tübingen, My ❲Plan❳❪600045.md❫ is t
 
 But first I want to replace the ❲REAMDE-File❳❪9000109.md❫ with a new ❲All-Dings-Landing-Page❳❪300000006.md❫, which can be done with by creating a ❲Unix-Soft-Link❳❪9000078.md❫ in the ❲Git-Hub-Config-Directory❳❪9000106.md❫:
 
-So I first we create the ‵.github‵ ❲Directory❳❪❫9000019.md with the ❲Unix-Mkdir-Command❳❪9000075.md❫, ...
+So I first we create the ‵.github‵ ␛❲Directory␛❳␛❪␛❫9000019.md with the ❲Unix-Mkdir-Command❳❪9000075.md❫, ...
 
 ⌜⌜⌜console
 19:21 $ mkdir .github
@@ -5742,7 +5742,7 @@ index a0ca699..4c7e84c 100644
  40000002.md    Gemini
 ⌟⌟⌟
 
-Using the ❲Unix-Tail-Command❳❪❫ we see, that the Bad-Commit was in fact my very first Commit:
+Using the ␛❲Unix-Tail-Command␛❳␛❪␛❫ we see, that the Bad-Commit was in fact my very first Commit:
 
 ⌜⌜⌜console
  ✔ ~/All-Dings/0 [Master|…7] 22:30
@@ -6474,7 +6474,7 @@ Date:   Wed Apr 5 15:54:52 2023 +0200
     Add Git-Fork
 ⌟⌟⌟
 
-We see, that the last common Commit is the one with the ❲Hash-Value❳❪❫ "97359863a670ffb1cb4aaaefe21fb4a90476368a". Therefore first I synchronize the backlevel COC-Metzingen-With-Nicole with the ❲Git-Fetch-Command❳❪9000200.md❫:
+We see, that the last common Commit is the one with the ␛❲Hash-Value␛❳␛❪␛❫ "97359863a670ffb1cb4aaaefe21fb4a90476368a". Therefore first I synchronize the backlevel COC-Metzingen-With-Nicole with the ❲Git-Fetch-Command❳❪9000200.md❫:
 
 ⌜⌜⌜text
 ~/COC-Metzingen-with-Nicole$ git fetch Upstream
@@ -7246,7 +7246,7 @@ $ ls -lh 88.jpg
 
 ▪▪▪▪▪ Repository Data-Size
 
-But before ❲committing❳❪❫ the File, first check the old ❲Data-Size❳❪9000016.md❫ of the Repository, which is 19120 ❲Bytes❳❪9000013.md❫ or equivalent (more or less) to 9,3 ❲Mega-Bytes❳❪9000015.md❫:
+But before ␛❲committing␛❳␛❪␛❫ the File, first check the old ❲Data-Size❳❪9000016.md❫ of the Repository, which is 19120 ❲Bytes❳❪9000013.md❫ or equivalent (more or less) to 9,3 ❲Mega-Bytes❳❪9000015.md❫:
 
 ⌜⌜⌜console
 $ du -s Clash-of-Clans 
@@ -7275,7 +7275,7 @@ $ echo "$((4096 * 19120))"
 78315520
 ⌟⌟⌟
 
-For ❲Verification❳❪❫ we calculate the Size in Mega-Bytes with ...
+For ␛❲Verification␛❳␛❪␛❫ we calculate the Size in Mega-Bytes with ...
 
 ⌜⌜⌜text
 $ echo "$((1000 * 1000))"
@@ -7577,7 +7577,7 @@ So let's first check what we have written in the Document ❲[0❳❪▸ Day-21:
 But Caution is the Mother of the Porcelain Box, so let's make some Experiments first.
 ⌟⌟⌟
 
-Our current Favourite ❲Markdown Footnotes❳❪50001.md❫ have the Drawback, that the ❲Numbers❳❪❫ have to be specified manually, and to put it strait:
+Our current Favourite ❲Markdown Footnotes❳❪50001.md❫ have the Drawback, that the ␛❲Numbers␛❳␛❪␛❫ have to be specified manually, and to put it strait:
 
 ⌜⌜⌜text
 This can sometimes really be really be "Pain in the Ass"!
@@ -7587,7 +7587,7 @@ But before we can come back to that, we have first to define some basic [Things]
 
 But before I could commit those, we first had to define other even more urgent ❲Things❳❪60003.md❫, namely ❲Michi❳❪19.md❫, the simple ❲Show-Mouse❳❪577.md❫ and my ❲Bunnie-Page❳❪404.md❫.
 
-And there was a small Problem to enable the ❲Broken Link❳❪❫ page - not a big deal, I will do that together with Micha sometime later [1] .
+And there was a small Problem to enable the ␛❲Broken Link␛❳␛❪␛❫ page - not a big deal, I will do that together with Micha sometime later [1] .
 
 But let's come back to the starting Point with the Footnotes. Obviously I had been a little bit too optimistic. Obviously on GitHub the modern fancy Features of the Markup Languate have not yet arrived. But this has time until Tomorrow.
 
