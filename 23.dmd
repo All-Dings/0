@@ -2071,12 +2071,12 @@ I added the initial Code for the Dings-File-System.
 
 I make a little Research on the Variatiy of available Diff-Tools:
 
-◦ bsdiff
-◦ Courgette
-◦ diff, colordiff, wdiff
-◦ hdiffz
-◦ rdiff
-◦ xdelta
+◦ ‵bsdiff‵
+◦ ‵Courgette‵
+◦ ‵diff‵, ‵colordiff‵, ‵wdiff‵
+◦ ‵hdiffz‵
+◦ ‵rdiff‵
+◦ ‵xdelta‵
 
 What I find especially nice is the following Invocation of colordiff:
 
