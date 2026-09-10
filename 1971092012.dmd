@@ -3,6 +3,7 @@
 ▪▪ Steps
 
 ▫▫▫ Download and Copy
+
 Download Config-File: ❲win-germany.keylayout❳❪300030008.keylayout❫
 
 ⌜⌜⌜bash
@@ -10,4 +11,5 @@ $ cp 300030008.keylayout ~/Library/Keyboard\ Layouts/win-germany.keylayout
 ⌟⌟⌟
 
 ▫▫▫ Enable Configuration
+
 Then Open "Apple >> Systemeinstellungen >> Hardware >> Tastatur", then go to "Texteingabe >> Eingabequellen >> Bearbeiten", use "+" and select "Andere".
