@@ -1,0 +1,135 @@
+▪ Relation-Word
+
+▪▪ Examples
+
+▪▪▪ Spatial-Relations
+
+▪▪▪▪ Static-Inside
+
+◦ DEU: Das Buch liegt ❲❛in❜❳❪640038.md❫ der Kiste.
+◦ ENG: The Book lies ❲❛in❜❳❪640038.md❫ the Box.
+◦ LAT: Liber ❲❛in❜❳❪640038.md❫ Arca iacet.
+
+▪▪▪▪ Directed-Inside
+
+◦ DEU: Der Junge läuft ❲❛in❜❳❪640038.md❫ das Haus.
+◦ ENG: The Boy runs ❲❛into❜❳❪640038.md❫ the House.
+◦ LAT: Puer ❲❛in❜❳❪640038.md❫ Domum currit.
+
+▪▪▪▪ Surface-Contact
+
+◦ DEU: Das Buch liegt ❲❛auf❜❳❪640038.md❫ dem Tisch.
+◦ ENG: The Book lies ❲❛on❜❳❪640038.md❫ the Table.
+◦ LAT: Liber ❲❛in❜❳❪640038.md❫ Mensa iacet.
+
+▪▪▪▪ Lower-Position
+
+◦ DEU: Das Buch liegt ❲❛unter❜❳❪640038.md❫ dem Tisch.
+◦ ENG: The Book lies ❲❛under❜❳❪640038.md❫ the Table.
+◦ LAT: Liber ❲❛sub❜❳❪640038.md❫ Mensa iacet.
+
+▪▪▪▪ Intermediate-Position
+
+◦ DEU: Der Ball liegt ❲❛zwischen❜❳❪640038.md❫ den Büchern.
+◦ ENG: The Ball lies ❲❛between❜❳❪640038.md❫ the Books.
+◦ LAT: Pila ❲❛inter❜❳❪640038.md❫ Libros iacet.
+
+▪▪▪▪ Proximity
+
+◦ DEU: Der Junge steht ❲❛neben❜❳❪640038.md❫ dem Haus.
+◦ ENG: The Boy stands ❲❛beside❜❳❪640038.md❫ the House.
+◦ LAT: Puer ❲❛iuxta❜❳❪640038.md❫ Domum stat.
+
+▪▪▪ Directional-Relations
+
+▪▪▪▪ Origin
+
+◦ DEU: Michael kommt ❲❛aus❜❳❪640038.md❫ Deutschland.
+◦ ENG: Michael comes ❲❛from❜❳❪640038.md❫ Germany.
+◦ LAT: Michael ❲❛e❜❳❪640038.md❫ Germania venit.
+
+▪▪▪▪ Goal
+
+◦ DEU: Michael geht ❲❛zu❜❳❪640038.md❫ Anna.
+◦ ENG: Michael goes ❲❛to❜❳❪640038.md❫ Anna.
+◦ LAT: Michael ❲❛ad❜❳❪640038.md❫ Annam it.
+
+▪▪▪▪ Path
+
+◦ DEU: Wir gehen ❲❛durch❜❳❪640038.md❫ den Wald.
+◦ ENG: We walk ❲❛through❜❳❪640038.md❫ the Forest.
+◦ LAT: ❲❛Per❜❳❪640038.md❫ Silvam ambulamus.
+
+▪▪▪ Temporal-Relations
+
+▪▪▪▪ Earlier-Than
+
+◦ DEU: Ich arbeite ❲❛vor❜❳❪640038.md❫ dem Abendessen.
+◦ ENG: I work ❲❛before❜❳❪640038.md❫ Dinner.
+◦ LAT: ❲❛Ante❜❳❪640038.md❫ Cenam laboro.
+
+▪▪▪▪ Later-Than
+
+◦ DEU: Ich schlafe ❲❛nach❜❳❪640038.md❫ dem Abendessen.
+◦ ENG: I sleep ❲❛after❜❳❪640038.md❫ Dinner.
+◦ LAT: ❲❛Post❜❳❪640038.md❫ Cenam dormio.
+
+▪▪▪▪ Duration
+
+◦ DEU: Ich arbeite ❲❛während❜❳❪640038.md❫ der Nacht.
+◦ ENG: I work ❲❛during❜❳❪640038.md❫ the Night.
+◦ LAT: ❲❛Per❜❳❪640038.md❫ Noctem laboro.
+
+▪▪▪ Participant-Relations
+
+▪▪▪▪ Accompaniment
+
+◦ DEU: Ich gehe ❲❛mit❜❳❪640038.md❫ Anna spazieren.
+◦ ENG: I walk ❲❛with❜❳❪640038.md❫ Anna.
+◦ LAT: ❲❛Cum❜❳❪640038.md❫ Anna ambulo.
+
+▪▪▪▪ Absence
+
+◦ DEU: Ich gehe ❲❛ohne❜❳❪640038.md❫ Anna spazieren.
+◦ ENG: I walk ❲❛without❜❳❪640038.md❫ Anna.
+◦ LAT: ❲❛Sine❜❳❪640038.md❫ Anna ambulo.
+
+▪▪▪▪ Beneficiary
+
+◦ DEU: Ich arbeite ❲❛für❜❳❪640038.md❫ Anna.
+◦ ENG: I work ❲❛for❜❳❪640038.md❫ Anna.
+◦ LAT: ❲❛Pro❜❳❪640038.md❫ Anna laboro.
+
+▪▪▪▪ Opponent
+
+◦ DEU: Wir kämpfen ❲❛gegen❜❳❪640038.md❫ den Feind.
+◦ ENG: We fight ❲❛against❜❳❪640038.md❫ the Enemy.
+◦ LAT: ❲❛Contra❜❳❪640038.md❫ Hostem pugnamus.
+
+▪▪▪ Semantic-Relations
+
+▪▪▪▪ Cause
+
+◦ DEU: Wir bleiben ❲❛wegen❜❳❪640038.md❫ des Regens zu Hause.
+◦ ENG: We stay at Home ❲❛because of❜❳❪640038.md❫ the Rain.
+◦ LAT: ❲❛Propter❜❳❪640038.md❫ Pluviam Domi manemus.
+
+▪▪▪▪ Topic
+
+◦ DEU: Wir sprechen ❲❛über❜❳❪640038.md❫ das Buch.
+◦ ENG: We speak ❲❛about❜❳❪640038.md❫ the Book.
+◦ LAT: ❲❛De❜❳❪640038.md❫ Libro loquimur.
+
+▪▪▪▪ Agent
+
+◦ DEU: Der Brief wird ❲❛von❜❳❪640038.md❫ Anna geschrieben.
+◦ ENG: The Letter is written ❲❛by❜❳❪640038.md❫ Anna.
+◦ LAT: Epistula ❲❛ab❜❳❪640038.md❫ Anna scribitur.
+
+▪▪▪ Adposition-Order
+
+▪▪▪▪ Postpositional-Realization
+
+◦ DEU: Wir arbeiten der Kinder ❲❛wegen❜❳❪640038.md❫.
+◦ ENG: We work ❲❛for the sake of❜❳❪640038.md❫ the Children.
+◦ LAT: Liberorum ❲❛causa❜❳❪640038.md❫ laboramus.

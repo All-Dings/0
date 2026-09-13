@@ -1,0 +1,95 @@
+▪ Reference-Word
+
+▪▪ Description
+
+A ❲Context❳❪600034.md❫ always exists semantically. It can provide a ❲Binding❳❪60050.md❫, that allows a ❲Reference-Word❳❪600010.md❫ Occurrence to resolve its referenced ❲Thing❳❪60003.md❫.
+
+The Binding can be implicit in the surface Text and supplied by the containing Blog, Document, Quote or Session.
+
+For example, a Blog can establish its Author as the Speaker of the following Text:
+
+◦ Nachdem ❲❛mir❜❳❪600010.md❫ die logische Unvereinbarkeit des dritten Gutachtens mit der Empfehlung von Herrn W. etwas Kopfzerbrechen bereitet hat ...
+
+The Context-Binding can also be introduced explicitly before the Reference:
+
+◦ Hier spricht ❲❛Michael❜❳❪0.md❫ - Nachdem ❲❛mir❜❳❪600010.md❫ die logische Unvereinbarkeit ...
+
+▪▪ Examples
+
+▪▪▪ Personal-Pronouns
+
+▪▪▪▪ Subject-Anaphora
+
+◦ DEU: Michael arbeitet. ❲❛Er❜❳❪600010.md❫ singt.
+◦ ENG: Michael works. ❲❛He❜❳❪600010.md❫ sings.
+◦ LAT: Michael laborat. ❲❛Is❜❳❪600010.md❫ cantat.
+
+▪▪▪▪ Object-Anaphora
+
+◦ DEU: Anna sieht Michael. Sie grüßt ❲❛ihn❜❳❪600010.md❫.
+◦ ENG: Anna sees Michael. She greets ❲❛him❜❳❪600010.md❫.
+◦ LAT: Anna Michaelem videt. Ea ❲❛eum❜❳❪600010.md❫ salutat.
+
+▪▪▪▪ Speaker-Deixis
+
+◦ DEU: Ich bin Michael - ❲❛Ich❜❳❪600010.md❫ arbeite.
+◦ ENG: I am Michael - ❲❛I❜❳❪600010.md❫ work.
+◦ LAT: Ego Michael sum - ❲❛Ego❜❳❪600010.md❫ laboro.
+
+▪▪▪ Demonstrative-Pronouns
+
+▪▪▪▪ Entity-Deixis
+
+◦ DEU: Ich sehe einen Mann - ❲❛Dieser❜❳❪600010.md❫ arbeitet.
+◦ ENG: I see a Man - ❲❛This one❜❳❪600010.md❫ works.
+◦ LAT: Virum video - ❲❛Hic❜❳❪600010.md❫ laborat.
+
+▪▪▪▪ Statement-Anaphora
+
+◦ DEU: Michael kündigt. ❲❛Das❜❳❪600010.md❫ überrascht mich.
+◦ ENG: Michael resigns. ❲❛That❜❳❪600010.md❫ surprises me.
+◦ LAT: Michael munere se abdicat. ❲❛Hoc❜❳❪600010.md❫ mihi mirum est.
+
+▪▪▪ Possessive-Pronouns
+
+▪▪▪▪ Ownership
+
+◦ DEU: Dieses Buch ist ❲❛meins❜❳❪600010.md❫.
+◦ ENG: This Book is ❲❛mine❜❳❪600010.md❫.
+◦ LAT: Hic Liber ❲❛meus❜❳❪600010.md❫ est.
+
+▪▪▪ Reflexive-Pronouns
+
+▪▪▪▪ Subject-Coreference
+
+◦ DEU: Der Mann sieht ❲❛sich❜❳❪600010.md❫.
+◦ ENG: The Man sees ❲❛himself❜❳❪600010.md❫.
+◦ LAT: Vir ❲❛se❜❳❪600010.md❫ videt.
+
+▪▪▪ Relative-Pronouns
+
+▪▪▪▪ Subject-Reference
+
+◦ DEU: Der Mann, ❲❛der❜❳❪600010.md❫ arbeitet, singt.
+◦ ENG: The Man, ❲❛who❜❳❪600010.md❫ works, sings.
+◦ LAT: Vir, ❲❛qui❜❳❪600010.md❫ laborat, cantat.
+
+▪▪▪ Interrogative-Pronouns
+
+▪▪▪▪ Unknown-Person
+
+◦ DEU: Morgen findet das Klassen-Treffen statt - ❲❛Wer❜❳❪600010.md❫ kommt?
+◦ ENG: The Class-Meeting takes place tomorrow - ❲❛Who❜❳❪600010.md❫ is coming?
+◦ LAT: Cras Conventus Discipulorum erit - ❲❛Quis❜❳❪600010.md❫ veniet?
+
+◦ DEU: Die Klasse hat 30 Schüler - ❲❛Welche❜❳❪600010.md❫ kommen?
+◦ ENG: The Class has 30 Students - ❲❛Which ones❜❳❪600010.md❫ are coming?
+◦ LAT: Classis triginta Discipulos habet - ❲❛Qui❜❳❪600010.md❫ veniunt?
+
+▪▪▪ Indefinite-Pronouns
+
+▪▪▪▪ Unspecified-Person
+
+◦ DEU: Schritte sind zu hören - ❲❛Jemand❜❳❪600010.md❫ kommt.
+◦ ENG: Footsteps can be heard - ❲❛Someone❜❳❪600010.md❫ is coming.
+◦ LAT: Passus audiuntur - ❲❛Aliquis❜❳❪600010.md❫ venit.

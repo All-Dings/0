@@ -361,6 +361,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101089.md   Establish-Composed-Virtual-Dings
 300101088.md   Research-NLP-for-Orthography-and-SPO-Statements
 300101087.md   Research-World-Persistence-And-Reachability-Garbage-Collection
 300101086.md   Integrate-Dings-Channels-with-SM-and-World-History
@@ -7358,14 +7359,22 @@
 
 ### Basics
 
-640063.md      Praedicativum
+650063.md      Word-Function
+650062.md      Word-List
+650061.md      Action-Word-Modifier
+650060.md      Word-Type
+640067.md      Thing-Word-Property
+640066.md      Number-Word
+640065.md      Sound-Word
+640064.md      Connection-Word
+640063.md      Sentence-Statement
 640062.md      Domain-specific-Language
-640061.md      Substantivum
+640061.md      Thing-Word
 640060.md      Upper-Case
 640059.md      Letter-Case
-640058.md      Grammar_Object
-640057.md      Grammar_Predicate
-640056.md      Grammar_Subject
+640058.md      Sentence-Target
+640057.md      Sentence-Action
+640056.md      Sentence-Thing
 640055.md      Function-Word
 640054.md      Morpheme
 640053.md      Esperanto
@@ -7383,7 +7392,7 @@
 640041.md      Tempus-Praesens
 640040.md      Nominal-Form
 640039.md      Infinitivum
-640038.md      Preposition
+640038.md      Relation-Word
 640037.md      Possessivus
 640036.md      Lexico-Graphic-Order
 650035.md      Colon
@@ -7404,22 +7413,21 @@
 650020.md      Tempus
 650019.md      Numerus
 650018.md      Word
-650017.md      Adjectivum
-650016.md      Verbum
+650017.md      Action-Word-Property
+650016.md      Action-Word
 650015.md      Simple-Past
 650014.md      Present-Perfect
 650013.md      Lower-Case
 650012.md      Mixed-Case
 650011.md      Naming-Convention
-600010.md      Pro-Nomen (Wrong-Number)
-650017.md      Ad-Verbum (Wrong-Number)
+600010.md      Reference-Word
 600008.md      Hyphen (Wrong-Number)
 600007.md      Comma (Wrong-Number)
-600006.md      English (Wrong-Number)
-600005.md      Pakistani (Wrong-Number)
-600004.md      German (Wrong-Number)
-600003.md      Indonesian (Wrong-Number)
-600002.md      Articulus (Wrong-Number)
+600006.md      English
+600005.md      Pakistani
+600004.md      German
+600003.md      Indonesian
+600002.md      Thing-Word-Modifier
 
 650000.md      Linguistics
 
