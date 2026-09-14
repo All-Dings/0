@@ -953,6 +953,9 @@
 
 ### Ontology (300043000-300045000)
 
+300044207.md   Dings_SM_Query_Result
+300044206.md   Dings_SM_Query
+300044205.md   Dings_Predicate_Has
 300044204.md   Dings_Type_World_Address
 300044203.md   World_Commit
 300044202.md   Dings_SM_Value_Transformation_Binding
