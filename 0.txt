@@ -442,6 +442,7 @@
 
 ### Blogs (300102000-300102999)
 
+300102007.md   V34-Claim-Queries-and-Targeted-Tests
 300102006.md   V33-SM-Code-Backend-Milestone
 300102005.md   V33-Recover-Deleted-Repositories-From-Import-Replay
 300102004.md   V33-Versioned-Dings-Reference-Test-Cases
