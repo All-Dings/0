@@ -957,6 +957,12 @@
 
 ### Ontology (300043000-300045000)
 
+300044219.md   Dings_SM_Channel_Pipe_DMD_HTML
+300044218.md   Dings_SM_Program_Render_HTML
+300044217.md   Dings_SM_Program_Parse_DMD
+300044216.md   Dings_SM_Channel_Pipe_Run
+300044215.md   Dings_SM_Channel_Pipe_Run_Request
+300044214.md   Dings_SM_Channel_Pipe_Port
 300044213.md   Dings_SM_Program_Browse_Dings
 300044212.md   Dings_SM_Browse_Result
 300044211.md   Dings_SM_Browse_Query
