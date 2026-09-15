@@ -361,6 +361,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101092.md   Common-API-for-CLI-UI
 300101091.md   Unify-Dings-Gateway-And-Runtime-Services
 300101090.md   Establish-NLP-like-Query-Language-for-SM
 300101089.md   Establish-Composed-Virtual-Dings
