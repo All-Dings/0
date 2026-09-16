@@ -361,6 +361,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101106.md   Optimize-SM2-Data-Store
 300101105.md   Generate-Documents-and-Media-Files-with-AI
 300101104.md   Analyze-Documents-and-Media-Files-with-AI
 300101103.md   Support-Ontology-and-Content-Authoring-with-AI
