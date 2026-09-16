@@ -361,6 +361,17 @@
 
 ### Work-Items (300101013-300101999)
 
+300101105.md   Generate-Documents-and-Media-Files-with-AI
+300101104.md   Analyze-Documents-and-Media-Files-with-AI
+300101103.md   Support-Ontology-and-Content-Authoring-with-AI
+300101102.md   Support-Code-Development-with-AI
+300101101.md   Operate-All-Dings-through-AI-Tools
+300101100.md   Query-All-Dings-in-Natural-Language
+300101099.md   Connect-external-AI-Providers
+300101098.md   Add-local-AI-Runtime
+300101097.md   Expose-All-Dings-Tools-to-AI
+300101096.md   Establish-Common-AI-Integration
+300101095.md   AI-for-All-Dings
 300101094.md   Establish-Incremental-SM-Snapshots-And-Read-Leases
 300101093.md   Protect-Secret-Data-in-All-Dings
 300101092.md   Common-API-for-CLI-UI
