@@ -361,6 +361,8 @@
 
 ### Work-Items (300101013-300101999)
 
+300101108.md   Define-All-Dings-Stand-Alone-Host-and-Distribution
+300101107.md   Integrate-AI-into-Dings-Channel-Chains
 300101106.md   Optimize-SM2-Data-Store
 300101105.md   Generate-Documents-and-Media-Files-with-AI
 300101104.md   Analyze-Documents-and-Media-Files-with-AI
