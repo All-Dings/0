@@ -1,0 +1,45 @@
+▪ My Mac-Book M5
+
+▪▪ Overview
+
+◦ Model: MacBook Pro
+◦ Model Identifier: Mac17,6
+◦ SoC: Apple M5 Max
+◦ CPU: 18 Cores, consisting of 6 Super Cores and 12 Performance Cores
+◦ CPU Core Count reported by macOS: 18
+◦ GPU: 40 Cores, Metal Supported
+◦ Neural Engine: 16 Cores according to the Apple MacBook Pro Technical Specifications
+◦ Neural Accelerators: Present in the M5 Max SoC according to Apple
+◦ Unified Memory: 128 GB
+◦ Nominal Unified-Memory Bandwidth: 614 GB/s for the 40-Core-GPU M5 Max
+◦ Instruction Architecture: arm64
+◦ Operating System: MacOS 26.5.1, Build 25F80
+
+The CPU and GPU Core Counts were read locally with ⌜system_profiler⌟. The
+Neural Engine Core Count and the Nominal Memory Bandwidth come from the Apple
+Technical Specifications for the M5 Max Configuration with 40-Core GPU:
+⌜https://www.apple.com/de/macbook-pro/specs/⌟. macOS does not expose the
+Neural Engine as a selectable MLX Device in the local Probe.
+
+The System Hardware Report also exposed a Serial Number, Hardware UUID and
+Provisioning UDID. These Values are intentionally not copied into the
+Experiment Documentation because they are not required for Runtime Comparison.
+
+▪▪ Internal Storage
+
+◦ Internal Fixed Solid-State Storage
+◦ Capacity: 8.0 TB
+◦ Filesystem: APFS
+◦ Container Free Space: About 401.7 GB at the Observation-Time
+◦ Mounted Data-Volume available: About 374 GiB at the Observation-Time
+◦ Hardware AES-Support: Yes
+◦ SMART Status: Verified
+
+The Root-Volume was presented as a read-only APFS System-Snapshot. The
+Filesystem Capacity and Free-Space Values are therefore recorded separately,
+because the Container-View and the mounted Data-Volume View use different
+Accounting-Boundaries.
+
+▪▪ Documents
+
+❗❲Invoice❳❪401000017.pdf❫
