@@ -354,6 +354,22 @@
 300101002.md   Dings-Feature-Sm-Todo-List
 300101001.md   Dings-Feature-Md-Embedding
 
+### Research (300104000-300104999)
+
+300104012.md   Test-Qwen35-35B-A3B-Coding-BF16
+300104011.md   Test-Gemma4-31B-MLX-BF16
+300104010.md   Test-Qwen35-27B-MLX-BF16
+300104009.md   Test-Qwen35-27B-MLX
+300104008.md   Test-Model-Size-Ceiling
+300104007.md   Test-PDF-RAG-Path
+300104006.md   Test-Ollama-with-MLX-Model
+300104005.md   Test-Power-and-Resource-Telemetry
+300104004.md   Test-MLX-Embeddings
+300104003.md   Test-Native-MLX-Chat
+300104002.md   Test-Ollama-with-GGUF
+300104001.md   M5-Hardware-Setup
+300104000.md   Dings-System-AI-Research
+
 ### Ideas (300103000-300103999)
 
 300103001.md   Dings-Events-App-Idea
@@ -468,6 +484,7 @@
 300102002.md   V32-Reproducible-Dings-Environment
 300102001.md   V31-Achievements
 300102000.md   V31-Hardened-Feedback-and-Code-Health
+
 ### Documentation (300100000-300100999)
 
 300100154.md   Howto-Securely-Reach-Home-Dings-Server
