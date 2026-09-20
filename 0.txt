@@ -487,6 +487,7 @@
 
 ### Documentation (300100000-300100999)
 
+300100155.md   Dings-AI-Query-Use-Case-Hints
 300100154.md   Howto-Securely-Reach-Home-Dings-Server
 300100153.md   Dings-System-Metrics-Comparison
 300100149.md   V30-Workflow-Graphs-and-Contracts
