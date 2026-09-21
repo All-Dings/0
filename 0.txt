@@ -377,6 +377,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101109.md   Connect-Remote-AI-through-Open-Responses
 300101108.md   Define-All-Dings-Stand-Alone-Host-and-Distribution
 300101107.md   Integrate-AI-into-Dings-Channel-Chains
 300101106.md   Optimize-SM2-Data-Store
@@ -5371,6 +5372,8 @@
 
 ## Personalities
 
+70000233.md    Klaus-Peter_Zuse
+70000232.md    Hannelore_Zuse
 70000232.md    Eva_Habermann
 70000231.md    Liselotte_Zuse
 70000230.md    Otto_Hübner
@@ -6691,6 +6694,9 @@
 
 ### Graph-Ontology (9015000 - 9015200)
 
+9015010.md     Graph_Sibling
+9015009.md     Graph_Child
+9015008.md     Graph_Parent
 9015007.md     Graph_Tree
 9015006.md     Directed_Graph_Edge
 9015005.md     Graph_Fn_Get_Shortest_Path_Length
