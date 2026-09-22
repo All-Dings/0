@@ -993,6 +993,8 @@
 
 ### Ontology (300043000-300045000)
 
+300044253.md   Dings_Fmt_Affinity_Designer
+300044252.md   Dings_Fmt_PNG
 300044251.md   Dings_Fmt_Mov
 300044250.md   Dings_Fmt_Mp4
 300044249.md   Dings_Fmt_M4a
