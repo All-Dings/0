@@ -377,6 +377,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101111.md   Transcribe-Audio-and-Video-to-Subtitles
 300101109.md   Connect-Remote-AI-through-Open-Responses
 300101108.md   Define-All-Dings-Stand-Alone-Host-and-Distribution
 300101107.md   Integrate-AI-into-Dings-Channel-Chains
@@ -930,6 +931,7 @@
 300043111.md  Dings_SM_Program_Run
 300043110.md  Dings_SM_Program_Port
 300043970.md  Dings_SM_Terminal_Delimiter_Color
+300043985.md  Dings_Fmt_Html
 300043969.md  Dings_Fmt_Terminal_Table
 300043968.md  Dings_Fmt_Csv
 300043967.md  Dings_SM_CLI_App_Name
@@ -991,6 +993,17 @@
 
 ### Ontology (300043000-300045000)
 
+300044251.md   Dings_Fmt_Mov
+300044250.md   Dings_Fmt_Mp4
+300044249.md   Dings_Fmt_M4a
+300044248.md   Dings_Fmt_Wav
+300044247.md   Dings_Fmt_Mp3
+300044246.md   Dings_App_Transcribe
+300044245.md   Dings_Fmt_Vtt
+300044244.md   Dings_Fmt_Srt
+300044243.md   Dings_SM_Program_Sound_To_Transcript
+300044242.md   Dings_SM_Transcript_Token
+300044241.md   Dings_SM_Transcript
 300044240.md   Dings_SM_Program_Read_Dings
 300044239.md   Dings_SM_Dings_Result
 300044238.md   Dings_SM_Dings_Query
@@ -1045,9 +1058,9 @@
 300044184.md   Dings_CLI_Option_View
 300044183.md   State_Rejected
 300044182.md   Dings_SM_Document_Layout
-300044181.md   Dings_Fmt_Word
+300044181.md   Dings_Fmt_DOCX
 300044180.md   Dings_Fmt_LaTeX
-300044179.md   Dings_Fmt_ODF
+300044179.md   Dings_Fmt_ODT
 300044178.md   Dings_Fmt_RTF
 300044177.md   Dings_Fmt_PDF
 300044176.md   Dings_SM_Run_State_Failed
@@ -1109,6 +1122,10 @@
 300043097.md  Dings_SM_BCST_Range
 300043096.md  Dings_Type_BCT_Time_Range
 300043095.md  Dings_Type_BCT_Duration
+300043094.md  Dings_Fmt_BCT
+300043093.md  Dings_Fmt_ISO_8601
+300043081.md  Dings_Fmt_Gpx
+300043080.md  Dings_Fmt_Kml
 300043072.md  Dings_Type_BCT_Time
 300043071.md  Dings_Fmt_SM_JSON
 300043070.md  Dings_Fmt_CLI_Text
@@ -4157,6 +4174,7 @@
 
 ## Media-Science
 
+250025007.md   Transcription
 250025006.md   Spoken-Text
 250025005.md   Audio-Raw-Data
 250025004.md   Video-Raw-Data
