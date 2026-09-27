@@ -331,6 +331,7 @@
 
 ### Event-Channels (300110000-300119999)
 
+300110001.md   V36.4-Event-Channel
 300110000.md   V33.5-Event-Channel
 
 ### Dings-Gpt-Virtual-Dings-Channels (300120000-300129999)
@@ -994,6 +995,13 @@
 
 ### Ontology (300043000-300045000)
 
+300044260.md   Dings_Role_Host
+300044259.md   Dings_User_Host
+300044258.md   Dings_Role_Admin
+300044257.md   Dings_Role_Developer
+300044256.md   Dings_Role_User
+300044255.md   Dings_Role_Minimal
+300044254.md   Dings_Role
 300044253.md   Dings_Fmt_Affinity_Designer
 300044252.md   Dings_Fmt_PNG
 300044251.md   Dings_Fmt_Mov
