@@ -378,6 +378,7 @@
 
 ### Work-Items (300101013-300101999)
 
+300101114.md   Complete-SM-JSON-Field-Contracts
 300101113.md   Finalize-Dings-App-Format-and-SM-Dispatch
 300101112.md   Dings-System-Security
 300101111.md   Transcribe-Audio-and-Video-to-Subtitles
@@ -719,6 +720,8 @@
 
 ### Dings-Markdown
 
+300043903.md  Dings_Markdown_Format_Embedding-Example
+
 300043901.md  Dings_Format
 300043900.dmd Dings_Markdown_Format
 
@@ -749,6 +752,14 @@
 
 ### SM-Ontology
 
+300045014.md   Dings_Fmt_SM_Arrow
+300045013.md   Dings_SM_Image_Annotation_Provenance
+300045012.md   Dings_SM_Image_Annotation_Presentation
+300045011.md   Dings_SM_Image_Descriptor
+300045010.md   Dings_SM_Coordinate
+300045009.md   Dings_SM_Position_Number_Parameters
+300045008.md   Dings_Fmt_Position_Number
+300045007.md   Dings_Fmt_String
 300045006.md  Dings_Channel_Range
 300045005.md  Dings_Channel_Address
 300045004.md  Dings_Channel_Address_Space
@@ -1227,6 +1238,7 @@
 
 ### New Dings-Apps (300042000-300042999)
 
+300042044.md   Dings_App_Position_Number
 300042043.md   Dings_App_Word
 300042042.md   Dings_App_LaTeX
 300042041.md   Dings_App_ODF
