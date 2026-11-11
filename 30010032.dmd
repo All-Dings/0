@@ -1,0 +1,19 @@
+▪ Graphical-Opacity
+
+Graphical-Opacity describes the visual Coverage of an Image-Element during Compositing. It applies to individual ❲Pixels❳❪30010003.md❫ as well as graphical Layers and Video-Clips.
+
+▪▪ Value and Representation
+
+The normalized Value is between 0 and 1. A Value of 0 means fully transparent. A Value of 1 means fully opaque. Intermediate Values describe partial Coverage.
+
+The Meaning is independent of the File-Format and Bit-Depth. An unsigned 8-Bit Alpha-Channel represents these Endpoints by 0 and 255. A Percentage represents them by 0 and 100. Graphical-Opacity uses a linear Scale, independently of the Color-Transfer-Function.
+
+▪▪ Image-Channels and Video-Cut
+
+❲Dings_Image_Channel_Alpha❳❪300045056.md❫ describes Graphical-Opacity per Pixel. A Video-Cut Opacity Effect controls the additional Opacity of a Clip or Layer. These are separate Controls of the same Property. With normal Alpha-Compositing, a Layer-Opacity Factor multiplies the per-Pixel Alpha Value.
+
+Selecting or displaying an Alpha-Channel does not change its Meaning. An opaque Grayscale Visualization maps the Alpha Samples to visible Color Values and is a separate Image.
+
+▪▪ Scope
+
+This Concept describes graphical Compositing. It does not define physical Light-Transmission, Absorption or optical Density.
